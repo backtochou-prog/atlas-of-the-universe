@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas of the Universe</title>
+    <style>
+      :root { color-scheme: dark; --bg: #05070b; --fg: #c9d1dc; --muted: #6b7686; }
+      body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, sans-serif; }
+      main { max-width: 40rem; margin: 0 auto; padding: 4rem 1rem; }
+      h1 { font-weight: 500; letter-spacing: 0.02em; }
+      #status { font: 13px/1.6 ui-monospace, monospace; color: var(--muted); white-space: pre-wrap; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Atlas of the Universe</h1>
+      <p>Foundation build. The renderer is not implemented yet.</p>
+      <div id="status">Starting…</div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
