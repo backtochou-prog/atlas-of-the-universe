@@ -10,4 +10,4 @@ No visual identity is decided yet. These are the constraints any later design mu
 - **Colour.** Reserved for encoding (e.g. temperature, classification). Light and dark themes both supported.
 - **Honesty markers.** Hypothetical or model-based objects use a distinct, visible treatment.
 
-The current `index.html` uses only neutral placeholder styling.
+The current interface (`index.html`, `src/ui/`) applies these principles to the star viewer and inspector: a near-black background, muted text, monospace numbers, thin rules, no glow or neon, and small OBS/DER/MOD tags that distinguish observed, derived and modelled values. Light theme and bloom are not implemented; stars are plain soft discs and no bloom is applied. The full visual identity remains undecided.

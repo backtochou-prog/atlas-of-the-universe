@@ -1,0 +1,185 @@
+{
+  "url": "http://127.0.0.1:4173/",
+  "loadMs": 1837,
+  "checks": [
+    {
+      "name": "page keeps rendering (software GL, so only a floor)",
+      "ok": true,
+      "detail": "13.0 frames/s with SwiftShader (CPU) rendering; no GPU timings exist"
+    },
+    {
+      "name": "dataset loads from local files",
+      "ok": true,
+      "detail": "34890 drawn of 35325; load 1837 ms"
+    },
+    {
+      "name": "HUD reports counts that match the layer",
+      "ok": true,
+      "detail": "34,890 stars drawn from 35,325 Gaia DR3 records"
+    },
+    {
+      "name": "stars are visible on the canvas",
+      "ok": true,
+      "detail": "8923 lit pixels"
+    },
+    {
+      "name": "draw calls at the start view: star field + Sun marker + one per extra star-pass layer (the Hipparcos supplement); no marker mesh adds one",
+      "ok": true,
+      "detail": "calls=3, extra star-pass layers=1"
+    },
+    {
+      "name": "catalogue RA/Dec direction maps to the right place on screen",
+      "ok": true,
+      "detail": "Proxima centred within 0.000 px (distance 1.302 pc)"
+    },
+    {
+      "name": "click selected the intended star",
+      "ok": true,
+      "detail": "4472832130942575872"
+    },
+    {
+      "name": "inspector shows the star's identity",
+      "ok": true,
+      "detail": "Barnard's star | Gaia DR3 4472832130942575872 | HIP 87937 | NAME Barnard's star"
+    },
+    {
+      "name": "inspector parallax matches the catalogue value",
+      "ok": true,
+      "detail": "Parallax546.976 masOBS±0.040 mas"
+    },
+    {
+      "name": "inspector distance matches 1000/parallax",
+      "ok": true,
+      "detail": "Distance1.82823 pcDER±0.00013 pc"
+    },
+    {
+      "name": "inspector carries provenance (catalogue, release, SIMBAD)",
+      "ok": true,
+      "detail": "ProvenanceReference frame: ICRS, J2016.0Astrometry and photometry: gaia-dr3 · DR3 · id 4472832130942575872 · retrieved 2"
+    },
+    {
+      "name": "selection ring is shown on the star",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search finds a record that is not drawn",
+      "ok": true,
+      "detail": "StarAlnair31.0 pcHigh Proper Motion Star · B6Vnot drawn / inspect only"
+    },
+    {
+      "name": "missing parallax is shown as Unavailable with a reason (not blank, not 0)",
+      "ok": true,
+      "detail": "ParallaxUnavailableNo parallax in the Gaia catalogue for this source."
+    },
+    {
+      "name": "no distance is shown for a star without parallax",
+      "ok": true,
+      "detail": "DistanceUnavailableNo parallax in the catalogue for this source."
+    },
+    {
+      "name": "the quality flag is shown",
+      "ok": true,
+      "detail": "no-parallax,no-proper-motion,two-parameter-solution"
+    },
+    {
+      "name": "the inspector says it is not drawn and offers no \"centre view\"",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "wheel zoom out increases distance, zoom in decreases it",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "equal scroll gives an equal zoom factor (logarithmic, not linear)",
+      "ok": true,
+      "detail": "1.568 vs 1.568"
+    },
+    {
+      "name": "three notches in undoes exactly one three-notch step out (predictable)",
+      "ok": true,
+      "detail": "363.0 -> 231.4"
+    },
+    {
+      "name": "a fainter limiting magnitude shows more stars (monotonic)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "hiding suspect stars removes some points",
+      "ok": true,
+      "detail": "43556 -> 29854 lit pixels"
+    },
+    {
+      "name": "the toggle reports how many stars it covers",
+      "ok": true,
+      "detail": "(9,950 stars, 29%)"
+    },
+    {
+      "name": "keyboard rotates the camera",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "reset orientation returns to the default orientation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no console errors or warnings",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "zoomed": [
+    {
+      "label": "start",
+      "lit": 180817,
+      "distancePc": 59.999999999999986,
+      "calls": 3,
+      "mag": 14,
+      "extraLayers": 1
+    },
+    {
+      "label": "out1",
+      "lit": 210490,
+      "distancePc": 94.0987311294101,
+      "calls": 4,
+      "mag": 14,
+      "extraLayers": 1
+    },
+    {
+      "label": "out2",
+      "lit": 223303,
+      "distancePc": 147.57618666941693,
+      "calls": 7,
+      "mag": 14,
+      "extraLayers": 1
+    },
+    {
+      "label": "out3",
+      "lit": 258491,
+      "distancePc": 362.97884786477647,
+      "calls": 9,
+      "mag": 14,
+      "extraLayers": 1
+    },
+    {
+      "label": "in1",
+      "lit": 254401,
+      "distancePc": 231.4455318418183,
+      "calls": 8,
+      "mag": 14,
+      "extraLayers": 1
+    }
+  ],
+  "litVsMagLimit": [
+    588,
+    8923,
+    43556,
+    135840
+  ],
+  "problems": []
+}

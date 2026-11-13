@@ -1,0 +1,593 @@
+{
+  "ranAt": "2026-11-13T00:13:03.546Z",
+  "url": "http://127.0.0.1:4173/",
+  "note": "SOFTWARE GL (SwiftShader, CPU) in headless Chromium: frame rates and frame times describe this CPU renderer only; there are no GPU timings and nothing here is a GPU performance claim. Draw calls, texture bytes and texture counts are exact counts. JS heap is performance.memory (Chromium, precise-memory-info). Quality governor disabled for these runs.",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.8127.18 Safari/537.36",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "pageLoadMs": 1672,
+  "scenes": [
+    {
+      "scene": "start view (60 pc, Gaia)",
+      "fps": 11.419685594055801,
+      "frameMsMedian": 63,
+      "frames": 47,
+      "drawCallsTotal": 2,
+      "drawCallsDeepLayer": 0,
+      "pointsDrawn": 46,
+      "objectsVisible": 0,
+      "textureBytesLayer": 0,
+      "textureMB": 0,
+      "layerTextures": 0,
+      "gpuTextures": 0,
+      "gpuGeometries": 2,
+      "heap": {
+        "usedMB": 57.086886405944824,
+        "totalMB": 86.06908702850342
+      },
+      "quality": 1,
+      "cameraDistancePc": 59.999999999999986,
+      "assetStats": {
+        "textureBytes": 0,
+        "textures": 0,
+        "loading": 0,
+        "referencedBytes": 0,
+        "budgetBytes": 201326592,
+        "overBudget": false,
+        "evictions": 0,
+        "created": 0,
+        "disposed": 0,
+        "failures": 0,
+        "hits": 0,
+        "misses": 0
+      },
+      "catalogues": {
+        "resident": [
+          "members-pleiades",
+          "members-hyades"
+        ],
+        "loading": [],
+        "failed": [],
+        "bytes": 619560,
+        "loadMs": {
+          "members-pleiades": 79.10000002384186,
+          "members-hyades": 79
+        }
+      }
+    },
+    {
+      "scene": "M31 image",
+      "lod": "image-L1",
+      "fps": 11.798077164303894,
+      "frameMsMedian": 79.10000002384186,
+      "frames": 47,
+      "drawCallsTotal": 5,
+      "drawCallsDeepLayer": 4,
+      "pointsDrawn": 95,
+      "objectsVisible": 51,
+      "textureBytesLayer": 6470480,
+      "textureMB": 6.1707305908203125,
+      "layerTextures": 4,
+      "gpuTextures": 2,
+      "gpuGeometries": 10,
+      "heap": {
+        "usedMB": 54.31229209899902,
+        "totalMB": 85.82846641540527
+      },
+      "quality": 1,
+      "cameraDistancePc": 86623.42290159558,
+      "assetStats": {
+        "textureBytes": 6470480,
+        "textures": 4,
+        "loading": 0,
+        "referencedBytes": 6275726,
+        "budgetBytes": 201326592,
+        "overBudget": false,
+        "evictions": 0,
+        "created": 4,
+        "disposed": 0,
+        "failures": 0,
+        "hits": 0,
+        "misses": 7
+      },
+      "catalogues": {
+        "resident": [
+          "members-pleiades",
+          "members-hyades",
+          "local-group-mcconnachie",
+          "ungc"
+        ],
+        "loading": [],
+        "failed": [],
+        "bytes": 999948,
+        "loadMs": {
+          "members-pleiades": 79.10000002384186,
+          "members-hyades": 79,
+          "local-group-mcconnachie": 50.89999997615814,
+          "ungc": 94.5
+        }
+      }
+    },
+    {
+      "scene": "Orion Nebula image",
+      "lod": "image-L1",
+      "fps": 7.746514068761402,
+      "frameMsMedian": 126.79999995231628,
+      "frames": 31,
+      "drawCallsTotal": 6,
+      "drawCallsDeepLayer": 4,
+      "pointsDrawn": 83,
+      "objectsVisible": 40,
+      "textureBytesLayer": 13364516,
+      "textureMB": 12.74539566040039,
+      "layerTextures": 9,
+      "gpuTextures": 4,
+      "gpuGeometries": 11,
+      "heap": {
+        "usedMB": 53.48964977264404,
+        "totalMB": 75.02241802215576
+      },
+      "quality": 1,
+      "cameraDistancePc": 7.3115536159766155,
+      "assetStats": {
+        "textureBytes": 13364516,
+        "textures": 9,
+        "loading": 0,
+        "referencedBytes": 6601224,
+        "budgetBytes": 201326592,
+        "overBudget": false,
+        "evictions": 0,
+        "created": 9,
+        "disposed": 0,
+        "failures": 0,
+        "hits": 0,
+        "misses": 12
+      },
+      "catalogues": {
+        "resident": [
+          "local-group-mcconnachie",
+          "ungc"
+        ],
+        "loading": [],
+        "failed": [],
+        "bytes": 380388,
+        "loadMs": {
+          "members-pleiades": 79.10000002384186,
+          "members-hyades": 79,
+          "local-group-mcconnachie": 50.89999997615814,
+          "ungc": 94.5
+        }
+      }
+    },
+    {
+      "scene": "Pleiades members",
+      "lod": "members",
+      "fps": 9.694258016405668,
+      "frameMsMedian": 82.39999997615814,
+      "frames": 39,
+      "drawCallsTotal": 4,
+      "drawCallsDeepLayer": 2,
+      "pointsDrawn": 1767,
+      "objectsVisible": 2,
+      "textureBytesLayer": 348651,
+      "textureMB": 0.33249950408935547,
+      "layerTextures": 1,
+      "gpuTextures": 0,
+      "gpuGeometries": 12,
+      "heap": {
+        "usedMB": 41.813804626464844,
+        "totalMB": 45.9076042175293
+      },
+      "quality": 1,
+      "cameraDistancePc": 8.089212724173345,
+      "assetStats": {
+        "textureBytes": 348651,
+        "textures": 1,
+        "loading": 0,
+        "referencedBytes": 348651,
+        "budgetBytes": 201326592,
+        "overBudget": false,
+        "evictions": 9,
+        "created": 10,
+        "disposed": 9,
+        "failures": 0,
+        "hits": 0,
+        "misses": 13
+      },
+      "catalogues": {
+        "resident": [
+          "members-pleiades",
+          "members-hyades"
+        ],
+        "loading": [],
+        "failed": [],
+        "bytes": 619560,
+        "loadMs": {
+          "members-pleiades": 69.39999997615814,
+          "members-hyades": 76.39999997615814,
+          "local-group-mcconnachie": 50.89999997615814,
+          "ungc": 94.5
+        }
+      }
+    },
+    {
+      "scene": "Omega Centauri members",
+      "lod": "members",
+      "fps": 5.367542470645454,
+      "frameMsMedian": 208.70000004768372,
+      "frames": 20,
+      "drawCallsTotal": 7,
+      "drawCallsDeepLayer": 5,
+      "pointsDrawn": 26546,
+      "objectsVisible": 4,
+      "textureBytesLayer": 535234,
+      "textureMB": 0.5104389190673828,
+      "layerTextures": 2,
+      "gpuTextures": 0,
+      "gpuGeometries": 13,
+      "heap": {
+        "usedMB": 53.986141204833984,
+        "totalMB": 59.223052978515625
+      },
+      "quality": 1,
+      "cameraDistancePc": 19.80722784339957,
+      "assetStats": {
+        "textureBytes": 535234,
+        "textures": 2,
+        "loading": 0,
+        "referencedBytes": 535234,
+        "budgetBytes": 201326592,
+        "overBudget": false,
+        "evictions": 11,
+        "created": 13,
+        "disposed": 11,
+        "failures": 0,
+        "hits": 0,
+        "misses": 16
+      },
+      "catalogues": {
+        "resident": [
+          "members-pleiades",
+          "members-hyades",
+          "members-omega-centauri"
+        ],
+        "loading": [],
+        "failed": [],
+        "bytes": 5421800,
+        "loadMs": {
+          "members-pleiades": 69.39999997615814,
+          "members-hyades": 76.39999997615814,
+          "local-group-mcconnachie": 50.89999997615814,
+          "ungc": 94.5,
+          "members-omega-centauri": 146.80000007152557
+        }
+      }
+    },
+    {
+      "scene": "Local Group (3 Mpc view)",
+      "fps": 4.684206417449981,
+      "frameMsMedian": 125.29999995231628,
+      "frames": 18,
+      "drawCallsTotal": 7,
+      "drawCallsDeepLayer": 6,
+      "pointsDrawn": 43352,
+      "objectsVisible": 503,
+      "textureBytesLayer": 1525348,
+      "textureMB": 1.4546852111816406,
+      "layerTextures": 5,
+      "gpuTextures": 0,
+      "gpuGeometries": 14,
+      "heap": {
+        "usedMB": 68.93840789794922,
+        "totalMB": 82.77526473999023
+      },
+      "quality": 1,
+      "cameraDistancePc": 3000000.0000000023,
+      "assetStats": {
+        "textureBytes": 1525348,
+        "textures": 5,
+        "loading": 0,
+        "referencedBytes": 1525348,
+        "budgetBytes": 201326592,
+        "overBudget": false,
+        "evictions": 12,
+        "created": 17,
+        "disposed": 12,
+        "failures": 0,
+        "hits": 0,
+        "misses": 21
+      },
+      "catalogues": {
+        "resident": [
+          "local-group-mcconnachie",
+          "ungc",
+          "members-omega-centauri",
+          "twomrs"
+        ],
+        "loading": [],
+        "failed": [],
+        "bytes": 13800238,
+        "loadMs": {
+          "members-pleiades": 69.39999997615814,
+          "members-hyades": 76.39999997615814,
+          "local-group-mcconnachie": 39.60000002384186,
+          "ungc": 165.29999995231628,
+          "members-omega-centauri": 146.80000007152557,
+          "twomrs": 417.2000000476837
+        }
+      }
+    },
+    {
+      "scene": "2MRS at 100 Mpc",
+      "fps": 6.8807339449541285,
+      "frameMsMedian": 137.60000002384186,
+      "frames": 27,
+      "drawCallsTotal": 5,
+      "drawCallsDeepLayer": 4,
+      "pointsDrawn": 44141,
+      "objectsVisible": 1084,
+      "textureBytesLayer": 1564844,
+      "textureMB": 1.4923515319824219,
+      "layerTextures": 5,
+      "gpuTextures": 0,
+      "gpuGeometries": 14,
+      "heap": {
+        "usedMB": 59.01207447052002,
+        "totalMB": 63.108826637268066
+      },
+      "quality": 1,
+      "cameraDistancePc": 100000000.00000018,
+      "assetStats": {
+        "textureBytes": 1564844,
+        "textures": 5,
+        "loading": 0,
+        "referencedBytes": 0,
+        "budgetBytes": 201326592,
+        "overBudget": false,
+        "evictions": 13,
+        "created": 18,
+        "disposed": 13,
+        "failures": 0,
+        "hits": 0,
+        "misses": 22
+      },
+      "catalogues": {
+        "resident": [
+          "local-group-mcconnachie",
+          "ungc",
+          "twomrs"
+        ],
+        "loading": [],
+        "failed": [],
+        "bytes": 8997998,
+        "loadMs": {
+          "members-pleiades": 69.39999997615814,
+          "members-hyades": 76.39999997615814,
+          "local-group-mcconnachie": 39.60000002384186,
+          "ungc": 165.29999995231628,
+          "members-omega-centauri": 146.80000007152557,
+          "twomrs": 417.2000000476837
+        }
+      }
+    },
+    {
+      "scene": "Milky Way from 30 kpc",
+      "fps": 3.6088923106741513,
+      "frameMsMedian": 170.5,
+      "frames": 15,
+      "drawCallsTotal": 8,
+      "drawCallsDeepLayer": 6,
+      "pointsDrawn": 6597,
+      "objectsVisible": 64,
+      "textureBytesLayer": 348651,
+      "textureMB": 0.33249950408935547,
+      "layerTextures": 1,
+      "gpuTextures": 1,
+      "gpuGeometries": 14,
+      "heap": {
+        "usedMB": 60.40469932556152,
+        "totalMB": 65.35892295837402
+      },
+      "quality": 1,
+      "cameraDistancePc": 30000,
+      "assetStats": {
+        "textureBytes": 348651,
+        "textures": 1,
+        "loading": 0,
+        "referencedBytes": 348651,
+        "budgetBytes": 201326592,
+        "overBudget": false,
+        "evictions": 17,
+        "created": 18,
+        "disposed": 17,
+        "failures": 0,
+        "hits": 1,
+        "misses": 22
+      },
+      "catalogues": {
+        "resident": [
+          "local-group-mcconnachie",
+          "ungc",
+          "twomrs"
+        ],
+        "loading": [],
+        "failed": [],
+        "bytes": 8997998,
+        "loadMs": {
+          "members-pleiades": 69.39999997615814,
+          "members-hyades": 76.39999997615814,
+          "local-group-mcconnachie": 39.60000002384186,
+          "ungc": 165.29999995231628,
+          "members-omega-centauri": 146.80000007152557,
+          "twomrs": 417.2000000476837
+        }
+      }
+    }
+  ],
+  "catalogueLoads": {
+    "loadMs": {
+      "members-pleiades": 69.39999997615814,
+      "members-hyades": 76.39999997615814,
+      "local-group-mcconnachie": 39.60000002384186,
+      "ungc": 165.29999995231628,
+      "members-omega-centauri": 146.80000007152557,
+      "twomrs": 417.2000000476837
+    },
+    "resources": [
+      {
+        "file": "members-pleiades.v1.json.gz",
+        "transferKB": 82.7900390625,
+        "decodedKB": 216.5185546875,
+        "fetchMs": 11
+      },
+      {
+        "file": "members-hyades.v1.json.gz",
+        "transferKB": 49.890625,
+        "decodedKB": 121.5712890625,
+        "fetchMs": 21.5
+      },
+      {
+        "file": "local-group-mcconnachie.v1.json.gz",
+        "transferKB": 5.240234375,
+        "decodedKB": 24.0400390625,
+        "fetchMs": 10.099999904632568
+      },
+      {
+        "file": "ungc.v1.json.gz",
+        "transferKB": 33.8515625,
+        "decodedKB": 106.708984375,
+        "fetchMs": 43.5
+      },
+      {
+        "file": "members-pleiades.v1.json.gz",
+        "transferKB": 0.29296875,
+        "decodedKB": 216.5185546875,
+        "fetchMs": 15.200000047683716
+      },
+      {
+        "file": "members-hyades.v1.json.gz",
+        "transferKB": 0.29296875,
+        "decodedKB": 121.5712890625,
+        "fetchMs": 12.100000023841858
+      },
+      {
+        "file": "members-omega-centauri.v1.json.gz",
+        "transferKB": 698.8759765625,
+        "decodedKB": 2545.73828125,
+        "fetchMs": 34.39999997615814
+      },
+      {
+        "file": "local-group-mcconnachie.v1.json.gz",
+        "transferKB": 0.29296875,
+        "decodedKB": 24.0400390625,
+        "fetchMs": 29.300000071525574
+      },
+      {
+        "file": "ungc.v1.json.gz",
+        "transferKB": 0.29296875,
+        "decodedKB": 106.708984375,
+        "fetchMs": 40.39999997615814
+      },
+      {
+        "file": "twomrs.v1.json.gz",
+        "transferKB": 1348.59765625,
+        "decodedKB": 3715.8330078125,
+        "fetchMs": 205.80000007152557
+      }
+    ]
+  },
+  "disposal": {
+    "objects": 27,
+    "loops": 3,
+    "baseline": {
+      "gpuTextures": 0,
+      "geometries": 2
+    },
+    "afterEachLoop": [
+      {
+        "layerTextures": 4,
+        "bytesMB": 1.213104248046875,
+        "referencedMB": 0.5558977127075195,
+        "gpuTextures": 0,
+        "created": 66,
+        "disposed": 62,
+        "evictions": 62
+      },
+      {
+        "layerTextures": 6,
+        "bytesMB": 1.8248510360717773,
+        "referencedMB": 0.5558977127075195,
+        "gpuTextures": 1,
+        "created": 111,
+        "disposed": 105,
+        "evictions": 105
+      },
+      {
+        "layerTextures": 4,
+        "bytesMB": 1.213104248046875,
+        "referencedMB": 0.5558977127075195,
+        "gpuTextures": 0,
+        "created": 153,
+        "disposed": 149,
+        "evictions": 149
+      }
+    ],
+    "peakTextureBytes": 54645668,
+    "peakTextureMB": 52.11417007446289,
+    "peakGpuTextures": 18,
+    "budgetMB": 192,
+    "underBudget": true,
+    "awayAfterSeconds": [
+      {
+        "afterS": 2,
+        "layerTextures": 5,
+        "bytesMB": 1.3988361358642578,
+        "referencedMB": 0,
+        "gpuTextures": 0,
+        "created": 154,
+        "disposed": 149
+      },
+      {
+        "afterS": 10,
+        "layerTextures": 5,
+        "bytesMB": 1.3988361358642578,
+        "referencedMB": 0,
+        "gpuTextures": 0,
+        "created": 154,
+        "disposed": 149
+      },
+      {
+        "afterS": 20,
+        "layerTextures": 5,
+        "bytesMB": 1.3988361358642578,
+        "referencedMB": 0,
+        "gpuTextures": 0,
+        "created": 154,
+        "disposed": 149
+      },
+      {
+        "afterS": 35,
+        "layerTextures": 0,
+        "bytesMB": 0,
+        "referencedMB": 0,
+        "gpuTextures": 0,
+        "created": 154,
+        "disposed": 154
+      },
+      {
+        "afterS": 45,
+        "layerTextures": 0,
+        "bytesMB": 0,
+        "referencedMB": 0,
+        "gpuTextures": 0,
+        "created": 154,
+        "disposed": 154
+      }
+    ],
+    "returnedTowardBaseline": true,
+    "noGrowthAcrossLoops": true
+  },
+  "problems": []
+}

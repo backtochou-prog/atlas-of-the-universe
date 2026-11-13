@@ -1,0 +1,997 @@
+{
+ "assets": [
+  {
+   "id": "orion-nebula-hubble-mosaic",
+   "objectId": "orion-nebula",
+   "title": "Orion Nebula (M42/M43): Hubble ACS mosaic with ground-based fill",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "B 435 nm",
+     "V 555 nm",
+     "H-alpha 658 nm",
+     "I 775 nm",
+     "Z 850 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Composite of 520 Hubble ACS images in five filters (two of them, I 775 nm and Z 850 nm, are in the near-infrared) plus ground-based WFI data added by the image makers to fill out the nebula. The archive page does not state which filter is assigned to which display colour, so the colours are the image makers' assignment, not the appearance to the eye."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0601a",
+    "landingUrl": "https://esahubble.org/images/heic0601a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic0601a.jpg"
+   },
+   "credit": "NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "ACS (plus WFI on the ESO/MPG 2.2-metre telescope for added ground-based data)",
+    "date": "2004-2005 (observations, per archive); released 2006-01-11"
+   },
+   "geometry": {
+    "fovArcmin": [
+     30.03,
+     30.03
+    ],
+    "centreRaDeg": 83.790532,
+    "centreDecDeg": -5.413978,
+    "upPositionAngleDeg": 0.0,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic0601a.jpg), not the TIFF original. Orientation: archive states 'North is 0.0° left of vertical'; converted to upPositionAngleDeg = -0.0 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Archive note: 'Additional observational data from the WFI instrument on the ESO.MPG 2.2-metre telescope.' The ACS mosaic covers about the apparent size of the full Moon (archive text).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 83.790532°, Dec -5.413978°) at AVM reference pixel (9000.0, 9000.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "orion-nebula-vista-nir",
+   "objectId": "orion-nebula",
+   "title": "Orion Nebula (M42): VISTA near-infrared Z, J, Ks",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "Z 880 nm",
+     "J 1.25 µm",
+     "K 2.15 µm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Three near-infrared filters (Z, J, Ks) combined into a colour picture by the image makers; the archive page does not state the colour assignment. Near-infrared is invisible to the eye, so the colours are representative and show dust-penetrating stellar content, not visible appearance."
+   },
+   "source": {
+    "archive": "ESO",
+    "imageId": "eso1006a",
+    "landingUrl": "https://www.eso.org/public/images/eso1006a/",
+    "downloadUrl": "https://cdn.eso.org/images/large/eso1006a.jpg"
+   },
+   "credit": "ESO/J. Emerson/VISTA. Acknowledgment: Cambridge Astronomical Survey Unit",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://www.eso.org/public/outreach/copyright/",
+    "evidence": "Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible. (https://www.eso.org/public/outreach/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Visible and Infrared Survey Telescope for Astronomy (VISTA), ESO Paranal",
+    "instrument": "VIRCAM",
+    "date": "released 2010-02-10 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     71.84,
+     88.35
+    ],
+    "centreRaDeg": 83.790366,
+    "centreDecDeg": -5.322447,
+    "upPositionAngleDeg": -0.1,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.eso.org/images/large/eso1006a.jpg), not the TIFF original. Orientation: archive states 'North is 0.1° left of vertical'; converted to upPositionAngleDeg = -0.1 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Archive caption: image made from Z, J and Ks near-infrared images with ten-minute exposures per filter, about 1 x 1.5 degrees of sky.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 83.822156°, Dec -5.390986°) at AVM reference pixel (5987.1, 7048.9) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 4.53 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "eagle-nebula-hubble-pillars-visible",
+   "objectId": "eagle-nebula",
+   "title": "Eagle Nebula (M16) Pillars of Creation: Hubble WFC3 visible",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "[O III] 502 nm",
+     "H-alpha 657 nm",
+     "[S II] 673 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Three narrowband filters ([O III], H-alpha, [S II]) combined into colour by the image makers. The archive page and caption do not state which filter is assigned to which display colour; narrowband emission-line mapping means these are not the colours an eye would see."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic1501a",
+    "landingUrl": "https://esahubble.org/images/heic1501a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic1501a.jpg"
+   },
+   "credit": "NASA, ESA/Hubble and the Hubble Heritage Team",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "WFC3",
+    "date": "released 2015-01-05 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     4.53,
+     4.72
+    ],
+    "centreRaDeg": 274.719653,
+    "centreDecDeg": -13.839432,
+    "upPositionAngleDeg": -35.0,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic1501a.jpg), not the TIFF original. Orientation: archive states 'North is 35.0° left of vertical'; converted to upPositionAngleDeg = -35.0 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "A close-up of the Pillars, not the whole nebula (field 4.5 x 4.7 arcmin).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 274.719657°, Dec -13.839437°) at AVM reference pixel (3390.0, 3535.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "eagle-nebula-hubble-pillars-nir",
+   "objectId": "eagle-nebula",
+   "title": "Eagle Nebula (M16) Pillars of Creation: Hubble WFC3 near-infrared",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "1.1 µm",
+     "1.6 µm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Two near-infrared bands (1.1 µm and 1.6 µm, as listed on the archive page) rendered in colour by the image makers; the page does not state the colour assignment. Near-infrared light is invisible, so the colours are representative."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic1501b",
+    "landingUrl": "https://esahubble.org/images/heic1501b/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic1501b.jpg"
+   },
+   "credit": "NASA, ESA/Hubble and the Hubble Heritage Team",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "WFC3",
+    "date": "released 2015-01-05 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     4.34,
+     4.06
+    ],
+    "centreRaDeg": 274.717043,
+    "centreDecDeg": -13.83479,
+    "upPositionAngleDeg": -35.1,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic1501b.jpg), not the TIFF original. Orientation: archive states 'North is 35.1° left of vertical'; converted to upPositionAngleDeg = -35.1 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 274.717059°, Dec -13.834792°) at AVM reference pixel (1624.0, 1522.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "eagle-nebula-webb-pillars-nircam",
+   "objectId": "eagle-nebula",
+   "title": "Eagle Nebula (M16) Pillars of Creation: Webb NIRCam (full view)",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "z 900 nm",
+     "P-alpha 1.87 µm",
+     "2.0 µm",
+     "PAH 3.35 µm",
+     "4.44 µm",
+     "molecular hydrogen 4.7 µm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour. The archive lists the display colour of each NIRCam filter: Purple 900 nm; Blue 1.87 µm (P-alpha); Cyan 2.0 µm; Yellow 3.35 µm (PAH); Orange 4.44 µm; Red 4.7 µm (molecular hydrogen). Infrared wavelengths are shifted into visible colours by the image makers."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2216b",
+    "landingUrl": "https://esawebb.org/images/weic2216b/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2216b.jpg"
+   },
+   "credit": "NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "NIRCam",
+    "date": "released 2022-10-19 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     4.21,
+     7.3
+    ],
+    "centreRaDeg": 274.730244,
+    "centreDecDeg": -13.851811,
+    "upPositionAngleDeg": 2.56,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2216b.jpg), not the TIFF original. Orientation: archive states 'North is 2.6° right of vertical'; converted to upPositionAngleDeg = 2.6 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "This is the archive's uncropped 'Full View' (weic2216b), not the square crop weic2216a.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 274.729928°, Dec -13.851739°) at AVM reference pixel (4248.7, 7301.4) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.02 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "eagle-nebula-eso-wfi-wide",
+   "objectId": "eagle-nebula",
+   "title": "Eagle Nebula (M16): ESO/MPG 2.2 m WFI wide field",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "B 451 nm",
+     "V 539 nm",
+     "R 651 nm"
+    ],
+    "falseColour": false,
+    "composite": true,
+    "colourNote": "Three broadband visible filters rendered as blue (B), green (V) and red (R), as the archive caption states. This is the closest of our images to an eye-like colour rendering, but it is still a stretched composite, not a photograph."
+   },
+   "source": {
+    "archive": "ESO",
+    "imageId": "eso0926a",
+    "landingUrl": "https://www.eso.org/public/images/eso0926a/",
+    "downloadUrl": "https://cdn.eso.org/images/large/eso0926a.jpg"
+   },
+   "credit": "ESO",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://www.eso.org/public/outreach/copyright/",
+    "evidence": "Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible. (https://www.eso.org/public/outreach/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "MPG/ESO 2.2-metre telescope, La Silla",
+    "instrument": "WFI",
+    "date": "released 2009-07-16 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     32.08,
+     32.08
+    ],
+    "centreRaDeg": 274.705923,
+    "centreDecDeg": -13.763898,
+    "upPositionAngleDeg": 0.0,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.eso.org/images/large/eso0926a.jpg), not the TIFF original. Orientation: archive states 'North is 0.0° left of vertical'; converted to upPositionAngleDeg = -0.0 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Wide field that shows the Pillars and the surrounding cluster/nebula.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 274.700040°, Dec -13.819953°) at AVM reference pixel (4128.4, 3194.3) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 3.38 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "carina-nebula-hubble-mosaic",
+   "objectId": "carina-nebula",
+   "title": "Carina Nebula (NGC 3372): Hubble ACS mosaic with ground-based colour",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "[O III] 501 nm",
+     "H-alpha + [N II] 658 nm",
+     "[S II] 672 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Narrowband mapping stated in the archive caption: red corresponds to sulfur, green to hydrogen, blue to oxygen emission. Hubble supplied the H-alpha image (48 ACS frames); colour information came from ground-based Cerro Tololo data. Not an eye-like rendering."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0707a",
+    "landingUrl": "https://esahubble.org/images/heic0707a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic0707a.jpg"
+   },
+   "credit": "NASA, ESA, N. Smith (University of California, Berkeley), and The Hubble Heritage Team (STScI/AURA)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope (ACS) plus ground-based Cerro Tololo Inter-American Observatory data",
+    "instrument": "ACS",
+    "date": "released 2007-04-24 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     24.6,
+     11.92
+    ],
+    "centreRaDeg": 161.120001,
+    "centreDecDeg": -59.596524,
+    "upPositionAngleDeg": 50.3,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic0707a.jpg), not the TIFF original. Orientation: archive states 'North is 50.3° right of vertical'; converted to upPositionAngleDeg = 50.3 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Elongated mosaic (about 24.6 x 11.9 arcmin) of a part of the Carina Nebula.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 161.120001°, Dec -59.596524°) at AVM reference pixel (14783.0, 7160.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "carina-nebula-webb-cosmic-cliffs",
+   "objectId": "carina-nebula",
+   "title": "Carina Nebula, NGC 3324 'Cosmic Cliffs': Webb NIRCam",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "900 nm",
+     "P-alpha 1.87 µm",
+     "2.0 µm",
+     "molecular hydrogen 4.7 µm",
+     "PAH 3.35 µm",
+     "4.44 µm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour. The archive lists: Blue 900 nm; Cyan 1.87 µm (P-alpha); Green 2.0 µm; Yellow 4.7 µm (molecular hydrogen); Orange 3.35 µm (PAH); Red 4.44 µm. NOTE: this field is the edge of NGC 3324 at the north-west corner of the wider Carina Nebula complex (archive caption), centred at RA 10h36m, not at the NGC 3372 centre; it is a sub-region, not the whole nebula."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2205a",
+    "landingUrl": "https://esawebb.org/images/weic2205a/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2205a.jpg"
+   },
+   "credit": "NASA, ESA, CSA, and STScI",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "NIRCam",
+    "date": "released 2022-07-12 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     7.29,
+     4.22
+    ],
+    "centreRaDeg": 159.213028,
+    "centreDecDeg": -58.620171,
+    "upPositionAngleDeg": 103.0,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2205a.jpg), not the TIFF original. Orientation: archive states 'North is 103.0° right of vertical'; converted to upPositionAngleDeg = 103.0 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Archive object name is 'Carina Nebula, NGC 3324'. Attached to object carina-nebula as a sub-region image.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 159.212619°, Dec -58.620018°) at AVM reference pixel (7299.6, 4191.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.02 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "crab-nebula-hubble-wfpc2",
+   "objectId": "crab-nebula",
+   "title": "Crab Nebula (M1): Hubble WFPC2 mosaic",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "[O I] 631 nm",
+     "[S II] 673 nm",
+     "[O III] 502 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Archive release heic0515: blue indicates neutral oxygen, green singly ionised sulphur and red doubly ionised oxygen; the Hubble data are superimposed on images from ESO's Very Large Telescope. Emission-line colours chosen by the image makers, not an eye-like view."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0515a",
+    "landingUrl": "https://esahubble.org/images/heic0515a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic0515a.jpg"
+   },
+   "credit": "NASA, ESA and Allison Loll/Jeff Hester (Arizona State University). Acknowledgement: Davide De Martin (ESA/Hubble)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope (WFPC2); superimposed on ESO VLT data per release heic0515",
+    "instrument": "WFPC2",
+    "date": "October 1999, January 2000 and December 2000 (observations, per release heic0515); released 2005-12-01"
+   },
+   "geometry": {
+    "fovArcmin": [
+     6.41,
+     6.41
+    ],
+    "centreRaDeg": 83.635564,
+    "centreDecDeg": 22.015213,
+    "upPositionAngleDeg": 0.0,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic0515a.jpg), not the TIFF original. Orientation: archive states 'North is 0.0° left of vertical'; converted to upPositionAngleDeg = -0.0 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Whole Crab Nebula, 24 WFPC2 exposures.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 83.635534°, Dec +22.015241°) at AVM reference pixel (1933.0, 1933.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "crab-nebula-webb-nircam-miri",
+   "objectId": "crab-nebula",
+   "title": "Crab Nebula (M1): Webb NIRCam + MIRI composite",
+   "band": {
+    "kind": "multi-band-composite",
+    "filters": [
+     "NIRCam 1.62 µm",
+     "NIRCam 4.8 µm",
+     "MIRI 5.6 µm",
+     "MIRI PAH 11 µm",
+     "MIRI silicate 18 µm",
+     "MIRI 21 µm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour from two Webb instruments (NIRCam and MIRI). The archive lists: Blue 1.62 µm; Cyan 4.8 µm and 5.6 µm; Green 11 µm (PAH); Orange 18 µm (silicate); Red 21 µm. Infrared is shifted into visible colours by the image makers."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2326e",
+    "landingUrl": "https://esawebb.org/images/weic2326e/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2326e.jpg"
+   },
+   "credit": "NASA, ESA, CSA, STScI, T. Temim (Princeton University)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "NIRCam + MIRI",
+    "date": "released 2023-10-30 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     5.47,
+     4.76
+    ],
+    "centreRaDeg": 83.635727,
+    "centreDecDeg": 22.016662,
+    "upPositionAngleDeg": 2.17,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2326e.jpg), not the TIFF original. Field of view and orientation are not printed on the archive page; they come from the AVM (Astronomy Visualization Metadata) XMP block embedded in the downloaded JPEG: pixel scale 0.03123 arcsec/px (CD matrix) and rotation giving the image's up direction 2.17° east of north.",
+    "FOV and orientation are NOT printed on the archive page; they are taken from the AVM (XMP) metadata embedded in the downloaded JPEG (verified after build).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 83.635727°, Dec +22.016662°) at AVM reference pixel (5254.5, 4575.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "ring-nebula-hubble-wfc3",
+   "objectId": "ring-nebula",
+   "title": "Ring Nebula (M57): Hubble WFC3 with ground-based data",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "H-beta 487 nm",
+     "H II 469 nm",
+     "[O III] 502 nm",
+     "continuum 645 nm",
+     "H-alpha 656 nm",
+     "[S II] 673 nm",
+     "[N II] 658 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Narrowband emission-line filters combined with ground-based data (archive caption); the archive page does not state which line is assigned to which display colour, so colours are the image makers' assignment."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic1310a",
+    "landingUrl": "https://esahubble.org/images/heic1310a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic1310a.jpg"
+   },
+   "credit": "NASA, ESA, and C. Robert O’Dell (Vanderbilt University).",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope (WFC3) with existing ground-based data",
+    "instrument": "WFC3",
+    "date": "released 2013-05-23 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.1,
+     2.1
+    ],
+    "centreRaDeg": 283.396718,
+    "centreDecDeg": 33.028925,
+    "upPositionAngleDeg": -11.7,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic1310a.jpg), not the TIFF original. Orientation: archive states 'North is 11.7° left of vertical'; converted to upPositionAngleDeg = -11.7 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Filter list copied as printed in the archive table.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 283.396718°, Dec +33.028925°) at AVM reference pixel (1589.5, 1589.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "ring-nebula-webb-nircam",
+   "objectId": "ring-nebula",
+   "title": "Ring Nebula (M57): Webb NIRCam",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "1.62 µm",
+     "2.12 µm",
+     "3.0 µm",
+     "PAH 3.35 µm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour. The archive lists: Blue 1.62 µm; Cyan 2.12 µm; Green 3.0 µm; Red 3.35 µm (PAH)."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2320b",
+    "landingUrl": "https://esawebb.org/images/weic2320b/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2320b.jpg"
+   },
+   "credit": "ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "NIRCam",
+    "date": "released 2023-08-21 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.14,
+     2.17
+    ],
+    "centreRaDeg": 283.395054,
+    "centreDecDeg": 33.029279,
+    "upPositionAngleDeg": 140.2,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2320b.jpg), not the TIFF original. Orientation: archive states 'North is 140.2° right of vertical'; converted to upPositionAngleDeg = 140.2 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 283.395054°, Dec +33.029279°) at AVM reference pixel (2048.5, 2078.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "ring-nebula-webb-miri",
+   "objectId": "ring-nebula",
+   "title": "Ring Nebula (M57): Webb MIRI",
+   "band": {
+    "kind": "mid-infrared",
+    "filters": [
+     "5.6 µm",
+     "PAH 7.7 µm",
+     "silicate 10 µm",
+     "PAH 11 µm",
+     "12 µm",
+     "15 µm",
+     "silicate 18 µm",
+     "21 µm",
+     "25 µm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour. Nine MIRI bands combined; the archive lists: Purple 5.6 µm; Blue 7.7 µm (PAH); Cyan 10 µm (silicate) and 11 µm (PAH); Green 12 µm and 15 µm; Yellow 18 µm (silicate); Orange 21 µm; Red 25 µm. Low pixel count (1257 x 1015)."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2320c",
+    "landingUrl": "https://esawebb.org/images/weic2320c/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2320c.jpg"
+   },
+   "credit": "ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "MIRI",
+    "date": "released 2023-08-21 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.33,
+     1.88
+    ],
+    "centreRaDeg": 283.3964,
+    "centreDecDeg": 33.029011,
+    "upPositionAngleDeg": 132.9,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2320c.jpg), not the TIFF original. Orientation: archive states 'North is 132.9° right of vertical'; converted to upPositionAngleDeg = 132.9 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Source image is smaller than 2000 px on its longest side; no upscaling.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 283.396400°, Dec +33.029011°) at AVM reference pixel (628.5, 507.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "horsehead-nebula-vlt-visible",
+   "objectId": "horsehead-nebula",
+   "title": "Horsehead Nebula (B33): VLT FORS2 visible B, V, R",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "B 429 nm",
+     "V 554 nm",
+     "R 655 nm"
+    ],
+    "falseColour": false,
+    "composite": true,
+    "colourNote": "Archive caption: B-band (429 nm) rendered as blue, V-band (554 nm) as green, R-band (655 nm) as red; a broadband visible composite that approximates the eye's colours but is a stretched exposure, not a photograph."
+   },
+   "source": {
+    "archive": "ESO",
+    "imageId": "eso0202a",
+    "landingUrl": "https://www.eso.org/public/images/eso0202a/",
+    "downloadUrl": "https://cdn.eso.org/images/large/eso0202a.jpg"
+   },
+   "credit": "ESO",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://www.eso.org/public/outreach/copyright/",
+    "evidence": "Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible. (https://www.eso.org/public/outreach/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Very Large Telescope, KUEYEN (UT2), ESO Paranal",
+    "instrument": "FORS2",
+    "date": "2000-02-01 (observations, per archive caption); released 2002-01-25"
+   },
+   "geometry": {
+    "fovArcmin": [
+     6.53,
+     6.72
+    ],
+    "centreRaDeg": 85.25484,
+    "centreDecDeg": -2.449825,
+    "upPositionAngleDeg": -89.9,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.eso.org/images/large/eso0202a.jpg), not the TIFF original. Orientation: archive states 'North is 89.9° left of vertical'; converted to upPositionAngleDeg = -89.9 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Shows the dark Horsehead silhouetted against the emission nebula IC 434.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 85.245796°, Dec -2.458232°) at AVM reference pixel (2864.2, 2963.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.74 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "horsehead-nebula-hubble-ir",
+   "objectId": "horsehead-nebula",
+   "title": "Horsehead Nebula (B33): Hubble WFC3 near-infrared",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "J 1.1 µm",
+     "H 1.6 µm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Two near-infrared bands (1.1 µm and 1.6 µm) rendered in colour by the image makers; the archive page does not state the assignment. Infrared is invisible, so colours are representative."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic1307a",
+    "landingUrl": "https://esahubble.org/images/heic1307a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic1307a.jpg"
+   },
+   "credit": "NASA, ESA, and the Hubble Heritage Team (AURA/STScI)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "WFC3",
+    "date": "released 2013-04-19 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     5.78,
+     6.04
+    ],
+    "centreRaDeg": 85.25413,
+    "centreDecDeg": -2.453312,
+    "upPositionAngleDeg": -103.0,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic1307a.jpg), not the TIFF original. Orientation: archive states 'North is 103.0° left of vertical'; converted to upPositionAngleDeg = -103.0 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 85.254130°, Dec -2.453312°) at AVM reference pixel (1352.0, 1413.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "horsehead-nebula-webb-nircam",
+   "objectId": "horsehead-nebula",
+   "title": "Horsehead Nebula (B33): Webb NIRCam (the head only)",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "1.4 µm",
+     "methane 2.5 µm",
+     "water ice 3.0 µm",
+     "molecular hydrogen 3.23 µm",
+     "PAH 3.35 µm",
+     "carbon dioxide 4.3 µm",
+     "Br-alpha 4.05 µm",
+     "molecular hydrogen 4.7 µm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour. The archive lists: Blue 1.4 µm and 2.5 µm; Cyan 3.0 µm and 3.23 µm; Green 3.35 µm (PAH); Orange 4.3 µm; Red 4.7 µm and 4.05 µm. A small field around the nebula's head only (2.1 x 2.1 arcmin)."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2411a",
+    "landingUrl": "https://esawebb.org/images/weic2411a/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2411a.jpg"
+   },
+   "credit": "ESA/Webb, NASA, CSA, K. Misselt (University of Arizona) and A. Abergel (IAS/University Paris-Saclay, CNRS)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "NIRCam",
+    "date": "released 2024-04-29 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.13,
+     2.14
+    ],
+    "centreRaDeg": 85.21924,
+    "centreDecDeg": -2.479857,
+    "upPositionAngleDeg": -112.2,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2411a.jpg), not the TIFF original. Orientation: archive states 'North is 112.2° left of vertical'; converted to upPositionAngleDeg = -112.2 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 85.219240°, Dec -2.479857°) at AVM reference pixel (2079.5, 2093.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "veil-nebula-hubble-wfpc2-a",
+   "objectId": "veil-nebula",
+   "title": "Veil Nebula (Cygnus Loop), NGC 6960 'Witch's Broom' section: Hubble WFPC2",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "[O III] 502 nm",
+     "[S II] 673 nm",
+     "H-alpha 656 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Archive caption (heic0712b, same release): blue shows oxygen, green sulphur, red hydrogen emission excited by the shock. Emission-line colours assigned by the image makers."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0712a",
+    "landingUrl": "https://esahubble.org/images/heic0712a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic0712a.jpg"
+   },
+   "credit": "NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgment: J. Hester (Arizona State University)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "WFPC2",
+    "date": "released 2007-07-31 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.48,
+     1.25
+    ],
+    "centreRaDeg": 311.417242,
+    "centreDecDeg": 30.988049,
+    "upPositionAngleDeg": -84.8,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic0712a.jpg), not the TIFF original. Orientation: archive states 'North is 84.8° left of vertical'; converted to upPositionAngleDeg = -84.8 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Only a tiny (2.5 x 1.25 arcmin) piece of a nebula about 3 degrees across; the whole Veil is NOT covered by any image we could evidence.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 311.417259°, Dec +30.988061°) at AVM reference pixel (746.0, 375.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "veil-nebula-hubble-wfpc2-b",
+   "objectId": "veil-nebula",
+   "title": "Veil Nebula (Cygnus Loop), eastern-arc section: Hubble WFPC2",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "[O III] 502 nm",
+     "[S II] 673 nm",
+     "H-alpha 656 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Archive caption: blue shows oxygen, green sulphur, red hydrogen, emission excited by the shock. Emission-line colours assigned by the image makers."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0712b",
+    "landingUrl": "https://esahubble.org/images/heic0712b/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic0712b.jpg"
+   },
+   "credit": "NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgment: J. Hester (Arizona State University)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "WFPC2",
+    "date": "released 2007-07-31 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.49,
+     1.23
+    ],
+    "centreRaDeg": 314.203098,
+    "centreDecDeg": 31.13762,
+    "upPositionAngleDeg": -137.9,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic0712b.jpg), not the TIFF original. Orientation: archive states 'North is 137.9° left of vertical'; converted to upPositionAngleDeg = -137.9 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Archive object name field says 'NGC 6960'; the centre coordinates (RA 20h56m48s) lie in the eastern arc (NGC 6992 region) - this identification is my reading of the coordinates, not an archive statement. Only 2.5 x 1.2 arcmin of a ~3 degree nebula.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 314.203098°, Dec +31.137620°) at AVM reference pixel (750.0, 370.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  },
+  {
+   "id": "ngc-1999-hubble-vlt",
+   "objectId": "ngc-1999",
+   "title": "NGC 1999 'Cosmic Keyhole': Hubble WFPC2 with VST OmegaCAM data",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "b 450 nm (HST)",
+     "v 555 nm (HST)",
+     "r 675 nm (HST)",
+     "u 350 nm (VST)",
+     "g 480 nm (VST)",
+     "H-alpha 659 nm (VST)"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Archival Hubble WFPC2 b/v/r combined with VLT Survey Telescope u/g/H-alpha data (archive filter table). The page does not state the colour assignment, and the u (350 nm) band is ultraviolet-to-blue, so colours are the image makers' assignment."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "potw2243a",
+    "landingUrl": "https://esahubble.org/images/potw2243a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/potw2243a.jpg"
+   },
+   "credit": "ESA/Hubble & NASA, ESO, K. Noll",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope (WFPC2) and VLT Survey Telescope (OmegaCAM)",
+    "instrument": "WFPC2 + OmegaCAM",
+    "date": "Hubble data from shortly after Servicing Mission 3A in 1999 (archive caption); released 2022-10-24"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.78,
+     2.97
+    ],
+    "centreRaDeg": 84.103127,
+    "centreDecDeg": -6.714626,
+    "upPositionAngleDeg": 24.8,
+    "wcsSource": "archive-metadata"
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/potw2243a.jpg), not the TIFF original. Orientation: archive states 'North is 24.8° right of vertical'; converted to upPositionAngleDeg = 24.8 (degrees east of north; 'north X° left of vertical' means up lies X° west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Reflection nebula NGC 1999 (V380 Orionis). Source is 1665 x 1780 px, below the 2000 px target: this is the only reflection-nebula image with full ESA/Hubble metadata that I verified.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 84.103127°, Dec -6.714626°) at AVM reference pixel (832.5, 890.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size."
+   ],
+   "fidelity": "multi-band-composite"
+  }
+ ]
+}

@@ -1,0 +1,986 @@
+{
+  "generated": "2026-11-12T16:08:10Z",
+  "tool": "tools/textures/build_textures.py",
+  "textures": [
+    {
+      "id": "moon",
+      "body": "moon",
+      "use": "surface albedo (colour)",
+      "fidelity": "scientific-map",
+      "source": "NASA Scientific Visualization Studio, CGI Moon Kit (SVS 4720)",
+      "page": "https://svs.gsfc.nasa.gov/4720/",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_2k.jpg",
+      "asset": "lroc_color_2k.jpg",
+      "credit": "NASA's Scientific Visualization Studio; Ernie Wright (STC); Noah Petro (NASA/GSFC); LRO LROC and LOLA instrument teams",
+      "license": "NASA media: not copyrighted; credit requested (https://www.nasa.gov/nasa-brand-center/images-and-media/)",
+      "projection": "equirectangular (simple cylindrical), global, centred on 0 deg longitude",
+      "lon_left_deg": -180,
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "processing": "none beyond resampling to 2048x1024 and 512x256 (Lanczos). Colour map adapted by SVS from the LROC WAC Hapke-normalised mosaic (over 100,000 WAC images); the 2019/2025 SVS maps are processed for 3D rendering.",
+      "original_bytes": 457942,
+      "original_sha256": "f7130a1822681fa7512d7dcfd40db8c10b9ba4f06777910348698260ed7a2170",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        2048,
+        1024
+      ],
+      "original_mode": "RGB",
+      "outputs": {
+        "2k": {
+          "file": "textures/moon_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 453084,
+          "sha256": "f8c57df90d2a6dce255614e577ef1d846f222fc549e94ba6809e695ab776b5ca"
+        },
+        "512": {
+          "file": "textures/moon_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 29508,
+          "sha256": "850d66476b2ff33938c18c0ba53bb529b6fd16acf1fbe6b96810f7386b1136d3"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "id": "jupiter",
+      "body": "jupiter",
+      "use": "cloud-top appearance",
+      "fidelity": "scientific-map",
+      "source": "NASA/JPL/Space Science Institute, Cassini Best Maps of Jupiter Cylindrical Map (PIA07782)",
+      "page": "https://photojournal.jpl.nasa.gov/catalog/PIA07782",
+      "url": "http://images-assets.nasa.gov/image/PIA07782/PIA07782~orig.jpg",
+      "asset": "PIA07782~orig.jpg",
+      "credit": "NASA/JPL/Space Science Institute",
+      "license": "NASA media: not copyrighted; credit requested",
+      "projection": "simple cylindrical, global, built from Cassini narrow-angle camera images during the Dec 2000 flyby",
+      "lon_left_deg": 0,
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "lon_note": "Longitude origin and direction of this map were NOT verified (the official caption could not be read). Standard cartographic orientation (east to the right, north up) is assumed; Jupiter has no fixed surface, so the only consequence is the position of the Great Red Spot in longitude.",
+      "processing": "resampled from 3601x1801 to 2048x1024 and 512x256 (Lanczos)",
+      "original_bytes": 446531,
+      "original_sha256": "337781c2ca209f62b209b34b9a6646f7d3cf30d3d1c8e8a3f9ed13e3554d389f",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        3601,
+        1801
+      ],
+      "original_mode": "RGB",
+      "outputs": {
+        "2k": {
+          "file": "textures/jupiter_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 297137,
+          "sha256": "41c5a416819214b720a8e6621e73bd4c070bc0b93f9195b8d8c78648023ac941"
+        },
+        "512": {
+          "file": "textures/jupiter_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 27986,
+          "sha256": "b17f6b61952f9e698bd819754ad6298578a2651083f386cd7405654b104edaf6"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "id": "earth_day",
+      "body": "earth",
+      "use": "surface colour (no clouds)",
+      "fidelity": "derived",
+      "source": "NASA/GSFC Scientific Visualization Studio, Equirectangular Projected Earth (SVS 3615); Blue Marble Next Generation data courtesy of Reto Stockli (NASA/GSFC) and NASA's Earth Observatory",
+      "page": "https://svs.gsfc.nasa.gov/3615/",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a003600/a003615/earth_noClouds.0330.jpg",
+      "asset": "earth_noClouds.0330.jpg",
+      "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio; Blue Marble Next Generation data courtesy of Reto Stockli (NASA/GSFC) and NASA's Earth Observatory",
+      "license": "NASA media: not copyrighted; credit requested",
+      "projection": "equirectangular, global, centred on 0 deg longitude",
+      "lon_left_deg": -180,
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "note": "SVS states the look (cloud appearance, ocean colouring) was ART-DIRECTED for a film. Derived from Blue Marble Next Generation but not a pure scientific product.",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 356467,
+      "original_sha256": "1ed70af0494a92b69a40e12feffd7b47ad4c92b3d70ad0987fee77212b51635c",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        2048,
+        1024
+      ],
+      "original_mode": "RGB",
+      "outputs": {
+        "2k": {
+          "file": "textures/earth_day_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 321605,
+          "sha256": "fb81007db4bdac3f8ec68e9aaaa63b791de2fce7405417067eab2f333916b260"
+        },
+        "512": {
+          "file": "textures/earth_day_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 33003,
+          "sha256": "1de8f1deb67325cfc1683dd8387d6314f2a9836dab42db4dad5ffc4c69795a35"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "id": "earth_clouds",
+      "body": "earth",
+      "use": "cloud layer opacity",
+      "fidelity": "derived",
+      "source": "NASA/GSFC SVS 3615 (difference of the with-clouds and no-clouds renders of the same scene)",
+      "page": "https://svs.gsfc.nasa.gov/3615/",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a003600/a003615/flat_earth03.jpg",
+      "asset": "flat_earth03.jpg",
+      "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio",
+      "license": "NASA media: not copyrighted; credit requested",
+      "projection": "equirectangular, global",
+      "lon_left_deg": -180,
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "processing": "cloud opacity = clamp(luminance(with clouds) - luminance(no clouds), 0..1) rescaled; this is an extraction from an art-directed render, so cloud shapes are illustrative of real cloud climatology, not a weather snapshot",
+      "derive": "earth_clouds",
+      "original_bytes": 519577,
+      "original_sha256": "80c08eb0ae0d2f5daba9fdbeb51fa1123009b9d2141d961ec43873cde1ff9646",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        2048,
+        1024
+      ],
+      "original_mode": "RGB",
+      "outputs": {
+        "2k": {
+          "file": "textures/earth_clouds_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 313579,
+          "sha256": "b90e8128f5c0775a8000f8bbb5edd1f2cb1b5dfb8d8f90991608ae2b3dfdffa4"
+        },
+        "512": {
+          "file": "textures/earth_clouds_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 35763,
+          "sha256": "ad4aa441cad424dfa3aeb4b069c813f1915f91ad4d29991b0168b261967405bb"
+        }
+      },
+      "aspect_ok": true
+    },
+    {
+      "id": "earth_night",
+      "body": "earth",
+      "use": "night-side city lights",
+      "fidelity": "artistic-composite",
+      "source": "Solar System Scope textures (2k_earth_nightmap.jpg)",
+      "page": "https://www.solarsystemscope.com/textures/",
+      "url": "https://www.solarsystemscope.com/textures/download/2k_earth_nightmap.jpg",
+      "asset": "2k_earth_nightmap.jpg",
+      "credit": "Solar System Scope (INOVE), based on NASA elevation and imagery data",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "projection": "equirectangular, global",
+      "lon_left_deg": -180,
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "note": "The provider states its textures are tuned and contain fictional fill; this is a stylised city-lights layer, not the NASA Black Marble product.",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 255287,
+      "original_sha256": "c16fd1bc096ab91a5c5265c6ff9847c43f489f2e2ee790ccdbcbd03251cf3a5a",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        2048,
+        1024
+      ],
+      "original_mode": "RGB",
+      "outputs": {
+        "2k": {
+          "file": "textures/earth_night_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 149478,
+          "sha256": "a2508c309fc45383b74fb2ee60089d98cd60413a208a4c220d65544c5bf51934"
+        },
+        "512": {
+          "file": "textures/earth_night_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 10036,
+          "sha256": "d9ce2301d05e479ab59bfcb2b523e094603ae5652669ae0465faf4b454771a2b"
+        }
+      },
+      "aspect_ok": true
+    },
+    {
+      "id": "mercury",
+      "body": "mercury",
+      "use": "surface albedo (luminance only)",
+      "fidelity": "derived",
+      "source": "USGS Astrogeology, MESSENGER MDIS Enhanced Color Global Mosaic 665 m",
+      "page": "https://astrogeology.usgs.gov/search/map/mercury_messenger_mdis_basemap_enhanced_color_global_mosaic_665m",
+      "url": "https://planetarymaps.usgs.gov/mosaic/Mercury_MESSENGER_MDIS_Basemap_EnhancedColor_Mosaic_Global_665m.tif",
+      "asset": "Mercury_MESSENGER_MDIS_Basemap_EnhancedColor_Mosaic_Global_665m.tif",
+      "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington; USGS Astrogeology Science Center",
+      "license": "USGS/NASA planetary data: public domain",
+      "projection": "simple cylindrical, global",
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "grayscale": true,
+      "note": "The source is an ENHANCED-colour (false-colour) product that exaggerates spectral differences. Only its luminance is used; the shader tints it to an approximate natural grey-brown (a visualisation choice).",
+      "processing": "converted to luminance, resampled to 2048x1024 and 512x256",
+      "original_bytes": 796539539,
+      "original_sha256": "1dc6cf382b739f5a3c5700c4df84177e3f590f6a33b24a02ac7e1760c5242c79",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        23040,
+        11520
+      ],
+      "original_mode": "RGB",
+      "geotiff": {
+        "pixel_scale": [
+          665.24315271,
+          665.24315271
+        ],
+        "tiepoint": [
+          0.0,
+          0.0,
+          0.0,
+          -7663601.119167,
+          3831800.559583,
+          0.0
+        ],
+        "width": 23040,
+        "height": 11520
+      },
+      "lon_left_deg": -180.0,
+      "implied_radius_km": 2439.4,
+      "projection_verified_from_geotiff": true,
+      "outputs": {
+        "2k": {
+          "file": "textures/mercury_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 697397,
+          "sha256": "145210527dcc60b4a26c8703f3c03fe2752dbb03ac2424b4f93f3a0c84589dfa"
+        },
+        "512": {
+          "file": "textures/mercury_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 45470,
+          "sha256": "9562181c4fed0c0082522002ee9072e889fe022ae6559825c61b516ad0a23c1a"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0348
+    },
+    {
+      "id": "io",
+      "body": "io",
+      "use": "surface colour",
+      "fidelity": "scientific-map",
+      "source": "USGS Astrogeology, Io Galileo SSI/Voyager Global Color Merge Mosaic 1 km",
+      "page": "https://astrogeology.usgs.gov/search/map/io_galileo_ssi_voyager_global_mosaic_ge_1km",
+      "url": "https://planetarymaps.usgs.gov/mosaic/Io_GalileoSSI-Voyager_Global_Mosaic_ClrMerge_1km.tif",
+      "asset": "Io_GalileoSSI-Voyager_Global_Mosaic_ClrMerge_1km.tif",
+      "credit": "NASA/JPL/University of Arizona/USGS Astrogeology Science Center",
+      "license": "USGS/NASA planetary data: public domain",
+      "projection": "simple cylindrical, global",
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 196637696,
+      "original_sha256": "135f88cb645bfdb4e045b380971ab2ba14e230590c96c9c86cfe7310fda881ac",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        11445,
+        5723
+      ],
+      "original_mode": "RGB",
+      "geotiff": {
+        "pixel_scale": [
+          1000.0,
+          1000.0
+        ],
+        "tiepoint": [
+          0.0,
+          0.0,
+          0.0,
+          -5723000.0,
+          2862000.0,
+          0.0
+        ],
+        "width": 11445,
+        "height": 5723
+      },
+      "lon_left_deg": -180.016,
+      "implied_radius_km": 1821.53,
+      "projection_verified_from_geotiff": true,
+      "outputs": {
+        "2k": {
+          "file": "textures/io_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 346307,
+          "sha256": "695ac76b3d5dfd7b7d804ea39e9c5d1d890f61fa3a2b913f52940a316daa7487"
+        },
+        "512": {
+          "file": "textures/io_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 33333,
+          "sha256": "f28b8f0996cbd8292dfca2a1136d80df803620f78b215ab5df10e6d7b53a755b"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "id": "europa",
+      "body": "europa",
+      "use": "surface colour",
+      "fidelity": "scientific-map",
+      "source": "USGS Astrogeology, Europa Voyager/Galileo SSI Global Mosaic 500 m",
+      "page": "https://astrogeology.usgs.gov/search/map/europa_voyager_galileo_ssi_global_mosaic_500m",
+      "url": "https://planetarymaps.usgs.gov/mosaic/Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+      "asset": "Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+      "credit": "NASA/JPL/University of Arizona/USGS Astrogeology Science Center",
+      "license": "USGS/NASA planetary data: public domain",
+      "projection": "simple cylindrical, global",
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 192777263,
+      "original_sha256": "a323f0c9ccb47d5af9902ea8297fe81f9a9708795645b80801f103c3f7c9a624",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        19631,
+        9816
+      ],
+      "original_mode": "L",
+      "geotiff": {
+        "pixel_scale": [
+          499.97456657942,
+          499.97456657942
+        ],
+        "tiepoint": [
+          0.0,
+          0.0,
+          0.0,
+          -4907750.3455436,
+          2453875.1727718,
+          0.0
+        ],
+        "width": 19631,
+        "height": 9816
+      },
+      "lon_left_deg": -180.009,
+      "implied_radius_km": 1562.11,
+      "projection_verified_from_geotiff": true,
+      "outputs": {
+        "2k": {
+          "file": "textures/europa_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 520913,
+          "sha256": "d624628465e7241ed61b957d73ff039ea62728e9851f65e1e878450706c4c776"
+        },
+        "512": {
+          "file": "textures/europa_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 31663,
+          "sha256": "f4e33f612dd7e49a9d186d9cd043bc26f72ae4b70baab35ffd12110e2d144c82"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0423
+    },
+    {
+      "id": "ganymede",
+      "body": "ganymede",
+      "use": "surface colour",
+      "fidelity": "scientific-map",
+      "source": "USGS Astrogeology, Ganymede Voyager/Galileo SSI Global Color Mosaic 1435 m",
+      "page": "https://astrogeology.usgs.gov/search/map/ganymede_voyager_galileo_ssi_global_mosaic_1km",
+      "url": "https://planetarymaps.usgs.gov/mosaic/Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m.tif",
+      "asset": "Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m.tif",
+      "credit": "NASA/JPL/University of Arizona/USGS Astrogeology Science Center",
+      "license": "USGS/NASA planetary data: public domain",
+      "projection": "simple cylindrical, global",
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 199204541,
+      "original_sha256": "da47087e75bc530456d8206d5100ad3c687706353700b0cb44a8400957005a33",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        11520,
+        5760
+      ],
+      "original_mode": "RGB",
+      "geotiff": {
+        "pixel_scale": [
+          1435.72146209,
+          1435.72146209
+        ],
+        "tiepoint": [
+          0.0,
+          0.0,
+          0.0,
+          -8269755.621665,
+          4134877.810833,
+          0.0
+        ],
+        "width": 11520,
+        "height": 5760
+      },
+      "lon_left_deg": -180.0,
+      "implied_radius_km": 2632.34,
+      "projection_verified_from_geotiff": true,
+      "outputs": {
+        "2k": {
+          "file": "textures/ganymede_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 446490,
+          "sha256": "1d4f1fd4bcb73896cef5650c9240aa264176a8a65542867c58378647f68384db"
+        },
+        "512": {
+          "file": "textures/ganymede_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 31206,
+          "sha256": "b7605ea1b01b2b98cf9cef604c716be4f4d53fd7e2f91b11dcc5872cbeba0cc1"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0344
+    },
+    {
+      "id": "callisto",
+      "body": "callisto",
+      "use": "surface albedo",
+      "fidelity": "scientific-map",
+      "source": "USGS Astrogeology, Callisto Voyager/Galileo SSI Global Mosaic 1 km",
+      "page": "https://astrogeology.usgs.gov/search/map/callisto_voyager_galileo_ssi_global_mosaic_1km",
+      "url": "https://planetarymaps.usgs.gov/mosaic/Callisto_Voyager_GalileoSSI_global_mosaic_1km.tif",
+      "asset": "Callisto_Voyager_GalileoSSI_global_mosaic_1km.tif",
+      "credit": "NASA/JPL/University of Arizona/USGS Astrogeology Science Center",
+      "license": "USGS/NASA planetary data: public domain",
+      "projection": "simple cylindrical, global",
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 114640717,
+      "original_sha256": "e1f0bd2e0e05de605d067d6b5f5ededddaf31ca6c064562a1ca770f15a7dbaa3",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        15138,
+        7569
+      ],
+      "original_mode": "L",
+      "geotiff": {
+        "pixel_scale": [
+          1000.0051966711,
+          1000.0051966711
+        ],
+        "tiepoint": [
+          0.0,
+          0.0,
+          0.0,
+          -7569039.3336036,
+          3784519.6668018,
+          0.0
+        ],
+        "width": 15138,
+        "height": 7569
+      },
+      "lon_left_deg": -180.0,
+      "implied_radius_km": 2409.3,
+      "projection_verified_from_geotiff": true,
+      "outputs": {
+        "2k": {
+          "file": "textures/callisto_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 428102,
+          "sha256": "64f38f469e541f56686369ef80553a014fd886a3be4f0b759760713fadb43ecc"
+        },
+        "512": {
+          "file": "textures/callisto_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 27101,
+          "sha256": "95880c198cb3adc77a58af08283727348d9080d870ec778bcb76f5d027ff1bb8"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0369
+    },
+    {
+      "id": "enceladus",
+      "body": "enceladus",
+      "use": "surface albedo",
+      "fidelity": "scientific-map",
+      "source": "USGS Astrogeology, Enceladus Cassini ISS Global Mosaic 100 m (high-pass filtered)",
+      "page": "https://astrogeology.usgs.gov/search/map/enceladus_cassini_iss_global_mosaic_100m_hpf",
+      "url": "https://planetarymaps.usgs.gov/mosaic/Enceladus_Cassini_ISS_Global_Mosaic_100m_HPF.tif",
+      "asset": "Enceladus_Cassini_ISS_Global_Mosaic_100m_HPF.tif",
+      "credit": "NASA/JPL/Space Science Institute/USGS Astrogeology Science Center",
+      "license": "USGS/NASA planetary data: public domain",
+      "projection": "simple cylindrical, global",
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "note": "High-pass-filtered (HPF) mosaic: albedo contrast, brightness is a processed product.",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 125516825,
+      "original_sha256": "a15d944acf7da25e89f8f1ece6694632521980e77af024db7746cb33d05fb04b",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        15840,
+        7920
+      ],
+      "original_mode": "L",
+      "geotiff": {
+        "pixel_scale": [
+          100.0,
+          100.0
+        ],
+        "tiepoint": [
+          0.0,
+          0.0,
+          0.0,
+          -792000.0,
+          396000.0,
+          0.0
+        ],
+        "width": 15840,
+        "height": 7920
+      },
+      "lon_left_deg": -180.0,
+      "implied_radius_km": 252.1,
+      "projection_verified_from_geotiff": true,
+      "outputs": {
+        "2k": {
+          "file": "textures/enceladus_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 823787,
+          "sha256": "c4b2206626b9931ce0bb2eca6616f4cc30e72553ca78b487a9b5c459e7b6cc13"
+        },
+        "512": {
+          "file": "textures/enceladus_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 40761,
+          "sha256": "a9ed4968e7592b100a209849ee1069a82a9f67dbdeb141865276da12ef270c94"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0018
+    },
+    {
+      "id": "triton",
+      "body": "triton",
+      "use": "surface colour",
+      "fidelity": "scientific-map",
+      "source": "USGS Astrogeology, Triton Voyager 2 Global Color Mosaic 600 m (with filled gaps)",
+      "page": "https://astrogeology.usgs.gov/search/map/triton_voyager_2_color_mosaic_global_fill_600m",
+      "url": "https://planetarymaps.usgs.gov/mosaic/Triton_Voyager2_ClrMosaic_GlobalFill_600m.tif",
+      "asset": "Triton_Voyager2_ClrMosaic_GlobalFill_600m.tif",
+      "credit": "NASA/JPL/USGS Astrogeology Science Center",
+      "license": "USGS/NASA planetary data: public domain",
+      "projection": "simple cylindrical, global",
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "note": "Voyager 2 imaged only part of Triton at useful resolution; the 'GlobalFill' product fills the unimaged hemisphere with lower-quality data, so those areas are not high-resolution observations.",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 299994887,
+      "original_sha256": "f20ed332e85df469725629b81d3a73ad026897fe561ec59d6245d249a09507db",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        14138,
+        7069
+      ],
+      "original_mode": "RGB",
+      "geotiff": {
+        "pixel_scale": [
+          600.0,
+          600.0
+        ],
+        "tiepoint": [
+          0.0,
+          0.0,
+          0.0,
+          -4241150.082346,
+          2120575.041173,
+          0.0
+        ],
+        "width": 14138,
+        "height": 7069
+      },
+      "lon_left_deg": -179.989,
+      "implied_radius_km": 1350.08,
+      "projection_verified_from_geotiff": true,
+      "outputs": {
+        "2k": {
+          "file": "textures/triton_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 247090,
+          "sha256": "14e68dccf3875102b1a1745d8ba488456e8cacdc8d0656f5550a1cf5bd404656"
+        },
+        "512": {
+          "file": "textures/triton_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 21871,
+          "sha256": "44b4b83b65b5a09bb189254834811c0454bbf621724faf0c1fbc0e4f53b3b974"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.3844
+    },
+    {
+      "id": "mars",
+      "body": "mars",
+      "use": "surface appearance",
+      "fidelity": "artistic-composite",
+      "source": "Solar System Scope textures (2k_mars.jpg)",
+      "page": "https://www.solarsystemscope.com/textures/",
+      "url": "https://www.solarsystemscope.com/textures/download/2k_mars.jpg",
+      "asset": "2k_mars.jpg",
+      "credit": "Solar System Scope (INOVE), based on NASA elevation and imagery data",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "projection": "equirectangular, global",
+      "lon_left_deg": -180,
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "note": "No manageable true-colour Mars mosaic could be obtained (the USGS Viking colour mosaic is 12.7 GB). The provider states its colours are tuned to Viking true-colour photos, slightly over-saturated, and that unmapped areas are filled with fictional terrain.",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 750547,
+      "original_sha256": "2d187f3e77a98eaa8cea5f4cc722f633c122ef170b9e94ace6b5fb6cbc3f8e01",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        2048,
+        1024
+      ],
+      "original_mode": "RGB",
+      "outputs": {
+        "2k": {
+          "file": "textures/mars_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 406226,
+          "sha256": "930d1fcde67dcfebab07b94a141f7589ee281e90212b0878739b069c897d2e5a"
+        },
+        "512": {
+          "file": "textures/mars_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 31295,
+          "sha256": "3e6675ca10425e31bb9a0a3ed7223653438818fb4a96a428b936ec57ee109f40"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "id": "venus",
+      "body": "venus",
+      "use": "cloud-top appearance",
+      "fidelity": "artistic-composite",
+      "source": "Solar System Scope textures (2k_venus_atmosphere.jpg)",
+      "page": "https://www.solarsystemscope.com/textures/",
+      "url": "https://www.solarsystemscope.com/textures/download/2k_venus_atmosphere.jpg",
+      "asset": "2k_venus_atmosphere.jpg",
+      "credit": "Solar System Scope (INOVE), based on NASA data",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "projection": "equirectangular, global",
+      "lon_left_deg": -180,
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "note": "Venus's surface is permanently hidden by cloud. Visible-light images show a nearly featureless pale-yellow disc; this texture is a stylised cloud layer. No radar surface map is drawn.",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 229696,
+      "original_sha256": "225012ad4911730605c4e189ca2a3bf674fce50cc48aab4102b936b47d6991ac",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        2048,
+        1024
+      ],
+      "original_mode": "RGB",
+      "outputs": {
+        "2k": {
+          "file": "textures/venus_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 153685,
+          "sha256": "ce39a5dbeef12032617ef66f8d9694b47b9a06a1a5345bb21fe9575898c9c887"
+        },
+        "512": {
+          "file": "textures/venus_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 14654,
+          "sha256": "767887d253ef981b73902247e171c181e621ce2239ab0a76c426b0454d38cfeb"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "id": "saturn",
+      "body": "saturn",
+      "use": "cloud-top appearance",
+      "fidelity": "artistic-composite",
+      "source": "Solar System Scope textures (2k_saturn.jpg)",
+      "page": "https://www.solarsystemscope.com/textures/",
+      "url": "https://www.solarsystemscope.com/textures/download/2k_saturn.jpg",
+      "asset": "2k_saturn.jpg",
+      "credit": "Solar System Scope (INOVE), based on NASA data",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "projection": "equirectangular, global",
+      "lon_left_deg": -180,
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "note": "Saturn has no fixed surface and no authoritative global cylindrical map was obtained. This is a stylised band pattern.",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 199916,
+      "original_sha256": "54a900ca9bf7ab62e70f862852759abdf342e6d6436a95a2fe9ebdb6bcd3bbac",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        2048,
+        1024
+      ],
+      "original_mode": "RGB",
+      "outputs": {
+        "2k": {
+          "file": "textures/saturn_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 134377,
+          "sha256": "25d7c25b4925f4e6ea04b6c36a45af932b75bb6b4bc36b7b54b5c29e809944ff"
+        },
+        "512": {
+          "file": "textures/saturn_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 11752,
+          "sha256": "82a73e165979a4bd273a643438a174862bb7eb1dcd1ab3036df34d220ed3efea"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "id": "saturn_rings",
+      "body": "saturn",
+      "use": "ring radial opacity/colour strip",
+      "fidelity": "artistic-composite",
+      "source": "Solar System Scope textures (2k_saturn_ring_alpha.png)",
+      "page": "https://www.solarsystemscope.com/textures/",
+      "url": "https://www.solarsystemscope.com/textures/download/2k_saturn_ring_alpha.png",
+      "asset": "2k_saturn_ring_alpha.png",
+      "credit": "Solar System Scope (INOVE), based on NASA data",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "projection": "radial strip (ring opacity as a function of radius)",
+      "ring": true,
+      "note": "The radial extent the strip covers is not documented by the provider. Atlas calibrates it against known ring-feature radii (Cassini Division, A-ring outer edge) and records the result.",
+      "processing": "kept as PNG with alpha",
+      "original_bytes": 12119,
+      "original_sha256": "4b0644b2f3ef259fd0bfaedd9dc52f9e7d9738f65f50363e8c4dd19f650d7334",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        2048,
+        125
+      ],
+      "original_mode": "RGBA",
+      "outputs": {
+        "png": "textures/saturn_rings.png"
+      },
+      "ring_calibration": {
+        "inner_km": 75405,
+        "outer_km": 140340,
+        "residual_px": [
+          6.4,
+          -17.0,
+          10.6
+        ],
+        "strip_width_px": 2048,
+        "features_used_km": {
+          "b_ring_inner_edge": 92000.0,
+          "cassini_division_inner": 117580.0,
+          "cassini_division_outer": 122170.0,
+          "a_ring_outer_edge": 136775.0
+        },
+        "method": "least-squares fit of strip x-position against known ring-feature radii (B-ring inner edge, Cassini Division centre, A-ring outer edge)"
+      }
+    },
+    {
+      "id": "uranus",
+      "body": "uranus",
+      "use": "cloud-top appearance",
+      "fidelity": "artistic-composite",
+      "source": "Solar System Scope textures (2k_uranus.jpg)",
+      "page": "https://www.solarsystemscope.com/textures/",
+      "url": "https://www.solarsystemscope.com/textures/download/2k_uranus.jpg",
+      "asset": "2k_uranus.jpg",
+      "credit": "Solar System Scope (INOVE), based on NASA data",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "projection": "equirectangular, global",
+      "lon_left_deg": -180,
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "note": "Voyager 2 saw Uranus as a nearly featureless pale cyan-blue disc; no global map exists. This is a stylised version.",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 77751,
+      "original_sha256": "d15239d46f82d3ea13d2b260b5b29b2a382f42f2916dae0694d0387b1204a09d",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        2048,
+        1024
+      ],
+      "original_mode": "RGB",
+      "outputs": {
+        "2k": {
+          "file": "textures/uranus_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 32040,
+          "sha256": "7e6a039e2efd5f0c020f72a769acba82da60d8c5de8f04a7e32dc413b23c35b9"
+        },
+        "512": {
+          "file": "textures/uranus_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 3610,
+          "sha256": "0c6f587d00e1633873af79a0d225fadf0c7b3c1164d61797a185da7cd2f730ea"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "id": "neptune",
+      "body": "neptune",
+      "use": "cloud-top appearance",
+      "fidelity": "artistic-composite",
+      "source": "Solar System Scope textures (2k_neptune.jpg)",
+      "page": "https://www.solarsystemscope.com/textures/",
+      "url": "https://www.solarsystemscope.com/textures/download/2k_neptune.jpg",
+      "asset": "2k_neptune.jpg",
+      "credit": "Solar System Scope (INOVE), based on NASA data",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "projection": "equirectangular, global",
+      "lon_left_deg": -180,
+      "lon_direction": "east",
+      "lat_extent": "global",
+      "note": "No global map of Neptune exists. This is a stylised version of its deep-blue appearance.",
+      "processing": "resampled to 2048x1024 and 512x256",
+      "original_bytes": 241580,
+      "original_sha256": "cb42ea82709741d28b0af44d8b283cbc6dbd0c521a7f0e1e1e010ade00977df6",
+      "retrieved": "2026-11-12",
+      "original_size": [
+        2048,
+        1024
+      ],
+      "original_mode": "RGB",
+      "outputs": {
+        "2k": {
+          "file": "textures/neptune_2k.jpg",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 73144,
+          "sha256": "78c4c272af6b4a1015380a68fc3ed1b785e36ed37a0df0851ec8af0d62dd670a"
+        },
+        "512": {
+          "file": "textures/neptune_512.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "bytes": 7548,
+          "sha256": "18d7bd51c5833e495fa6b8e072bd1704c256a1f89d4b1bb553ca5b9f8315b280"
+        }
+      },
+      "aspect_ok": true,
+      "nodata_fraction": 0.0
+    }
+  ]
+}

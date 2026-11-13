@@ -1,0 +1,1332 @@
+{
+  "url": "http://127.0.0.1:4181/",
+  "ranAt": "2026-11-13T12:34:06.537Z",
+  "staleHandleDeleteWarnings": 4,
+  "note": "Software GL (SwiftShader) only: no GPU timings; frame rate is a warning, not a failure. Quality governor disabled for deterministic frames.",
+  "loadMs": 1436,
+  "fps": 15,
+  "peakTextureBytes": 55436949,
+  "deepStats": {
+    "drawCalls": 4,
+    "textureBytes": 6275726,
+    "pointsDrawn": 95,
+    "objectsVisible": 51,
+    "quality": 1,
+    "textures": 3,
+    "loading": 0,
+    "overBudget": false
+  },
+  "sweeps": {
+    "m31": [
+      {
+        "k": 0,
+        "d": 34649369.160638206,
+        "r": 4,
+        "lod": "marker",
+        "lum": 82.60843298611124,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 9,
+          "extra": 1,
+          "reg": "1/1/0/0/4/1/0/1/0"
+        }
+      },
+      {
+        "k": 1,
+        "d": 22585718.145681493,
+        "r": 4,
+        "lod": "marker",
+        "lum": 87.78993437500016,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 9,
+          "extra": 1,
+          "reg": "1/1/0/0/4/1/0/1/0"
+        }
+      },
+      {
+        "k": 2,
+        "d": 14722191.96231884,
+        "r": 4,
+        "lod": "marker",
+        "lum": 96.5012680555558,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 9,
+          "extra": 1,
+          "reg": "1/1/0/0/4/1/0/1/0"
+        }
+      },
+      {
+        "k": 3,
+        "d": 9596459.797175312,
+        "r": 4,
+        "lod": "marker",
+        "lum": 101.49681701388899,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 8,
+          "extra": 1,
+          "reg": "1/1/0/0/3/1/0/1/0"
+        }
+      },
+      {
+        "k": 4,
+        "d": 6255321.277871517,
+        "r": 4,
+        "lod": "marker",
+        "lum": 102.81325069444445,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 8,
+          "extra": 1,
+          "reg": "1/1/0/0/3/1/0/1/0"
+        }
+      },
+      {
+        "k": 5,
+        "d": 4077445.7577480436,
+        "r": 4.141731255021042,
+        "lod": "glow",
+        "lum": 90.94669722222218,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 8,
+          "extra": 1,
+          "reg": "1/1/0/0/3/1/0/1/0"
+        }
+      },
+      {
+        "k": 6,
+        "d": 2657827.3391314396,
+        "r": 6.353943420958515,
+        "lod": "glow",
+        "lum": 87.83228715277765,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 7,
+          "extra": 1,
+          "reg": "1/1/0/1/2/0/0/1/0"
+        }
+      },
+      {
+        "k": 7,
+        "d": 1732468.4580319105,
+        "r": 9.747758729588922,
+        "lod": "glow",
+        "lum": 90.93404965277784,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 7,
+          "extra": 1,
+          "reg": "1/1/0/1/2/0/0/1/0"
+        }
+      },
+      {
+        "k": 8,
+        "d": 1129285.9072840745,
+        "r": 14.95430380082641,
+        "lod": "glow",
+        "lum": 47.3521029320987,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 9,
+          "extra": 1,
+          "reg": "1/1/1/1/2/0/0/2/0"
+        }
+      },
+      {
+        "k": 9,
+        "d": 736109.5981159416,
+        "r": 22.941807278076126,
+        "lod": "image-L0",
+        "lum": 24.731402710745176,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 7,
+          "extra": 1,
+          "reg": "0/2/0/0/2/0/0/0/0"
+        }
+      },
+      {
+        "k": 10,
+        "d": 479822.98985876556,
+        "r": 35.19565525713727,
+        "lod": "image-L0",
+        "lum": 26.194940617917588,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 5,
+          "extra": 1,
+          "reg": "0/2/0/0/2/0/0/0/0"
+        }
+      },
+      {
+        "k": 11,
+        "d": 312766.06389357586,
+        "r": 53.99461925403876,
+        "lod": "image-L0",
+        "lum": 25.709976485198812,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 5,
+          "extra": 1,
+          "reg": "0/2/0/0/2/0/0/0/0"
+        }
+      },
+      {
+        "k": 12,
+        "d": 203872.28788740232,
+        "r": 82.83462510042058,
+        "lod": "image-L0",
+        "lum": 25.81442052977066,
+        "creditsVisible": true,
+        "drawnImages": 2,
+        "dc": {
+          "total": 6,
+          "extra": 1,
+          "reg": "0/3/0/0/2/0/0/0/0"
+        }
+      },
+      {
+        "k": 13,
+        "d": 132891.366956572,
+        "r": 127.07886841917099,
+        "lod": "image-L1",
+        "lum": 27.17249661115827,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 5,
+          "extra": 1,
+          "reg": "0/2/0/0/2/0/0/0/0"
+        }
+      },
+      {
+        "k": 14,
+        "d": 86623.42290159552,
+        "r": 194.95517459177807,
+        "lod": "image-L1",
+        "lum": 51.32876623339753,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 5,
+          "extra": 1,
+          "reg": "0/2/0/0/2/0/0/0/0"
+        }
+      }
+    ],
+    "orion-nebula": [
+      {
+        "k": 0,
+        "d": 4386.932169585967,
+        "r": 4,
+        "lod": "marker",
+        "lum": 78.49007604166647,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 12,
+          "extra": 1,
+          "reg": "1/2/1/1/2/0/0/2/0"
+        }
+      },
+      {
+        "k": 1,
+        "d": 2777.9315766074874,
+        "r": 4,
+        "lod": "marker",
+        "lum": 78.28305694444433,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 11,
+          "extra": 1,
+          "reg": "1/2/1/1/1/0/0/2/0"
+        }
+      },
+      {
+        "k": 2,
+        "d": 1759.0661414400834,
+        "r": 4,
+        "lod": "marker",
+        "lum": 75.48277604166653,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 10,
+          "extra": 1,
+          "reg": "0/2/1/1/1/0/0/2/0"
+        }
+      },
+      {
+        "k": 3,
+        "d": 1113.891254924209,
+        "r": 4,
+        "lod": "glow",
+        "lum": 74.51175729166653,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 10,
+          "extra": 1,
+          "reg": "0/2/1/1/1/0/0/2/0"
+        }
+      },
+      {
+        "k": 4,
+        "d": 705.3479676329115,
+        "r": 4,
+        "lod": "glow",
+        "lum": 69.21344930555529,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 10,
+          "extra": 1,
+          "reg": "0/2/1/1/1/0/0/2/0"
+        }
+      },
+      {
+        "k": 5,
+        "d": 446.646612265333,
+        "r": 4,
+        "lod": "glow",
+        "lum": 61.923693402777445,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 8,
+          "extra": 1,
+          "reg": "0/2/1/1/1/0/0/0/0"
+        }
+      },
+      {
+        "k": 6,
+        "d": 282.82947623366834,
+        "r": 5.543504234049063,
+        "lod": "glow",
+        "lum": 57.008981944444194,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 7,
+          "extra": 1,
+          "reg": "0/2/1/0/1/0/0/0/0"
+        }
+      },
+      {
+        "k": 7,
+        "d": 179.09575586143967,
+        "r": 8.75418599372454,
+        "lod": "glow",
+        "lum": 56.05225520833305,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 7,
+          "extra": 1,
+          "reg": "0/2/1/0/1/0/0/0/0"
+        }
+      },
+      {
+        "k": 8,
+        "d": 113.40858171755904,
+        "r": 13.824673162128033,
+        "lod": "glow",
+        "lum": 39.29400404040362,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 7,
+          "extra": 1,
+          "reg": "0/2/1/0/1/0/0/0/0"
+        }
+      },
+      {
+        "k": 9,
+        "d": 71.81357450557773,
+        "r": 21.833561622006634,
+        "lod": "image-L0",
+        "lum": 20.926994156804287,
+        "creditsVisible": true,
+        "drawnImages": 2,
+        "dc": {
+          "total": 8,
+          "extra": 1,
+          "reg": "0/2/2/0/1/0/0/0/0"
+        }
+      },
+      {
+        "k": 10,
+        "d": 45.47442005854555,
+        "r": 34.489631228540105,
+        "lod": "image-L0",
+        "lum": 12.472892350125663,
+        "creditsVisible": true,
+        "drawnImages": 2,
+        "dc": {
+          "total": 8,
+          "extra": 1,
+          "reg": "0/2/2/0/1/0/0/0/0"
+        }
+      },
+      {
+        "k": 11,
+        "d": 28.795710196829628,
+        "r": 54.51497453510621,
+        "lod": "image-L0",
+        "lum": 9.306065683821048,
+        "creditsVisible": true,
+        "drawnImages": 2,
+        "dc": {
+          "total": 8,
+          "extra": 1,
+          "reg": "0/2/2/0/1/0/0/0/0"
+        }
+      },
+      {
+        "k": 12,
+        "d": 18.234271589879818,
+        "r": 86.30674986466674,
+        "lod": "image-L0",
+        "lum": 7.702578001816552,
+        "creditsVisible": true,
+        "drawnImages": 2,
+        "dc": {
+          "total": 7,
+          "extra": 1,
+          "reg": "0/2/1/0/1/0/0/0/0"
+        }
+      },
+      {
+        "k": 13,
+        "d": 11.546465016518487,
+        "r": 137.21459139766964,
+        "lod": "image-L1",
+        "lum": 7.567419808880117,
+        "creditsVisible": true,
+        "drawnImages": 2,
+        "dc": {
+          "total": 7,
+          "extra": 1,
+          "reg": "0/2/1/0/1/0/0/0/0"
+        }
+      },
+      {
+        "k": 14,
+        "d": 7.311553615976612,
+        "r": 220.5353115913622,
+        "lod": "image-L1",
+        "lum": 9.119006699992008,
+        "creditsVisible": true,
+        "drawnImages": 2,
+        "dc": {
+          "total": 7,
+          "extra": 1,
+          "reg": "0/2/1/0/1/0/0/0/0"
+        }
+      }
+    ],
+    "pleiades": [
+      {
+        "k": 0,
+        "d": 4853.527634504007,
+        "r": 5,
+        "lod": "marker",
+        "lum": 66.26090312499986,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 11,
+          "extra": 1,
+          "reg": "1/2/1/1/1/0/0/2/0"
+        }
+      },
+      {
+        "k": 1,
+        "d": 3073.393239881849,
+        "r": 5,
+        "lod": "marker",
+        "lum": 73.97914513888874,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 11,
+          "extra": 1,
+          "reg": "1/2/1/1/1/0/0/2/0"
+        }
+      },
+      {
+        "k": 2,
+        "d": 1946.1609613183405,
+        "r": 5,
+        "lod": "marker",
+        "lum": 74.29432152777763,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 10,
+          "extra": 1,
+          "reg": "0/2/1/1/1/0/0/2/0"
+        }
+      },
+      {
+        "k": 3,
+        "d": 1232.3650739549128,
+        "r": 5,
+        "lod": "marker",
+        "lum": 74.209265972222,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 10,
+          "extra": 1,
+          "reg": "0/2/1/1/1/0/0/2/0"
+        }
+      },
+      {
+        "k": 4,
+        "d": 780.3689960336616,
+        "r": 5,
+        "lod": "marker",
+        "lum": 67.54113993055525,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 10,
+          "extra": 1,
+          "reg": "0/2/1/1/1/0/0/2/0"
+        }
+      },
+      {
+        "k": 5,
+        "d": 494.1520843464478,
+        "r": 5,
+        "lod": "glow",
+        "lum": 54.15872673611089,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 10,
+          "extra": 1,
+          "reg": "0/2/1/1/1/0/0/2/0"
+        }
+      },
+      {
+        "k": 6,
+        "d": 312.91130696510385,
+        "r": 7.391816693667049,
+        "lod": "glow",
+        "lum": 39.34430104166648,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 8,
+          "extra": 1,
+          "reg": "0/2/1/1/1/0/0/0/0"
+        }
+      },
+      {
+        "k": 7,
+        "d": 198.14443595053777,
+        "r": 11.673217122479345,
+        "lod": "glow",
+        "lum": 33.29330280612236,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 6,
+          "extra": 1,
+          "reg": "0/1/0/2/0/0/0/0/0"
+        }
+      },
+      {
+        "k": 8,
+        "d": 125.47075361049582,
+        "r": 18.43443954789751,
+        "lod": "glow",
+        "lum": 66.82702365702518,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 5,
+          "extra": 1,
+          "reg": "0/0/0/2/0/0/0/0/0"
+        }
+      },
+      {
+        "k": 9,
+        "d": 79.45168854257201,
+        "r": 29.111817066323017,
+        "lod": "members",
+        "lum": 115.86448673469195,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 5,
+          "extra": 1,
+          "reg": "0/0/0/2/0/0/0/0/0"
+        }
+      },
+      {
+        "k": 10,
+        "d": 50.31109346694653,
+        "r": 45.9736186012617,
+        "lod": "members",
+        "lum": 79.34145056197931,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 5,
+          "extra": 1,
+          "reg": "0/0/0/2/0/0/0/0/0"
+        }
+      },
+      {
+        "k": 11,
+        "d": 31.85843085617434,
+        "r": 72.6019129097678,
+        "lod": "members",
+        "lum": 39.88866802088536,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 4,
+          "extra": 1,
+          "reg": "0/0/0/1/0/0/0/0/0"
+        }
+      },
+      {
+        "k": 12,
+        "d": 20.173674366359208,
+        "r": 114.65353214577829,
+        "lod": "members",
+        "lum": 19.81134536729788,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 4,
+          "extra": 1,
+          "reg": "0/0/0/1/0/0/0/0/0"
+        }
+      },
+      {
+        "k": 13,
+        "d": 12.774550613531673,
+        "r": 181.0617917167089,
+        "lod": "members",
+        "lum": 13.817947666675012,
+        "creditsVisible": false,
+        "drawnImages": 0,
+        "dc": {
+          "total": 4,
+          "extra": 1,
+          "reg": "0/0/0/1/0/0/0/0/0"
+        }
+      },
+      {
+        "k": 14,
+        "d": 8.089212724173345,
+        "r": 285.9342560679412,
+        "lod": "members",
+        "lum": 10.984350057764686,
+        "creditsVisible": true,
+        "drawnImages": 1,
+        "dc": {
+          "total": 5,
+          "extra": 1,
+          "reg": "0/1/0/1/0/0/0/0/0"
+        }
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "the start view is the Gaia star field: deep chrome is quiet (no deep stats, no credits, no scale note)",
+      "ok": true,
+      "detail": "34,890 stars drawn from 35,325 Gaia DR3 records; 3 draw calls"
+    },
+    {
+      "name": "the deep-space panel has the four scale shortcuts, grouped object lists, four layer toggles and a five-entry legend",
+      "ok": true,
+      "detail": "{\"scales\":[\"solar-neighbourhood\",\"milky-way\",\"local-group\",\"nearby-universe\"],\"groups\":[\"Galaxies:10\",\"Nebulae:8\",\"Clusters:6\",\"Groups:4\"],\"toggles\":4,\"legend\":5}"
+    },
+    {
+      "name": "clicking a Gaia star at the start view selects that star (deep-space objects are not pickable there)",
+      "ok": true,
+      "detail": "catalogue row 89"
+    },
+    {
+      "name": "Escape clears the star selection and closes the inspector",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "U flies to the nearby-universe scale and the panel says so",
+      "ok": true,
+      "detail": "Camera 100 Mpc from the Sun · Nearby universe scale; breadcrumb: Universe › Nearby universe"
+    },
+    {
+      "name": "beyond 3 Mpc with the structure layer on, the 2MRS caveat is shown (Hubble-flow distances, flux limit, Zone of Avoidance)",
+      "ok": true,
+      "detail": "Galaxy distribution (2MASS Redshift Survey): distances are Hubble-flow estimates"
+    },
+    {
+      "name": "turning the structure layer off removes the 2MRS caveat",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the 2MRS structure layer draws its observed galaxy positions",
+      "ok": true,
+      "detail": "44,153 points"
+    },
+    {
+      "name": "L flies to the Local Group scale",
+      "ok": true,
+      "detail": "Camera 3.33 Mpc from the Sun · Local Group scale; breadcrumb: Universe › Nearby universe"
+    },
+    {
+      "name": "M flies to the Milky Way and clears the selection (a view, not an inspection)",
+      "ok": true,
+      "detail": "Camera 66.0 kpc from the Sun · Milky Way scale; breadcrumb: Universe › Nearby universe › Local Group"
+    },
+    {
+      "name": "the breadcrumb at the Milky Way view (camera outside the Galaxy frame) reads Universe > Nearby universe > Local Group",
+      "ok": true,
+      "detail": "Universe › Nearby universe › Local Group"
+    },
+    {
+      "name": "H returns to the Solar neighbourhood start distance (60 pc)",
+      "ok": true,
+      "detail": "60.0 pc"
+    },
+    {
+      "name": "the in-app help documents M, L and U",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "start orientation (60 pc, default yaw/pitch): the deep layer adds no draw call because no catalogued nebula or cluster lies inside the view cone (qa-browser's draw-call check is for this orientation only)",
+      "ok": true,
+      "detail": "deep draw calls 0, total 3 (Gaia + Sun + 1 Hipparcos supplement layer); off-screen: orion-nebula, eagle-nebula, carina-nebula, crab-nebula, ring-nebula, horsehead-nebula, veil-nebula, ngc-1999, pleiades, hyades, omega-centauri, m13, 47-tucanae, m4"
+    },
+    {
+      "name": "looking at Orion from the Sun: every visible nebula and cluster is drawn at its catalogue RA/Dec (screen position within 1.5 px of an independent tangent-plane projection)",
+      "ok": true,
+      "detail": "orion-nebula 0.00px glow; crab-nebula 0.00px marker; horsehead-nebula 0.00px marker; ngc-1999 0.00px marker; pleiades 0.00px glow; hyades 0.00px members"
+    },
+    {
+      "name": "looking at Orion from the Sun the deep layer stays small: at most 8 draw calls (one shared marker/glow draw, cluster points), markers 4 px, no disc above 150 px",
+      "ok": true,
+      "detail": "deep draw calls 4 of 7 total; 1048 points"
+    },
+    {
+      "name": "looking at the Pleiades from the Sun: the cluster and the other visible nebulae/clusters are at their catalogue RA/Dec (within 1.5 px)",
+      "ok": true,
+      "detail": "orion-nebula 0.00px; crab-nebula 0.00px; horsehead-nebula 0.00px; ngc-1999 0.00px; pleiades 0.00px; hyades 0.00px"
+    },
+    {
+      "name": "m31: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "195 px radius, lod image-L1"
+    },
+    {
+      "name": "m31: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "DEPROJECTED IMAGE"
+    },
+    {
+      "name": "m31: distance is shown with its uncertainty (or says there is none published)",
+      "ok": true,
+      "detail": "761 kpcOBS ±11 kpc"
+    },
+    {
+      "name": "m31: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "m31: the provenance block names the displayed asset and its verbatim credit line",
+      "ok": true,
+      "detail": "m31-galex-nuv: Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; repro"
+    },
+    {
+      "name": "m31: the image-credits line is visible and contains the credit of the image drawn",
+      "ok": true,
+      "detail": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyVi"
+    },
+    {
+      "name": "m31: morphology class AND the catalogue string are both shown, and the physical size is derived",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "m31: coordinates in ICRS and Galactic, inclination and near side are present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "m31: the default band drawn is the GALEX NUV ultraviolet map, and the inspector says plainly that it is an ultraviolet map and the visible-light PHAT picture is only a strip (with its field of view)",
+      "ok": true,
+      "detail": "m31-galex-nuv: This default is a ultraviolet map, not a visible-light picture: the visible-light image available (Andromeda Galaxy, Hubble PHAT mosaic strip (partial), field 5"
+    },
+    {
+      "name": "Escape clears the deep-space selection and closes the inspector",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "pickDeep at the centre of M31 returns M31",
+      "ok": true,
+      "detail": "picked m31"
+    },
+    {
+      "name": "a mouse click on the object selects it and opens its inspector",
+      "ok": true,
+      "detail": "m31: Andromeda Galaxy (M31); pick log [[640,400,\"m31\"],[640,400,\"m31\"]]; events [[\"pointerdown\",\"scene\",640,400],[\"pointerup\",\"scene\",640,400],[\"click\",\"scene\",640,400]]"
+    },
+    {
+      "name": "clicking empty sky clears the selection",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "m31: choosing another band changes the displayed asset",
+      "ok": true,
+      "detail": "m31-galex-nuv -> m31-phat-visible"
+    },
+    {
+      "name": "m31: the provenance block, credit line and pressed button follow the band",
+      "ok": true,
+      "detail": "m31-phat-visible"
+    },
+    {
+      "name": "m87: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "195 px radius, lod image-L1"
+    },
+    {
+      "name": "m87: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "OBSERVED IMAGE"
+    },
+    {
+      "name": "m87: distance is shown with its uncertainty (or says there is none published)",
+      "ok": true,
+      "detail": "16.67 MpcDER ±0.61 Mpc"
+    },
+    {
+      "name": "m87: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "m87: the provenance block names the displayed asset and its verbatim credit line",
+      "ok": true,
+      "detail": "m87-legacysurvey-grz: Legacy Surveys / D. Lang (Perimeter Institute)"
+    },
+    {
+      "name": "m87: the image-credits line is visible and contains the credit of the image drawn",
+      "ok": true,
+      "detail": "Legacy Surveys / D. Lang (Perimeter Institute)"
+    },
+    {
+      "name": "m87: no published orientation is shown as unavailable with its reason (not zero, not blank)",
+      "ok": true,
+      "detail": "No published disc orientation for this object; the image is shown flat, facing t"
+    },
+    {
+      "name": "zoomed far into an image-only object the scale note says Atlas has no 3D stellar data and this is the highest-resolution image",
+      "ok": true,
+      "detail": "Closest view: Atlas has no three-dimensional stellar data for Messier 87 (Virgo A); this is the highest-resolution image"
+    },
+    {
+      "name": "lmc: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "195 px radius, lod image-L1"
+    },
+    {
+      "name": "lmc: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "DEPROJECTED IMAGE"
+    },
+    {
+      "name": "lmc: distance is shown with its uncertainty (or says there is none published)",
+      "ok": true,
+      "detail": "49.59 kpcOBS ±0.55 kpc"
+    },
+    {
+      "name": "lmc: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "lmc: the provenance block names the displayed asset and its verbatim credit line",
+      "ok": true,
+      "detail": "lmc-galex-nuv: Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; repro"
+    },
+    {
+      "name": "lmc: the image-credits line is visible and contains the credit of the image drawn",
+      "ok": true,
+      "detail": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyVi"
+    },
+    {
+      "name": "orion-nebula: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "214 px radius, lod image-L1"
+    },
+    {
+      "name": "orion-nebula: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "OBSERVED IMAGE"
+    },
+    {
+      "name": "orion-nebula: distance is shown with its uncertainty (or says there is none published)",
+      "ok": true,
+      "detail": "419 pcMOD ±30 pc"
+    },
+    {
+      "name": "orion-nebula: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "orion-nebula: the provenance block names the displayed asset and its verbatim credit line",
+      "ok": true,
+      "detail": "orion-nebula-hubble-mosaic: NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Sp"
+    },
+    {
+      "name": "orion-nebula: the image-credits line is visible and contains the credit of the image drawn",
+      "ok": true,
+      "detail": "NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion "
+    },
+    {
+      "name": "orion-nebula: choosing another band changes the displayed asset",
+      "ok": true,
+      "detail": "orion-nebula-hubble-mosaic -> orion-nebula-vista-nir"
+    },
+    {
+      "name": "orion-nebula: the provenance block, credit line and pressed button follow the band",
+      "ok": true,
+      "detail": "orion-nebula-vista-nir"
+    },
+    {
+      "name": "orion-nebula: a non-visible band is never presented as how it would look",
+      "ok": true,
+      "detail": "Not how it would look to the eye. This band is not visible light: the image cont"
+    },
+    {
+      "name": "carina-nebula: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "215 px radius, lod image-L1"
+    },
+    {
+      "name": "carina-nebula: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "OBSERVED IMAGE"
+    },
+    {
+      "name": "carina-nebula: distance is shown with its uncertainty (or says there is none published)",
+      "ok": true,
+      "detail": "2.350 kpcOBS ±0.080 kpc"
+    },
+    {
+      "name": "carina-nebula: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "carina-nebula: the provenance block names the displayed asset and its verbatim credit line",
+      "ok": true,
+      "detail": "carina-nebula-hubble-mosaic: NASA, ESA, N. Smith (University of California, Berkeley), and The Hubble Heritag"
+    },
+    {
+      "name": "carina-nebula: the image-credits line is visible and contains the credit of the image drawn",
+      "ok": true,
+      "detail": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyVi"
+    },
+    {
+      "name": "horsehead-nebula: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "214 px radius, lod image-L1"
+    },
+    {
+      "name": "horsehead-nebula: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "OBSERVED IMAGE"
+    },
+    {
+      "name": "horsehead-nebula: distance is shown with its uncertainty (or says there is none published)",
+      "ok": true,
+      "detail": "431 pcMOD ±22 pc"
+    },
+    {
+      "name": "horsehead-nebula: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "horsehead-nebula: the provenance block names the displayed asset and its verbatim credit line",
+      "ok": true,
+      "detail": "horsehead-nebula-vlt-visible: ESO"
+    },
+    {
+      "name": "horsehead-nebula: the image-credits line is visible and contains the credit of the image drawn",
+      "ok": true,
+      "detail": "ESO"
+    },
+    {
+      "name": "ngc-1999: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "214 px radius, lod image-L1"
+    },
+    {
+      "name": "ngc-1999: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "OBSERVED IMAGE"
+    },
+    {
+      "name": "ngc-1999: distance is shown with its uncertainty (or says there is none published)",
+      "ok": true,
+      "detail": "438 pcMOD ±21 pc"
+    },
+    {
+      "name": "ngc-1999: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ngc-1999: the provenance block names the displayed asset and its verbatim credit line",
+      "ok": true,
+      "detail": "ngc-1999-hubble-vlt: ESA/Hubble & NASA, ESO, K. Noll"
+    },
+    {
+      "name": "ngc-1999: the image-credits line is visible and contains the credit of the image drawn",
+      "ok": true,
+      "detail": "ESA/Hubble & NASA, ESO, K. Noll"
+    },
+    {
+      "name": "pleiades: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "286 px radius, lod members"
+    },
+    {
+      "name": "pleiades: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "OBSERVED MEMBERS"
+    },
+    {
+      "name": "pleiades: distance is shown with its uncertainty (or says there is none published)",
+      "ok": true,
+      "detail": "134.841 pcOBS ±0.018 pc"
+    },
+    {
+      "name": "pleiades: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "pleiades: members, age and the membership list provenance are shown; the badge says observed members",
+      "ok": true,
+      "detail": "OBSERVED MEMBERS"
+    },
+    {
+      "name": "pleiades: the member stars are drawn",
+      "ok": true,
+      "detail": "1769 points"
+    },
+    {
+      "name": "omega-centauri: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "286 px radius, lod members"
+    },
+    {
+      "name": "omega-centauri: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "OBSERVED MEMBERS"
+    },
+    {
+      "name": "omega-centauri: distance is shown with its uncertainty (or says there is none published)",
+      "ok": true,
+      "detail": "5.430 kpcOBS ±0.050 kpc"
+    },
+    {
+      "name": "omega-centauri: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "local-group: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "943 px radius, lod ring + catalogue markers"
+    },
+    {
+      "name": "local-group: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "OBSERVED MEMBERS"
+    },
+    {
+      "name": "local-group: a group has no single distance and says why",
+      "ok": true,
+      "detail": "a group has no single distance; each member has its own"
+    },
+    {
+      "name": "local-group: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "local-group: the membership count and its stated basis are shown",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "m81-group: after the flight the object is on screen (a group's enclosing ring may be reported not-visible by the renderer) and selected, with the inspector open",
+      "ok": true,
+      "detail": "214 px radius, lod ring + catalogue markers"
+    },
+    {
+      "name": "m81-group: the inspector shows the \"What you are seeing\" block with a text badge and a summary",
+      "ok": true,
+      "detail": "OBSERVED MEMBERS"
+    },
+    {
+      "name": "m81-group: distance is shown with its uncertainty (or says there is none published)",
+      "ok": true,
+      "detail": "3.597 MpcDER ±0.066 Mpc"
+    },
+    {
+      "name": "m81-group: no inspector value is blank and every unavailable field gives a reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a catalogue point row opens an inspector built from its stored columns, with the catalogue caveats and a representation badge",
+      "ok": true,
+      "detail": "local-group-mcconnachie:0: Canis Major"
+    },
+    {
+      "name": "picking at a catalogue point returns a point id the layer can resolve",
+      "ok": true,
+      "detail": "smc"
+    },
+    {
+      "name": "a selected catalogue row stays inspectable after its catalogue was released from memory (waited > 25 s looking away; pointRow() is gone, the inspector is not blank)",
+      "ok": true,
+      "detail": "released=true after 27 s; Canis Major; sections 9/9"
+    },
+    {
+      "name": "\"Fly to this entry\" still works for the released row (position from the kept snapshot)",
+      "ok": true,
+      "detail": "distance 60 -> 1050, selection local-group-mcconnachie:0"
+    },
+    {
+      "name": "searching \"M 87\" finds the galaxy by its designation, ahead of stars",
+      "ok": true,
+      "detail": "GalaxyMessier 87 (Virgo A)16.7 Mpcmatched as Messier 87 · Galaxy · E"
+    },
+    {
+      "name": "choosing the search result selects M87 and flies there",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "flyToDeep reaches every object of the data file (27) and 'twomrs': no throw, final distance = viewDistancePc, focus = objectPositionPc",
+      "ok": true,
+      "detail": "28 flights"
+    },
+    {
+      "name": "the Local Group flight target is labelled a view anchor, midway between the Milky Way and M31 (illustrative), not a barycentre",
+      "ok": true,
+      "detail": "The dashed ring is an ILLUSTRATIVE boundary (radius 3.30 Mpc, sized by the farthest catalogued row from the anchor), not"
+    },
+    {
+      "name": "the 2MRS flight target is labelled a view anchor on the Sun (survey centre), not a centre of the Universe",
+      "ok": true,
+      "detail": "easured distances); 2 are drawn as images elsewhere. Brightness follows the Ks magnitude and the distance from the camera (display mapping)."
+    },
+    {
+      "name": "m31: the band switcher offers Hubble PHAT (multi-band), GALEX NUV and FUV",
+      "ok": true,
+      "detail": "m31-phat-visible, m31-galex-nuv, m31-galex-fuv"
+    },
+    {
+      "name": "m31: choosing PHAT shows its own field of view (57.98 x 18.54 arcmin, the image is a strip) in the provenance block and the coverage note says so",
+      "ok": true,
+      "detail": "Field of view58.0 × 18.5 arcmin"
+    },
+    {
+      "name": "m31: the PHAT strip is drawn at its tilted field: inside the projected quad (up PA 123.5 deg, deprojected disc plane) the image is much brighter than in the ring just outside it",
+      "ok": true,
+      "detail": "quad [[646,399],[573,290],[552,324],[615,419]]; mean luminance in 56.5 vs ring 5.7 (718/1450 samples)"
+    },
+    {
+      "name": "m31 sweep: apparent size grows monotonically as the camera approaches",
+      "ok": true,
+      "detail": "radius 4.0 -> 195 px"
+    },
+    {
+      "name": "m31 sweep: no abrupt size jump (size changes at most ~1.6x the rate of the distance change between samples)",
+      "ok": true,
+      "detail": "largest d(ln size)/d(ln distance) = 1.00"
+    },
+    {
+      "name": "m31 sweep: no abrupt brightness jump between representations (largest step in mean luminance of the object window)",
+      "ok": true,
+      "detail": "48% at glow -> glow at 15 px; stages: marker > glow > image-L0 > image-L1"
+    },
+    {
+      "name": "m31 sweep: the image-credits line is visible whenever an image is drawn",
+      "ok": true,
+      "detail": "6 samples with an image drawn"
+    },
+    {
+      "name": "orion sweep: apparent size grows monotonically as the camera approaches",
+      "ok": true,
+      "detail": "radius 4.0 -> 221 px"
+    },
+    {
+      "name": "orion sweep: no abrupt size jump (size changes at most ~1.6x the rate of the distance change between samples)",
+      "ok": true,
+      "detail": "largest d(ln size)/d(ln distance) = 1.04"
+    },
+    {
+      "name": "orion sweep: no abrupt brightness jump between representations (largest step in mean luminance of the object window)",
+      "ok": true,
+      "detail": "47% at glow -> image-L0 at 22 px; stages: marker > glow > image-L0 > image-L1"
+    },
+    {
+      "name": "orion sweep: the image-credits line is visible whenever an image is drawn",
+      "ok": true,
+      "detail": "15 samples with an image drawn"
+    },
+    {
+      "name": "pleiades sweep: apparent size grows monotonically as the camera approaches",
+      "ok": true,
+      "detail": "radius 5.0 -> 286 px"
+    },
+    {
+      "name": "pleiades sweep: no abrupt size jump (size changes at most ~1.6x the rate of the distance change between samples)",
+      "ok": true,
+      "detail": "largest d(ln size)/d(ln distance) = 1.00"
+    },
+    {
+      "name": "pleiades sweep: no abrupt brightness jump between representations (largest step in mean luminance of the object window)",
+      "ok": true,
+      "detail": "42% at glow -> members at 29 px; stages: marker > glow > members; hand-off steps only (largest step of any kind 50%)"
+    },
+    {
+      "name": "pleiades sweep: the image-credits line is visible whenever an image is drawn",
+      "ok": true,
+      "detail": "9 samples with an image drawn"
+    },
+    {
+      "name": "m31: the sweep passes through the full representation chain (marker > glow > image)",
+      "ok": true,
+      "detail": "marker first: true"
+    },
+    {
+      "name": "orion-nebula: the sweep passes through the full representation chain (marker > glow > image)",
+      "ok": true,
+      "detail": "marker first: true"
+    },
+    {
+      "name": "pleiades: the sweep passes through the full representation chain (marker > glow > members)",
+      "ok": true,
+      "detail": "marker first: true"
+    },
+    {
+      "name": "Backspace from M31: DeepUi selection, viewer highlight id and inspector agree (all on the parent, Local Group)",
+      "ok": true,
+      "detail": "{\"ui\":\"local-group\",\"viewer\":\"local-group\",\"name\":\"Local Group\",\"open\":true}"
+    },
+    {
+      "name": "Backspace again (a scale flight): nothing is selected in DeepUi, the viewer and the inspector alike",
+      "ok": true,
+      "detail": "{\"ui\":null,\"viewer\":null,\"open\":false}"
+    },
+    {
+      "name": "Virgo rows and 2MRS cloud picks use separate id namespaces; the layer reports no duplicate screen id",
+      "ok": true,
+      "detail": "{\"virgo\":202,\"cloud\":300,\"dup\":0}"
+    },
+    {
+      "name": "simulated context loss (WEBGL_lose_context): the viewer sees it, the asset manager drops every texture and the render loop keeps running",
+      "ok": true,
+      "detail": "{\"ext\":true,\"lost\":1,\"lostNow\":true,\"textures\":0,\"assetsLost\":true,\"frames\":91}"
+    },
+    {
+      "name": "after the simulated restore: the textures are created anew through the asset manager and M31 is drawn as an image again",
+      "ok": true,
+      "detail": "before {\"created\":136,\"textures\":8} (image shown: true), restored {\"restored\":1,\"lostNow\":false,\"assetsLost\":false}, after {\"created\":139,\"textures\":3,\"lod\":\"image-L1\",\"frames\":169}"
+    },
+    {
+      "name": "texture memory never exceeded the 192 MB budget during the whole run",
+      "ok": true,
+      "detail": "peak 52.9 MB"
+    },
+    {
+      "name": "the HUD shows the deep layer stats (draw calls, texture MB, points, quality)",
+      "ok": true,
+      "detail": "deep space: 4 draw calls · 6.0 MB textures (3) · 95 points · quality 100% (adaptive quality off)"
+    },
+    {
+      "name": "the static credits page exists and lists every image",
+      "ok": true,
+      "detail": "36 entries"
+    },
+    {
+      "name": "with the quality governor ON at default settings: no console errors or warnings, and the HUD shows a quality value with the reason for it",
+      "ok": false,
+      "detail": "deep space: 4 draw calls · 6.0 MB textures (3) · 95 points · quality 25% (lowering detail: frames take 66 ms, target 33 ms) | reducing 25% | NEW PROBLEMS: warning: WebGL: INVALID_OPERATION: delete: object does not belong to this context || warning: WebGL: INVALID_OPERATION: delete: object does not belong to this context || warning: WebGL: INVALID_OPERATION: delete: object does not belong to this context || warning: WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context"
+    },
+    {
+      "name": "no console errors or warnings (apart from the counted stale-handle deletes after the simulated context restore)",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "warnings": [],
+  "notRun": [],
+  "screenshots": [
+    "01-start-view.png",
+    "02-nearby-universe-2mrs.png",
+    "03-local-group.png",
+    "04-milky-way.png",
+    "05-start-scale-looking-at-orion.png",
+    "06-m31-spiral-galaxy.png",
+    "07-m31-band-multi-band-composite.png",
+    "08-m87-elliptical-galaxy.png",
+    "09-m87-closest-view.png",
+    "10-lmc-irregular-galaxy.png",
+    "11-orion-emission-nebula.png",
+    "12-orion-nebula-band-near-infrared.png",
+    "13-carina-emission-nebula.png",
+    "14-horsehead-dark-nebula.png",
+    "15-ngc1999-reflection-nebula.png",
+    "16-pleiades-open-cluster.png",
+    "17-omega-centauri-globular-cluster.png",
+    "18-local-group-members.png",
+    "19-m81-group.png",
+    "20-catalogue-point-inspector.png",
+    "21-m31-phat-strip-placement.png",
+    "22-after-m31-sweep.png",
+    "23-after-simulated-context-restore.png"
+  ],
+  "problems": []
+}

@@ -1,0 +1,3656 @@
+[
+ {
+  "id": "solar:sun",
+  "oneLine": "The Solar System's star: a ball of hydrogen and helium about 4.5 billion years old.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Sun is the only star in the Solar System, a ball of hydrogen and helium held together by its own gravity.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Sun Facts",
+       "url": "https://science.nasa.gov/sun/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It is about 100 times wider than Earth (NASA's rounded figure; the atlas radius of 695,700 km is about 109 Earth radii) and more than 330,000 Earths would be needed to match its mass.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Sun Facts",
+       "url": "https://science.nasa.gov/sun/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It is about 4.5 billion years old and NASA says it is a little less than halfway through its lifetime.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Sun Facts",
+       "url": "https://science.nasa.gov/sun/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Nuclear reactions that fuse hydrogen into helium power the Sun's heat and light.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Sun Facts",
+       "url": "https://science.nasa.gov/sun/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The temperature in the Sun's core is about 15 million degrees Celsius.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Sun Facts",
+       "url": "https://science.nasa.gov/sun/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "Roughly every 11 years the Sun's magnetic poles swap polarity; the peak of the activity cycle (solar maximum) brings many more solar storms.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Sun Facts",
+       "url": "https://science.nasa.gov/sun/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Whether the corona is much hotter than the visible surface, and how the solar wind accelerates, are open questions that Parker Solar Probe was designed to address.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Parker Solar Probe",
+       "url": "https://science.nasa.gov/mission/parker-solar-probe/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Parker Solar Probe",
+    "role": "Launched 12 Aug 2018 to study the Sun's corona and solar wind from close range.",
+    "reference": {
+     "label": "NASA Science: Parker Solar Probe",
+     "url": "https://science.nasa.gov/mission/parker-solar-probe/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:mercury",
+  "oneLine": "The smallest planet and the closest to the Sun; one solar day lasts 176 Earth days.",
+  "sections": {
+   "what": [
+    {
+     "text": "Mercury is the smallest planet in the Solar System and the nearest to the Sun, with a radius of 2,440 km (atlas mean radius 2,439.4 km).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Mercury Facts",
+       "url": "https://science.nasa.gov/mercury/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It orbits the Sun every 88 days, and one solar day (a full day-night cycle) lasts 176 Earth days.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Mercury Facts",
+       "url": "https://science.nasa.gov/mercury/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "With no atmosphere to retain heat, only a thin exosphere of atoms blasted off the surface, its surface temperature ranges from about 430 degrees Celsius by day to about minus 180 degrees Celsius at night.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Mercury Facts",
+       "url": "https://science.nasa.gov/mercury/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "MESSENGER found evidence of past volcanic activity and a significant northward offset of Mercury's magnetic field from the planet's centre.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: MESSENGER",
+       "url": "https://science.nasa.gov/mission/messenger/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA says Mercury may have water ice at its poles inside deep craters that stay in permanent shadow.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Mercury Facts",
+       "url": "https://science.nasa.gov/mercury/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "MESSENGER found evidence of water ice at Mercury's poles, in places that never see sunlight; this is evidence from remote measurements, not a sample.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: MESSENGER",
+       "url": "https://science.nasa.gov/mission/messenger/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "MESSENGER",
+    "role": "Entered orbit around Mercury on 18 March 2011 and ended its mission by impact on 30 April 2015, after taking nearly 100,000 images.",
+    "reference": {
+     "label": "NASA Science: MESSENGER",
+     "url": "https://science.nasa.gov/mission/messenger/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:venus",
+  "oneLine": "Earth's size twin with a carbon-dioxide atmosphere, a surface near 467 C, and a slow backwards spin.",
+  "sections": {
+   "what": [
+    {
+     "text": "Venus is about 12,104 km across at the equator, compared with 12,756 km for Earth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Venus Facts",
+       "url": "https://science.nasa.gov/venus/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Its atmosphere is mostly carbon dioxide, with dense clouds of sulfuric acid.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Venus Facts",
+       "url": "https://science.nasa.gov/venus/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Surface temperature is about 467 degrees Celsius and surface pressure is 93 times that at sea level on Earth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Venus Facts",
+       "url": "https://science.nasa.gov/venus/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Venus spins slowly in the opposite direction from most planets; NASA gives 243 Earth days for its day length.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Venus Facts",
+       "url": "https://science.nasa.gov/venus/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "Magellan found that at least 85% of the surface is covered with volcanic flows, and that continental drift is not evident.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Magellan",
+       "url": "https://science.nasa.gov/mission/magellan/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA's page describes Venus and Earth as both having had oceans in their younger days, with Venus's now vanished; the page gives no amount or duration, so this is an inference about the past.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Venus Facts",
+       "url": "https://science.nasa.gov/venus/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Magellan",
+    "role": "Radar-mapped the surface; by Sept 1992 it had covered 98% of Venus.",
+    "reference": {
+     "label": "NASA Science: Magellan",
+     "url": "https://science.nasa.gov/mission/magellan/"
+    }
+   },
+   {
+    "mission": "Venera program",
+    "role": "Soviet probes sent to Venus between 1961 and 1984.",
+    "reference": {
+     "label": "NASA Science: Venus Facts",
+     "url": "https://science.nasa.gov/venus/facts/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:earth",
+  "oneLine": "Our home planet: 71% ocean, a nitrogen-oxygen atmosphere, and the only planet with liquid water on its surface.",
+  "sections": {
+   "what": [
+    {
+     "text": "Earth is about 12,756 km across at the equator, the biggest of the terrestrial planets.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Earth Facts",
+       "url": "https://science.nasa.gov/earth/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Near the surface its atmosphere is 78% nitrogen, 21% oxygen and 1% other gases.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Earth Facts",
+       "url": "https://science.nasa.gov/earth/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "A global ocean covers about 71% of the surface, and Earth is the only planet in the Solar System with liquid water on the surface.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Earth Facts",
+       "url": "https://science.nasa.gov/earth/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "Earth formed about 4.5 billion years ago, when the Solar System settled into its current layout; its rapid rotation and molten nickel-iron core give rise to its magnetic field.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Earth Facts",
+       "url": "https://science.nasa.gov/earth/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA dates the start of life to 'about 3.8 billion years ago'; this is an estimate, and the page does not describe how life began.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Earth Facts",
+       "url": "https://science.nasa.gov/earth/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Earth-observing spacecraft",
+    "role": "Many orbiting spacecraft study Earth from above as a whole system.",
+    "reference": {
+     "label": "NASA Science: Earth Facts",
+     "url": "https://science.nasa.gov/earth/facts/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:moon",
+  "oneLine": "Earth's Moon: tidally locked, heavily cratered, and likely formed from a giant impact.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Moon has a radius of about 1,740 km (atlas: 1,737.53 km), less than a third of Earth's width, at an average distance of 384,400 km.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Moon Facts",
+       "url": "https://science.nasa.gov/moon/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Its solid rocky surface is cratered and pitted by impacts of asteroids, meteorites and comets.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Moon Facts",
+       "url": "https://science.nasa.gov/moon/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Earth and the Moon are tidally locked, so the same hemisphere always faces Earth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Moon Facts",
+       "url": "https://science.nasa.gov/moon/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "There are high concentrations of water ice in the permanently shadowed regions of the lunar poles.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Moon Facts",
+       "url": "https://science.nasa.gov/moon/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Apollo astronauts returned 842 pounds (382 kilograms) of lunar rock and soil to Earth.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Moon Facts",
+       "url": "https://science.nasa.gov/moon/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA says the Moon likely formed after a Mars-sized body collided with Earth several billion years ago; 'likely' marks this as a leading hypothesis rather than a settled fact.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Moon Facts",
+       "url": "https://science.nasa.gov/moon/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Apollo",
+    "role": "Astronauts brought back 382 kg of lunar rocks and soil.",
+    "reference": {
+     "label": "NASA Science: Moon Facts",
+     "url": "https://science.nasa.gov/moon/facts/"
+    }
+   },
+   {
+    "mission": "Lunar Reconnaissance Orbiter",
+    "role": "Launched 18 June 2009; maps the surface and helps identify areas near the south pole with water and extended sunlight.",
+    "reference": {
+     "label": "NASA Science: Lunar Reconnaissance Orbiter",
+     "url": "https://science.nasa.gov/mission/lro/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:mars",
+  "oneLine": "A cold, thin-aired world with ancient river valleys and Olympus Mons, the largest volcano in the Solar System.",
+  "sections": {
+   "what": [
+    {
+     "text": "Mars has a radius of about 3,390 km, about half the size of Earth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Mars Facts",
+       "url": "https://science.nasa.gov/mars/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Its thin atmosphere is mostly carbon dioxide, nitrogen and argon, and it has seasons and polar ice caps.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Mars Facts",
+       "url": "https://science.nasa.gov/mars/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Mars appears to have had a watery past, with ancient river valley networks, deltas and lakebeds.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Mars Facts",
+       "url": "https://science.nasa.gov/mars/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "Olympus Mons is the largest volcano in the Solar System, and the Valles Marineris canyon system is long enough to stretch from California to New York.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Mars Facts",
+       "url": "https://science.nasa.gov/mars/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Its two small moons, Phobos and Deimos, may be captured asteroids; the wording is NASA's, so their origin is not settled.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Mars Facts",
+       "url": "https://science.nasa.gov/mars/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "NASA says scientists do not expect to find living things currently thriving on Mars.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Mars Facts",
+       "url": "https://science.nasa.gov/mars/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Mars rovers",
+    "role": "Mars is the only planet where rovers have been sent to roam the surface.",
+    "reference": {
+     "label": "NASA Science: Mars Facts",
+     "url": "https://science.nasa.gov/mars/facts/"
+    }
+   },
+   {
+    "mission": "Mars Reconnaissance Orbiter (HiRISE)",
+    "role": "High-resolution imaging, including of Phobos.",
+    "reference": {
+     "label": "NASA Science: Phobos",
+     "url": "https://science.nasa.gov/mars/moons/phobos/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:jupiter",
+  "oneLine": "The largest planet, mostly hydrogen and helium, with a storm bigger than Earth that has raged for centuries.",
+  "sections": {
+   "what": [
+    {
+     "text": "Jupiter is the largest planet in the Solar System; if it were a hollow shell, 1,000 Earths could fit inside.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Jupiter Facts",
+       "url": "https://science.nasa.gov/jupiter/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Its composition is similar to the Sun's: mostly hydrogen and helium.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Jupiter Facts",
+       "url": "https://science.nasa.gov/jupiter/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Jupiter Facts",
+       "url": "https://science.nasa.gov/jupiter/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Jupiter's four largest moons were first observed by Galileo Galilei in 1610 with an early telescope.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Jupiter Facts",
+       "url": "https://science.nasa.gov/jupiter/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Jupiter's rings were discovered in 1979 by Voyager 1.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Jupiter Facts",
+       "url": "https://science.nasa.gov/jupiter/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "Jupiter's magnetic field is 16 to 54 times as powerful as Earth's, and the IAU officially recognises 115 moons (NASA's count at retrieval).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Jupiter Facts",
+       "url": "https://science.nasa.gov/jupiter/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Juno's gravity and magnetic-field data suggest the core is much larger than expected and partially dissolved, with no clear boundary to the metallic hydrogen around it; this is inferred from measurements made from orbit.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Jupiter Facts",
+       "url": "https://science.nasa.gov/jupiter/facts/",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Science: Juno",
+       "url": "https://science.nasa.gov/mission/juno/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Galileo",
+    "role": "Orbited Jupiter from December 1995 until it was deliberately sent into Jupiter on 21 Sept 2003; first to measure the atmosphere directly with a descent probe.",
+    "reference": {
+     "label": "NASA Science: Galileo",
+     "url": "https://science.nasa.gov/mission/galileo/"
+    }
+   },
+   {
+    "mission": "Juno",
+    "role": "In orbit since 4 July 2016 to learn Jupiter's origin and evolution, interior and magnetosphere.",
+    "reference": {
+     "label": "NASA Science: Juno",
+     "url": "https://science.nasa.gov/mission/juno/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:saturn",
+  "oneLine": "A hydrogen-helium giant less dense than water, circled by rings of ice and rock chunks.",
+  "sections": {
+   "what": [
+    {
+     "text": "Saturn has an equatorial diameter of about 120,500 km, nine times wider than Earth, and is made mostly of hydrogen and helium.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Saturn Facts",
+       "url": "https://science.nasa.gov/saturn/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It is the only planet whose average density is less than water (atlas: 0.687 g/cm3).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Saturn Facts",
+       "url": "https://science.nasa.gov/saturn/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Its rings are billions of small chunks of ice and rock coated with other materials such as dust.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Saturn Facts",
+       "url": "https://science.nasa.gov/saturn/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "Saturn's north pole has a six-sided jet stream, first noticed in Voyager images in the early 1980s; NASA counted 274 confirmed moons in March 2025.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Saturn Facts",
+       "url": "https://science.nasa.gov/saturn/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Saturn's rings are thought to be pieces of comets, asteroids or shattered moons; their origin is uncertain.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Saturn Facts",
+       "url": "https://science.nasa.gov/saturn/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Cassini",
+    "role": "First spacecraft to orbit Saturn; arrived 2004 and ended on 15 Sept 2017.",
+    "reference": {
+     "label": "NASA Science: Cassini",
+     "url": "https://science.nasa.gov/mission/cassini/"
+    }
+   },
+   {
+    "mission": "Voyager 1 and 2",
+    "role": "First noticed the six-sided jet stream at the north pole in the early 1980s.",
+    "reference": {
+     "label": "NASA Science: Saturn Facts",
+     "url": "https://science.nasa.gov/saturn/facts/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:uranus",
+  "oneLine": "An ice giant tipped on its side (97.77 degree tilt), found by William Herschel in 1781.",
+  "sections": {
+   "what": [
+    {
+     "text": "Uranus has an equatorial diameter of about 51,118 km, four times wider than Earth (atlas mean radius 25,362 km), and is one of two ice giants.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Uranus Facts",
+       "url": "https://science.nasa.gov/uranus/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It is mostly swirling fluids and has two sets of rings and 28 known moons.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Uranus Facts",
+       "url": "https://science.nasa.gov/uranus/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Its equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Uranus Facts",
+       "url": "https://science.nasa.gov/uranus/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Uranus was discovered in 1781 by William Herschel, who first thought it a comet or star; it was the first planet found with the aid of a telescope.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Uranus Facts",
+       "url": "https://science.nasa.gov/uranus/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA says the composition of Uranus's outer moons remains unknown, though they are likely captured asteroids.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Uranus Facts",
+       "url": "https://science.nasa.gov/uranus/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Voyager 2",
+    "role": "The first human-made object to fly past Uranus (1986), and still the only spacecraft to have visited it.",
+    "reference": {
+     "label": "NASA Science: Voyager 2",
+     "url": "https://science.nasa.gov/mission/voyager-2/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:neptune",
+  "oneLine": "The first planet located by mathematical prediction (1846), with winds up to three times Jupiter's.",
+  "sections": {
+   "what": [
+    {
+     "text": "Neptune has an equatorial diameter of about 49,528 km, about four times wider than Earth, and an atmosphere mostly of hydrogen and helium with a little methane.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Neptune Facts",
+       "url": "https://science.nasa.gov/neptune/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It has 16 known moons.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Neptune Facts",
+       "url": "https://science.nasa.gov/neptune/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Neptune's winds can be three times stronger than Jupiter's and nine times stronger than Earth's.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Neptune Facts",
+       "url": "https://science.nasa.gov/neptune/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Neptune was found in 1846 and was the first planet located through mathematical predictions; Urbain Le Verrier had proposed the position and mass of the then-unknown planet.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Neptune Facts",
+       "url": "https://science.nasa.gov/neptune/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "The Great Dark Spot was large enough to contain the entire Earth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Neptune Facts",
+       "url": "https://science.nasa.gov/neptune/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Scientists think there might be an ocean of super-hot water under Neptune's cold clouds; this is a proposal, not an observation.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Neptune Facts",
+       "url": "https://science.nasa.gov/neptune/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Voyager 2",
+    "role": "The first human-made object to fly by Neptune, in August 1989; no other spacecraft has visited.",
+    "reference": {
+     "label": "NASA Science: Voyager 2",
+     "url": "https://science.nasa.gov/mission/voyager-2/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:io",
+  "oneLine": "The most volcanically active world in the Solar System, with hundreds of volcanoes.",
+  "sections": {
+   "what": [
+    {
+     "text": "Io is only slightly larger than Earth's Moon and about one-quarter the diameter of Earth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Io",
+       "url": "https://science.nasa.gov/jupiter/moons/io/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It has hundreds of volcanoes, some erupting lava fountains dozens of miles high, and lakes of molten silicate lava.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Io",
+       "url": "https://science.nasa.gov/jupiter/moons/io/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Io is caught in a tug-of-war between Jupiter's gravity and the precisely timed pulls of two neighbouring moons, which NASA presents as the driver of its volcanism.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Io",
+       "url": "https://science.nasa.gov/jupiter/moons/io/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Galileo Galilei discovered Io and Jupiter's three other largest moons in 1610.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Callisto",
+       "url": "https://science.nasa.gov/jupiter/moons/callisto/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Voyager 1 spotted the first signs of Io's powerful volcanism in 1979.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Io",
+       "url": "https://science.nasa.gov/jupiter/moons/io/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Galileo results indicate Io's volcanic activity may be 100 times greater than Earth's; the 'may' marks this as an estimate.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Galileo",
+       "url": "https://science.nasa.gov/mission/galileo/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Voyager 1",
+    "role": "Spotted the first signs of Io's powerful volcanism in 1979.",
+    "reference": {
+     "label": "NASA Science: Io",
+     "url": "https://science.nasa.gov/jupiter/moons/io/"
+    }
+   },
+   {
+    "mission": "Galileo",
+    "role": "Source of most of what is known about Io.",
+    "reference": {
+     "label": "NASA Science: Io",
+     "url": "https://science.nasa.gov/jupiter/moons/io/"
+    }
+   },
+   {
+    "mission": "Juno",
+    "role": "Came within roughly 1,500 km of Io's surface on its 57th and 58th orbits.",
+    "reference": {
+     "label": "NASA Science: Juno",
+     "url": "https://science.nasa.gov/mission/juno/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:europa",
+  "oneLine": "An icy moon of Jupiter with strong evidence for a saltwater ocean beneath its ice.",
+  "sections": {
+   "what": [
+    {
+     "text": "Europa is the fourth largest of Jupiter's moons.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Europa",
+       "url": "https://science.nasa.gov/jupiter/moons/europa/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Most of what is known about the moon comes from observations by the Galileo mission.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Europa",
+       "url": "https://science.nasa.gov/jupiter/moons/europa/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "NASA says there is strong evidence that Europa has a saltwater ocean; the Galileo mission page calls it a theory supported by evidence, so the ocean is inferred, not directly sampled.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Europa Clipper",
+       "url": "https://science.nasa.gov/mission/europa-clipper/",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Science: Galileo",
+       "url": "https://science.nasa.gov/mission/galileo/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Galileo Galilei discovered Europa and Jupiter's three other largest moons in 1610.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Callisto",
+       "url": "https://science.nasa.gov/jupiter/moons/callisto/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Whether there are places below Europa's surface that could support life is the question Europa Clipper was built to investigate; it is not answered yet.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Europa Clipper",
+       "url": "https://science.nasa.gov/mission/europa-clipper/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Galileo",
+    "role": "Orbited Jupiter 1995-2003 and made close passes of its major moons; main source of Europa data.",
+    "reference": {
+     "label": "NASA Science: Galileo",
+     "url": "https://science.nasa.gov/mission/galileo/"
+    }
+   },
+   {
+    "mission": "Europa Clipper",
+    "role": "Launched 14 Oct 2024; due to reach Jupiter in April 2030.",
+    "reference": {
+     "label": "NASA Science: Europa Clipper",
+     "url": "https://science.nasa.gov/mission/europa-clipper/"
+    }
+   },
+   {
+    "mission": "Juno",
+    "role": "Planned a rendezvous with Europa in September 2022.",
+    "reference": {
+     "label": "NASA Science: Juno",
+     "url": "https://science.nasa.gov/mission/juno/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:ganymede",
+  "oneLine": "NASA calls Ganymede the largest moon in the Solar System and the only one with its own magnetic field.",
+  "sections": {
+   "what": [
+    {
+     "text": "NASA describes Ganymede as the largest moon in the Solar System.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Ganymede",
+       "url": "https://science.nasa.gov/jupiter/moons/ganymede/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It is the only moon known to have its own magnetic field, which NASA attributes to a metallic iron core deep inside.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Ganymede",
+       "url": "https://science.nasa.gov/jupiter/moons/ganymede/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The magnetic field causes auroras, bright ribbons of glowing gas that circle the moon's poles.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Ganymede",
+       "url": "https://science.nasa.gov/jupiter/moons/ganymede/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Galileo Galilei discovered Ganymede and Jupiter's three other largest moons in 1610.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Callisto",
+       "url": "https://science.nasa.gov/jupiter/moons/callisto/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA calls the evidence for an underground saltwater ocean 'strong'; the ocean itself has not been observed directly.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Ganymede",
+       "url": "https://science.nasa.gov/jupiter/moons/ganymede/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "There is evidence that Ganymede has a tenuous oxygen atmosphere.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Ganymede",
+       "url": "https://science.nasa.gov/jupiter/moons/ganymede/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Galileo",
+    "role": "First close encounter with Ganymede on 26 June 1996.",
+    "reference": {
+     "label": "NASA Science: Ganymede",
+     "url": "https://science.nasa.gov/jupiter/moons/ganymede/"
+    }
+   },
+   {
+    "mission": "Juno",
+    "role": "Close flyby on 7 June 2021, with detailed photographs.",
+    "reference": {
+     "label": "NASA Science: Juno",
+     "url": "https://science.nasa.gov/mission/juno/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:callisto",
+  "oneLine": "Jupiter's second largest moon, called the most heavily cratered object in the Solar System by NASA.",
+  "sections": {
+   "what": [
+    {
+     "text": "Callisto is Jupiter's second largest moon and the third largest moon in the Solar System.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Callisto",
+       "url": "https://science.nasa.gov/jupiter/moons/callisto/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "NASA calls Callisto the most heavily cratered object in the Solar System.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Callisto",
+       "url": "https://science.nasa.gov/jupiter/moons/callisto/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Callisto and Jupiter's three other largest moons were discovered in 1610 by Galileo Galilei.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Callisto",
+       "url": "https://science.nasa.gov/jupiter/moons/callisto/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Galileo data from the 1990s suggest Callisto may have a salty ocean beneath its surface; this is less certain than for Europa or Ganymede.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Callisto",
+       "url": "https://science.nasa.gov/jupiter/moons/callisto/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Galileo",
+    "role": "Orbited Jupiter until 2003; its data revealed the possible ocean.",
+    "reference": {
+     "label": "NASA Science: Callisto",
+     "url": "https://science.nasa.gov/jupiter/moons/callisto/"
+    }
+   },
+   {
+    "mission": "Cassini and New Horizons",
+    "role": "Studied the moon on later passes.",
+    "reference": {
+     "label": "NASA Science: Callisto",
+     "url": "https://science.nasa.gov/jupiter/moons/callisto/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:titan",
+  "oneLine": "Saturn's largest moon, with a thick atmosphere and rivers, lakes and seas of methane and ethane.",
+  "sections": {
+   "what": [
+    {
+     "text": "Titan is Saturn's largest moon and the only moon known to have a substantial atmosphere.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Titan",
+       "url": "https://science.nasa.gov/saturn/moons/titan/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "At the surface the pressure is about 60 percent greater than on Earth (atlas fact lists about 1.5 bar from Huygens; the NASA figure is slightly higher, both rounded).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Titan Facts",
+       "url": "https://science.nasa.gov/saturn/moons/titan/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Titan is the only place besides Earth known to have liquids on its surface: clouds, rain, rivers, lakes and seas of liquid hydrocarbons such as methane and ethane.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Titan",
+       "url": "https://science.nasa.gov/saturn/moons/titan/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Dutch astronomer Christiaan Huygens discovered Titan on 25 March 1655.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Titan Facts",
+       "url": "https://science.nasa.gov/saturn/moons/titan/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Titan is thought to have a subsurface ocean of water, suggested by radio signals recorded during the Huygens descent in 2005.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Titan Facts",
+       "url": "https://science.nasa.gov/saturn/moons/titan/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "NASA says Titan's internal structure is not entirely known and scientists are not certain about its origin.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Titan Facts",
+       "url": "https://science.nasa.gov/saturn/moons/titan/facts/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Cassini-Huygens",
+    "role": "Huygens probe descended to the surface in 2005; Cassini orbited Saturn 2004-2017.",
+    "reference": {
+     "label": "NASA Science: Titan Facts",
+     "url": "https://science.nasa.gov/saturn/moons/titan/facts/"
+    }
+   },
+   {
+    "mission": "Dragonfly",
+    "role": "Rotorcraft planned to launch in 2028 to make multiple landings over three years.",
+    "reference": {
+     "label": "NASA Science: Titan",
+     "url": "https://science.nasa.gov/saturn/moons/titan/"
+    }
+   },
+   {
+    "mission": "Pioneer 11",
+    "role": "First spacecraft to explore Titan, passing through the Saturn system on 1 Sept 1979.",
+    "reference": {
+     "label": "NASA Science: Titan",
+     "url": "https://science.nasa.gov/saturn/moons/titan/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:enceladus",
+  "oneLine": "A small icy moon of Saturn whose south-polar jets are fed by an ocean inside it.",
+  "sections": {
+   "what": [
+    {
+     "text": "Enceladus is a small, icy world, about as wide as Arizona, with geyser-like jets that spew water vapour and ice particles into space.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Enceladus",
+       "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "NASA says it has the whitest, most reflective surface in the Solar System.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Enceladus",
+       "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The jets come from relatively warm fractures in the crust called tiger stripes, and the south polar region is almost entirely free of impact craters.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Enceladus",
+       "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Scientists determined that the jets are supplied by a global ocean inside the moon.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Enceladus",
+       "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "British astronomer William Herschel spotted Enceladus orbiting Saturn on 28 August 1789.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Enceladus",
+       "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Evidence points to hydrothermal vents deep beneath the icy shell, but this is inferred from plume data and has not been seen directly.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Enceladus",
+       "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Whether life could exist there is open; NASA calls Enceladus a 'promising lead' in the search for such worlds.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Enceladus",
+       "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Cassini",
+    "role": "Observed the plumes and found the eruptions appear continuous, forming an enormous halo of fine ice dust.",
+    "reference": {
+     "label": "NASA Science: Enceladus",
+     "url": "https://science.nasa.gov/saturn/moons/enceladus/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:triton",
+  "oneLine": "Neptune's retrograde moon, thought to be a captured Kuiper Belt object, with active geysers.",
+  "sections": {
+   "what": [
+    {
+     "text": "Triton has a diameter of 2,700 km (atlas mean radius 1,352.6 km).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Triton",
+       "url": "https://science.nasa.gov/neptune/moons/triton/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It consists of a crust of frozen nitrogen over an icy mantle believed to cover a core of rock and metal.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Triton",
+       "url": "https://science.nasa.gov/neptune/moons/triton/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Triton is the only large moon in the Solar System that orbits in the opposite direction to its planet's rotation.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Triton",
+       "url": "https://science.nasa.gov/neptune/moons/triton/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Voyager 2 found that Triton has active geysers.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Triton",
+       "url": "https://science.nasa.gov/neptune/moons/triton/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Triton was discovered on 10 Oct 1846 by British astronomer William Lassell.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Triton",
+       "url": "https://science.nasa.gov/neptune/moons/triton/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Scientists think Triton is a Kuiper Belt object captured by Neptune's gravity; this is the leading hypothesis, not a confirmed fact.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Triton",
+       "url": "https://science.nasa.gov/neptune/moons/triton/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Voyager 2",
+    "role": "The only spacecraft to fly past Neptune and Triton; photographed two-thirds of the moon and found it the coldest known planetary body in the Solar System.",
+    "reference": {
+     "label": "NASA Science: Voyager 2",
+     "url": "https://science.nasa.gov/mission/voyager-2/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "solar:phobos",
+  "oneLine": "Mars's larger moon, 27 by 22 by 18 km, orbiting Mars three times a day.",
+  "sections": {
+   "what": [
+    {
+     "text": "Phobos is the larger of Mars's two moons, about 27 by 22 by 18 km in size.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Phobos",
+       "url": "https://science.nasa.gov/mars/moons/phobos/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It orbits Mars three times a day.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Phobos",
+       "url": "https://science.nasa.gov/mars/moons/phobos/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Phobos was nearly shattered by a giant impact and has gouges from thousands of meteorite impacts.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Phobos",
+       "url": "https://science.nasa.gov/mars/moons/phobos/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "NASA says Phobos is on a collision course with Mars.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Phobos",
+       "url": "https://science.nasa.gov/mars/moons/phobos/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Phobos was discovered on 17 Aug 1877 by Asaph Hall.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Science: Phobos",
+       "url": "https://science.nasa.gov/mars/moons/phobos/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Phobos may be a captured asteroid, but some scientists have shown evidence that contradicts that theory.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Phobos",
+       "url": "https://science.nasa.gov/mars/moons/phobos/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Mars Reconnaissance Orbiter (HiRISE)",
+    "role": "High-resolution camera imaging of Phobos.",
+    "reference": {
+     "label": "NASA Science: Phobos",
+     "url": "https://science.nasa.gov/mars/moons/phobos/"
+    }
+   },
+   {
+    "mission": "Mars Global Surveyor",
+    "role": "Took images of Phobos's large crater.",
+    "reference": {
+     "label": "NASA Science: Phobos",
+     "url": "https://science.nasa.gov/mars/moons/phobos/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:milky-way",
+  "oneLine": "Our own galaxy: a luminous barred spiral whose centre lies 8,178 pc from the Sun.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Galaxy is a luminous (L-star) barred spiral with a central box/peanut bulge, a dominant disk and a diffuse stellar halo.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Bland-Hawthorn & Gerhard 2016, arXiv:1602.07702",
+       "url": "https://arxiv.org/abs/1602.07702",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The distance to the Galactic Centre black hole is R0 = 8178 +/- 13 (stat.) +/- 22 (sys.) pc, a geometric measurement (atlas: 8,178 pc, uncertainty 25.6 pc).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "GRAVITY Collaboration 2019, arXiv:1904.05721",
+       "url": "https://arxiv.org/abs/1904.05721",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The Milky Way is a benchmark for understanding disk galaxies.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Bland-Hawthorn & Gerhard 2016, arXiv:1602.07702",
+       "url": "https://arxiv.org/abs/1602.07702",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "We view the Galaxy from inside, so its type is assigned partly by comparison with structural analogues: Kormendy and Bender class the Milky Way, NGC 4565 and NGC 5746 together as giant SBb-SBbc galaxies.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Kormendy & Bender 2019, arXiv:1810.10073",
+       "url": "https://arxiv.org/abs/1810.10073",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Gaia",
+    "role": "ESA mission charting the Galaxy in three dimensions: positions, distances and velocities of more than a billion stars; launched 19 Dec 2013.",
+    "reference": {
+     "label": "ESA: Gaia",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia"
+    }
+   },
+   {
+    "mission": "GRAVITY (VLTI)",
+    "role": "Geometric distance to the Galactic Centre with 0.3% uncertainty.",
+    "reference": {
+     "label": "GRAVITY Collaboration 2019, arXiv:1904.05721",
+     "url": "https://arxiv.org/abs/1904.05721"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:m31",
+  "oneLine": "Andromeda: a galaxy about 761 kpc (2.5 million light-years) away; Hubble's PHAT survey resolves its disk into stars.",
+  "sections": {
+   "what": [
+    {
+     "text": "Cepheid variables observed with Hubble give a distance to M31 of 761 +/- 11 kpc (distance modulus 24.407 +/- 0.032).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Li et al. 2021, arXiv:2107.08029",
+       "url": "https://arxiv.org/abs/2107.08029",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "In angular size the galaxy is six times the apparent diameter of the full Moon.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 31",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The Panchromatic Hubble Andromeda Treasury images about one third of M31's star-forming disk in six filters, aiming to resolve more than 100 million stars.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Dalcanton et al. 2012 (PHAT), arXiv:1204.0010",
+       "url": "https://arxiv.org/abs/1204.0010",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "NASA says it is impossible to say who discovered the Andromeda Galaxy; the earliest known report is by the Persian astronomer al-Sufi in his Book of Fixed Stars (964).",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 31",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "A 2012 Hubble study predicted a collision with the Milky Way in about four billion years, but a later editor's note says later Hubble and Gaia observations cast doubt on the certainty of that collision.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Hubble shows Milky Way destined for head-on collision with Andromeda (2012)",
+       "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-milky-way-is-destined-for-head-on-collision-with-andromeda-galaxy/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble (PHAT)",
+    "role": "Treasury program imaging a third of the star-forming disk.",
+    "reference": {
+     "label": "Dalcanton et al. 2012 (PHAT), arXiv:1204.0010",
+     "url": "https://arxiv.org/abs/1204.0010"
+    }
+   },
+   {
+    "mission": "Hubble Cepheid program",
+    "role": "Near-infrared Cepheid period-luminosity distance anchored on LMC Cepheids.",
+    "reference": {
+     "label": "Li et al. 2021, arXiv:2107.08029",
+     "url": "https://arxiv.org/abs/2107.08029"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:m33",
+  "oneLine": "The Triangulum Galaxy: a spiral about 840 kpc away, hosting the giant star-forming nebula NGC 604.",
+  "sections": {
+   "what": [
+    {
+     "text": "Hubble photometry of 154 Cepheids gives a distance to M33 of 840 +/- 11 kpc, a precision of about 1.3%.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Breuval et al. 2023, arXiv:2304.00037",
+       "url": "https://arxiv.org/abs/2304.00037",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "NASA describes M33 as a spiral galaxy about half the size of the Milky Way and the third-largest galaxy in the Local Group; it rounds the distance to about 3 million light-years.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 33",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-33/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "NGC 604, in one of M33's spiral arms, is an enormous star-forming nebula nearly 1,500 light-years across.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 33",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-33/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Charles Messier was the first to catalogue M33, observing it in August 1764; in the 1920s Edwin Hubble's study of its variable stars helped show it is a separate galaxy beyond our own.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 33",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-33/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The Cepheid calibration is anchored on Hubble observations of the Large Magellanic Cloud, so the M33 distance inherits that anchor's uncertainty.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Breuval et al. 2023, arXiv:2304.00037",
+       "url": "https://arxiv.org/abs/2304.00037",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Cepheid photometry for the distance; imaging of NGC 604.",
+    "reference": {
+     "label": "Breuval et al. 2023, arXiv:2304.00037",
+     "url": "https://arxiv.org/abs/2304.00037"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:lmc",
+  "oneLine": "The Large Magellanic Cloud: a companion galaxy 49.59 kpc away, home to the Tarantula Nebula.",
+  "sections": {
+   "what": [
+    {
+     "text": "Eclipsing binary stars give a distance to the LMC of 49.59 kpc with statistical and systematic uncertainties of 0.09 and 0.54 kpc, precise to 1%.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Pietrzynski et al. 2019, arXiv:1903.08096",
+       "url": "https://arxiv.org/abs/1903.08096",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "NASA calls the LMC a companion galaxy of the Milky Way, with the Tarantula nebula at its heart.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble: Tarantula Nebula in the Large Magellanic Cloud",
+       "url": "https://science.nasa.gov/asset/hubble/the-tarantula-nebula-in-the-large-magellanic-cloud/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The NGC 2070 cluster in the Tarantula nebula is a hotbed for young, massive stars.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble: Tarantula Nebula in the Large Magellanic Cloud",
+       "url": "https://science.nasa.gov/asset/hubble/the-tarantula-nebula-in-the-large-magellanic-cloud/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA's Hubble page rounds the distance to about 170,000 light-years (52,000 pc), which differs from the 49.59 kpc eclipsing-binary measurement used in the atlas.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble: Tarantula Nebula in the Large Magellanic Cloud",
+       "url": "https://science.nasa.gov/asset/hubble/the-tarantula-nebula-in-the-large-magellanic-cloud/",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Pietrzynski et al. 2019, arXiv:1903.08096",
+       "url": "https://arxiv.org/abs/1903.08096",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Eclipsing-binary distance programme",
+    "role": "20 eclipsing binaries gave the 1% distance (Pietrzynski et al. 2019).",
+    "reference": {
+     "label": "Pietrzynski et al. 2019, arXiv:1903.08096",
+     "url": "https://arxiv.org/abs/1903.08096"
+    }
+   },
+   {
+    "mission": "Hubble",
+    "role": "Imaged the Tarantula Nebula and its star clusters.",
+    "reference": {
+     "label": "NASA Hubble: Tarantula Nebula in the Large Magellanic Cloud",
+     "url": "https://science.nasa.gov/asset/hubble/the-tarantula-nebula-in-the-large-magellanic-cloud/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:smc",
+  "oneLine": "The Small Magellanic Cloud: centre at 62.44 kpc, and stretched along our line of sight.",
+  "sections": {
+   "what": [
+    {
+     "text": "Eclipsing binaries give a distance to the SMC centre of 62.44 +/- 0.47 (stat.) +/- 0.81 (syst.) kpc, an accuracy better than 2%.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Graczyk et al. 2020, arXiv:2010.08754",
+       "url": "https://arxiv.org/abs/2010.08754",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The targets form an elongated structure highly inclined to the plane of the sky, and the nearest and most distant systems differ by 10 kpc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Graczyk et al. 2020, arXiv:2010.08754",
+       "url": "https://arxiv.org/abs/2010.08754",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The authors find tentative evidence of a spherical stellar sub-structure (core) about 1.5 kpc in radial extent.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Graczyk et al. 2020, arXiv:2010.08754",
+       "url": "https://arxiv.org/abs/2010.08754",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Eclipsing-binary distance programme",
+    "role": "Late-type eclipsing binaries used for the distance and 3D geometry (Graczyk et al. 2020).",
+    "reference": {
+     "label": "Graczyk et al. 2020, arXiv:2010.08754",
+     "url": "https://arxiv.org/abs/2010.08754"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:m87",
+  "oneLine": "M87: a giant elliptical galaxy whose central black hole was imaged by the Event Horizon Telescope.",
+  "sections": {
+   "what": [
+    {
+     "text": "M87 is an elliptical galaxy with several trillion stars and a supermassive black hole, and is the dominant member of the Virgo cluster.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 87",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-87/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "NASA gives about 54 million light-years (about 16.6 Mpc), matching the atlas distance of 16.67 Mpc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 87",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-87/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The Event Horizon Telescope imaged an asymmetric bright emission ring 42 +/- 3 micro-arcseconds across, consistent with the shadow of a Kerr black hole.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "EHT Collaboration 2019, arXiv:1906.11238",
+       "url": "https://arxiv.org/abs/1906.11238",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "A black-hole-powered jet of particles travels at nearly the speed of light.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 87",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-87/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The central mass of (6.5 +/- 0.7) x 10^9 solar masses comes from comparing the image to simulations, so it is a model-based inference.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "EHT Collaboration 2019, arXiv:1906.11238",
+       "url": "https://arxiv.org/abs/1906.11238",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Event Horizon Telescope",
+    "role": "Radio-interferometric image of the black hole shadow, published 2019.",
+    "reference": {
+     "label": "EHT Collaboration 2019, arXiv:1906.11238",
+     "url": "https://arxiv.org/abs/1906.11238"
+    }
+   },
+   {
+    "mission": "Hubble",
+    "role": "Imaged the galaxy, its jet and about 15,000 globular clusters (NASA estimate).",
+    "reference": {
+     "label": "NASA Hubble Messier 87",
+     "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-87/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:cen-a",
+  "oneLine": "Centaurus A: a radio-loud galaxy with a dust lane, at about 3.8 Mpc.",
+  "sections": {
+   "what": [
+    {
+     "text": "Centaurus A is one of the foremost examples of a radio-loud active galactic nucleus, with a jet of high-energy particles seen in radio and X-ray images.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "ESO: Radio galaxy Centaurus A (eso0005b)",
+       "url": "https://www.eso.org/public/images/eso0005b/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Cepheids, tip-of-the-red-giant-branch, planetary-nebula, surface-brightness-fluctuation and Mira methods combine into a best-estimate distance of 3.8 +/- 0.1 Mpc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Harris, Rejkuba & Harris 2009, arXiv:0911.3180",
+       "url": "https://arxiv.org/abs/0911.3180",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "There is strong evidence that Centaurus A is a merger of an elliptical with a spiral galaxy; young blue stars lie along the edges of its dust lane.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "ESO: Radio galaxy Centaurus A (eso0005b)",
+       "url": "https://www.eso.org/public/images/eso0005b/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "ESO says the core probably contains a supermassive black hole of about 100 million solar masses; 'probably' marks this as an estimate.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "ESO: Radio galaxy Centaurus A (eso0005b)",
+       "url": "https://www.eso.org/public/images/eso0005b/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "ESO observatories",
+    "role": "Optical imaging and the dust-lane and jet views on the ESO page.",
+    "reference": {
+     "label": "ESO: Radio galaxy Centaurus A (eso0005b)",
+     "url": "https://www.eso.org/public/images/eso0005b/"
+    }
+   },
+   {
+    "mission": "Distance review (Harris et al. 2009)",
+    "role": "Compared five high-precision distance methods on this galaxy.",
+    "reference": {
+     "label": "Harris, Rejkuba & Harris 2009, arXiv:0911.3180",
+     "url": "https://arxiv.org/abs/0911.3180"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:m81",
+  "oneLine": "Bode's Galaxy (M81): a spiral galaxy about 11.6 million light-years away with a 70-million-solar-mass black hole.",
+  "sections": {
+   "what": [
+    {
+     "text": "M81 is a spiral galaxy in Ursa Major whose spiral arms wind all the way down into its nucleus and are made up of young, hot, bluish stars.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 81",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-81/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "NASA gives 11.6 million light-years (about 3.56 Mpc); the atlas value is 3.60 Mpc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 81",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-81/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "A black hole of 70 million solar masses resides at the centre, about 15 times the mass of the Milky Way's central black hole.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 81",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-81/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "The galaxy was discovered by the German astronomer Johann Elert Bode in 1774.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 81",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-81/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA gives the black-hole mass without an uncertainty, so the 70-million figure should be read as approximate.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 81",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-81/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Images and the nuclear black-hole study described on the NASA page.",
+    "reference": {
+     "label": "NASA Hubble Messier 81",
+     "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-81/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:m104",
+  "oneLine": "The Sombrero Galaxy: a spiral galaxy seen nearly edge-on, with a bright core and dust lane; TRGB distance 9.55 Mpc.",
+  "sections": {
+   "what": [
+    {
+     "text": "NASA describes M104 as a spiral galaxy seen nearly edge-on, with a brilliant white bulbous core encircled by thick dust lanes.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 104",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Tip-of-the-red-giant-branch measurements from new Hubble imaging give 9.55 +/- 0.13 +/- 0.31 Mpc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "McQuinn et al. 2016, arXiv:1610.03857",
+       "url": "https://arxiv.org/abs/1610.03857",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The dust lane is the site of star formation, and Hubble resolves a rich system of globular clusters estimated at nearly 2,000.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 104",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "M104 was discovered in 1781 by the French astronomer Pierre Mechain.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 104",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "McQuinn et al. call M104 'a nearby, well-studied elliptical galaxy' with peculiar morphology and structure, while NASA calls it a spiral, so its classification is not agreed; NASA's 28 million light-years (8.6 Mpc) also differs from the 9.55 Mpc used here.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "McQuinn et al. 2016, arXiv:1610.03857",
+       "url": "https://arxiv.org/abs/1610.03857",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Hubble Messier 104",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Imaging for the NASA picture and the TRGB distance (McQuinn et al. 2016).",
+    "reference": {
+     "label": "McQuinn et al. 2016, arXiv:1610.03857",
+     "url": "https://arxiv.org/abs/1610.03857"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:m32",
+  "oneLine": "Messier 32: a compact elliptical satellite galaxy of Andromeda.",
+  "sections": {
+   "what": [
+    {
+     "text": "Messier 32 is a compact elliptical galaxy and one of two satellite galaxies orbiting the Andromeda Galaxy; the other is M110.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 32",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-32/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "NASA places M32 about 2.5 million light-years away, the same rounded distance as Andromeda itself.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 32",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-32/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "M32 was discovered by the French astronomer Guillaume Le Gentil in 1749.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 32",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-32/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "A Hubble caption on the NASA M31 page says M32 may be the residual core of a galaxy that once collided with Andromeda.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 31",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Described on NASA's Hubble Messier catalog page.",
+    "reference": {
+     "label": "NASA Hubble Messier 32",
+     "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-32/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:orion-nebula",
+  "oneLine": "The Orion Nebula: a stellar nursery where vast numbers of new stars are forming.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Orion Nebula (M42) is an enormous cloud of dust and gas where vast numbers of new stars are being forged.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 42",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Its bright central region is home to four massive young stars that shape the nebula.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 42",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "NASA's Hubble page calls it the closest large star-forming region to Earth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 42",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "One edge-on disk may be an embryonic planetary system in the making; this is a possibility NASA states, not a confirmed planet-forming system.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 42",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "NASA gives 1,500 light-years (about 460 pc) while the atlas draws it at 418.5 pc, so the distance depends on the source.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 42",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Imaging of the nebula and its protoplanetary disks.",
+    "reference": {
+     "label": "NASA Hubble Messier 42",
+     "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/"
+    }
+   },
+   {
+    "mission": "Emission-line atlas (Garcia-Diaz et al. 2008)",
+    "role": "Three-dimensional position-position-velocity spectra tracing structure and kinematics.",
+    "reference": {
+     "label": "Garcia-Diaz et al. 2008, arXiv:0802.0518",
+     "url": "https://arxiv.org/abs/0802.0518"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:eagle-nebula",
+  "oneLine": "The Eagle Nebula (M16): home of the Pillars of Creation, shaped by the high-mass cluster NGC 6611.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Pillars of Creation are part of an active star-forming region within the Eagle Nebula and hide newborn stars in their wispy columns.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 16",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "They stretch roughly 4 to 5 light-years tall, a relatively small feature of the nebula.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 16",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "M16 is largely under the influence of the nearby NGC 6611 high-mass star cluster, and Herschel shows dust temperature decreasing with distance from the cluster.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Hill et al. 2012, arXiv:1204.6317",
+       "url": "https://arxiv.org/abs/1204.6317",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "The nebula was discovered in 1745 by the Swiss astronomer Jean-Philippe Loys de Cheseaux.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 16",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA gives 7,000 light-years (about 2.1 kpc) while the atlas uses 1.69 kpc, so published distances to M16 differ.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 16",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Imaged the Pillars of Creation.",
+    "reference": {
+     "label": "NASA Hubble Messier 16",
+     "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/"
+    }
+   },
+   {
+    "mission": "Herschel",
+    "role": "Dust-temperature maps of the M16 molecular complex (Hill et al. 2012).",
+    "reference": {
+     "label": "Hill et al. 2012, arXiv:1204.6317",
+     "url": "https://arxiv.org/abs/1204.6317"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:carina-nebula",
+  "oneLine": "The Great Carina Nebula: star clusters Trumpler 14, 15 and 16 at about 2.35 kpc, from Gaia parallaxes.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Great Carina Nebula contains the star clusters Trumpler 14, 15 and 16 and the Carina OB1 association of massive stars.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Shull, Darling & Danforth 2021, arXiv:2103.07922",
+       "url": "https://arxiv.org/abs/2103.07922",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Gaia EDR3 parallaxes of 69 massive stars show the O-type stars in the nebula lie at essentially the same distance, about 2.35 +/- 0.08 kpc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Shull, Darling & Danforth 2021, arXiv:2103.07922",
+       "url": "https://arxiv.org/abs/2103.07922",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The 2.35 kpc is the distance of the O-type stars and is taken as the distance of the whole nebula; it is not a direct measurement of the gas.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Shull, Darling & Danforth 2021, arXiv:2103.07922",
+       "url": "https://arxiv.org/abs/2103.07922",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Gaia",
+    "role": "EDR3 parallaxes of massive stars in Carina OB1.",
+    "reference": {
+     "label": "Shull, Darling & Danforth 2021, arXiv:2103.07922",
+     "url": "https://arxiv.org/abs/2103.07922"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:crab-nebula",
+  "oneLine": "The Crab Nebula: the remnant of a supernova that Chinese astronomers saw in 1054, with a pulsar at its centre.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Crab Nebula is a six-light-year-wide remnant of a supernova explosion, with a rapidly spinning neutron star embedded at its centre.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 1",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The neutron star acts like a lighthouse, ejecting twin beams of radiation so that it appears to pulse.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 1",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "A VLBI radio parallax of the Crab Pulsar of 0.53 +/- 0.06 mas gives a distance of about 1.90 (+0.22/-0.18) kpc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Lin et al. 2023, arXiv:2306.01617",
+       "url": "https://arxiv.org/abs/2306.01617",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "In 1054 Chinese astronomers noticed a 'guest star' that was visible in the daytime sky for nearly a month; NASA identifies it as the supernova that produced the Crab Nebula.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 1",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The parallax uncertainty leaves the distance uncertain by roughly 10%; the authors call theirs the first precise radio parallax of the pulsar.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Lin et al. 2023, arXiv:2306.01617",
+       "url": "https://arxiv.org/abs/2306.01617",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Time-lapse imaging showing wave-like rings expanding from the pulsar.",
+    "reference": {
+     "label": "NASA Hubble Messier 1",
+     "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/"
+    }
+   },
+   {
+    "mission": "European VLBI Network",
+    "role": "Radio parallax of the pulsar.",
+    "reference": {
+     "label": "Lin et al. 2023, arXiv:2306.01617",
+     "url": "https://arxiv.org/abs/2306.01617"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:ring-nebula",
+  "oneLine": "The Ring Nebula (M57): the glowing remains of a Sun-like star, expanding from its central star.",
+  "sections": {
+   "what": [
+    {
+     "text": "Messier 57 is a planetary nebula, the glowing remains of a Sun-like star.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 57",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-57/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The reddish colour of the outer ring is from nitrogen and sulfur.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 57",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-57/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Scaled ratio images argue for homologous expansion: larger velocities scale with increasing distance from the central star.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "O'Dell et al. 2009, arXiv:0901.3185",
+       "url": "https://arxiv.org/abs/0901.3185",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "It was discovered by the French astronomer Antoine Darquier de Pellepoix in 1779.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 57",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-57/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA gives about 2,000 light-years (about 610 pc) while the atlas uses 782.5 pc (+/- 30), so published distances differ.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 57",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-57/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Imaging for the NASA page and for the expansion study (O'Dell et al. 2009).",
+    "reference": {
+     "label": "O'Dell et al. 2009, arXiv:0901.3185",
+     "url": "https://arxiv.org/abs/0901.3185"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:horsehead-nebula",
+  "oneLine": "The Horsehead Nebula (Barnard 33): a cold, dark cloud of gas and dust silhouetted against IC 434.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Horsehead, also known as Barnard 33, is a cold, dark cloud of gas and dust silhouetted against the bright nebula IC 434.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble: The Horsehead Nebula",
+       "url": "https://science.nasa.gov/asset/hubble/the-horsehead-nebula/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Radiation from a nearby hot star is eroding the stellar nursery, and a young star is still embedded in it.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble: The Horsehead Nebula",
+       "url": "https://science.nasa.gov/asset/hubble/the-horsehead-nebula/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Its unusual shape was first discovered on a photographic plate in the late 1800s.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble: The Horsehead Nebula",
+       "url": "https://science.nasa.gov/asset/hubble/the-horsehead-nebula/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "ESA lists 1,300 light-years (about 400 pc) while the atlas uses a modelled dust-cloud distance of 431 pc, which is not a direct measurement of Barnard 33.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "ESA/Hubble: Horsehead Nebula in infrared (heic1307a)",
+       "url": "https://esahubble.org/images/heic1307a/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Visible-light and infrared images; infrared pierces the dust that hides the inner regions.",
+    "reference": {
+     "label": "ESA/Hubble: Horsehead Nebula in infrared (heic1307a)",
+     "url": "https://esahubble.org/images/heic1307a/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:veil-nebula",
+  "oneLine": "The Veil Nebula: part of the Cygnus Loop supernova remnant, at about 725 pc from Gaia.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Veil Nebula, also known as the Cygnus Loop, is one of the most spectacular supernova remnants in the sky, in the constellation Cygnus.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Uncovering the Veil Nebula",
+       "url": "https://science.nasa.gov/missions/hubble/uncovering-the-veil-nebula/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Fesen et al. (2021) revise the distance of the Cygnus Loop to 725 +/- 15 pc using Gaia early DR3.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Fesen et al. 2021, arXiv:2109.05368",
+       "url": "https://arxiv.org/abs/2109.05368",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Debris moving at 600,000 km/h drives shock fronts that heat the gas to millions of degrees; its later cooling produces the glowing colours.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Uncovering the Veil Nebula",
+       "url": "https://science.nasa.gov/missions/hubble/uncovering-the-veil-nebula/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA estimates the explosion occurred 5,000 to 10,000 years ago, a wide range, and its page gives about 1,500 light-years (about 460 pc), well below the Gaia-based 725 pc.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Uncovering the Veil Nebula",
+       "url": "https://science.nasa.gov/missions/hubble/uncovering-the-veil-nebula/",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Fesen et al. 2021, arXiv:2109.05368",
+       "url": "https://arxiv.org/abs/2109.05368",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Imaged sections of the remnant.",
+    "reference": {
+     "label": "NASA Science: Uncovering the Veil Nebula",
+     "url": "https://science.nasa.gov/missions/hubble/uncovering-the-veil-nebula/"
+    }
+   },
+   {
+    "mission": "Gaia",
+    "role": "Early DR3 distance to the Cygnus Loop.",
+    "reference": {
+     "label": "Fesen et al. 2021, arXiv:2109.05368",
+     "url": "https://arxiv.org/abs/2109.05368"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:ngc-1999",
+  "oneLine": "NGC 1999: a reflection nebula whose dark patch may be a cavity rather than a globule.",
+  "sections": {
+   "what": [
+    {
+     "text": "NGC 1999 is a reflection nebula that features a dark patch about 10,000 AU in size.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Stanke et al. 2010, arXiv:1005.2202",
+       "url": "https://arxiv.org/abs/1005.2202",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Herschel observations showed a flux deficit where a dark globule had been proposed, and submillimetre observations detected no source there.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Stanke et al. 2010, arXiv:1005.2202",
+       "url": "https://arxiv.org/abs/1005.2202",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The authors suggest the dark patch is a hole or cavity in the material producing the reflection nebula, likely excavated by protostellar jets from V 380 Ori; this is a suggestion, not a settled result.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Stanke et al. 2010, arXiv:1005.2202",
+       "url": "https://arxiv.org/abs/1005.2202",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Herschel",
+    "role": "Space telescope whose far-infrared maps showed the flux deficit.",
+    "reference": {
+     "label": "Stanke et al. 2010, arXiv:1005.2202",
+     "url": "https://arxiv.org/abs/1005.2202"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:pleiades",
+  "oneLine": "The Pleiades: a young open cluster of hot blue stars, visible to the naked eye in winter.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Pleiades is an open cluster in Taurus, about 440 light-years (about 135 pc) away, whose members are mostly young, hot blue stars.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "ESO: The Pleiades (b11)",
+       "url": "https://www.eso.org/public/images/b11/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The faint blue haze around the brightest stars comes from the cluster passing through a cloud of interstellar gas and dust that scatters blue light.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "ESO: The Pleiades (b11)",
+       "url": "https://www.eso.org/public/images/b11/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "ESO says most members formed within the last 100 million years, while the Gaia DR3 catalogue age adopted by the atlas (log age 8.085) is about 120 million years, so the age depends on the method.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "ESO: The Pleiades (b11)",
+       "url": "https://www.eso.org/public/images/b11/",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Hunt & Reffert 2023, arXiv:2303.13424",
+       "url": "https://arxiv.org/abs/2303.13424",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Gaia DR3 open-cluster catalogue",
+    "role": "Hunt and Reffert (2023) derived astrometric parameters, ages and distances for 7167 clusters.",
+    "reference": {
+     "label": "Hunt & Reffert 2023, arXiv:2303.13424",
+     "url": "https://arxiv.org/abs/2303.13424"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:hyades",
+  "oneLine": "The Hyades: a star cluster whose Gaia data revealed two tidal tails stretching about 200 pc.",
+  "sections": {
+   "what": [
+    {
+     "text": "The Hyades star cluster has two well-defined tidal tails emerging from it, discovered in Gaia DR2 data.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Meingast & Alves 2018, arXiv:1811.04931",
+       "url": "https://arxiv.org/abs/1811.04931",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The whole structure measures about 200 pc in its largest extent, with an S-shaped pattern like tails modelled for disk-bound clusters.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Meingast & Alves 2018, arXiv:1811.04931",
+       "url": "https://arxiv.org/abs/1811.04931",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The 200 pc extent is set by the limits of the observations, so the tails may be longer.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Meingast & Alves 2018, arXiv:1811.04931",
+       "url": "https://arxiv.org/abs/1811.04931",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Gaia DR2",
+    "role": "Proper motions and parallaxes used to find the tails (Meingast and Alves 2018).",
+    "reference": {
+     "label": "Meingast & Alves 2018, arXiv:1811.04931",
+     "url": "https://arxiv.org/abs/1811.04931"
+    }
+   },
+   {
+    "mission": "Gaia DR3 open-cluster catalogue",
+    "role": "Cluster census with astrometric parameters, ages and distances.",
+    "reference": {
+     "label": "Hunt & Reffert 2023, arXiv:2303.13424",
+     "url": "https://arxiv.org/abs/2303.13424"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:omega-centauri",
+  "oneLine": "Omega Centauri: about 10 times as massive as other big globular clusters, with ~10 million stars.",
+  "sections": {
+   "what": [
+    {
+     "text": "Omega Centauri is a globular cluster about 10 times as massive as other big globular clusters, with roughly 10 million gravitationally bound stars.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Hubble finds strong evidence for intermediate-mass black hole in Omega Centauri",
+       "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-finds-strong-evidence-for-intermediate-mass-black-hole-in-omega-centauri/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "More than 500 Hubble images show seven fast stars near the centre that would escape unless held by a mass of at least 8,200 solar masses, best explained by a black hole.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Science: Hubble finds strong evidence for intermediate-mass black hole in Omega Centauri",
+       "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-finds-strong-evidence-for-intermediate-mass-black-hole-in-omega-centauri/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Some researchers argue the mass could be contributed by a central cluster of stellar-mass black holes, so the intermediate-mass black hole remains unconfirmed.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Science: Hubble finds strong evidence for intermediate-mass black hole in Omega Centauri",
+       "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-finds-strong-evidence-for-intermediate-mass-black-hole-in-omega-centauri/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "More than 500 images used to track stars near the cluster's centre.",
+    "reference": {
+     "label": "NASA Science: Hubble finds strong evidence for intermediate-mass black hole in Omega Centauri",
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-finds-strong-evidence-for-intermediate-mass-black-hole-in-omega-centauri/"
+    }
+   },
+   {
+    "mission": "Galactic Globular Cluster Database v4",
+    "role": "Baumgardt et al.: masses, structure and distances for 168 globular clusters.",
+    "reference": {
+     "label": "Baumgardt et al.: Galactic Globular Cluster Database v4",
+     "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:m13",
+  "oneLine": "The Hercules Cluster (M13): a dense globular cluster of over 100,000 stars, about 25,000 light-years away.",
+  "sections": {
+   "what": [
+    {
+     "text": "Over 100,000 stars whirl within the globular cluster M13, about 25,000 light-years from Earth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 13",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-13/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The stars are so densely packed that individual stars were not resolved until 1779.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 13",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-13/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Edmond Halley discovered Messier 13 in 1714.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 13",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-13/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "NASA says the crowding means stars can at times run into each other and form a new star; the page gives no observation, so treat it as a proposal.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 13",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-13/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "Resolved the cluster's stars; the NASA page is part of the Hubble Messier catalogue.",
+    "reference": {
+     "label": "NASA Hubble Messier 13",
+     "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-13/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:47-tucanae",
+  "oneLine": "47 Tucanae: a globular cluster whose millisecond pulsars have white-dwarf companions seen by Hubble.",
+  "sections": {
+   "what": [
+    {
+     "text": "47 Tucanae is a globular cluster that hosts radio millisecond pulsars, including 47 Tuc Q and 47 Tuc S.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Rivera-Sandoval et al. 2015, arXiv:1508.05291",
+       "url": "https://arxiv.org/abs/1508.05291",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Hubble near-ultraviolet images reveal blue stars at positions consistent with the radio coordinates to within 0.016 arcsec.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Rivera-Sandoval et al. 2015, arXiv:1508.05291",
+       "url": "https://arxiv.org/abs/1508.05291",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Their colours are consistent with helium white-dwarf cooling models of about 0.16-0.3 solar masses, so the white-dwarf identification is an inference.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Rivera-Sandoval et al. 2015, arXiv:1508.05291",
+       "url": "https://arxiv.org/abs/1508.05291",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble (near-UV)",
+    "role": "Imaged likely white-dwarf companions of millisecond pulsars.",
+    "reference": {
+     "label": "Rivera-Sandoval et al. 2015, arXiv:1508.05291",
+     "url": "https://arxiv.org/abs/1508.05291"
+    }
+   },
+   {
+    "mission": "Galactic Globular Cluster Database v4",
+    "role": "Baumgardt et al.: structural parameters and distances.",
+    "reference": {
+     "label": "Baumgardt et al.: Galactic Globular Cluster Database v4",
+     "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:m4",
+  "oneLine": "Messier 4: a globular cluster NASA calls the closest globular cluster to Earth, about 5,500 light-years away.",
+  "sections": {
+   "what": [
+    {
+     "text": "Messier 4, in Scorpius, is a huge spherical collection of stars known as a globular cluster, home to more than 100,000 stars.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 4",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-4/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "As white dwarfs age they grow cooler and fainter, so a globular cluster's age can be inferred from its faintest white dwarf.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 4",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-4/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "M4 was discovered in 1746 by the Swiss astronomer Jean-Philippe Loys de Cheseaux.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 4",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-4/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The cluster is predicted to contain up to 40,000 white dwarfs, and NASA gives no single age for M4 itself; NASA's 5,500 light-years is about 1.7 kpc against the atlas 1.85 kpc.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 4",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-4/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble",
+    "role": "White-dwarf population studies described on NASA's page.",
+    "reference": {
+     "label": "NASA Hubble Messier 4",
+     "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-4/"
+    }
+   },
+   {
+    "mission": "Galactic Globular Cluster Database v4",
+    "role": "Baumgardt et al.: structural parameters and distances.",
+    "reference": {
+     "label": "Baumgardt et al.: Galactic Globular Cluster Database v4",
+     "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:local-group",
+  "oneLine": "The Local Group: the Milky Way, Andromeda and their neighbours; one catalogue lists over 100 galaxies within 3 Mpc.",
+  "sections": {
+   "what": [
+    {
+     "text": "McConnachie's compilation identifies over 100 nearby galaxies with distances within 3 Mpc of the Sun, including the satellite systems of the Milky Way and M31.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "McConnachie 2012, arXiv:1204.1562",
+       "url": "https://arxiv.org/abs/1204.1562",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The paper explores the membership and spatial extent of the Milky Way and M31 subgroups.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "McConnachie 2012, arXiv:1204.1562",
+       "url": "https://arxiv.org/abs/1204.1562",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "In 2012 Hubble showed M31 is moving toward the Milky Way at about 250,000 miles per hour.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Science: Hubble shows Milky Way destined for head-on collision with Andromeda (2012)",
+       "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-milky-way-is-destined-for-head-on-collision-with-andromeda-galaxy/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Karachentsev found that group masses derived from virial estimates were 3 to 5 times higher than revised values for the Local Group and other nearby groups, so group masses are uncertain.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Karachentsev 2004, arXiv:astro-ph/0410065",
+       "url": "https://arxiv.org/abs/astro-ph/0410065",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "McConnachie (2012) catalogue",
+    "role": "Compilation of galaxies in and around the Local Group.",
+    "reference": {
+     "label": "McConnachie 2012, arXiv:1204.1562",
+     "url": "https://arxiv.org/abs/1204.1562"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:virgo-cluster",
+  "oneLine": "The Virgo Cluster: a galaxy cluster at a mean distance of 16.5 Mpc, about 2.4 Mpc deep.",
+  "sections": {
+   "what": [
+    {
+     "text": "The ACS Virgo Cluster Survey SBF catalogue gives an adopted mean distance of 16.5 Mpc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Mei et al. 2007, arXiv:astro-ph/0702510",
+       "url": "https://arxiv.org/abs/astro-ph/0702510",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "M87 is the dominant member of the Virgo cluster.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Hubble Messier 87",
+       "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-87/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The rms distance scatter of the sample is 0.6 +/- 0.1 Mpc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Mei et al. 2007, arXiv:astro-ph/0702510",
+       "url": "https://arxiv.org/abs/astro-ph/0702510",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The back-to-front depth of the cluster is 2.4 +/- 0.4 Mpc, so a single distance is only a mean for a three-dimensional structure.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Mei et al. 2007, arXiv:astro-ph/0702510",
+       "url": "https://arxiv.org/abs/astro-ph/0702510",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "ACS Virgo Cluster Survey",
+    "role": "Surface-brightness-fluctuation distances to Virgo galaxies (Mei et al. 2007).",
+    "reference": {
+     "label": "Mei et al. 2007, arXiv:astro-ph/0702510",
+     "url": "https://arxiv.org/abs/astro-ph/0702510"
+    }
+   }
+  ]
+ },
+ {
+  "id": "deep:m81-group",
+  "oneLine": "The M81 Group: one of the nearby galaxy groups whose total mass has been derived from galaxy motions.",
+  "sections": {
+   "what": [
+    {
+     "text": "Karachentsev lists the M81 group among the nearby groups (with the Local Group, CenA/M83 and IC 342/Maffei) whose total masses were determined.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Karachentsev 2004, arXiv:astro-ph/0410065",
+       "url": "https://arxiv.org/abs/astro-ph/0410065",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "For virialized groups the zero-velocity radius lies in the range 0.9 to 1.3 Mpc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Karachentsev 2004, arXiv:astro-ph/0410065",
+       "url": "https://arxiv.org/abs/astro-ph/0410065",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The revised masses are 3 to 5 times lower than older virial mass estimates, so group masses remain uncertain.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Karachentsev 2004, arXiv:astro-ph/0410065",
+       "url": "https://arxiv.org/abs/astro-ph/0410065",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Updated Nearby Galaxy Catalog",
+    "role": "869 nearby galaxies with tidal indices describing local environment (Karachentsev et al. 2013).",
+    "reference": {
+     "label": "Karachentsev, Makarov & Kaisina 2013, arXiv:1303.5328",
+     "url": "https://arxiv.org/abs/1303.5328"
+    }
+   }
+  ]
+ }
+]

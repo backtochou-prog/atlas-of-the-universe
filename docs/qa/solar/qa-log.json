@@ -1,0 +1,228 @@
+{
+  "url": "http://127.0.0.1:4181/",
+  "loadMs": 2883,
+  "checks": [
+    {
+      "name": "the Solar System dataset loads from local files",
+      "ok": true,
+      "detail": "29 bodies (8 planets, 20 moons), reference epoch 2026-11-12T00:00:00Z; page ready in 2883 ms"
+    },
+    {
+      "name": "nothing is loaded up front: no Solar System textures at startup",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Earth is drawn as a true-scale sphere at the expected size",
+      "ok": true,
+      "detail": "204 px radius, exaggeration x1"
+    },
+    {
+      "name": "the breadcrumb reaches the Earth system through the existing frame hierarchy",
+      "ok": true,
+      "detail": "Universe  ›  Nearby universe  ›  Local Group  ›  Milky Way  ›  Stellar neighbourhood (Gaia sample)  ›  Solar System  ›  Earth system"
+    },
+    {
+      "name": "textures were loaded on demand for the body in view",
+      "ok": true,
+      "detail": "3 textures loaded for Earth (day, night lights, clouds)"
+    },
+    {
+      "name": "the camera follows the focused body",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Earth uses the day, night-lights and cloud layers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the light comes from the Sun’s actual direction (1 AU away)",
+      "ok": true,
+      "detail": "0.990 AU"
+    },
+    {
+      "name": "simulation time starts at the dataset’s reference date, not the system clock",
+      "ok": true,
+      "detail": "2026-11-12 00:00:06 UTC (your clock says 2026)"
+    },
+    {
+      "name": "Pause stops simulated time",
+      "ok": true,
+      "detail": "JD 2461356.50088693 -> 2461356.50088693"
+    },
+    {
+      "name": "Resume and a higher speed advance simulated time faster than real time",
+      "ok": true,
+      "detail": "1.137 simulated days in about 1.2 s"
+    },
+    {
+      "name": "Reverse runs time backwards",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reset returns exactly to the reference date at real-time speed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "+1 d steps the date by exactly one day (clock paused, so nothing else moves it)",
+      "ok": true,
+      "detail": "1.000000000000 d"
+    },
+    {
+      "name": "Io moves a quarter of its orbit in a quarter of its period",
+      "ok": true,
+      "detail": "90.6 degrees (fitted period 1.769138 d)"
+    },
+    {
+      "name": "Io returns to the same place after one period",
+      "ok": true,
+      "detail": "0.00 degrees apart"
+    },
+    {
+      "name": "Jupiter is large on screen and drawn with its real map",
+      "ok": true,
+      "detail": "204 px radius; 4 textures"
+    },
+    {
+      "name": "a real mouse click on Jupiter selects Jupiter",
+      "ok": true,
+      "detail": "Planet"
+    },
+    {
+      "name": "the inspector shows radius, mass, density, gravity, rotation and orbit with sources",
+      "ok": true,
+      "detail": "mean_radius, equatorial_radius, polar_radius, mass, density, surface_gravity, escape_velocity, temperature, geometric_albedo, rotation_period, obliquity, orbital_period, semi_major_axis, eccentricity, inclination, distance_parent_now, camera_distance, drawn_radius, sim_time"
+    },
+    {
+      "name": "Jupiter’s mass reads 1.898e27 kg and its radius 69,911 km with their categories",
+      "ok": true,
+      "detail": "Mass1.8982e+27 kgOBS | Mean radius69911.0 kmOBS±6.0 km"
+    },
+    {
+      "name": "context facts carry certainty labels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the inspector says how faithful the imagery is (Jupiter: a real Cassini map)",
+      "ok": true,
+      "detail": "Surface imagerySCIENTIFIC MAPScientific map (spacecraft data mosaic). cloud-top appearance"
+    },
+    {
+      "name": "provenance lists JPL sources with retrieval dates",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all four Galilean moons are in view when the whole Jupiter system is framed",
+      "ok": true,
+      "detail": "[\"io:3.4px x9\",\"europa:3.4px x13.2\",\"ganymede:3.4px x5.2\",\"callisto:3.4px x6.5\"]"
+    },
+    {
+      "name": "the moons are drawn at their true positions but may be enlarged: the factor is reported",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Europa’s subsurface ocean is labelled INFERRED, not observed, and the text says it has not been seen directly",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Europa’s life question is a HYPOTHESIS",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Europa’s mass is shown as DERIVED (JPL prints none)",
+      "ok": true,
+      "detail": "Mass4.7986e+22 kgDER±1.08e+18 kg"
+    },
+    {
+      "name": "Saturn has a ring mesh whose texture loaded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the ring extent comes from the calibrated provenance (about 75,000 to 140,000 km)",
+      "ok": true,
+      "detail": "75.4 to 140.3 thousand km"
+    },
+    {
+      "name": "the interface states when sizes are not to scale, naming the body",
+      "ok": true,
+      "detail": "Body sizes NOT to scale: Iapetus enlarged up to ×21 (orbits and distances are true)"
+    },
+    {
+      "name": "true-scale mode shows every body at its true size",
+      "ok": true,
+      "detail": "Body sizes: true scale"
+    },
+    {
+      "name": "flying Earth -> overview passes through the hierarchy in order",
+      "ok": true,
+      "detail": "Earth system > Solar System"
+    },
+    {
+      "name": "the camera distance changes smoothly (monotonic, at least 4 distinct frames, none a large share of the journey: no teleporting; software GL delivers only 2 to 7 frames/s, so a higher frame-count floor would measure the machine)",
+      "ok": true,
+      "detail": "5.6 decades in 9 distinct steps; largest single step 35% of the journey; monotonic true"
+    },
+    {
+      "name": "the overview shows the outer planetary orbits and every planet as a marker (the inner orbits are under 14 px at this distance and are correctly not drawn)",
+      "ok": true,
+      "detail": "5 orbits, 0 spheres, 29 markers"
+    },
+    {
+      "name": "the overview breadcrumb is the Solar System level",
+      "ok": true,
+      "detail": "Universe  ›  Nearby universe  ›  Local Group  ›  Milky Way  ›  Stellar neighbourhood (Gaia sample)  ›  Solar System"
+    },
+    {
+      "name": "Parent goes from a moon to its planet",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Parent from a planet returns to the Solar System overview",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the camera cannot be zoomed into the planet (the zoom limit is above the surface)",
+      "ok": true,
+      "detail": "closest 26758 km from the centre, radius 6371 km"
+    },
+    {
+      "name": "unused textures are released after their time-to-live",
+      "ok": true,
+      "detail": "3 loaded, 3 disposed, 0 left"
+    },
+    {
+      "name": "Space pauses and resumes simulation time",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the page keeps rendering with the Solar System active (software GL, so only a floor)",
+      "ok": true,
+      "detail": "3.7 frames/s with SwiftShader (CPU) rendering; 9 draw calls; about 32 MB of textures"
+    },
+    {
+      "name": "no console errors or warnings",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "fps": 3.6666666666666665,
+  "perf": {
+    "calls": 9,
+    "mb": 31.92,
+    "spheres": 3
+  },
+  "problems": []
+}

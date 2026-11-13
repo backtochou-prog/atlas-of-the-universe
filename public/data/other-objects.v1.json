@@ -1,0 +1,468 @@
+{
+ "manifest": {
+  "schema": "atlas-other-objects/1",
+  "generated": "2026-11-13",
+  "note": "Objects that fit no other dataset. Each has a SIMBAD position and a distance from a cited paper abstract (retrieved via arxiv.org/abs pages and SIMBAD TAP at https://simbad.cfa.harvard.edu/simbad/sim-tap/sync). Distances are published estimates with the paper's method (geometric / VLBI parallax / expansion geometry), uncertainties as published (asymmetric ones store the larger side, the text of each fact has both). Positions are SIMBAD epoch-2000 ICRS coordinates; moving objects (pulsars, Cyg X-1) are not propagated. Considered and dropped: none of the six candidates; no other candidate was examined. Candidates were Sagittarius A*, Cygnus X-1, Crab Pulsar, SN 1987A, Eta Carinae, Vela Pulsar. Eta Carinae's distance is contested (see its facts). SIMBAD terms and CDS acknowledgement text were not retrieved (cds.unistra.fr licence page returned 404)."
+ },
+ "objects": [
+  {
+   "id": "other:sgr-a-star",
+   "name": "Sagittarius A*",
+   "designations": [
+    "Sagittarius A*",
+    "Sgr A*",
+    "NAME Sgr A*",
+    "SgrA*/IR",
+    "Sgr A*/L'",
+    "Sgr A* IR",
+    "Sgr A *",
+    "Sgr A",
+    "Sagittarius A"
+   ],
+   "category": "other",
+   "classification": "Massive black hole (Galactic Center)",
+   "raDeg": 266.41681662499997,
+   "decDeg": -29.00782497222222,
+   "distance": {
+    "value": 8178,
+    "unit": "pc",
+    "uncertainty": 25.6,
+    "kind": "derived",
+    "source": {
+     "label": "Abuter, R. et al. (2019), \"A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty\", arXiv:1904.05721, doi:10.1051/0004-6361/201935656",
+     "url": "https://arxiv.org/abs/1904.05721",
+     "retrieved": "2026-11-13"
+    }
+   },
+   "coordinateSource": {
+    "label": "SIMBAD main object \"NAME Sgr A*\"; SIMBAD ICRS position (epoch 2000 coordinate as given by SIMBAD), coordinate reference 2011AJ....142...35P, wavelength R, major error axis 2.65 mas",
+    "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+    "retrieved": "2026-11-13"
+   },
+   "facts": [
+    {
+     "text": "The distance from the Sun to the Galactic Center, R0, is 8178 pc with a statistical uncertainty of 13 pc and a systematic uncertainty of 22 pc, a geometric estimate from the orbit of the star S2 around Sgr A*.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Abuter, R. et al. (2019), \"A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty\", arXiv:1904.05721, doi:10.1051/0004-6361/201935656",
+       "url": "https://arxiv.org/abs/1904.05721",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "S2 follows a 16-year orbit around the massive black hole Sgr A*; it was followed astrometrically and spectroscopically for 27 years.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Abuter, R. et al. (2019), \"A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty\", arXiv:1904.05721, doi:10.1051/0004-6361/201935656",
+       "url": "https://arxiv.org/abs/1904.05721",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "S2 passed the pericenter of its highly eccentric orbit in May 2018, and the passage was followed with dense sampling throughout the year.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Abuter, R. et al. (2019), \"A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty\", arXiv:1904.05721, doi:10.1051/0004-6361/201935656",
+       "url": "https://arxiv.org/abs/1904.05721",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The gravitational redshift term in the S2 data is detected at a significance level of 20 sigma, with f_redshift = 1.04 +- 0.05.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Abuter, R. et al. (2019), \"A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty\", arXiv:1904.05721, doi:10.1051/0004-6361/201935656",
+       "url": "https://arxiv.org/abs/1904.05721",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD's main identifier for this object is \"NAME Sgr A*\" and its main object type is X (X-ray Source).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD basic + otypedef tables",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other:cyg-x-1",
+   "name": "Cygnus X-1",
+   "designations": [
+    "Cygnus X-1",
+    "Cyg X-1",
+    "HD 226868",
+    "HIP 98298",
+    "V* V1357 Cyg"
+   ],
+   "category": "other",
+   "classification": "High-mass X-ray binary containing a black hole",
+   "raDeg": 299.59031556498,
+   "decDeg": 35.20160680908,
+   "distance": {
+    "value": 2.22,
+    "unit": "kpc",
+    "uncertainty": 0.18,
+    "kind": "derived",
+    "source": {
+     "label": "Miller-Jones, James C. A. et al. (2021), \"Cygnus X-1 contains a 21-solar mass black hole -- implications for massive star winds\", arXiv:2102.09091, doi:10.1126/science.abb3363",
+     "url": "https://arxiv.org/abs/2102.09091",
+     "retrieved": "2026-11-13"
+    }
+   },
+   "coordinateSource": {
+    "label": "SIMBAD main object \"HD 226868\"; SIMBAD ICRS position (epoch 2000 coordinate as given by SIMBAD), coordinate reference 2020yCat.1350....0G, wavelength O, major error axis 0.0109 mas",
+    "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+    "retrieved": "2026-11-13"
+   },
+   "facts": [
+    {
+     "text": "Radio astrometry gives a distance to the black hole X-ray binary Cygnus X-1 of 2.22 (+0.18, -0.17) kiloparsecs.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Miller-Jones, James C. A. et al. (2021), \"Cygnus X-1 contains a 21-solar mass black hole -- implications for massive star winds\", arXiv:2102.09091, doi:10.1126/science.abb3363",
+       "url": "https://arxiv.org/abs/2102.09091",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Combined with previous optical data, this distance implies a black hole mass of 21.2 +- 2.2 solar masses, higher than previous measurements.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Miller-Jones, James C. A. et al. (2021), \"Cygnus X-1 contains a 21-solar mass black hole -- implications for massive star winds\", arXiv:2102.09091, doi:10.1126/science.abb3363",
+       "url": "https://arxiv.org/abs/2102.09091",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD's main identifier for this object is \"HD 226868\" and its main object type is HXB (High Mass X-ray Binary).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD basic + otypedef tables",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other:crab-pulsar",
+   "name": "Crab Pulsar",
+   "designations": [
+    "Crab Pulsar",
+    "PSR B0531+21",
+    "V* CM Tau",
+    "PSR B0532+21",
+    "PSR B0531+21.9",
+    "SN 1054A",
+    "PSR J0534+2200",
+    "SN 1054",
+    "Crab PSR",
+    "Crab SN"
+   ],
+   "category": "other",
+   "classification": "Pulsar",
+   "raDeg": 83.63311445609,
+   "decDeg": 22.01448713834,
+   "distance": {
+    "value": 1.9,
+    "unit": "kpc",
+    "uncertainty": 0.22,
+    "kind": "derived",
+    "source": {
+     "label": "Lin, Rebecca et al. (2023), \"The Radio Parallax of the Crab Pulsar: A First VLBI Measurement Calibrated with Giant Pulses\", arXiv:2306.01617, doi:10.3847/1538-4357/acdc98",
+     "url": "https://arxiv.org/abs/2306.01617",
+     "retrieved": "2026-11-13"
+    }
+   },
+   "coordinateSource": {
+    "label": "SIMBAD main object \"V* CM Tau\"; SIMBAD ICRS position (epoch 2000 coordinate as given by SIMBAD), coordinate reference 2020yCat.1350....0G, wavelength O, major error axis 0.0732 mas",
+    "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+    "retrieved": "2026-11-13"
+   },
+   "facts": [
+    {
+     "text": "A VLBI radio parallax of the Crab Pulsar, 0.53 +- 0.06 mas, yields a distance of 1.90 (+0.22, -0.18) kpc.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Lin, Rebecca et al. (2023), \"The Radio Parallax of the Crab Pulsar: A First VLBI Measurement Calibrated with Giant Pulses\", arXiv:2306.01617, doi:10.3847/1538-4357/acdc98",
+       "url": "https://arxiv.org/abs/2306.01617",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Its proper motion is (-11.34 +- 0.06, 2.65 +- 0.14) mas/yr in (RA, Dec), giving a transverse velocity of 104 (+13, -11) km/s.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Lin, Rebecca et al. (2023), \"The Radio Parallax of the Crab Pulsar: A First VLBI Measurement Calibrated with Giant Pulses\", arXiv:2306.01617, doi:10.3847/1538-4357/acdc98",
+       "url": "https://arxiv.org/abs/2306.01617",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The radio parallax and proper motion are consistent with the Gaia 3 measurements.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Lin, Rebecca et al. (2023), \"The Radio Parallax of the Crab Pulsar: A First VLBI Measurement Calibrated with Giant Pulses\", arXiv:2306.01617, doi:10.3847/1538-4357/acdc98",
+       "url": "https://arxiv.org/abs/2306.01617",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD's main identifier for this object is \"V* CM Tau\" and its main object type is Psr (Pulsar).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD basic + otypedef tables",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other:sn-1987a",
+   "name": "SN 1987A",
+   "designations": [
+    "SN 1987A",
+    "Supernova 1987A",
+    "LMC SN",
+    "NS 1987A",
+    "SNR 1987A",
+    "SNR B0535-69.3"
+   ],
+   "category": "supernova-remnant",
+   "classification": "Supernova (Large Magellanic Cloud)",
+   "raDeg": 83.86661833333334,
+   "decDeg": -69.26975372222223,
+   "distance": {
+    "value": 51.4,
+    "unit": "kpc",
+    "uncertainty": 1.2,
+    "kind": "derived",
+    "source": {
+     "label": "Panagia, Nino (2003), \"A Geometric Determination of the Distance to SN 1987A and the LMC\", arXiv:astro-ph/0309416",
+     "url": "https://arxiv.org/abs/astro-ph/0309416",
+     "retrieved": "2026-11-13"
+    }
+   },
+   "coordinateSource": {
+    "label": "SIMBAD main object \"SN 1987A\"; SIMBAD ICRS position (epoch 2000 coordinate as given by SIMBAD), coordinate reference 2025A&A...704A.272T, wavelength O, major error axis 16.3 mas",
+    "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+    "retrieved": "2026-11-13"
+   },
+   "facts": [
+    {
+     "text": "From the absolute size of the circumstellar ring, R = (6.23 +/- 0.08)e17 cm, and its angular size, 808 +/- 17 mas, the distance to SN 1987A is 51.4 +/- 1.2 kpc (distance modulus 18.55 +/- 0.05).",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Panagia, Nino (2003), \"A Geometric Determination of the Distance to SN 1987A and the LMC\", arXiv:astro-ph/0309416",
+       "url": "https://arxiv.org/abs/astro-ph/0309416",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Allowing for the displacement of SN 1987A from the LMC centre, the distance to the barycenter of the Large Magellanic Cloud is estimated as 51.7 +/- 1.3 kpc.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Panagia, Nino (2003), \"A Geometric Determination of the Distance to SN 1987A and the LMC\", arXiv:astro-ph/0309416",
+       "url": "https://arxiv.org/abs/astro-ph/0309416",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD's main identifier for this object is \"SN 1987A\" and its main object type is SN* (SuperNova).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD basic + otypedef tables",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other:eta-carinae",
+   "name": "Eta Carinae",
+   "designations": [
+    "Eta Carinae",
+    "eta Car",
+    "* eta Car",
+    "eta Car A",
+    "HD 93308",
+    "HR 4210",
+    "V* eta Car",
+    "eta Car B",
+    "HD 93308B"
+   ],
+   "category": "star",
+   "classification": "Massive star surrounded by the Homunculus nebula",
+   "raDeg": 161.26477419999998,
+   "decDeg": -59.684430899999995,
+   "distance": {
+    "value": 2350,
+    "unit": "pc",
+    "uncertainty": 50,
+    "kind": "derived",
+    "source": {
+     "label": "Smith, Nathan (2006), \"The Structure of the Homunculus: I. Shape and Latitude Dependence from H2 and [Fe II] Velocity Maps of Eta Carinae\", arXiv:astro-ph/0602464, doi:10.1086/503766",
+     "url": "https://arxiv.org/abs/astro-ph/0602464",
+     "retrieved": "2026-11-13"
+    }
+   },
+   "coordinateSource": {
+    "label": "SIMBAD main object \"* eta Car\"; SIMBAD ICRS position (epoch 2000 coordinate as given by SIMBAD), coordinate reference 2012yCat.1322....0Z, wavelength O, major error axis 20.0 mas",
+    "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+    "retrieved": "2026-11-13"
+   },
+   "facts": [
+    {
+     "text": "Near-infrared long-slit spectra of the Homunculus nebula resolve it into a thin outer shell seen in H2 and a warmer, thicker inner layer seen in [Fe II]; the H2 emission yields the shape of the nebula, a distance of 2350 +- 50 pc and an inclination angle of 41 degrees.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Smith, Nathan (2006), \"The Structure of the Homunculus: I. Shape and Latitude Dependence from H2 and [Fe II] Velocity Maps of Eta Carinae\", arXiv:astro-ph/0602464, doi:10.1086/503766",
+       "url": "https://arxiv.org/abs/astro-ph/0602464",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Gaia parallaxes for the star cluster Trumpler 16 reveal a discrepancy in the oft-quoted distance of Eta Carinae; the authors state it is probably more distant and more luminous.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Davidson, Kris et al. (2018), \"Gaia, Trumpler 16, and Eta Carinae\", arXiv:1808.02073",
+       "url": "https://arxiv.org/abs/1808.02073",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD's main identifier for this object is \"* eta Car\" and its main object type is s*b (Blue Supergiant).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD basic + otypedef tables",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other:vela-pulsar",
+   "name": "Vela Pulsar",
+   "designations": [
+    "Vela Pulsar",
+    "PSR B0833-45",
+    "NAME Vela Pulsar",
+    "SNR G263.6-02.8",
+    "Vel A",
+    "Vela PSR",
+    "Vel Pulsar",
+    "PSR J0834-4511",
+    "PSR J0835-4510",
+    "V* HU Vel"
+   ],
+   "category": "other",
+   "classification": "Pulsar",
+   "raDeg": 128.83606354166668,
+   "decDeg": -45.17643180555555,
+   "distance": {
+    "value": 293,
+    "unit": "pc",
+    "uncertainty": 19,
+    "kind": "derived",
+    "source": {
+     "label": "Dodson, R. et al. (2003), \"The Vela Pulsar's proper motion and parallax derived from VLBI observations\", arXiv:astro-ph/0302374, doi:10.1086/378089",
+     "url": "https://arxiv.org/abs/astro-ph/0302374",
+     "retrieved": "2026-11-13"
+    }
+   },
+   "coordinateSource": {
+    "label": "SIMBAD main object \"NAME Vela Pulsar\"; SIMBAD ICRS position (epoch 2000 coordinate as given by SIMBAD), coordinate reference 2004AJ....127.3587F, wavelength R, major error axis 11.37 mas",
+    "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+    "retrieved": "2026-11-13"
+   },
+   "facts": [
+    {
+     "text": "VLBI observations at 2.3 and 8.4 GHz over 6.8 years (eleven epochs) give a parallax for the Vela pulsar of 3.4 +- 0.2 mas, equivalent to a distance of 293 (+19, -17) pc.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Dodson, R. et al. (2003), \"The Vela Pulsar's proper motion and parallax derived from VLBI observations\", arXiv:astro-ph/0302374, doi:10.1086/378089",
+       "url": "https://arxiv.org/abs/astro-ph/0302374",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Its proper motion is -49.61 +- 0.06 mas/yr in RA (times cos dec) and 29.8 +- 0.1 mas/yr in Dec.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Dodson, R. et al. (2003), \"The Vela Pulsar's proper motion and parallax derived from VLBI observations\", arXiv:astro-ph/0302374, doi:10.1086/378089",
+       "url": "https://arxiv.org/abs/astro-ph/0302374",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The Vela pulsar is the brightest pulsar at radio wavelengths.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Dodson, R. et al. (2003), \"The Vela Pulsar's proper motion and parallax derived from VLBI observations\", arXiv:astro-ph/0302374, doi:10.1086/378089",
+       "url": "https://arxiv.org/abs/astro-ph/0302374",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD's main identifier for this object is \"NAME Vela Pulsar\" and its main object type is Psr (Pulsar).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD basic + otypedef tables",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

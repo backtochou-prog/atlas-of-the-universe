@@ -1,0 +1,132 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+ Revised: Mar 12, 2021             Io  / (Jupiter)                          501
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean radius (km)       = 1821.49           Density (g cm^-3) = 3.528 +- 0.006
+  GM (km^3/s^2)          = 5959.9155+- 0.004 Geometric Albedo  = 0.63  +- 0.02
+                                             V(1,0)            = -1.68
+
+ SATELLITE ORBIT (at J2000.0 epoch, 2000-Jan-1.5):
+  Semi-major axis, a (km)~ 422,000           Orbital period    ~ 1.77 d
+  Eccentricity, e        ~ 0.00472           Rotational period = Synchronous
+  Inclination, i  (deg)  ~ 0.0375
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / API_USER Thu Nov 12 07:58:29 2026 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Io (501)                        {source: jup365_merged}
+Center body name: Jupiter (599)                   {source: jup365_merged}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2025-Nov-11 18:01:09.2064 TDB
+Stop  time      : A.D. 2031-Nov-12 06:01:09.2064 TDB
+Step-size       : DISCRETE TIME-LIST
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {W-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {W-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 71492.0, 71492.0, 66854.0 km    {Equator_a, b, pole_c}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : ICRF
+*******************************************************************************
+JDTDB
+   X     Y     Z
+   VX    VY    VZ
+*******************************************************************************
+$$SOE
+2460991.250801000 = A.D. 2025-Nov-11 18:01:09.2064 TDB
+ X =-4.194063229310351E+05 Y =-3.374126400729508E+04 Z =-2.264537409550285E+04
+ VX= 1.725428737367695E+00 VY=-1.559715777587578E+01 VZ=-7.408695805571020E+00
+2461356.500801000 = A.D. 2026-Nov-12 00:01:09.2064 TDB
+ X = 4.139002730912451E+05 Y =-6.668006221087440E+04 Z =-2.524713067989214E+04
+ VX= 2.943532155558913E+00 VY= 1.546808389671152E+01 VZ= 7.428854292315974E+00
+2461357.500801000 = A.D. 2026-Nov-13 00:01:09.2064 TDB
+ X =-4.115169466287475E+05 Y =-8.714861981960564E+04 Z =-4.812964697897165E+04
+ VX= 4.080712864100686E+00 VY=-1.517009378758443E+01 VZ=-7.175053743416669E+00
+2461363.500801000 = A.D. 2026-Nov-19 00:01:09.2064 TDB
+ X = 3.793757382988567E+05 Y =-1.649695016802745E+05 Z =-7.270222586420277E+04
+ VX= 7.454214476397790E+00 VY= 1.415160859785565E+01 VZ= 6.872408634684112E+00
+2461386.500801000 = A.D. 2026-Dec-12 00:01:09.2064 TDB
+ X = 3.805783356044433E+05 Y =-1.626299603220523E+05 Z =-7.155969348058416E+04
+ VX= 7.367099123999949E+00 VY= 1.418993991058405E+01 VZ= 6.889906610060743E+00
+2461446.500801000 = A.D. 2027-Feb-10 00:01:09.2064 TDB
+ X = 2.374995769382583E+05 Y =-3.141899449133401E+05 Z =-1.461701410394071E+05
+ VX= 1.436835160153449E+01 VY= 8.774488149432198E+00 VZ= 4.418459186206816E+00
+2461721.750801000 = A.D. 2027-Nov-12 06:01:09.2064 TDB
+ X =-3.819665938822845E+05 Y = 1.627522031801643E+05 Z = 7.141736848773467E+04
+ VX=-7.380324726216975E+00 VY=-1.412933514473193E+01 VZ=-6.866018267701583E+00
+2463182.750801000 = A.D. 2031-Nov-12 06:01:09.2064 TDB
+ X =-1.528704485715227E+04 Y = 3.791351182288046E+05 Z = 1.801854933646808E+05
+ VX=-1.739507393209817E+01 VY=-4.520942927715168E-01 VZ=-4.900776027555561E-01
+$$EOE
+*******************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  International Celestial Reference Frame (ICRF)
+
+    The ICRF is an adopted reference frame whose axes are defined relative to 
+    fixed extragalactic radio sources distributed across the sky.
+
+    The ICRF was aligned with the prior FK5/J2000 dynamical system at the ~0.02 
+    arcsecond level but is not identical and has no associated standard epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Inquiries   : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

@@ -1,0 +1,231 @@
+{
+ "assets": [
+  {
+   "id": "m87-legacysurvey-grz",
+   "objectId": "m87",
+   "title": "M87 in Legacy Surveys DR10 g, r, z colour cutout (DECam)",
+   "band": {
+    "kind": "multi-band-composite",
+    "filters": [
+     "g (DECam)",
+     "r (DECam)",
+     "z (DECam)"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Three optical/near-infrared DECam bands combined by the Legacy Surveys viewer's own colour mapping (legacypipe dr2_rgb / sdss_rgb, non-linear asinh-type stretch): g (about 480 nm) is shown blue, r (about 620 nm) green and z (about 900 nm, near-infrared) red. Because z lies beyond the visible range and the three bands are stretched non-linearly, this is a false-colour composite, not what an eye would see; it is the standard Legacy Surveys look. Brightness is not linear in flux. (Mapping z->red, g->blue confirmed by us: in the FITS cutout of the same field the z/g flux ratio correlates +0.73 with the JPEG's red-minus-blue.)"
+   },
+   "source": {
+    "archive": "Legacy Surveys (DESI Legacy Imaging Surveys) Sky Viewer cutout service",
+    "imageId": "layer ls-dr10-grz, ra=187.7059 dec=12.3911 pixscale=0.5 size=2048",
+    "landingUrl": "https://www.legacysurvey.org/viewer?ra=187.7059&dec=12.3911&layer=ls-dr10&zoom=12",
+    "downloadUrl": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=187.7059&dec=12.3911&layer=ls-dr10-grz&pixscale=0.5&size=2048"
+   },
+   "credit": "Legacy Surveys / D. Lang (Perimeter Institute)",
+   "licence": {
+    "name": "CC BY 4.0 (Legacy Surveys)",
+    "url": "https://www.legacysurvey.org/acknowledgment/",
+    "evidence": "For the layers produced by the Legacy Surveys and unWISE teams, including \"Legacy Surveys\", \"DECaLS\", \"MzLS+BASS\", \"DECaPS\" and \"unWISE\" layers, the copyright and license statement is: Images are licensed under a Creative Commons Attribution 4.0 International License, and hence may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible. The credit must be presented in a clear and legible manner to all users, with the wording unaltered as “Legacy Surveys / D. Lang (Perimeter Institute)” for Legacy Surveys layers and \"unWISE / NASA/JPL-Caltech / D. Lang (Perimeter Institute)\" for unWISE layers.",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Blanco 4-m telescope, CTIO (Dark Energy Camera, DECam); Legacy Surveys DR10 coadd",
+    "instrument": "DECam g, r, z",
+    "date": "Coadd of many exposures; epochs are not stated for the cutout"
+   },
+   "geometry": {
+    "fovArcmin": [
+     17.066666666666666,
+     17.066666666666666
+    ],
+    "centreRaDeg": 187.7059,
+    "centreDecDeg": 12.3911,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header"
+   },
+   "processing": [
+    "Geometry is exact because we chose it: ra=187.7059, dec=12.3911, pixscale=0.5 arcsec/pixel, size=2048 pixels (field 1024 arcsec = 17.07 arcmin square), north up, east left, TAN. The JPEG itself has no header; we requested the FITS cutout of the same layer family (layer=ls-dr10, bands=grz) with identical parameters and read its header: CTYPE RA---TAN/DEC--TAN, CRVAL = 187.7059, 12.3911, CRPIX = 1024.5, 1024.5, CD1_1 = -1.388889e-4 deg (= -0.5 arcsec), CD2_2 = +1.388889e-4 deg, CD1_2 = CD2_1 = 0 (no rotation). The JPEG was checked to be on the same grid with north up (correlation of the FITS z band with the JPEG red channel at 16-pixel blocks: 0.84 north-up, 0.72 with the vertical flip).",
+    "Layer choice: 'ls-dr10-grz' (g, r, z only) rather than 'ls-dr10'/'ls-dr11', whose JPEG colour mapping in the DECam footprint includes the i band and whose DR10 JPEG of this field shows a purple masked streak; 'ls-dr11-grz' returned an empty image. The cutout is rendered by the Legacy Surveys service from its coadded DECam images; we did not coadd or calibrate anything.",
+    "The Legacy Surveys data licence page states that images are CC BY 4.0 and that the credit must read 'Legacy Surveys / D. Lang (Perimeter Institute)' unaltered, visible and with an active link online (https://www.legacysurvey.org/). Each survey layer has its own terms; for the Legacy Surveys layers this is the statement quoted in the licence evidence.",
+    "Limitations: saturated bright stars show diffraction spikes/coloured halos; M87's bright core and the faint outer halo are compressed by the non-linear stretch; this is a field of 17 arcmin, i.e. the inner galaxy only."
+   ],
+   "fidelity": "multi-band-composite",
+   "process": {
+    "maxLevelPx": 4096
+   }
+  },
+  {
+   "id": "m87-galex-nuv",
+   "objectId": "m87",
+   "title": "M87 in GALEX NUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX NUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied. Contrast has been stretched by us (see processing) so faint structure is visible."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Near UV' survey, M87",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=187.7059%2C12.3911&Survey=GALEX+Near+UV&Pixels=2048&Size=0.5&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "NUV channel, SkyView survey 'GALEX Near UV', bandpass 1.05-1.69 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     30.0,
+     30.0
+    ],
+    "centreRaDeg": 187.7059,
+    "centreDecDeg": 12.3911,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header"
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX NUV mosaics with request parameters: Position=187.7059,12.3911, Survey=GALEX Near UV, Pixels=2048, Size=0.5, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise."
+   ],
+   "fidelity": "scientific-image",
+   "process": {
+    "maxLevelPx": 4096,
+    "percentile": [
+     10,
+     99.9
+    ],
+    "gamma": 1.0
+   },
+   "override": true
+  },
+  {
+   "id": "m32-galex-nuv",
+   "objectId": "m32",
+   "title": "M32 in GALEX NUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX NUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied. Contrast has been stretched by us (see processing) so faint structure is visible."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Near UV' survey, M32",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=10.6743%2C40.8652&Survey=GALEX+Near+UV&Pixels=2048&Size=0.3&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "NUV channel, SkyView survey 'GALEX Near UV', bandpass 1.05-1.69 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     18.0,
+     18.0
+    ],
+    "centreRaDeg": 10.6743,
+    "centreDecDeg": 40.8652,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header"
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX NUV mosaics with request parameters: Position=10.6743,40.8652, Survey=GALEX Near UV, Pixels=2048, Size=0.3, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise.",
+    "The 18-arcmin field is centred on M32; the surrounding structure is M31's disc."
+   ],
+   "fidelity": "scientific-image",
+   "process": {
+    "maxLevelPx": 4096,
+    "percentile": [
+     10,
+     99.9
+    ],
+    "gamma": 1.0
+   },
+   "override": true
+  },
+  {
+   "id": "m81-galex-fuv",
+   "objectId": "m81",
+   "title": "M81 in GALEX FUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX FUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied. Contrast has been stretched by us (see processing) so faint structure is visible."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Far UV' survey, M81",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=148.8882%2C69.0653&Survey=GALEX+Far+UV&Pixels=2048&Size=0.8&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "FUV channel, SkyView survey 'GALEX Far UV', bandpass 1.68-2.23 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     48.0,
+     48.0
+    ],
+    "centreRaDeg": 148.8882,
+    "centreDecDeg": 69.0653,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header"
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX FUV mosaics with request parameters: Position=148.8882,69.0653, Survey=GALEX Far UV, Pixels=2048, Size=0.8, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise."
+   ],
+   "fidelity": "scientific-image",
+   "process": {
+    "maxLevelPx": 4096,
+    "percentile": [
+     10,
+     99.9
+    ],
+    "gamma": 1.0
+   },
+   "override": true
+  }
+ ]
+}

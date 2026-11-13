@@ -1,0 +1,3169 @@
+{
+ "manifest": {
+  "schema": "atlas-deep-images/1",
+  "generated": "2026-11-12"
+ },
+ "assets": [
+  {
+   "id": "47-tucanae-vista-ir",
+   "objectId": "47-tucanae",
+   "title": "47 Tucanae (NGC 104), VISTA infrared",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "Y 1.03 um",
+     "J 1.25 um",
+     "Ks 2.16 um"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Three near-infrared bands (Y, J, Ks) shown in assigned colours; infrared, not visible light."
+   },
+   "source": {
+    "archive": "ESO",
+    "imageId": "eso1302a",
+    "landingUrl": "https://www.eso.org/public/images/eso1302a/",
+    "downloadUrl": "https://cdn.eso.org/images/large/eso1302a.jpg",
+    "sha256": "eaae296a4ba92bb5684139da3781bff498369eca79acf5f47a4ce7f0be4837cd",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESO/M.-R. Cioni/VISTA Magellanic Cloud survey. Acknowledgment: Cambridge Astronomical Survey Unit",
+   "licence": {
+    "name": "CC BY 4.0 (ESO)",
+    "url": "https://www.eso.org/public/outreach/copyright/",
+    "evidence": "Image page https://www.eso.org/public/images/eso1302a/ shows the credit line below and links its 'Usage of ESO images, videos, web texts and music' to https://www.eso.org/public/outreach/copyright/ (no per-image exception or restriction is shown on the image page). That page states: \"Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible.\" and, in its Q&A: \"Images and videos published on eso.org are, unless explicitly stated otherwise, cleared for reuse without needing to contact the individuals or organisations listed. Their names must not be removed from the credit, however.\" (retrieved 2026-11-12.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "VISTA (ESO Paranal)",
+    "instrument": "VIRCAM",
+    "date": "Release date 2013-01-10 (observation dates not stated on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     46.89,
+     46.89
+    ],
+    "centreRaDeg": 6.0225,
+    "centreDecDeg": -72.0815,
+    "upPositionAngleDeg": 6.3,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 8246,
+    "originalHeightPx": 8246
+   },
+   "processing": [
+    "Archive page 'eso1302a' gives centre, field of view (46.89 x 46.89 arcmin, of the full original) and orientation ('North is 6.3\u00b0 right of vertical'); copied as published, not measured by us. Orientation conversion: the archive page states 'North is 6.3\u00b0 right of vertical'; north rotated clockwise from image-up by X degrees (right of vertical) means image-up lies X degrees east of north, so upPositionAngleDeg = +X; left of vertical gives -X (mod 360). Checked against the object's known major-axis position angle and by eye.",
+    "Downloaded original (8246x8246 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048, 4096x4096 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/47-tucanae-vista-ir.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 8008,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/47-tucanae-vista-ir.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 199012,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/47-tucanae-vista-ir.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 721268,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/47-tucanae-vista-ir.L3.webp",
+     "widthPx": 4096,
+     "heightPx": 4096,
+     "bytes": 2028402,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "carina-nebula-hubble-mosaic",
+   "objectId": "carina-nebula",
+   "title": "Carina Nebula (NGC 3372): Hubble ACS mosaic with ground-based colour",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "[O III] 501 nm",
+     "H-alpha + [N II] 658 nm",
+     "[S II] 672 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Narrowband mapping stated in the archive caption: red corresponds to sulfur, green to hydrogen, blue to oxygen emission. Hubble supplied the H-alpha image (48 ACS frames); colour information came from ground-based Cerro Tololo data. Not an eye-like rendering."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0707a",
+    "landingUrl": "https://esahubble.org/images/heic0707a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic0707a.jpg",
+    "sha256": "d53a1a20bf66ce13777b1c260ed42fb39e151a64d1994b7d4d93b1a1ba046f88",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA, N. Smith (University of California, Berkeley), and The Hubble Heritage Team (STScI/AURA)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope (ACS) plus ground-based Cerro Tololo Inter-American Observatory data",
+    "instrument": "ACS",
+    "date": "released 2007-04-24 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     24.6,
+     11.92
+    ],
+    "centreRaDeg": 161.120001,
+    "centreDecDeg": -59.596524,
+    "upPositionAngleDeg": 50.3,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 29566,
+    "originalHeightPx": 14321
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic0707a.jpg), not the TIFF original. Orientation: archive states 'North is 50.3\u00b0 right of vertical'; converted to upPositionAngleDeg = 50.3 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Elongated mosaic (about 24.6 x 11.9 arcmin) of a part of the Carina Nebula.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 161.120001\u00b0, Dec -59.596524\u00b0) at AVM reference pixel (14783.0, 7160.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (29566x14321 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x124, 1024x496, 2048x992, 4096x1984 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/carina-nebula-hubble-mosaic.L0.webp",
+     "widthPx": 256,
+     "heightPx": 124,
+     "bytes": 7264,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/carina-nebula-hubble-mosaic.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 496,
+     "bytes": 56126,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/carina-nebula-hubble-mosaic.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 992,
+     "bytes": 154540,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/carina-nebula-hubble-mosaic.L3.webp",
+     "widthPx": 4096,
+     "heightPx": 1984,
+     "bytes": 410944,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "carina-nebula-webb-cosmic-cliffs",
+   "objectId": "carina-nebula",
+   "title": "Carina Nebula, NGC 3324 'Cosmic Cliffs': Webb NIRCam",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "900 nm",
+     "P-alpha 1.87 \u00b5m",
+     "2.0 \u00b5m",
+     "molecular hydrogen 4.7 \u00b5m",
+     "PAH 3.35 \u00b5m",
+     "4.44 \u00b5m"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour. The archive lists: Blue 900 nm; Cyan 1.87 \u00b5m (P-alpha); Green 2.0 \u00b5m; Yellow 4.7 \u00b5m (molecular hydrogen); Orange 3.35 \u00b5m (PAH); Red 4.44 \u00b5m. NOTE: this field is the edge of NGC 3324 at the north-west corner of the wider Carina Nebula complex (archive caption), centred at RA 10h36m, not at the NGC 3372 centre; it is a sub-region, not the whole nebula."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2205a",
+    "landingUrl": "https://esawebb.org/images/weic2205a/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2205a.jpg",
+    "sha256": "99771479d4d83f439c95792b54069e7fd368f416c021346b1aa85058b3ca4d79",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA, CSA, and STScI",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "NIRCam",
+    "date": "released 2022-07-12 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     7.29,
+     4.22
+    ],
+    "centreRaDeg": 159.213028,
+    "centreDecDeg": -58.620171,
+    "upPositionAngleDeg": 103.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 14575,
+    "originalHeightPx": 8441
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2205a.jpg), not the TIFF original. Orientation: archive states 'North is 103.0\u00b0 right of vertical'; converted to upPositionAngleDeg = 103.0 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Archive object name is 'Carina Nebula, NGC 3324'. Attached to object carina-nebula as a sub-region image.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 159.212619\u00b0, Dec -58.620018\u00b0) at AVM reference pixel (7299.6, 4191.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.02 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (14575x8441 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x148, 1024x593, 2048x1186, 4096x2372 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/carina-nebula-webb-cosmic-cliffs.L0.webp",
+     "widthPx": 256,
+     "heightPx": 148,
+     "bytes": 9114,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/carina-nebula-webb-cosmic-cliffs.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 593,
+     "bytes": 105154,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/carina-nebula-webb-cosmic-cliffs.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 1186,
+     "bytes": 296764,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/carina-nebula-webb-cosmic-cliffs.L3.webp",
+     "widthPx": 4096,
+     "heightPx": 2372,
+     "bytes": 736946,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "cen-a-eso-multiband",
+   "objectId": "cen-a",
+   "title": "Centaurus A: optical + submillimetre + X-ray composite",
+   "band": {
+    "kind": "multi-band-composite",
+    "filters": [
+     "WFI B 445 nm",
+     "WFI V 551 nm",
+     "WFI R 658 nm",
+     "LABOCA 870 um",
+     "Chandra X-ray"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Per the caption: submillimetre (870 micron) shown in orange, X-ray in blue, visible light in close to true colour. The orange lobes and blue shells are NOT visible light."
+   },
+   "source": {
+    "archive": "ESO",
+    "imageId": "eso0903a",
+    "landingUrl": "https://www.eso.org/public/images/eso0903a/",
+    "downloadUrl": "https://cdn.eso.org/images/large/eso0903a.jpg",
+    "sha256": "a5db25f46326236b616e9429016039dfdc1788241888e8762c8342d54430d63e",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimetre); NASA/CXC/CfA/R.Kraft et al. (X-ray)",
+   "licence": {
+    "name": "CC BY 4.0 (ESO)",
+    "url": "https://www.eso.org/public/outreach/copyright/",
+    "evidence": "Image page https://www.eso.org/public/images/eso0903a/ shows the credit line below and links its 'Usage of ESO images, videos, web texts and music' to https://www.eso.org/public/outreach/copyright/ (no per-image exception or restriction is shown on the image page). That page states: \"Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible.\" and, in its Q&A: \"Images and videos published on eso.org are, unless explicitly stated otherwise, cleared for reuse without needing to contact the individuals or organisations listed. Their names must not be removed from the credit, however.\" The credit line names third-party institutions (MPIfR/ESO/APEX/A.Weiss et al.; NASA/CXC/CfA/R.Kraft et al.); the image page attaches no separate rights notice to them, so they are treated as credit-line attributions covered by the ESO licence and must be kept in the credit. (retrieved 2026-11-12.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "MPG/ESO 2.2-m WFI (optical); APEX LABOCA (870 micron); Chandra (X-ray)",
+    "date": "Release date 2009-01-28"
+   },
+   "geometry": {
+    "fovArcmin": [
+     22.71,
+     23.92
+    ],
+    "centreRaDeg": 201.36542,
+    "centreDecDeg": -43.01932,
+    "upPositionAngleDeg": 0.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 2808,
+    "originalHeightPx": 2957
+   },
+   "processing": [
+    "Archive page 'eso0903a' gives centre, field of view (22.71 x 23.92 arcmin, of the full original) and orientation ('North is 0.0\u00b0 right of vertical'); copied as published, not measured by us. Orientation conversion: the archive page states 'North is 0.0\u00b0 right of vertical'; north rotated clockwise from image-up by X degrees (right of vertical) means image-up lies X degrees east of north, so upPositionAngleDeg = +X; left of vertical gives -X (mod 360). Checked against the object's known major-axis position angle and by eye.",
+    "Three instruments from different missions combined by ESO; the credit includes NASA/CXC X-ray data, and the licence evidence is ESO's general statement (the image page notes no exception).",
+    "Downloaded original (2808x2957 px) and verified its SHA-256.",
+    "Resized with Lanczos to 243x256, 972x1024, 1945x2048, 2808x2957 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/cen-a-eso-multiband.L0.webp",
+     "widthPx": 243,
+     "heightPx": 256,
+     "bytes": 9802,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/cen-a-eso-multiband.L1.webp",
+     "widthPx": 972,
+     "heightPx": 1024,
+     "bytes": 87390,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/cen-a-eso-multiband.L2.webp",
+     "widthPx": 1945,
+     "heightPx": 2048,
+     "bytes": 200370,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/cen-a-eso-multiband.L3.webp",
+     "widthPx": 2808,
+     "heightPx": 2957,
+     "bytes": 357216,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "cen-a-eso-wfi",
+   "objectId": "cen-a",
+   "title": "Centaurus A (NGC 5128), WFI deep optical image",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "B 456 nm",
+     "OIII 502 nm",
+     "V 540 nm",
+     "R 652 nm",
+     "H-alpha 659 nm"
+    ],
+    "falseColour": false,
+    "composite": true,
+    "colourNote": "Five-filter optical composite. The ESO page does not document the colour-channel assignment; treat as enhanced optical, not a calibrated eye view."
+   },
+   "source": {
+    "archive": "ESO",
+    "imageId": "eso1221a",
+    "landingUrl": "https://www.eso.org/public/images/eso1221a/",
+    "downloadUrl": "https://cdn.eso.org/images/large/eso1221a.jpg",
+    "sha256": "287f65437fe933edde7d532eb5d22680ac95c780b34e96f47e9e0037358acfef",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESO",
+   "licence": {
+    "name": "CC BY 4.0 (ESO)",
+    "url": "https://www.eso.org/public/outreach/copyright/",
+    "evidence": "Image page https://www.eso.org/public/images/eso1221a/ shows the credit line below and links its 'Usage of ESO images, videos, web texts and music' to https://www.eso.org/public/outreach/copyright/ (no per-image exception or restriction is shown on the image page). That page states: \"Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible.\" and, in its Q&A: \"Images and videos published on eso.org are, unless explicitly stated otherwise, cleared for reuse without needing to contact the individuals or organisations listed. Their names must not be removed from the credit, however.\" (retrieved 2026-11-12.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "MPG/ESO 2.2-metre telescope (La Silla)",
+    "instrument": "WFI",
+    "date": "Release date 2012-05-16; total exposure >50 hours (caption)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     33.87,
+     33.12
+    ],
+    "centreRaDeg": 201.36542,
+    "centreDecDeg": -43.01932,
+    "upPositionAngleDeg": 0.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 8547,
+    "originalHeightPx": 8358
+   },
+   "processing": [
+    "Archive page 'eso1221a' gives centre, field of view (33.87 x 33.12 arcmin, of the full original) and orientation ('North is 0.0\u00b0 left of vertical'); copied as published, not measured by us. Orientation conversion: the archive page states 'North is 0.0\u00b0 left of vertical'; north rotated clockwise from image-up by X degrees (right of vertical) means image-up lies X degrees east of north, so upPositionAngleDeg = +X; left of vertical gives -X (mod 360). Checked against the object's known major-axis position angle and by eye.",
+    "Downloaded original (8547x8358 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x250, 1024x1001, 2048x2003, 4096x4005 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/cen-a-eso-wfi.L0.webp",
+     "widthPx": 256,
+     "heightPx": 250,
+     "bytes": 9498,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/cen-a-eso-wfi.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1001,
+     "bytes": 105208,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/cen-a-eso-wfi.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2003,
+     "bytes": 263298,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/cen-a-eso-wfi.L3.webp",
+     "widthPx": 4096,
+     "heightPx": 4005,
+     "bytes": 653252,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "crab-nebula-hubble-wfpc2",
+   "objectId": "crab-nebula",
+   "title": "Crab Nebula (M1): Hubble WFPC2 mosaic",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "[O I] 631 nm",
+     "[S II] 673 nm",
+     "[O III] 502 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Archive release heic0515: blue indicates neutral oxygen, green singly ionised sulphur and red doubly ionised oxygen; the Hubble data are superimposed on images from ESO's Very Large Telescope. Emission-line colours chosen by the image makers, not an eye-like view."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0515a",
+    "landingUrl": "https://esahubble.org/images/heic0515a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic0515a.jpg",
+    "sha256": "43b4ea82bbb50686697634e7cc212e06b0f501d26a9ce2ec5619504840ea4345",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA and Allison Loll/Jeff Hester (Arizona State University). Acknowledgement: Davide De Martin (ESA/Hubble)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope (WFPC2); superimposed on ESO VLT data per release heic0515",
+    "instrument": "WFPC2",
+    "date": "October 1999, January 2000 and December 2000 (observations, per release heic0515); released 2005-12-01"
+   },
+   "geometry": {
+    "fovArcmin": [
+     6.41,
+     6.41
+    ],
+    "centreRaDeg": 83.635564,
+    "centreDecDeg": 22.015213,
+    "upPositionAngleDeg": 0.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 3864,
+    "originalHeightPx": 3864
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic0515a.jpg), not the TIFF original. Orientation: archive states 'North is 0.0\u00b0 left of vertical'; converted to upPositionAngleDeg = -0.0 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Whole Crab Nebula, 24 WFPC2 exposures.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 83.635534\u00b0, Dec +22.015241\u00b0) at AVM reference pixel (1933.0, 1933.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (3864x3864 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048, 3864x3864 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/crab-nebula-hubble-wfpc2.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 14082,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/crab-nebula-hubble-wfpc2.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 151506,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/crab-nebula-hubble-wfpc2.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 514574,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/crab-nebula-hubble-wfpc2.L3.webp",
+     "widthPx": 3864,
+     "heightPx": 3864,
+     "bytes": 1605848,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "crab-nebula-webb-nircam-miri",
+   "objectId": "crab-nebula",
+   "title": "Crab Nebula (M1): Webb NIRCam + MIRI composite",
+   "band": {
+    "kind": "multi-band-composite",
+    "filters": [
+     "NIRCam 1.62 \u00b5m",
+     "NIRCam 4.8 \u00b5m",
+     "MIRI 5.6 \u00b5m",
+     "MIRI PAH 11 \u00b5m",
+     "MIRI silicate 18 \u00b5m",
+     "MIRI 21 \u00b5m"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour from two Webb instruments (NIRCam and MIRI). The archive lists: Blue 1.62 \u00b5m; Cyan 4.8 \u00b5m and 5.6 \u00b5m; Green 11 \u00b5m (PAH); Orange 18 \u00b5m (silicate); Red 21 \u00b5m. Infrared is shifted into visible colours by the image makers."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2326e",
+    "landingUrl": "https://esawebb.org/images/weic2326e/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2326e.jpg",
+    "sha256": "2aab9b915acdf7aec6196ff69afa696d0619d620cdb5f0f7509d3f0702fa117f",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA, CSA, STScI, T. Temim (Princeton University)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "NIRCam + MIRI",
+    "date": "released 2023-10-30 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     5.47,
+     4.76
+    ],
+    "centreRaDeg": 83.635727,
+    "centreDecDeg": 22.016662,
+    "upPositionAngleDeg": 2.17,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 10509,
+    "originalHeightPx": 9151
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2326e.jpg), not the TIFF original. Field of view and orientation are not printed on the archive page; they come from the AVM (Astronomy Visualization Metadata) XMP block embedded in the downloaded JPEG: pixel scale 0.03123 arcsec/px (CD matrix) and rotation giving the image's up direction 2.17\u00b0 east of north.",
+    "FOV and orientation are NOT printed on the archive page; they are taken from the AVM (XMP) metadata embedded in the downloaded JPEG (verified after build).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 83.635727\u00b0, Dec +22.016662\u00b0) at AVM reference pixel (5254.5, 4575.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (10509x9151 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x223, 1024x892, 2048x1783, 4096x3567 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/crab-nebula-webb-nircam-miri.L0.webp",
+     "widthPx": 256,
+     "heightPx": 223,
+     "bytes": 11856,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/crab-nebula-webb-nircam-miri.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 892,
+     "bytes": 110598,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/crab-nebula-webb-nircam-miri.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 1783,
+     "bytes": 340388,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/crab-nebula-webb-nircam-miri.L3.webp",
+     "widthPx": 4096,
+     "heightPx": 3567,
+     "bytes": 1144670,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "eagle-nebula-eso-wfi-wide",
+   "objectId": "eagle-nebula",
+   "title": "Eagle Nebula (M16): ESO/MPG 2.2 m WFI wide field",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "B 451 nm",
+     "V 539 nm",
+     "R 651 nm"
+    ],
+    "falseColour": false,
+    "composite": true,
+    "colourNote": "Three broadband visible filters rendered as blue (B), green (V) and red (R), as the archive caption states. This is the closest of our images to an eye-like colour rendering, but it is still a stretched composite, not a photograph."
+   },
+   "source": {
+    "archive": "ESO",
+    "imageId": "eso0926a",
+    "landingUrl": "https://www.eso.org/public/images/eso0926a/",
+    "downloadUrl": "https://cdn.eso.org/images/large/eso0926a.jpg",
+    "sha256": "f860256bcaa9911cc9173672bd5f218294810238f66942862860ce3d8fad944d",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESO",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://www.eso.org/public/outreach/copyright/",
+    "evidence": "Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible. (https://www.eso.org/public/outreach/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "MPG/ESO 2.2-metre telescope, La Silla",
+    "instrument": "WFI",
+    "date": "released 2009-07-16 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     32.08,
+     32.08
+    ],
+    "centreRaDeg": 274.705923,
+    "centreDecDeg": -13.763898,
+    "upPositionAngleDeg": 0.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 8084,
+    "originalHeightPx": 8084
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.eso.org/images/large/eso0926a.jpg), not the TIFF original. Orientation: archive states 'North is 0.0\u00b0 left of vertical'; converted to upPositionAngleDeg = -0.0 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Wide field that shows the Pillars and the surrounding cluster/nebula.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 274.700040\u00b0, Dec -13.819953\u00b0) at AVM reference pixel (4128.4, 3194.3) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 3.38 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (8084x8084 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048, 4096x4096 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/eagle-nebula-eso-wfi-wide.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 14206,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/eagle-nebula-eso-wfi-wide.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 125574,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/eagle-nebula-eso-wfi-wide.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 302058,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/eagle-nebula-eso-wfi-wide.L3.webp",
+     "widthPx": 4096,
+     "heightPx": 4096,
+     "bytes": 814090,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "eagle-nebula-hubble-pillars-nir",
+   "objectId": "eagle-nebula",
+   "title": "Eagle Nebula (M16) Pillars of Creation: Hubble WFC3 near-infrared",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "1.1 \u00b5m",
+     "1.6 \u00b5m"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Two near-infrared bands (1.1 \u00b5m and 1.6 \u00b5m, as listed on the archive page) rendered in colour by the image makers; the page does not state the colour assignment. Near-infrared light is invisible, so the colours are representative."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic1501b",
+    "landingUrl": "https://esahubble.org/images/heic1501b/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic1501b.jpg",
+    "sha256": "bd24d1599500d7a96194ba596108807f904198cafc6e9ea564c51801edbb2cb6",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA/Hubble and the Hubble Heritage Team",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "WFC3",
+    "date": "released 2015-01-05 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     4.34,
+     4.06
+    ],
+    "centreRaDeg": 274.717043,
+    "centreDecDeg": -13.83479,
+    "upPositionAngleDeg": -35.1,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 3249,
+    "originalHeightPx": 3045
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic1501b.jpg), not the TIFF original. Orientation: archive states 'North is 35.1\u00b0 left of vertical'; converted to upPositionAngleDeg = -35.1 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 274.717059\u00b0, Dec -13.834792\u00b0) at AVM reference pixel (1624.0, 1522.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (3249x3045 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x240, 1024x960, 2048x1919, 3249x3045 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/eagle-nebula-hubble-pillars-nir.L0.webp",
+     "widthPx": 256,
+     "heightPx": 240,
+     "bytes": 27454,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/eagle-nebula-hubble-pillars-nir.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 960,
+     "bytes": 383666,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/eagle-nebula-hubble-pillars-nir.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 1919,
+     "bytes": 1047930,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/eagle-nebula-hubble-pillars-nir.L3.webp",
+     "widthPx": 3249,
+     "heightPx": 3045,
+     "bytes": 1920694,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "eagle-nebula-hubble-pillars-visible",
+   "objectId": "eagle-nebula",
+   "title": "Eagle Nebula (M16) Pillars of Creation: Hubble WFC3 visible",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "[O III] 502 nm",
+     "H-alpha 657 nm",
+     "[S II] 673 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Three narrowband filters ([O III], H-alpha, [S II]) combined into colour by the image makers. The archive page and caption do not state which filter is assigned to which display colour; narrowband emission-line mapping means these are not the colours an eye would see."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic1501a",
+    "landingUrl": "https://esahubble.org/images/heic1501a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic1501a.jpg",
+    "sha256": "284191a3bbb4dddfcdd3b9064a26afde010a29edff35b12bface1fe3eb9e3ea6",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA/Hubble and the Hubble Heritage Team",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "WFC3",
+    "date": "released 2015-01-05 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     4.53,
+     4.72
+    ],
+    "centreRaDeg": 274.719653,
+    "centreDecDeg": -13.839432,
+    "upPositionAngleDeg": -35.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 6780,
+    "originalHeightPx": 7071
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic1501a.jpg), not the TIFF original. Orientation: archive states 'North is 35.0\u00b0 left of vertical'; converted to upPositionAngleDeg = -35.0 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "A close-up of the Pillars, not the whole nebula (field 4.5 x 4.7 arcmin).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 274.719657\u00b0, Dec -13.839437\u00b0) at AVM reference pixel (3390.0, 3535.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (6780x7071 px) and verified its SHA-256.",
+    "Resized with Lanczos to 245x256, 982x1024, 1964x2048, 3927x4096 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/eagle-nebula-hubble-pillars-visible.L0.webp",
+     "widthPx": 245,
+     "heightPx": 256,
+     "bytes": 7738,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/eagle-nebula-hubble-pillars-visible.L1.webp",
+     "widthPx": 982,
+     "heightPx": 1024,
+     "bytes": 60710,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/eagle-nebula-hubble-pillars-visible.L2.webp",
+     "widthPx": 1964,
+     "heightPx": 2048,
+     "bytes": 218328,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/eagle-nebula-hubble-pillars-visible.L3.webp",
+     "widthPx": 3927,
+     "heightPx": 4096,
+     "bytes": 1732240,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "eagle-nebula-webb-pillars-nircam",
+   "objectId": "eagle-nebula",
+   "title": "Eagle Nebula (M16) Pillars of Creation: Webb NIRCam (full view)",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "z 900 nm",
+     "P-alpha 1.87 \u00b5m",
+     "2.0 \u00b5m",
+     "PAH 3.35 \u00b5m",
+     "4.44 \u00b5m",
+     "molecular hydrogen 4.7 \u00b5m"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour. The archive lists the display colour of each NIRCam filter: Purple 900 nm; Blue 1.87 \u00b5m (P-alpha); Cyan 2.0 \u00b5m; Yellow 3.35 \u00b5m (PAH); Orange 4.44 \u00b5m; Red 4.7 \u00b5m (molecular hydrogen). Infrared wavelengths are shifted into visible colours by the image makers."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2216b",
+    "landingUrl": "https://esawebb.org/images/weic2216b/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2216b.jpg",
+    "sha256": "e8dae0b77b5c8cbfd45a55e230d1d3ca766edf9a197a62a87e99f7b5116a2a49",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "NIRCam",
+    "date": "released 2022-10-19 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     4.21,
+     7.3
+    ],
+    "centreRaDeg": 274.730244,
+    "centreDecDeg": -13.851811,
+    "upPositionAngleDeg": 2.56,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 8423,
+    "originalHeightPx": 14589
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2216b.jpg), not the TIFF original. Orientation: archive states 'North is 2.6\u00b0 right of vertical'; converted to upPositionAngleDeg = 2.6 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "This is the archive's uncropped 'Full View' (weic2216b), not the square crop weic2216a.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 274.729928\u00b0, Dec -13.851739\u00b0) at AVM reference pixel (4248.7, 7301.4) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.02 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (8423x14589 px) and verified its SHA-256.",
+    "Resized with Lanczos to 148x256, 591x1024, 1182x2048, 2365x4096 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/eagle-nebula-webb-pillars-nircam.L0.webp",
+     "widthPx": 148,
+     "heightPx": 256,
+     "bytes": 11382,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/eagle-nebula-webb-pillars-nircam.L1.webp",
+     "widthPx": 591,
+     "heightPx": 1024,
+     "bytes": 172130,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/eagle-nebula-webb-pillars-nircam.L2.webp",
+     "widthPx": 1182,
+     "heightPx": 2048,
+     "bytes": 623974,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/eagle-nebula-webb-pillars-nircam.L3.webp",
+     "widthPx": 2365,
+     "heightPx": 4096,
+     "bytes": 1807866,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "horsehead-nebula-hubble-ir",
+   "objectId": "horsehead-nebula",
+   "title": "Horsehead Nebula (B33): Hubble WFC3 near-infrared",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "J 1.1 \u00b5m",
+     "H 1.6 \u00b5m"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Two near-infrared bands (1.1 \u00b5m and 1.6 \u00b5m) rendered in colour by the image makers; the archive page does not state the assignment. Infrared is invisible, so colours are representative."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic1307a",
+    "landingUrl": "https://esahubble.org/images/heic1307a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic1307a.jpg",
+    "sha256": "3dae8324d6dcb13f0af75cc59b5441262658f4d3e7228eca77bcb26f100cccc8",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA, and the Hubble Heritage Team (AURA/STScI)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "WFC3",
+    "date": "released 2013-04-19 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     5.78,
+     6.04
+    ],
+    "centreRaDeg": 85.25413,
+    "centreDecDeg": -2.453312,
+    "upPositionAngleDeg": -103.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 2704,
+    "originalHeightPx": 2826
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic1307a.jpg), not the TIFF original. Orientation: archive states 'North is 103.0\u00b0 left of vertical'; converted to upPositionAngleDeg = -103.0 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 85.254130\u00b0, Dec -2.453312\u00b0) at AVM reference pixel (1352.0, 1413.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (2704x2826 px) and verified its SHA-256.",
+    "Resized with Lanczos to 245x256, 980x1024, 1960x2048, 2704x2826 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/horsehead-nebula-hubble-ir.L0.webp",
+     "widthPx": 245,
+     "heightPx": 256,
+     "bytes": 8052,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/horsehead-nebula-hubble-ir.L1.webp",
+     "widthPx": 980,
+     "heightPx": 1024,
+     "bytes": 58484,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/horsehead-nebula-hubble-ir.L2.webp",
+     "widthPx": 1960,
+     "heightPx": 2048,
+     "bytes": 214248,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/horsehead-nebula-hubble-ir.L3.webp",
+     "widthPx": 2704,
+     "heightPx": 2826,
+     "bytes": 498006,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "horsehead-nebula-vlt-visible",
+   "objectId": "horsehead-nebula",
+   "title": "Horsehead Nebula (B33): VLT FORS2 visible B, V, R",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "B 429 nm",
+     "V 554 nm",
+     "R 655 nm"
+    ],
+    "falseColour": false,
+    "composite": true,
+    "colourNote": "Archive caption: B-band (429 nm) rendered as blue, V-band (554 nm) as green, R-band (655 nm) as red; a broadband visible composite that approximates the eye's colours but is a stretched exposure, not a photograph."
+   },
+   "source": {
+    "archive": "ESO",
+    "imageId": "eso0202a",
+    "landingUrl": "https://www.eso.org/public/images/eso0202a/",
+    "downloadUrl": "https://cdn.eso.org/images/large/eso0202a.jpg",
+    "sha256": "10e893b3b272265685da1be78be55c6a842537bb2f3fe10477471e208f4f4049",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESO",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://www.eso.org/public/outreach/copyright/",
+    "evidence": "Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible. (https://www.eso.org/public/outreach/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Very Large Telescope, KUEYEN (UT2), ESO Paranal",
+    "instrument": "FORS2",
+    "date": "2000-02-01 (observations, per archive caption); released 2002-01-25"
+   },
+   "geometry": {
+    "fovArcmin": [
+     6.53,
+     6.72
+    ],
+    "centreRaDeg": 85.25484,
+    "centreDecDeg": -2.449825,
+    "upPositionAngleDeg": -89.9,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 4961,
+    "originalHeightPx": 5105
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.eso.org/images/large/eso0202a.jpg), not the TIFF original. Orientation: archive states 'North is 89.9\u00b0 left of vertical'; converted to upPositionAngleDeg = -89.9 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Shows the dark Horsehead silhouetted against the emission nebula IC 434.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 85.245796\u00b0, Dec -2.458232\u00b0) at AVM reference pixel (2864.2, 2963.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.74 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (4961x5105 px) and verified its SHA-256.",
+    "Resized with Lanczos to 249x256, 995x1024, 1990x2048, 3980x4096 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/horsehead-nebula-vlt-visible.L0.webp",
+     "widthPx": 249,
+     "heightPx": 256,
+     "bytes": 5768,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/horsehead-nebula-vlt-visible.L1.webp",
+     "widthPx": 995,
+     "heightPx": 1024,
+     "bytes": 113262,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/horsehead-nebula-vlt-visible.L2.webp",
+     "widthPx": 1990,
+     "heightPx": 2048,
+     "bytes": 882680,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/horsehead-nebula-vlt-visible.L3.webp",
+     "widthPx": 3980,
+     "heightPx": 4096,
+     "bytes": 2990076,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "horsehead-nebula-webb-nircam",
+   "objectId": "horsehead-nebula",
+   "title": "Horsehead Nebula (B33): Webb NIRCam (the head only)",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "1.4 \u00b5m",
+     "methane 2.5 \u00b5m",
+     "water ice 3.0 \u00b5m",
+     "molecular hydrogen 3.23 \u00b5m",
+     "PAH 3.35 \u00b5m",
+     "carbon dioxide 4.3 \u00b5m",
+     "Br-alpha 4.05 \u00b5m",
+     "molecular hydrogen 4.7 \u00b5m"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour. The archive lists: Blue 1.4 \u00b5m and 2.5 \u00b5m; Cyan 3.0 \u00b5m and 3.23 \u00b5m; Green 3.35 \u00b5m (PAH); Orange 4.3 \u00b5m; Red 4.7 \u00b5m and 4.05 \u00b5m. A small field around the nebula's head only (2.1 x 2.1 arcmin)."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2411a",
+    "landingUrl": "https://esawebb.org/images/weic2411a/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2411a.jpg",
+    "sha256": "2b510963848b501166cd5fbcedff0d97c6a2b8ba845419f59f93cc22226be2ed",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESA/Webb, NASA, CSA, K. Misselt (University of Arizona) and A. Abergel (IAS/University Paris-Saclay, CNRS)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "NIRCam",
+    "date": "released 2024-04-29 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.13,
+     2.14
+    ],
+    "centreRaDeg": 85.21924,
+    "centreDecDeg": -2.479857,
+    "upPositionAngleDeg": -112.2,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 4159,
+    "originalHeightPx": 4187
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2411a.jpg), not the TIFF original. Orientation: archive states 'North is 112.2\u00b0 left of vertical'; converted to upPositionAngleDeg = -112.2 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 85.219240\u00b0, Dec -2.479857\u00b0) at AVM reference pixel (2079.5, 2093.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (4159x4187 px) and verified its SHA-256.",
+    "Resized with Lanczos to 254x256, 1017x1024, 2034x2048, 4069x4096 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/horsehead-nebula-webb-nircam.L0.webp",
+     "widthPx": 254,
+     "heightPx": 256,
+     "bytes": 6012,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/horsehead-nebula-webb-nircam.L1.webp",
+     "widthPx": 1017,
+     "heightPx": 1024,
+     "bytes": 42400,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/horsehead-nebula-webb-nircam.L2.webp",
+     "widthPx": 2034,
+     "heightPx": 2048,
+     "bytes": 122936,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/horsehead-nebula-webb-nircam.L3.webp",
+     "widthPx": 4069,
+     "heightPx": 4096,
+     "bytes": 410328,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "lmc-galex-nuv",
+   "objectId": "lmc",
+   "title": "Large Magellanic Cloud in GALEX NUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX NUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Near UV' survey, Large Magellanic Cloud",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=80.894%2C-69.756&Survey=GALEX+Near+UV&Pixels=2048&Size=10.0&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey",
+    "sha256": "368ee8332858c7b0f161b8dc1cec79daf31c407097a23fe8d4ba7c0f39d75a9a",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "NUV channel, SkyView survey 'GALEX Near UV', bandpass 1.05-1.69 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     600.0,
+     600.0
+    ],
+    "centreRaDeg": 80.894,
+    "centreDecDeg": -69.756,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header",
+    "originalWidthPx": 2048,
+    "originalHeightPx": 2048
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX NUV mosaics with request parameters: Position=80.894,-69.756, Survey=GALEX Near UV, Pixels=2048, Size=10.0, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise.",
+    "GALEX coverage of the LMC is patchy and avoids bright-star fields, so this image has large holes (including near the centre); it is NOT a complete map of the galaxy.",
+    "Downloaded original (2048x2048 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "scientific-image",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/lmc-galex-nuv.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 3642,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/lmc-galex-nuv.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 178152,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/lmc-galex-nuv.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 1250852,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m104-hubble-acs-mosaic",
+   "objectId": "m104",
+   "title": "Sombrero Galaxy (M104), Hubble ACS mosaic",
+   "band": {
+    "kind": "multi-band-composite",
+    "filters": [
+     "435 nm (B)",
+     "555 nm (V)",
+     "850 nm (R, as listed by the archive)"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Three-band composite (blue, visible, and a near-infrared 850 nm band the archive lists as R); chromatic ordering, not an eye view."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "opo0328a",
+    "landingUrl": "https://esahubble.org/images/opo0328a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/publicationjpg/opo0328a.jpg",
+    "sha256": "729b1cb002266cfb84bed3757b992c314fc60767be112714fbc591ae7b1dfbaf",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA/ESA and The Hubble Heritage Team (STScI/AURA)",
+   "licence": {
+    "name": "CC BY 4.0 (ESA/Hubble)",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "Image page https://esahubble.org/images/opo0328a/ shows the credit line below and links its 'Usage of ESA/Hubble Images and Videos' to https://esahubble.org/copyright/ (no per-image exception or restriction is shown on the image page). That page states: \"ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited.\" and, in its Q&A on credit lines: \"Images and videos published on esahubble.org are, unless explicitly stated otherwise, cleared for reuse without needing to contact the individuals or organisations listed. Their names must not be removed from the credit, however.\" (retrieved 2026-11-12.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "ACS",
+    "date": "Release date 2004-10-02 (observation dates not stated on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     9.57,
+     5.36
+    ],
+    "centreRaDeg": 189.99704,
+    "centreDecDeg": -11.62275,
+    "upPositionAngleDeg": 5.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 4000,
+    "originalHeightPx": 2242
+   },
+   "processing": [
+    "Archive page 'opo0328a' gives centre, field of view (9.57 x 5.36 arcmin, of the full original) and orientation ('North is 5.0\u00b0 right of vertical'); copied as published, not measured by us. Orientation conversion: the archive page states 'North is 5.0\u00b0 right of vertical'; north rotated clockwise from image-up by X degrees (right of vertical) means image-up lies X degrees east of north, so upPositionAngleDeg = +X; left of vertical gives -X (mod 360). Checked against the object's known major-axis position angle and by eye.",
+    "We use the 4000-px 'publication JPEG' derivative of the 11472 x 6429 px original.",
+    "Downloaded original (4000x2242 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x143, 1024x574, 2048x1148, 4000x2242 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m104-hubble-acs-mosaic.L0.webp",
+     "widthPx": 256,
+     "heightPx": 143,
+     "bytes": 2012,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m104-hubble-acs-mosaic.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 574,
+     "bytes": 20790,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m104-hubble-acs-mosaic.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 1148,
+     "bytes": 90414,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/m104-hubble-acs-mosaic.L3.webp",
+     "widthPx": 4000,
+     "heightPx": 2242,
+     "bytes": 617040,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m31-galex-fuv",
+   "objectId": "m31",
+   "title": "M31 in GALEX FUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX FUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Far UV' survey, M31",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=10.6847%2C41.2687&Survey=GALEX+Far+UV&Pixels=2048&Size=3.2&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey",
+    "sha256": "a3e58c2334cbeb95b0b80a94d6b05ae5f18c82495e613cca393b618bd2e4a73a",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "FUV channel, SkyView survey 'GALEX Far UV', bandpass 1.68-2.23 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     192.0,
+     192.0
+    ],
+    "centreRaDeg": 10.6847,
+    "centreDecDeg": 41.2687,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header",
+    "originalWidthPx": 2048,
+    "originalHeightPx": 2048
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX FUV mosaics with request parameters: Position=10.6847,41.2687, Survey=GALEX Far UV, Pixels=2048, Size=3.2, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise.",
+    "Single-band GALEX mosaic; the field is cut by the survey footprint at its edges.",
+    "Downloaded original (2048x2048 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "scientific-image",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m31-galex-fuv.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 1580,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m31-galex-fuv.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 62188,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m31-galex-fuv.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 753076,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m31-galex-nuv",
+   "objectId": "m31",
+   "title": "M31 in GALEX NUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX NUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Near UV' survey, M31",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=10.6847%2C41.2687&Survey=GALEX+Near+UV&Pixels=2048&Size=3.2&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey",
+    "sha256": "76d7db513792f2cf7e9012c4ae3cac079bf5d4c9ae088c613bfcb592564108fb",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "NUV channel, SkyView survey 'GALEX Near UV', bandpass 1.05-1.69 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     192.0,
+     192.0
+    ],
+    "centreRaDeg": 10.6847,
+    "centreDecDeg": 41.2687,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header",
+    "originalWidthPx": 2048,
+    "originalHeightPx": 2048
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX NUV mosaics with request parameters: Position=10.6847,41.2687, Survey=GALEX Near UV, Pixels=2048, Size=3.2, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise.",
+    "Single-band GALEX mosaic; the field is cut by the survey footprint at its edges.",
+    "Downloaded original (2048x2048 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "scientific-image",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m31-galex-nuv.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 2924,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m31-galex-nuv.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 71666,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m31-galex-nuv.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 385490,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m31-phat-visible",
+   "objectId": "m31",
+   "title": "Andromeda Galaxy, Hubble PHAT mosaic strip (partial)",
+   "band": {
+    "kind": "multi-band-composite",
+    "filters": [
+     "475 nm (b)",
+     "814 nm (I)"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Two-band composite (blue 475 nm and near-infrared 814 nm) with colours assigned by the image makers; read as chromatic ordering, not as an eye view. The page lists no further colour mapping."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic1502a",
+    "landingUrl": "https://esahubble.org/images/heic1502a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/publicationjpg/heic1502a.jpg",
+    "sha256": "303609ae6a414fdd3381bc5bb62ba06388782f9f28a82b77c0f9cd4ac72ab38a",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.",
+   "licence": {
+    "name": "CC BY 4.0 (ESA/Hubble)",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "Image page https://esahubble.org/images/heic1502a/ shows the credit line below and links its 'Usage of ESA/Hubble Images and Videos' to https://esahubble.org/copyright/ (no per-image exception or restriction is shown on the image page). That page states: \"ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited.\" and, in its Q&A on credit lines: \"Images and videos published on esahubble.org are, unless explicitly stated otherwise, cleared for reuse without needing to contact the individuals or organisations listed. Their names must not be removed from the credit, however.\" (retrieved 2026-11-12.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "ACS",
+    "date": "Release date 2015-01-05 (observation dates not stated on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     57.98,
+     18.54
+    ],
+    "centreRaDeg": 11.15413,
+    "centreDecDeg": 41.59273,
+    "upPositionAngleDeg": 123.5,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 4000,
+    "originalHeightPx": 1279
+   },
+   "processing": [
+    "Archive page 'heic1502a' gives centre, field of view (57.98 x 18.54 arcmin, of the full original) and orientation ('North is 123.5\u00b0 right of vertical'); copied as published, not measured by us. Orientation conversion: the archive page states 'North is 123.5\u00b0 right of vertical'; north rotated clockwise from image-up by X degrees (right of vertical) means image-up lies X degrees east of north, so upPositionAngleDeg = +X; left of vertical gives -X (mod 360). Checked against the object's known major-axis position angle and by eye.",
+    "IMPORTANT: this is only a 58 x 18.5 arcmin strip of the disc (the archive calls it a cropped version of the 1.5-gigapixel PHAT mosaic), tilted on the sky; it does not cover the whole galaxy. We use the 4000-px 'publication JPEG' derivative, not the 69536 x 22230 px original.",
+    "Downloaded original (4000x1279 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x82, 1024x327, 2048x655, 4000x1279 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m31-phat-visible.L0.webp",
+     "widthPx": 256,
+     "heightPx": 82,
+     "bytes": 2368,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m31-phat-visible.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 327,
+     "bytes": 40668,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m31-phat-visible.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 655,
+     "bytes": 272318,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/m31-phat-visible.L3.webp",
+     "widthPx": 4000,
+     "heightPx": 1279,
+     "bytes": 1490382,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m32-galex-nuv",
+   "objectId": "m32",
+   "title": "M32 in GALEX NUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX NUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied. Contrast has been stretched by us (see processing) so faint structure is visible."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Near UV' survey, M32",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=10.6743%2C40.8652&Survey=GALEX+Near+UV&Pixels=2048&Size=0.3&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey",
+    "sha256": "3482e3d46d1224ae164d20962f6ace9f9bbae804b2e45eef16ce09f9d1b81463",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "NUV channel, SkyView survey 'GALEX Near UV', bandpass 1.05-1.69 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     18.0,
+     18.0
+    ],
+    "centreRaDeg": 10.6743,
+    "centreDecDeg": 40.8652,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header",
+    "originalWidthPx": 2048,
+    "originalHeightPx": 2048
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX NUV mosaics with request parameters: Position=10.6743,40.8652, Survey=GALEX Near UV, Pixels=2048, Size=0.3, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise.",
+    "The 18-arcmin field is centred on M32; the surrounding structure is M31's disc.",
+    "Downloaded original (2048x2048 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048 px; encoded as WebP quality 80. No upscaling.",
+    "Declared display stretch applied by us to the 8-bit original before resizing: values between the 10th and 99.9th percentile of its non-zero pixels (10 and 137 of 255) were mapped linearly to 0 and 255 and clipped; then out = in^(1/1). This changes contrast only; it adds no information and the original archive image is unchanged."
+   ],
+   "fidelity": "scientific-image",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m32-galex-nuv.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 8552,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m32-galex-nuv.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 47174,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m32-galex-nuv.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 126996,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m33-galex-fuv",
+   "objectId": "m33",
+   "title": "M33 in GALEX FUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX FUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Far UV' survey, M33",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=23.4621%2C30.6602&Survey=GALEX+Far+UV&Pixels=2048&Size=1.5&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey",
+    "sha256": "603c71c6563037e87131c7006f64afbf90b307befec131689b2d9de22d71bfbb",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "FUV channel, SkyView survey 'GALEX Far UV', bandpass 1.68-2.23 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     90.0,
+     90.0
+    ],
+    "centreRaDeg": 23.4621,
+    "centreDecDeg": 30.6602,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header",
+    "originalWidthPx": 2048,
+    "originalHeightPx": 2048
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX FUV mosaics with request parameters: Position=23.4621,30.6602, Survey=GALEX Far UV, Pixels=2048, Size=1.5, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise.",
+    "Downloaded original (2048x2048 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "scientific-image",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m33-galex-fuv.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 2410,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m33-galex-fuv.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 165404,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m33-galex-fuv.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 1209218,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m33-galex-nuv",
+   "objectId": "m33",
+   "title": "M33 in GALEX NUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX NUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Near UV' survey, M33",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=23.4621%2C30.6602&Survey=GALEX+Near+UV&Pixels=2048&Size=1.5&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey",
+    "sha256": "30f7b54be4d6953673a5f646e0c13860c09e0e2474a63f02726d9259ff7d678c",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "NUV channel, SkyView survey 'GALEX Near UV', bandpass 1.05-1.69 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     90.0,
+     90.0
+    ],
+    "centreRaDeg": 23.4621,
+    "centreDecDeg": 30.6602,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header",
+    "originalWidthPx": 2048,
+    "originalHeightPx": 2048
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX NUV mosaics with request parameters: Position=23.4621,30.6602, Survey=GALEX Near UV, Pixels=2048, Size=1.5, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise.",
+    "Downloaded original (2048x2048 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "scientific-image",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m33-galex-nuv.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 2948,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m33-galex-nuv.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 51950,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m33-galex-nuv.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 421132,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m33-vst-visible",
+   "objectId": "m33",
+   "title": "Triangulum Galaxy (M33), VST wide-field",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "g",
+     "r",
+     "H-alpha"
+    ],
+    "falseColour": false,
+    "composite": true,
+    "colourNote": "Composite of g, r and H-alpha filtered exposures. The ESO page does not document which filter is shown in which colour channel or how it was stretched; the red nebulae are consistent with H-alpha emission but that is our reading."
+   },
+   "source": {
+    "archive": "ESO",
+    "imageId": "eso1424a",
+    "landingUrl": "https://www.eso.org/public/images/eso1424a/",
+    "downloadUrl": "https://cdn.eso.org/images/large/eso1424a.jpg",
+    "sha256": "9d1a7a51fa2431ea12f396f28578e0c9a3d511e7ea34cb87ccaa5e5aa3107dee",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESO",
+   "licence": {
+    "name": "CC BY 4.0 (ESO)",
+    "url": "https://www.eso.org/public/outreach/copyright/",
+    "evidence": "Image page https://www.eso.org/public/images/eso1424a/ shows the credit line below and links its 'Usage of ESO images, videos, web texts and music' to https://www.eso.org/public/outreach/copyright/ (no per-image exception or restriction is shown on the image page). That page states: \"Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible.\" and, in its Q&A: \"Images and videos published on eso.org are, unless explicitly stated otherwise, cleared for reuse without needing to contact the individuals or organisations listed. Their names must not be removed from the credit, however.\" (retrieved 2026-11-12.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "VLT Survey Telescope (ESO Paranal)",
+    "instrument": "OmegaCAM",
+    "date": "Release date 2014-08-06 (observation dates not stated on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     68.01,
+     57.04
+    ],
+    "centreRaDeg": 23.46717,
+    "centreDecDeg": 30.67394,
+    "upPositionAngleDeg": 270.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 19058,
+    "originalHeightPx": 15983
+   },
+   "processing": [
+    "Archive page 'eso1424a' gives centre, field of view (68.01 x 57.04 arcmin, of the full original) and orientation ('North is 90.0\u00b0 left of vertical'); copied as published, not measured by us. Orientation conversion: the archive page states 'North is 90.0\u00b0 left of vertical'; north rotated clockwise from image-up by X degrees (right of vertical) means image-up lies X degrees east of north, so upPositionAngleDeg = +X; left of vertical gives -X (mod 360). Checked against the object's known major-axis position angle and by eye.",
+    "Downloaded original (19058x15983 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x215, 1024x859, 2048x1718, 4096x3435 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m33-vst-visible.L0.webp",
+     "widthPx": 256,
+     "heightPx": 215,
+     "bytes": 6758,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m33-vst-visible.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 859,
+     "bytes": 94614,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m33-vst-visible.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 1718,
+     "bytes": 388258,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/m33-vst-visible.L3.webp",
+     "widthPx": 4096,
+     "heightPx": 3435,
+     "bytes": 1392346,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m81-galex-fuv",
+   "objectId": "m81",
+   "title": "M81 in GALEX FUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX FUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied. Contrast has been stretched by us (see processing) so faint structure is visible."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Far UV' survey, M81",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=148.8882%2C69.0653&Survey=GALEX+Far+UV&Pixels=2048&Size=0.8&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey",
+    "sha256": "74103a7d7f0722b403405145addd13646b9bd11c65c8e357aa0161830e8bf30b",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "FUV channel, SkyView survey 'GALEX Far UV', bandpass 1.68-2.23 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     48.0,
+     48.0
+    ],
+    "centreRaDeg": 148.8882,
+    "centreDecDeg": 69.0653,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header",
+    "originalWidthPx": 2048,
+    "originalHeightPx": 2048
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX FUV mosaics with request parameters: Position=148.8882,69.0653, Survey=GALEX Far UV, Pixels=2048, Size=0.8, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise.",
+    "Downloaded original (2048x2048 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048 px; encoded as WebP quality 80. No upscaling.",
+    "Declared display stretch applied by us to the 8-bit original before resizing: values between the 10th and 99.9th percentile of its non-zero pixels (94 and 191 of 255) were mapped linearly to 0 and 255 and clipped; then out = in^(1/1). This changes contrast only; it adds no information and the original archive image is unchanged."
+   ],
+   "fidelity": "scientific-image",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m81-galex-fuv.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 7120,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m81-galex-fuv.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 246840,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m81-galex-fuv.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 1128274,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m81-galex-nuv",
+   "objectId": "m81",
+   "title": "M81 in GALEX NUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX NUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Near UV' survey, M81",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=148.8882%2C69.0653&Survey=GALEX+Near+UV&Pixels=2048&Size=0.8&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey",
+    "sha256": "c037157d52702b151f76c5b360b7de00ef7303d1126ac3536b28f492f214ea39",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "NUV channel, SkyView survey 'GALEX Near UV', bandpass 1.05-1.69 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     48.0,
+     48.0
+    ],
+    "centreRaDeg": 148.8882,
+    "centreDecDeg": 69.0653,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header",
+    "originalWidthPx": 2048,
+    "originalHeightPx": 2048
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX NUV mosaics with request parameters: Position=148.8882,69.0653, Survey=GALEX Near UV, Pixels=2048, Size=0.8, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise.",
+    "Downloaded original (2048x2048 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "scientific-image",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m81-galex-nuv.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 2884,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m81-galex-nuv.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 28426,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m81-galex-nuv.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 105410,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m81-hubble-acs",
+   "objectId": "m81",
+   "title": "Messier 81, Hubble ACS colour composite",
+   "band": {
+    "kind": "multi-band-composite",
+    "filters": [
+     "435 nm (B)",
+     "606 nm (V)",
+     "814 nm (I)"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Composite assembled from blue, visible and infrared images (caption); chromatic ordering by the Hubble Heritage Team, not an eye view."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0710a",
+    "landingUrl": "https://esahubble.org/images/heic0710a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/publicationjpg/heic0710a.jpg",
+    "sha256": "d76fdccba31e7364c0b5d8c1f721b4226bd6265146ee1dbd3933e8f12278b261",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA and the Hubble Heritage Team (STScI/AURA). Acknowledgment: A. Zezas and J. Huchra (Harvard-Smithsonian Center for Astrophysics)",
+   "licence": {
+    "name": "CC BY 4.0 (ESA/Hubble)",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "Image page https://esahubble.org/images/heic0710a/ shows the credit line below and links its 'Usage of ESA/Hubble Images and Videos' to https://esahubble.org/copyright/ (no per-image exception or restriction is shown on the image page). That page states: \"ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited.\" and, in its Q&A on credit lines: \"Images and videos published on esahubble.org are, unless explicitly stated otherwise, cleared for reuse without needing to contact the individuals or organisations listed. Their names must not be removed from the credit, however.\" (retrieved 2026-11-12.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "ACS",
+    "date": "2004 to 2006 (per caption; released 2007-05-28)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     18.85,
+     12.67
+    ],
+    "centreRaDeg": 148.89108,
+    "centreDecDeg": 69.07226,
+    "upPositionAngleDeg": 246.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 4000,
+    "originalHeightPx": 2688
+   },
+   "processing": [
+    "Archive page 'heic0710a' gives centre, field of view (18.85 x 12.67 arcmin, of the full original) and orientation ('North is 114.0\u00b0 left of vertical'); copied as published, not measured by us. Orientation conversion: the archive page states 'North is 114.0\u00b0 left of vertical'; north rotated clockwise from image-up by X degrees (right of vertical) means image-up lies X degrees east of north, so upPositionAngleDeg = +X; left of vertical gives -X (mod 360). Checked against the object's known major-axis position angle and by eye.",
+    "We use the 4000-px 'publication JPEG' derivative of the 22620 x 15200 px original. The field covers the central ~19 x 13 arcmin; M81's outer disc is larger.",
+    "Downloaded original (4000x2688 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x172, 1024x688, 2048x1376, 4000x2688 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m81-hubble-acs.L0.webp",
+     "widthPx": 256,
+     "heightPx": 172,
+     "bytes": 1954,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m81-hubble-acs.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 688,
+     "bytes": 24422,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m81-hubble-acs.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 1376,
+     "bytes": 147924,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/m81-hubble-acs.L3.webp",
+     "widthPx": 4000,
+     "heightPx": 2688,
+     "bytes": 913416,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m87-galex-nuv",
+   "objectId": "m87",
+   "title": "M87 in GALEX NUV ultraviolet (SkyView)",
+   "band": {
+    "kind": "ultraviolet",
+    "filters": [
+     "GALEX NUV"
+    ],
+    "falseColour": false,
+    "composite": false,
+    "colourNote": "Single-band ultraviolet intensity shown as log-scaled greyscale; ultraviolet is invisible to the eye, and young hot stars dominate. No colour table applied. Contrast has been stretched by us (see processing) so faint structure is visible."
+   },
+   "source": {
+    "archive": "NASA SkyView (GALEX data from MAST)",
+    "imageId": "SkyView 'GALEX Near UV' survey, M87",
+    "landingUrl": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "downloadUrl": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?Position=187.7059%2C12.3911&Survey=GALEX+Near+UV&Pixels=2048&Size=0.5&Projection=Tan&Coordinates=J2000&Return=JPEG&Scaling=Log&Sampler=LI&Cmap=Grey",
+    "sha256": "3932528a4a2a5d0e5213294dd610e54d261b4e3931dea1984bbdfbb23d1fa773",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "Data: GALEX (Galaxy Evolution Explorer), NASA, via the MAST GALEX archive; reprojected by NASA SkyView (HEASARC, NASA/GSFC).",
+   "licence": {
+    "name": "Public domain (as stated by SkyView for GALEX)",
+    "url": "https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+    "evidence": "SkyView survey description (also in the FITS header): 'Provenance: All data is downloaded from the MAST GALEX archive. Copyright: Public domain.'",
+    "attributionRequired": false,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "GALEX (Galaxy Evolution Explorer)",
+    "instrument": "NUV channel, SkyView survey 'GALEX Near UV', bandpass 1.05-1.69 PHz",
+    "date": "2003 to 2009 (survey epoch per SkyView)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     30.0,
+     30.0
+    ],
+    "centreRaDeg": 187.7059,
+    "centreDecDeg": 12.3911,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header",
+    "originalWidthPx": 2048,
+    "originalHeightPx": 2048
+   },
+   "processing": [
+    "Rendered by NASA SkyView from GALEX NUV mosaics with request parameters: Position=187.7059,12.3911, Survey=GALEX Near UV, Pixels=2048, Size=0.5, Projection=Tan, Coordinates=J2000, Return=JPEG, Scaling=Log, Sampler=LI, Cmap=Grey. Output is a TAN-projection greyscale JPEG, north up, east left, centred on the requested position (verified on a FITS request with the same geometry: CTYPE RA---TAN/DEC--TAN, CRVAL = request centre, CRPIX at image centre, CDELT1 negative, CDELT2 positive, no rotation).",
+    "Intensity is log-scaled by SkyView's JPEG writer with its default range; GALEX tile boundaries and exposure differences show as visible patches and noise.",
+    "Downloaded original (2048x2048 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048 px; encoded as WebP quality 80. No upscaling.",
+    "Declared display stretch applied by us to the 8-bit original before resizing: values between the 10th and 99.9th percentile of its non-zero pixels (24 and 119 of 255) were mapped linearly to 0 and 255 and clipped; then out = in^(1/1). This changes contrast only; it adds no information and the original archive image is unchanged."
+   ],
+   "fidelity": "scientific-image",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m87-galex-nuv.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 10456,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m87-galex-nuv.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 163972,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m87-galex-nuv.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 509640,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "m87-legacysurvey-grz",
+   "objectId": "m87",
+   "title": "M87 in Legacy Surveys DR10 g, r, z colour cutout (DECam)",
+   "band": {
+    "kind": "multi-band-composite",
+    "filters": [
+     "g (DECam)",
+     "r (DECam)",
+     "z (DECam)"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Three optical/near-infrared DECam bands combined by the Legacy Surveys viewer's own colour mapping (legacypipe dr2_rgb / sdss_rgb, non-linear asinh-type stretch): g (about 480 nm) is shown blue, r (about 620 nm) green and z (about 900 nm, near-infrared) red. Because z lies beyond the visible range and the three bands are stretched non-linearly, this is a false-colour composite, not what an eye would see; it is the standard Legacy Surveys look. Brightness is not linear in flux. (Mapping z->red, g->blue confirmed by us: in the FITS cutout of the same field the z/g flux ratio correlates +0.73 with the JPEG's red-minus-blue.)"
+   },
+   "source": {
+    "archive": "Legacy Surveys (DESI Legacy Imaging Surveys) Sky Viewer cutout service",
+    "imageId": "layer ls-dr10-grz, ra=187.7059 dec=12.3911 pixscale=0.5 size=2048",
+    "landingUrl": "https://www.legacysurvey.org/viewer?ra=187.7059&dec=12.3911&layer=ls-dr10&zoom=12",
+    "downloadUrl": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=187.7059&dec=12.3911&layer=ls-dr10-grz&pixscale=0.5&size=2048",
+    "sha256": "eb848e6fbf833676b0249cc8f382b083d85f7545a04d220fcfc15dd347b978be",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "Legacy Surveys / D. Lang (Perimeter Institute)",
+   "licence": {
+    "name": "CC BY 4.0 (Legacy Surveys)",
+    "url": "https://www.legacysurvey.org/acknowledgment/",
+    "evidence": "For the layers produced by the Legacy Surveys and unWISE teams, including \"Legacy Surveys\", \"DECaLS\", \"MzLS+BASS\", \"DECaPS\" and \"unWISE\" layers, the copyright and license statement is: Images are licensed under a Creative Commons Attribution 4.0 International License, and hence may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible. The credit must be presented in a clear and legible manner to all users, with the wording unaltered as \u201cLegacy Surveys / D. Lang (Perimeter Institute)\u201d for Legacy Surveys layers and \"unWISE / NASA/JPL-Caltech / D. Lang (Perimeter Institute)\" for unWISE layers.",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Blanco 4-m telescope, CTIO (Dark Energy Camera, DECam); Legacy Surveys DR10 coadd",
+    "instrument": "DECam g, r, z",
+    "date": "Coadd of many exposures; epochs are not stated for the cutout"
+   },
+   "geometry": {
+    "fovArcmin": [
+     17.066666666666666,
+     17.066666666666666
+    ],
+    "centreRaDeg": 187.7059,
+    "centreDecDeg": 12.3911,
+    "upPositionAngleDeg": 0,
+    "wcsSource": "fits-header",
+    "originalWidthPx": 2048,
+    "originalHeightPx": 2048
+   },
+   "processing": [
+    "Geometry is exact because we chose it: ra=187.7059, dec=12.3911, pixscale=0.5 arcsec/pixel, size=2048 pixels (field 1024 arcsec = 17.07 arcmin square), north up, east left, TAN. The JPEG itself has no header; we requested the FITS cutout of the same layer family (layer=ls-dr10, bands=grz) with identical parameters and read its header: CTYPE RA---TAN/DEC--TAN, CRVAL = 187.7059, 12.3911, CRPIX = 1024.5, 1024.5, CD1_1 = -1.388889e-4 deg (= -0.5 arcsec), CD2_2 = +1.388889e-4 deg, CD1_2 = CD2_1 = 0 (no rotation). The JPEG was checked to be on the same grid with north up (correlation of the FITS z band with the JPEG red channel at 16-pixel blocks: 0.84 north-up, 0.72 with the vertical flip).",
+    "Layer choice: 'ls-dr10-grz' (g, r, z only) rather than 'ls-dr10'/'ls-dr11', whose JPEG colour mapping in the DECam footprint includes the i band and whose DR10 JPEG of this field shows a purple masked streak; 'ls-dr11-grz' returned an empty image. The cutout is rendered by the Legacy Surveys service from its coadded DECam images; we did not coadd or calibrate anything.",
+    "The Legacy Surveys data licence page states that images are CC BY 4.0 and that the credit must read 'Legacy Surveys / D. Lang (Perimeter Institute)' unaltered, visible and with an active link online (https://www.legacysurvey.org/). Each survey layer has its own terms; for the Legacy Surveys layers this is the statement quoted in the licence evidence.",
+    "Limitations: saturated bright stars show diffraction spikes/coloured halos; M87's bright core and the faint outer halo are compressed by the non-linear stretch; this is a field of 17 arcmin, i.e. the inner galaxy only.",
+    "Downloaded original (2048x2048 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/m87-legacysurvey-grz.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 6830,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/m87-legacysurvey-grz.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 69276,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/m87-legacysurvey-grz.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 347486,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "ngc-1999-hubble-vlt",
+   "objectId": "ngc-1999",
+   "title": "NGC 1999 'Cosmic Keyhole': Hubble WFPC2 with VST OmegaCAM data",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "b 450 nm (HST)",
+     "v 555 nm (HST)",
+     "r 675 nm (HST)",
+     "u 350 nm (VST)",
+     "g 480 nm (VST)",
+     "H-alpha 659 nm (VST)"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Archival Hubble WFPC2 b/v/r combined with VLT Survey Telescope u/g/H-alpha data (archive filter table). The page does not state the colour assignment, and the u (350 nm) band is ultraviolet-to-blue, so colours are the image makers' assignment."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "potw2243a",
+    "landingUrl": "https://esahubble.org/images/potw2243a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/potw2243a.jpg",
+    "sha256": "e304e22ee15fb0384fea9e4267517c6c6e0a6326deef231ead9127fd9d32f679",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESA/Hubble & NASA, ESO, K. Noll",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope (WFPC2) and VLT Survey Telescope (OmegaCAM)",
+    "instrument": "WFPC2 + OmegaCAM",
+    "date": "Hubble data from shortly after Servicing Mission 3A in 1999 (archive caption); released 2022-10-24"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.78,
+     2.97
+    ],
+    "centreRaDeg": 84.103127,
+    "centreDecDeg": -6.714626,
+    "upPositionAngleDeg": 24.8,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 1665,
+    "originalHeightPx": 1780
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/potw2243a.jpg), not the TIFF original. Orientation: archive states 'North is 24.8\u00b0 right of vertical'; converted to upPositionAngleDeg = 24.8 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Reflection nebula NGC 1999 (V380 Orionis). Source is 1665 x 1780 px, below the 2000 px target: this is the only reflection-nebula image with full ESA/Hubble metadata that I verified.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 84.103127\u00b0, Dec -6.714626\u00b0) at AVM reference pixel (832.5, 890.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (1665x1780 px) and verified its SHA-256.",
+    "Resized with Lanczos to 239x256, 958x1024, 1665x1780 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/ngc-1999-hubble-vlt.L0.webp",
+     "widthPx": 239,
+     "heightPx": 256,
+     "bytes": 2638,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/ngc-1999-hubble-vlt.L1.webp",
+     "widthPx": 958,
+     "heightPx": 1024,
+     "bytes": 18162,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/ngc-1999-hubble-vlt.L2.webp",
+     "widthPx": 1665,
+     "heightPx": 1780,
+     "bytes": 68236,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "orion-nebula-hubble-mosaic",
+   "objectId": "orion-nebula",
+   "title": "Orion Nebula (M42/M43): Hubble ACS mosaic with ground-based fill",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "B 435 nm",
+     "V 555 nm",
+     "H-alpha 658 nm",
+     "I 775 nm",
+     "Z 850 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Composite of 520 Hubble ACS images in five filters (two of them, I 775 nm and Z 850 nm, are in the near-infrared) plus ground-based WFI data added by the image makers to fill out the nebula. The archive page does not state which filter is assigned to which display colour, so the colours are the image makers' assignment, not the appearance to the eye."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0601a",
+    "landingUrl": "https://esahubble.org/images/heic0601a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic0601a.jpg",
+    "sha256": "f79819a5b0ec66fe750aa8e4a6ce8b5a5c656b3e4cfb85a2b4f67f0012db9ce4",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "ACS (plus WFI on the ESO/MPG 2.2-metre telescope for added ground-based data)",
+    "date": "2004-2005 (observations, per archive); released 2006-01-11"
+   },
+   "geometry": {
+    "fovArcmin": [
+     30.03,
+     30.03
+    ],
+    "centreRaDeg": 83.790532,
+    "centreDecDeg": -5.413978,
+    "upPositionAngleDeg": 0.0,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 18000,
+    "originalHeightPx": 18000
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic0601a.jpg), not the TIFF original. Orientation: archive states 'North is 0.0\u00b0 left of vertical'; converted to upPositionAngleDeg = -0.0 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Archive note: 'Additional observational data from the WFI instrument on the ESO.MPG 2.2-metre telescope.' The ACS mosaic covers about the apparent size of the full Moon (archive text).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 83.790532\u00b0, Dec -5.413978\u00b0) at AVM reference pixel (9000.0, 9000.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (18000x18000 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048, 4096x4096 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/orion-nebula-hubble-mosaic.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 6228,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/orion-nebula-hubble-mosaic.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 48746,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/orion-nebula-hubble-mosaic.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 131488,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/orion-nebula-hubble-mosaic.L3.webp",
+     "widthPx": 4096,
+     "heightPx": 4096,
+     "bytes": 354088,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "orion-nebula-vista-nir",
+   "objectId": "orion-nebula",
+   "title": "Orion Nebula (M42): VISTA near-infrared Z, J, Ks",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "Z 880 nm",
+     "J 1.25 \u00b5m",
+     "K 2.15 \u00b5m"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Three near-infrared filters (Z, J, Ks) combined into a colour picture by the image makers; the archive page does not state the colour assignment. Near-infrared is invisible to the eye, so the colours are representative and show dust-penetrating stellar content, not visible appearance."
+   },
+   "source": {
+    "archive": "ESO",
+    "imageId": "eso1006a",
+    "landingUrl": "https://www.eso.org/public/images/eso1006a/",
+    "downloadUrl": "https://cdn.eso.org/images/large/eso1006a.jpg",
+    "sha256": "d028fd9757559b205ddfb40626004327d446619824408b4b2ec1efbacf2f30d1",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESO/J. Emerson/VISTA. Acknowledgment: Cambridge Astronomical Survey Unit",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://www.eso.org/public/outreach/copyright/",
+    "evidence": "Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible. (https://www.eso.org/public/outreach/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Visible and Infrared Survey Telescope for Astronomy (VISTA), ESO Paranal",
+    "instrument": "VIRCAM",
+    "date": "released 2010-02-10 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     71.84,
+     88.35
+    ],
+    "centreRaDeg": 83.790366,
+    "centreDecDeg": -5.322447,
+    "upPositionAngleDeg": -0.1,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 12640,
+    "originalHeightPx": 15546
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.eso.org/images/large/eso1006a.jpg), not the TIFF original. Orientation: archive states 'North is 0.1\u00b0 left of vertical'; converted to upPositionAngleDeg = -0.1 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Archive caption: image made from Z, J and Ks near-infrared images with ten-minute exposures per filter, about 1 x 1.5 degrees of sky.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 83.822156\u00b0, Dec -5.390986\u00b0) at AVM reference pixel (5987.1, 7048.9) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 4.53 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (12640x15546 px) and verified its SHA-256.",
+    "Resized with Lanczos to 208x256, 833x1024, 1665x2048, 3330x4096 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/orion-nebula-vista-nir.L0.webp",
+     "widthPx": 208,
+     "heightPx": 256,
+     "bytes": 6440,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/orion-nebula-vista-nir.L1.webp",
+     "widthPx": 833,
+     "heightPx": 1024,
+     "bytes": 79444,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/orion-nebula-vista-nir.L2.webp",
+     "widthPx": 1665,
+     "heightPx": 2048,
+     "bytes": 241304,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/orion-nebula-vista-nir.L3.webp",
+     "widthPx": 3330,
+     "heightPx": 4096,
+     "bytes": 633506,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "ring-nebula-hubble-wfc3",
+   "objectId": "ring-nebula",
+   "title": "Ring Nebula (M57): Hubble WFC3 with ground-based data",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "H-beta 487 nm",
+     "H II 469 nm",
+     "[O III] 502 nm",
+     "continuum 645 nm",
+     "H-alpha 656 nm",
+     "[S II] 673 nm",
+     "[N II] 658 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Narrowband emission-line filters combined with ground-based data (archive caption); the archive page does not state which line is assigned to which display colour, so colours are the image makers' assignment."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic1310a",
+    "landingUrl": "https://esahubble.org/images/heic1310a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic1310a.jpg",
+    "sha256": "9ff71b3d9cc02a609e60fa8dec55e1803358a033011fbc4a0c8b9f586a46b7b6",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA, and C. Robert O\u2019Dell (Vanderbilt University).",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope (WFC3) with existing ground-based data",
+    "instrument": "WFC3",
+    "date": "released 2013-05-23 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.1,
+     2.1
+    ],
+    "centreRaDeg": 283.396718,
+    "centreDecDeg": 33.028925,
+    "upPositionAngleDeg": -11.7,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 3179,
+    "originalHeightPx": 3179
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic1310a.jpg), not the TIFF original. Orientation: archive states 'North is 11.7\u00b0 left of vertical'; converted to upPositionAngleDeg = -11.7 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Filter list copied as printed in the archive table.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 283.396718\u00b0, Dec +33.028925\u00b0) at AVM reference pixel (1589.5, 1589.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (3179x3179 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x256, 1024x1024, 2048x2048, 3179x3179 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/ring-nebula-hubble-wfc3.L0.webp",
+     "widthPx": 256,
+     "heightPx": 256,
+     "bytes": 3996,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/ring-nebula-hubble-wfc3.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 1024,
+     "bytes": 30082,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/ring-nebula-hubble-wfc3.L2.webp",
+     "widthPx": 2048,
+     "heightPx": 2048,
+     "bytes": 105634,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/ring-nebula-hubble-wfc3.L3.webp",
+     "widthPx": 3179,
+     "heightPx": 3179,
+     "bytes": 383588,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "ring-nebula-webb-miri",
+   "objectId": "ring-nebula",
+   "title": "Ring Nebula (M57): Webb MIRI",
+   "band": {
+    "kind": "mid-infrared",
+    "filters": [
+     "5.6 \u00b5m",
+     "PAH 7.7 \u00b5m",
+     "silicate 10 \u00b5m",
+     "PAH 11 \u00b5m",
+     "12 \u00b5m",
+     "15 \u00b5m",
+     "silicate 18 \u00b5m",
+     "21 \u00b5m",
+     "25 \u00b5m"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour. Nine MIRI bands combined; the archive lists: Purple 5.6 \u00b5m; Blue 7.7 \u00b5m (PAH); Cyan 10 \u00b5m (silicate) and 11 \u00b5m (PAH); Green 12 \u00b5m and 15 \u00b5m; Yellow 18 \u00b5m (silicate); Orange 21 \u00b5m; Red 25 \u00b5m. Low pixel count (1257 x 1015)."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2320c",
+    "landingUrl": "https://esawebb.org/images/weic2320c/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2320c.jpg",
+    "sha256": "26ee65b9df0c5c28ed579e6079fbc64b3bd36d27801768e9900e8bc2e71830d3",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "MIRI",
+    "date": "released 2023-08-21 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.33,
+     1.88
+    ],
+    "centreRaDeg": 283.3964,
+    "centreDecDeg": 33.029011,
+    "upPositionAngleDeg": 132.9,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 1257,
+    "originalHeightPx": 1015
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2320c.jpg), not the TIFF original. Orientation: archive states 'North is 132.9\u00b0 right of vertical'; converted to upPositionAngleDeg = 132.9 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Source image is smaller than 2000 px on its longest side; no upscaling.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 283.396400\u00b0, Dec +33.029011\u00b0) at AVM reference pixel (628.5, 507.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (1257x1015 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x207, 1024x827, 1257x1015 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/ring-nebula-webb-miri.L0.webp",
+     "widthPx": 256,
+     "heightPx": 207,
+     "bytes": 10770,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/ring-nebula-webb-miri.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 827,
+     "bytes": 89526,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/ring-nebula-webb-miri.L2.webp",
+     "widthPx": 1257,
+     "heightPx": 1015,
+     "bytes": 122980,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "ring-nebula-webb-nircam",
+   "objectId": "ring-nebula",
+   "title": "Ring Nebula (M57): Webb NIRCam",
+   "band": {
+    "kind": "near-infrared",
+    "filters": [
+     "1.62 \u00b5m",
+     "2.12 \u00b5m",
+     "3.0 \u00b5m",
+     "PAH 3.35 \u00b5m"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Representative colour. The archive lists: Blue 1.62 \u00b5m; Cyan 2.12 \u00b5m; Green 3.0 \u00b5m; Red 3.35 \u00b5m (PAH)."
+   },
+   "source": {
+    "archive": "ESA/Webb",
+    "imageId": "weic2320b",
+    "landingUrl": "https://esawebb.org/images/weic2320b/",
+    "downloadUrl": "https://cdn.esawebb.org/archives/images/large/weic2320b.jpg",
+    "sha256": "70623839180e729d8843cc17518401d657c7b3878b7872e9bb5761d5ecbdec40",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/copyright/",
+    "evidence": "ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Also: \"Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge.\" (https://esawebb.org/copyright/; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "James Webb Space Telescope",
+    "instrument": "NIRCam",
+    "date": "released 2023-08-21 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.14,
+     2.17
+    ],
+    "centreRaDeg": 283.395054,
+    "centreDecDeg": 33.029279,
+    "upPositionAngleDeg": 140.2,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 4097,
+    "originalHeightPx": 4156
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esawebb.org/archives/images/large/weic2320b.jpg), not the TIFF original. Orientation: archive states 'North is 140.2\u00b0 right of vertical'; converted to upPositionAngleDeg = 140.2 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 283.395054\u00b0, Dec +33.029279\u00b0) at AVM reference pixel (2048.5, 2078.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (4097x4156 px) and verified its SHA-256.",
+    "Resized with Lanczos to 252x256, 1009x1024, 2019x2048, 4038x4096 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/ring-nebula-webb-nircam.L0.webp",
+     "widthPx": 252,
+     "heightPx": 256,
+     "bytes": 9866,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/ring-nebula-webb-nircam.L1.webp",
+     "widthPx": 1009,
+     "heightPx": 1024,
+     "bytes": 93354,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/ring-nebula-webb-nircam.L2.webp",
+     "widthPx": 2019,
+     "heightPx": 2048,
+     "bytes": 271098,
+     "format": "webp"
+    },
+    {
+     "level": 3,
+     "file": "img/ring-nebula-webb-nircam.L3.webp",
+     "widthPx": 4038,
+     "heightPx": 4096,
+     "bytes": 786316,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "veil-nebula-hubble-wfpc2-a",
+   "objectId": "veil-nebula",
+   "title": "Veil Nebula (Cygnus Loop), NGC 6960 'Witch's Broom' section: Hubble WFPC2",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "[O III] 502 nm",
+     "[S II] 673 nm",
+     "H-alpha 656 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Archive caption (heic0712b, same release): blue shows oxygen, green sulphur, red hydrogen emission excited by the shock. Emission-line colours assigned by the image makers."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0712a",
+    "landingUrl": "https://esahubble.org/images/heic0712a/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic0712a.jpg",
+    "sha256": "0b8c6c64f3434812582fe105bf5579a93a3af27e1cc46b5c539cde3e1474f41c",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgment: J. Hester (Arizona State University)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "WFPC2",
+    "date": "released 2007-07-31 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.48,
+     1.25
+    ],
+    "centreRaDeg": 311.417242,
+    "centreDecDeg": 30.988049,
+    "upPositionAngleDeg": -84.8,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 1493,
+    "originalHeightPx": 751
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic0712a.jpg), not the TIFF original. Orientation: archive states 'North is 84.8\u00b0 left of vertical'; converted to upPositionAngleDeg = -84.8 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Only a tiny (2.5 x 1.25 arcmin) piece of a nebula about 3 degrees across; the whole Veil is NOT covered by any image we could evidence.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 311.417259\u00b0, Dec +30.988061\u00b0) at AVM reference pixel (746.0, 375.0) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (1493x751 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x129, 1024x515, 1493x751 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/veil-nebula-hubble-wfpc2-a.L0.webp",
+     "widthPx": 256,
+     "heightPx": 129,
+     "bytes": 7012,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/veil-nebula-hubble-wfpc2-a.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 515,
+     "bytes": 66726,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/veil-nebula-hubble-wfpc2-a.L2.webp",
+     "widthPx": 1493,
+     "heightPx": 751,
+     "bytes": 148632,
+     "format": "webp"
+    }
+   ]
+  },
+  {
+   "id": "veil-nebula-hubble-wfpc2-b",
+   "objectId": "veil-nebula",
+   "title": "Veil Nebula (Cygnus Loop), eastern-arc section: Hubble WFPC2",
+   "band": {
+    "kind": "visible",
+    "filters": [
+     "[O III] 502 nm",
+     "[S II] 673 nm",
+     "H-alpha 656 nm"
+    ],
+    "falseColour": true,
+    "composite": true,
+    "colourNote": "Archive caption: blue shows oxygen, green sulphur, red hydrogen, emission excited by the shock. Emission-line colours assigned by the image makers."
+   },
+   "source": {
+    "archive": "ESA/Hubble",
+    "imageId": "heic0712b",
+    "landingUrl": "https://esahubble.org/images/heic0712b/",
+    "downloadUrl": "https://cdn.esahubble.org/archives/images/large/heic0712b.jpg",
+    "sha256": "862b9e097836871a36a1e0fd50696dae93a9b5a44faeecb37a4cf453d5b4bebe",
+    "retrieved": "2026-11-12"
+   },
+   "credit": "NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgment: J. Hester (Arizona State University)",
+   "licence": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/copyright/",
+    "evidence": "ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. (https://esahubble.org/copyright/, 'Summary'; the image page itself shows no exception.)",
+    "attributionRequired": true,
+    "redistributionAllowed": true
+   },
+   "observation": {
+    "telescope": "Hubble Space Telescope",
+    "instrument": "WFPC2",
+    "date": "released 2007-07-31 (observation dates not given on the image page)"
+   },
+   "geometry": {
+    "fovArcmin": [
+     2.49,
+     1.23
+    ],
+    "centreRaDeg": 314.203098,
+    "centreDecDeg": 31.13762,
+    "upPositionAngleDeg": -137.9,
+    "wcsSource": "archive-metadata",
+    "originalWidthPx": 1500,
+    "originalHeightPx": 741
+   },
+   "processing": [
+    "Used the archive's 'Large JPEG' (https://cdn.esahubble.org/archives/images/large/heic0712b.jpg), not the TIFF original. Orientation: archive states 'North is 137.9\u00b0 left of vertical'; converted to upPositionAngleDeg = -137.9 (degrees east of north; 'north X\u00b0 left of vertical' means up lies X\u00b0 west of north, so the angle is -X; 'right' gives +X; assumes the image is not mirrored).",
+    "Archive object name field says 'NGC 6960'; the centre coordinates (RA 20h56m48s) lie in the eastern arc (NGC 6992 region) - this identification is my reading of the coordinates, not an archive statement. Only 2.5 x 1.2 arcmin of a ~3 degree nebula.",
+    "Centre: the archive page's 'Position' is the WCS reference value (RA 314.203098\u00b0, Dec +31.137620\u00b0) at AVM reference pixel (750.0, 370.5) counted from the lower-left; the declared centre is the geometric centre of the image computed from the embedded AVM pixel scale and orientation (offset 0.00 arcmin from the page position). Field of view in the manifest matches the AVM scale x image size.",
+    "Downloaded original (1500x741 px) and verified its SHA-256.",
+    "Resized with Lanczos to 256x126, 1024x506, 1500x741 px; encoded as WebP quality 80. No upscaling. No colour or tone changes."
+   ],
+   "fidelity": "multi-band-composite",
+   "levels": [
+    {
+     "level": 0,
+     "file": "img/veil-nebula-hubble-wfpc2-b.L0.webp",
+     "widthPx": 256,
+     "heightPx": 126,
+     "bytes": 4514,
+     "format": "webp"
+    },
+    {
+     "level": 1,
+     "file": "img/veil-nebula-hubble-wfpc2-b.L1.webp",
+     "widthPx": 1024,
+     "heightPx": 506,
+     "bytes": 37330,
+     "format": "webp"
+    },
+    {
+     "level": 2,
+     "file": "img/veil-nebula-hubble-wfpc2-b.L2.webp",
+     "widthPx": 1500,
+     "heightPx": 741,
+     "bytes": 85792,
+     "format": "webp"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2848 @@
+[
+ {
+  "id": "hip:32349",
+  "oneLine": "A visual binary: the brightest star in the sky, orbited by a white dwarf every 50.13 years.",
+  "sections": {
+   "what": [
+    {
+     "text": "Sirius is a visual binary: the metallic-line A1 V star Sirius A is orbited by the white dwarf Sirius B with a period of 50.13 years.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625)",
+       "url": "https://arxiv.org/abs/1703.10625",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives spectral type A0mA1Va and a parallax of 379.21 +/- 1.58 mas for Sirius.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 32349",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+32349%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Bond et al. call Sirius A the brightest star in the sky and Sirius B the brightest and nearest white dwarf.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625)",
+       "url": "https://arxiv.org/abs/1703.10625",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The orbit gives dynamical masses of 2.063 +/- 0.023 solar masses for Sirius A and 1.018 +/- 0.011 for Sirius B.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625)",
+       "url": "https://arxiv.org/abs/1703.10625",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "The orbital solution uses nearly 2300 historical measurements dating back to the 19th century, almost 20 years of photographic observations and about two decades of Hubble images.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625)",
+       "url": "https://arxiv.org/abs/1703.10625",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "The gravitational redshift of Sirius B measured with Hubble (80.65 +/- 0.77 km/s) gives a mass of 1.017 +/- 0.025 solar masses, in agreement with the dynamical mass.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Joyce et al. 2018, The gravitational redshift of Sirius B (arXiv:1809.01240)",
+       "url": "https://arxiv.org/abs/1809.01240",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The Hubble astrometry rules out third bodies orbiting either star down to roughly 15-25 Jupiter masses.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625)",
+       "url": "https://arxiv.org/abs/1703.10625",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Bond et al. give the age of Sirius B as about 228 +/- 10 Myr and that of Sirius A as about 237-247 Myr from evolutionary models.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625)",
+       "url": "https://arxiv.org/abs/1703.10625",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Bond et al. say the two stars probably interacted in the past, although there is no direct evidence for this, and that the orbital eccentricity remains high; they list both as open puzzles.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625)",
+       "url": "https://arxiv.org/abs/1703.10625",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "To fit Sirius A in the luminosity-radius plane the models had to assume a slightly sub-solar metallicity of about 0.85 solar.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625)",
+       "url": "https://arxiv.org/abs/1703.10625",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble Space Telescope",
+    "role": "Imaging astrometry of the binary and STIS spectroscopy for the Sirius B gravitational redshift",
+    "reference": {
+     "label": "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625)",
+     "url": "https://arxiv.org/abs/1703.10625"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:27989",
+  "oneLine": "A red supergiant; published distance estimates differ, from about 168 pc to about 220 pc.",
+  "sections": {
+   "what": [
+    {
+     "text": "Betelgeuse is a red supergiant, described by Montarges et al. as the second-closest red supergiant to Earth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Montarges et al. 2021/2022, A dusty veil shading Betelgeuse during its Great Dimming (arXiv:2201.10551)",
+       "url": "https://arxiv.org/abs/2201.10551",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives spectral type M1-M2Ia-Iab and a parallax of 6.55 +/- 0.83 mas.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 27989",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+27989%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Red supergiants are the final evolutionary stage of stars with initial masses of 8 to 35 solar masses, a stage that lasts roughly 100,000 years.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Montarges et al. 2021/2022, A dusty veil shading Betelgeuse during its Great Dimming (arXiv:2201.10551)",
+       "url": "https://arxiv.org/abs/2201.10551",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Joyce et al. place Betelgeuse in the core helium-burning phase near the base of the red supergiant branch, with a present-day mass of 16.5-19 solar masses.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Joyce et al. 2020, New mass and distance estimates for Betelgeuse (arXiv:2006.09837)",
+       "url": "https://arxiv.org/abs/2006.09837",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "From November 2019 to March 2020 its visual brightness dropped to 1.614 +/- 0.008 magnitudes around 7-13 February 2020, an event called the Great Dimming.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Montarges et al. 2021/2022, A dusty veil shading Betelgeuse during its Great Dimming (arXiv:2201.10551)",
+       "url": "https://arxiv.org/abs/2201.10551",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "High-resolution imaging showed the southern hemisphere was ten times darker than usual in visible light, and the authors support a scenario of a dust clump formed above a cool patch on the photosphere.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Montarges et al. 2021/2022, A dusty veil shading Betelgeuse during its Great Dimming (arXiv:2201.10551)",
+       "url": "https://arxiv.org/abs/2201.10551",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Joyce et al. report a dominant period of about 400 days that they attribute to fundamental-mode pulsation, and detect a first radial overtone at 185 +/- 13.5 days in SMEI photometry.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Joyce et al. 2020, New mass and distance estimates for Betelgeuse (arXiv:2006.09837)",
+       "url": "https://arxiv.org/abs/2006.09837",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Joyce et al. derive a distance of 168 (+27, -15) pc from stellar models, and note it agrees with Hipparcos but less well with recent radio measurements.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Joyce et al. 2020, New mass and distance estimates for Betelgeuse (arXiv:2006.09837)",
+       "url": "https://arxiv.org/abs/2006.09837",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Montarges et al. quote a distance of roughly 220 pc.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Montarges et al. 2021/2022, A dusty veil shading Betelgeuse during its Great Dimming (arXiv:2201.10551)",
+       "url": "https://arxiv.org/abs/2201.10551",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The SIMBAD parallax has an uncertainty of 0.83 mas on 6.55 mas (about 13%), and the model-based and other published distances (168 and about 220 pc) differ from each other by more than that.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 27989",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+27989%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Joyce et al. describe their mass as slightly lower than typical literature values; the mass is a model result, not a direct measurement.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Joyce et al. 2020, New mass and distance estimates for Betelgeuse (arXiv:2006.09837)",
+       "url": "https://arxiv.org/abs/2006.09837",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble Space Telescope (STIS)",
+    "role": "Spatially resolved ultraviolet spectra before and during the Great Dimming",
+    "reference": {
+     "label": "Dupree et al. 2020, Spatially resolved ultraviolet spectroscopy of the Great Dimming of Betelgeuse (arXiv:2008.04945)",
+     "url": "https://arxiv.org/abs/2008.04945"
+    }
+   },
+   {
+    "mission": "SMEI (Solar Mass Ejection Imager)",
+    "role": "Space-based photometry used to find the pulsation periods",
+    "reference": {
+     "label": "Joyce et al. 2020, New mass and distance estimates for Betelgeuse (arXiv:2006.09837)",
+     "url": "https://arxiv.org/abs/2006.09837"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:70890",
+  "oneLine": "The Sun's closest known stellar neighbour, a red dwarf about 1.3 parsecs away.",
+  "sections": {
+   "what": [
+    {
+     "text": "Anglada-Escude et al. describe Proxima Centauri as the Sun's closest stellar neighbour, at a distance of 1.295 parsecs.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Anglada-Escude et al. 2016, A terrestrial planet candidate in a temperate orbit around Proxima Centauri (arXiv:1609.03449)",
+       "url": "https://arxiv.org/abs/1609.03449",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Its effective temperature is about 3050 K, its luminosity about 0.1 per cent of the Sun, its measured radius 0.14 solar radii and its mass about 12 per cent of the Sun.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Anglada-Escude et al. 2016, A terrestrial planet candidate in a temperate orbit around Proxima Centauri (arXiv:1609.03449)",
+       "url": "https://arxiv.org/abs/1609.03449",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives spectral type M5.5Ve and a parallax of 768.0665 +/- 0.0499 mas.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 70890",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+70890%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Kervella et al. conclude that Proxima and Alpha Centauri AB are gravitationally bound with a high degree of confidence, with an orbital period of about 550,000 years.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Kervella, Thevenin & Lovis 2017, Proxima's orbit around Alpha Centauri (arXiv:1611.03495)",
+       "url": "https://arxiv.org/abs/1611.03495",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The NASA Exoplanet Archive composite table lists two planets for Proxima Centauri: Proxima Cen b (discovered 2016) and Proxima Cen d (discovered 2025).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, host Proxima Cen",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+hostname%3D%27Proxima+Cen%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "The bound status comes from an orbit fit with eccentricity 0.50 (+0.08, -0.09); Kervella et al. express it as high confidence, not certainty.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Kervella, Thevenin & Lovis 2017, Proxima's orbit around Alpha Centauri (arXiv:1611.03495)",
+       "url": "https://arxiv.org/abs/1611.03495",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The orbital phase is currently close to apastron (13.0 kau) and the periastron distance is 4.3 (+1.1, -0.9) kau.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Kervella, Thevenin & Lovis 2017, Proxima's orbit around Alpha Centauri (arXiv:1611.03495)",
+       "url": "https://arxiv.org/abs/1611.03495",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "Proxima and Alpha Centauri AB have almost identical distances and proper motions with respect to the Sun.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Kervella, Thevenin & Lovis 2017, Proxima's orbit around Alpha Centauri (arXiv:1611.03495)",
+       "url": "https://arxiv.org/abs/1611.03495",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Kervella et al. state that whether Proxima forms a bound triple system with Alpha Centauri had been an open question since Proxima was discovered a century earlier.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Kervella, Thevenin & Lovis 2017, Proxima's orbit around Alpha Centauri (arXiv:1611.03495)",
+       "url": "https://arxiv.org/abs/1611.03495",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Proxima is considered a moderately active star, with a rotation period of about 83 days.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Anglada-Escude et al. 2016, A terrestrial planet candidate in a temperate orbit around Proxima Centauri (arXiv:1609.03449)",
+       "url": "https://arxiv.org/abs/1609.03449",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "HARPS (ESO)",
+    "role": "High-precision absolute radial velocities of Proxima used to test the bound orbit",
+    "reference": {
+     "label": "Kervella, Thevenin & Lovis 2017, Proxima's orbit around Alpha Centauri (arXiv:1611.03495)",
+     "url": "https://arxiv.org/abs/1611.03495"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:71683",
+  "oneLine": "A G2 V star in a close binary with Alpha Centauri B; mass about 1.13 solar masses.",
+  "sections": {
+   "what": [
+    {
+     "text": "SIMBAD gives spectral type G2V for Alpha Centauri A, with a parallax of 742.12 +/- 1.4 mas.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 71683",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+71683%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Pourbaix & Boffin derive a mass of 1.13 solar masses for component A from a full three-dimensional orbit of the pair.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Pourbaix & Boffin 2016, Parallax and masses of alpha Centauri revisited (arXiv:1601.01636)",
+       "url": "https://arxiv.org/abs/1601.01636",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Pourbaix & Boffin note that the alpha Cen system is used for calibration purposes in several studies.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Pourbaix & Boffin 2016, Parallax and masses of alpha Centauri revisited (arXiv:1601.01636)",
+       "url": "https://arxiv.org/abs/1601.01636",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Kervella et al. show that the pair is bound to Proxima Centauri with a high degree of confidence.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Kervella, Thevenin & Lovis 2017, Proxima's orbit around Alpha Centauri (arXiv:1611.03495)",
+       "url": "https://arxiv.org/abs/1611.03495",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Pourbaix & Boffin say the parallax of alpha Cen is still far from being carved in stone, and any derivation of the individual masses is therefore uncertain.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Pourbaix & Boffin 2016, Parallax and masses of alpha Centauri revisited (arXiv:1601.01636)",
+       "url": "https://arxiv.org/abs/1601.01636",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Their masses (1.13 and 0.97 solar) are described as in excellent agreement with the latest asteroseismologic results.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Pourbaix & Boffin 2016, Parallax and masses of alpha Centauri revisited (arXiv:1601.01636)",
+       "url": "https://arxiv.org/abs/1601.01636",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "HARPS (ESO)",
+    "role": "Ten years of radial velocities used to complete the visual orbit into a 3D orbit",
+    "reference": {
+     "label": "Pourbaix & Boffin 2016, Parallax and masses of alpha Centauri revisited (arXiv:1601.01636)",
+     "url": "https://arxiv.org/abs/1601.01636"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:71681",
+  "oneLine": "A K1 V star in a close binary with Alpha Centauri A; mass about 0.97 solar masses.",
+  "sections": {
+   "what": [
+    {
+     "text": "SIMBAD gives spectral type K1V for Alpha Centauri B, with a parallax of 742.12 +/- 1.4 mas (the same value as component A).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 71681",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+71681%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Pourbaix & Boffin derive a mass of 0.97 solar masses for component B from a full three-dimensional orbit of the pair.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Pourbaix & Boffin 2016, Parallax and masses of alpha Centauri revisited (arXiv:1601.01636)",
+       "url": "https://arxiv.org/abs/1601.01636",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Pourbaix & Boffin note that the alpha Cen system is used for calibration purposes in several studies.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Pourbaix & Boffin 2016, Parallax and masses of alpha Centauri revisited (arXiv:1601.01636)",
+       "url": "https://arxiv.org/abs/1601.01636",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Kervella et al. show that the pair is bound to Proxima Centauri with a high degree of confidence.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Kervella, Thevenin & Lovis 2017, Proxima's orbit around Alpha Centauri (arXiv:1611.03495)",
+       "url": "https://arxiv.org/abs/1611.03495",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Pourbaix & Boffin say the parallax of alpha Cen is still far from being carved in stone, and any derivation of the individual masses is therefore uncertain.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Pourbaix & Boffin 2016, Parallax and masses of alpha Centauri revisited (arXiv:1601.01636)",
+       "url": "https://arxiv.org/abs/1601.01636",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD lists an identical parallax for components A and B, so it should be read as a value for the pair rather than two independent measurements.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 71681",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+71681%27",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 71683",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+71683%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "HARPS (ESO)",
+    "role": "Ten years of radial velocities used to complete the visual orbit into a 3D orbit",
+    "reference": {
+     "label": "Pourbaix & Boffin 2016, Parallax and masses of alpha Centauri revisited (arXiv:1601.01636)",
+     "url": "https://arxiv.org/abs/1601.01636"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:87937",
+  "oneLine": "A red dwarf 1.8 pc away with the largest apparent motion of any known stellar object.",
+  "sections": {
+   "what": [
+    {
+     "text": "Ribas et al. describe Barnard's star (Gl 699) as a red dwarf at 1.8 parsecs with the largest apparent motion of any known stellar object.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Ribas et al. 2018, A candidate super-Earth planet orbiting near the snow line of Barnard's star (arXiv:1811.05955)",
+       "url": "https://arxiv.org/abs/1811.05955",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives spectral type M4V, a parallax of 546.9759 +/- 0.0401 mas and a proper motion of about 10362 mas/yr in declination.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 87937",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+87937%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It is among the least magnetically active red dwarfs known and has an estimated age older than the Solar System.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Ribas et al. 2018, A candidate super-Earth planet orbiting near the snow line of Barnard's star (arXiv:1811.05955)",
+       "url": "https://arxiv.org/abs/1811.05955",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "It is the closest single star to the Sun, second only to the alpha Centauri system.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Ribas et al. 2018, A candidate super-Earth planet orbiting near the snow line of Barnard's star (arXiv:1811.05955)",
+       "url": "https://arxiv.org/abs/1811.05955",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Gonzalez Hernandez et al. (2024) confirmed a sub-Earth-mass planet with a 3.15-day period and minimum mass 0.37 +/- 0.05 Earth masses using 156 ESPRESSO observations over four years.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Gonzalez Hernandez et al. 2024, A sub-Earth-mass planet orbiting Barnard's star (arXiv:2410.00569)",
+       "url": "https://arxiv.org/abs/2410.00569",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Basant et al. (2025) used 112 MAROON-X radial velocities to confirm planet b and report four planets with minimum masses of 0.19 to 0.34 Earth masses.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Basant et al. 2025, Four sub-Earth planets orbiting Barnard's Star from MAROON-X and ESPRESSO (arXiv:2503.08095)",
+       "url": "https://arxiv.org/abs/2503.08095",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The NASA Exoplanet Archive composite table lists Barnard b (2024) and Barnard c, d and e (2025) with periods 3.154, 4.124, 2.340 and 6.739 days.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, host Barnard's star",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+hostname%3D%27Barnard%27%27s+star%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "A 2018 candidate planet at 233 days (minimum mass 3.2 Earth masses) was not supported by later ESPRESSO data, which found no evidence for it.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Ribas et al. 2018, A candidate super-Earth planet orbiting near the snow line of Barnard's star (arXiv:1811.05955)",
+       "url": "https://arxiv.org/abs/1811.05955",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Gonzalez Hernandez et al. 2024, A sub-Earth-mass planet orbiting Barnard's star (arXiv:2410.00569)",
+       "url": "https://arxiv.org/abs/2410.00569",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Basant et al. state that none of the long history of claimed planet detections around this star had withstood scrutiny before the recent sub-Earth-mass candidates.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Basant et al. 2025, Four sub-Earth planets orbiting Barnard's Star from MAROON-X and ESPRESSO (arXiv:2503.08095)",
+       "url": "https://arxiv.org/abs/2503.08095",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Of the four sub-Earth planets reported in 2025, planets b and e are called confirmed and c and d are still described as candidates in the MAROON-X analysis; their status may change with more data.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Basant et al. 2025, Four sub-Earth planets orbiting Barnard's Star from MAROON-X and ESPRESSO (arXiv:2503.08095)",
+       "url": "https://arxiv.org/abs/2503.08095",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "ESPRESSO (VLT)",
+    "role": "Radial velocities that revealed the short-period sub-Earth planets",
+    "reference": {
+     "label": "Gonzalez Hernandez et al. 2024, A sub-Earth-mass planet orbiting Barnard's star (arXiv:2410.00569)",
+     "url": "https://arxiv.org/abs/2410.00569"
+    }
+   },
+   {
+    "mission": "MAROON-X",
+    "role": "Independent radial velocities used to confirm the planets",
+    "reference": {
+     "label": "Basant et al. 2025, Four sub-Earth planets orbiting Barnard's Star from MAROON-X and ESPRESSO (arXiv:2503.08095)",
+     "url": "https://arxiv.org/abs/2503.08095"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:91262",
+  "oneLine": "A bright A0 V standard star that spins at over 90% of break-up speed and is seen nearly pole-on.",
+  "sections": {
+   "what": [
+    {
+     "text": "Vega is the second brightest star in the northern hemisphere and serves as a primary spectral type standard.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Peterson et al. 2006, Vega is a rapidly rotating star (arXiv:astro-ph/0603520)",
+       "url": "https://arxiv.org/abs/astro-ph/0603520",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives spectral type A0V and a parallax of 130.23 +/- 0.36 mas.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 91262",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+91262%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Vega also serves as the primary photometric calibrator for the ultraviolet and near-infrared through atmosphere models.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Peterson et al. 2006, Vega is a rapidly rotating star (arXiv:astro-ph/0603520)",
+       "url": "https://arxiv.org/abs/astro-ph/0603520",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Interferometry shows it is rotating at about 93% of break-up speed (Peterson et al.) or about 91% (Aufdenberg et al.), viewed nearly along its rotation axis.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Peterson et al. 2006, Vega is a rapidly rotating star (arXiv:astro-ph/0603520)",
+       "url": "https://arxiv.org/abs/astro-ph/0603520",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Aufdenberg et al. 2006, First Results from the CHARA Array VII: Vega (arXiv:astro-ph/0603327)",
+       "url": "https://arxiv.org/abs/astro-ph/0603327",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "Peterson et al. note that the star looks too bright compared to its peers and has unusually shaped line profiles, which a pole-on rapid rotator explains.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Peterson et al. 2006, Vega is a rapidly rotating star (arXiv:astro-ph/0603520)",
+       "url": "https://arxiv.org/abs/astro-ph/0603520",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The two interferometric studies give different rotation rates (93% and 91% of break-up), so the figure is model dependent.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Peterson et al. 2006, Vega is a rapidly rotating star (arXiv:astro-ph/0603520)",
+       "url": "https://arxiv.org/abs/astro-ph/0603520",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Aufdenberg et al. 2006, First Results from the CHARA Array VII: Vega (arXiv:astro-ph/0603327)",
+       "url": "https://arxiv.org/abs/astro-ph/0603327",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Aufdenberg et al. infer an inclination of about 5 degrees and an equatorial velocity of about 275 km/s from a gravity-darkened model.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Aufdenberg et al. 2006, First Results from the CHARA Array VII: Vega (arXiv:astro-ph/0603327)",
+       "url": "https://arxiv.org/abs/astro-ph/0603327",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Deep adaptive-optics imaging found no planets or planet candidates; the paper reports only upper limits on any companions.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Heinze et al. 2008, Deep L and M-band Imaging for Planets Around Vega and epsilon Eridani (arXiv:0807.3975)",
+       "url": "https://arxiv.org/abs/0807.3975",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "CHARA Array",
+    "role": "Long-baseline K-band interferometry of the stellar disc",
+    "reference": {
+     "label": "Aufdenberg et al. 2006, First Results from the CHARA Array VII: Vega (arXiv:astro-ph/0603327)",
+     "url": "https://arxiv.org/abs/astro-ph/0603327"
+    }
+   },
+   {
+    "mission": "MMT with the Clio imager",
+    "role": "Deep L and M band imaging search for planetary-mass companions",
+    "reference": {
+     "label": "Heinze et al. 2008, Deep L and M-band Imaging for Planets Around Vega and epsilon Eridani (arXiv:0807.3975)",
+     "url": "https://arxiv.org/abs/0807.3975"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:11767",
+  "oneLine": "The nearest and brightest classical Cepheid; its distance is contested between Hipparcos and Hubble.",
+  "sections": {
+   "what": [
+    {
+     "text": "Polaris is the nearest and brightest classical Cepheid, in a single-lined spectroscopic binary with an orbital period of about 30 years.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Evans et al. 2008, Direct Detection of the Close Companion of Polaris with the Hubble Space Telescope (arXiv:0806.4904)",
+       "url": "https://arxiv.org/abs/0806.4904",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives type classical Cepheid, spectral type F8Ib and a Hipparcos parallax of 7.54 +/- 0.11 mas.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 11767",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+11767%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Bond et al. call Polaris a potential anchor point for the Leavitt period-luminosity relation, which is why its distance matters.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Bond et al. 2017, Hubble Space Telescope Trigonometric Parallax of Polaris B (arXiv:1712.08139)",
+       "url": "https://arxiv.org/abs/1712.08139",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Hubble directly detected the close companion Polaris Ab at a separation of 0.17 arcsec and confirmed orbital motion a year later.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Evans et al. 2008, Direct Detection of the Close Companion of Polaris with the Hubble Space Telescope (arXiv:0806.4904)",
+       "url": "https://arxiv.org/abs/0806.4904",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "The 2008 mass for Polaris Aa was the first purely dynamical mass determined for any Cepheid.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Evans et al. 2008, Direct Detection of the Close Companion of Polaris with the Hubble Space Telescope (arXiv:0806.4904)",
+       "url": "https://arxiv.org/abs/0806.4904",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Bond et al. measured a Hubble parallax of 6.26 +/- 0.24 mas for Polaris B, smaller than the Hipparcos 7.54 mas, while others advocate about 10 mas; the distance is described as a matter of contention.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Bond et al. 2017, Hubble Space Telescope Trigonometric Parallax of Polaris B (arXiv:1712.08139)",
+       "url": "https://arxiv.org/abs/1712.08139",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The dynamical mass of the Cepheid, 3.45 +/- 0.75 solar masses in the 2018 update, is described by the authors as preliminary.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Evans et al. 2018, The Orbit of the Close Companion of Polaris (arXiv:1807.06115)",
+       "url": "https://arxiv.org/abs/1807.06115",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The 2008 estimate for Polaris Aa was 4.5 (+2.2, -1.4) solar masses, with the companion Ab at 1.26 (+0.14, -0.07); the 2018 orbit update revised the orbital period to 29.59 years.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Evans et al. 2008, Direct Detection of the Close Companion of Polaris with the Hubble Space Telescope (arXiv:0806.4904)",
+       "url": "https://arxiv.org/abs/0806.4904",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Evans et al. 2018, The Orbit of the Close Companion of Polaris (arXiv:1807.06115)",
+       "url": "https://arxiv.org/abs/1807.06115",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble Space Telescope (ACS, WFPC2, WFC3, FGS)",
+    "role": "Imaging of the close companion and a trigonometric parallax of Polaris B",
+    "reference": {
+     "label": "Bond et al. 2017, Hubble Space Telescope Trigonometric Parallax of Polaris B (arXiv:1712.08139)",
+     "url": "https://arxiv.org/abs/1712.08139"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:24436",
+  "oneLine": "A nearby blue supergiant (B8 Ia) with alpha Cygni-type pulsation variability.",
+  "sections": {
+   "what": [
+    {
+     "text": "Moravveji et al. describe Rigel (beta Ori, B8 Ia) as a nearby blue supergiant displaying alpha Cygni type variability.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Moravveji et al. 2012, Asteroseismology of the Nearby SN-II Progenitor: Rigel Part I (arXiv:1201.0843)",
+       "url": "https://arxiv.org/abs/1201.0843",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives spectral type B8Ia and a parallax of 3.78 +/- 0.34 mas.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 24436",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+24436%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The authors call it one of the nearest type-II supernova progenitors, and an excellent test bed for the internal structure of pre core-collapse stars.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Moravveji et al. 2012, Asteroseismology of the Nearby SN-II Progenitor: Rigel Part I (arXiv:1201.0843)",
+       "url": "https://arxiv.org/abs/1201.0843",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "28 days of MOST photometry and over 6 years of spectroscopy revealed nineteen significant pulsation modes with time scales from 1.21 to 74.7 days.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Moravveji et al. 2012, Asteroseismology of the Nearby SN-II Progenitor: Rigel Part I (arXiv:1201.0843)",
+       "url": "https://arxiv.org/abs/1201.0843",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The parallax uncertainty is 0.34 mas on 3.78 mas, so the distance is uncertain by roughly one tenth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 24436",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+24436%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "That Rigel will end as a core-collapse supernova is an expectation from stellar evolution theory, not an observation.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Moravveji et al. 2012, Asteroseismology of the Nearby SN-II Progenitor: Rigel Part I (arXiv:1201.0843)",
+       "url": "https://arxiv.org/abs/1201.0843",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "MOST (Microvariability and Oscillations of STars)",
+    "role": "Space photometry for the pulsation analysis",
+    "reference": {
+     "label": "Moravveji et al. 2012, Asteroseismology of the Nearby SN-II Progenitor: Rigel Part I (arXiv:1201.0843)",
+     "url": "https://arxiv.org/abs/1201.0843"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:69673",
+  "oneLine": "A red giant of about 25 solar radii and 1.08 solar masses (Ramirez & Allende Prieto 2011).",
+  "sections": {
+   "what": [
+    {
+     "text": "Arcturus is a red giant with effective temperature 4286 +/- 30 K, log g 1.66 +/- 0.05 and [Fe/H] of -0.52 +/- 0.04.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Ramirez & Allende Prieto 2011, Fundamental Parameters and Chemical Composition of Arcturus (arXiv:1109.4425)",
+       "url": "https://arxiv.org/abs/1109.4425",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives spectral type K1.5IIIFe-0.5, a parallax of 88.83 +/- 0.54 mas and proper motion components of -1093.39 and -2000.06 mas/yr.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 69673",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+69673%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Ramirez & Allende Prieto derive a mass of 1.08 +/- 0.06 solar masses, a radius of 25.4 +/- 0.2 solar radii and an age of 7.1 (+1.5, -1.2) Gyr.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Ramirez & Allende Prieto 2011, Fundamental Parameters and Chemical Composition of Arcturus (arXiv:1109.4425)",
+       "url": "https://arxiv.org/abs/1109.4425",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The surface gravity, mass and age depend on stellar evolution models combined with the parallax, so they are model results rather than direct measurements.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Ramirez & Allende Prieto 2011, Fundamental Parameters and Chemical Composition of Arcturus (arXiv:1109.4425)",
+       "url": "https://arxiv.org/abs/1109.4425",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The effective temperature was determined by fitting model atmospheres to the spectral energy distribution from 0.44 to 10 micrometres.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Ramirez & Allende Prieto 2011, Fundamental Parameters and Chemical Composition of Arcturus (arXiv:1109.4425)",
+       "url": "https://arxiv.org/abs/1109.4425",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Ground-based spectroscopy and photometry (spectral energy distribution)",
+    "role": "Atmospheric parameters and abundances of 17 elements",
+    "reference": {
+     "label": "Ramirez & Allende Prieto 2011, Fundamental Parameters and Chemical Composition of Arcturus (arXiv:1109.4425)",
+     "url": "https://arxiv.org/abs/1109.4425"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:80763",
+  "oneLine": "A red supergiant whose atmosphere has been resolved by ALMA, the VLA and the VLTI.",
+  "sections": {
+   "what": [
+    {
+     "text": "Antares is an early-M red supergiant.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "O'Gorman et al. 2020, ALMA and VLA reveal the lukewarm chromospheres of the nearby red supergiants Antares and Betelgeuse (arXiv:2006.08023)",
+       "url": "https://arxiv.org/abs/2006.08023",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives spectral type M1.5Iab+B2Vn (the string includes a B2Vn component) and a parallax of 5.89 +/- 1.0 mas.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 80763",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+80763%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "ALMA and VLA observations resolved free-free emission of the atmosphere at 11 wavelengths; the projected diameter grows from 50.7 mas at 0.7 mm to 431 mas at 10 cm, 1.35 to 11.6 times the photospheric angular diameter.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "O'Gorman et al. 2020, ALMA and VLA reveal the lukewarm chromospheres of the nearby red supergiants Antares and Betelgeuse (arXiv:2006.08023)",
+       "url": "https://arxiv.org/abs/2006.08023",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "VLTI/AMBER images in CO lines show an outer molecular atmosphere (MOLsphere) extending to 1.2-1.4 stellar radii with a temperature of about 2000 K.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Ohnaka et al. 2013, High spectral resolution imaging of the dynamical atmosphere of Antares (arXiv:1304.4800)",
+       "url": "https://arxiv.org/abs/1304.4800",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "All four ALMA measurements show the atmosphere is elongated, with a flattening of 15% at a similar position angle.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "O'Gorman et al. 2020, ALMA and VLA reveal the lukewarm chromospheres of the nearby red supergiants Antares and Betelgeuse (arXiv:2006.08023)",
+       "url": "https://arxiv.org/abs/2006.08023",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The parallax uncertainty is 1.0 mas on 5.89 mas, so the distance is uncertain by roughly one sixth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 80763",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+80763%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The convective cell sizes (5% to 45% of the angular diameter) come from model fits to VLTI/PIONIER interferometry, and the apparent diameter depends on the position angle sampled.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Montarges et al. 2017, The convective surface of the red supergiant Antares (arXiv:1705.07829)",
+       "url": "https://arxiv.org/abs/1705.07829",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The CO-line appearance of the atmosphere changed drastically within one year, implying a significant change in the velocity field.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Ohnaka et al. 2013, High spectral resolution imaging of the dynamical atmosphere of Antares (arXiv:1304.4800)",
+       "url": "https://arxiv.org/abs/1304.4800",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "ALMA and VLA",
+    "role": "Resolved radio continuum emission of the extended atmosphere",
+    "reference": {
+     "label": "O'Gorman et al. 2020, ALMA and VLA reveal the lukewarm chromospheres of the nearby red supergiants Antares and Betelgeuse (arXiv:2006.08023)",
+     "url": "https://arxiv.org/abs/2006.08023"
+    }
+   },
+   {
+    "mission": "VLTI (PIONIER, AMBER)",
+    "role": "Near-infrared interferometric imaging of the surface and atmosphere",
+    "reference": {
+     "label": "Montarges et al. 2017, The convective surface of the red supergiant Antares (arXiv:1705.07829)",
+     "url": "https://arxiv.org/abs/1705.07829"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:8102",
+  "oneLine": "A nearby Sun-like (G8 V) star with radial-velocity planet signals whose number differs by source.",
+  "sections": {
+   "what": [
+    {
+     "text": "SIMBAD gives spectral type G8V and a parallax of 273.8097 +/- 0.1701 mas for tau Ceti.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 8102",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+8102%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Dietrich & Apai describe it as the closest single Sun-like star to the Solar System.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Dietrich & Apai 2020, An Integrated Analysis with Predictions on the Architecture of the tau Ceti Planetary System (arXiv:2010.14675)",
+       "url": "https://arxiv.org/abs/2010.14675",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Feng et al. find periodic radial-velocity signals at 20.0, 49.3, 160 and 642 days which they interpret as planets, all with minimum masses below 4 Earth masses.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Feng et al. 2017, Color difference makes a difference: four planet candidates around tau Ceti (arXiv:1708.02051)",
+       "url": "https://arxiv.org/abs/1708.02051",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Feng et al. call these four planet candidates, while Dietrich & Apai write of four confirmed planets, and the NASA Exoplanet Archive composite table lists three (tau Cet f, g, h, with minimum masses from radial velocity).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Feng et al. 2017, Color difference makes a difference: four planet candidates around tau Ceti (arXiv:1708.02051)",
+       "url": "https://arxiv.org/abs/1708.02051",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Dietrich & Apai 2020, An Integrated Analysis with Predictions on the Architecture of the tau Ceti Planetary System (arXiv:2010.14675)",
+       "url": "https://arxiv.org/abs/2010.14675",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, host tau Cet",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+hostname%3D%27tau+Cet%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The detections rely on a noise model for correlated, wavelength-dependent noise, which Feng et al. describe as one of the main challenges for detecting Earth analogues by radial velocity.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Feng et al. 2017, Color difference makes a difference: four planet candidates around tau Ceti (arXiv:1708.02051)",
+       "url": "https://arxiv.org/abs/1708.02051",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Dietrich & Apai predict further, as yet undetected, planets including one in the habitable zone; this is a prediction, not an observation.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Dietrich & Apai 2020, An Integrated Analysis with Predictions on the Architecture of the tau Ceti Planetary System (arXiv:2010.14675)",
+       "url": "https://arxiv.org/abs/2010.14675",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Keck radial-velocity data",
+    "role": "Independent detection of the 20.0-day signal",
+    "reference": {
+     "label": "Feng et al. 2017, Color difference makes a difference: four planet candidates around tau Ceti (arXiv:1708.02051)",
+     "url": "https://arxiv.org/abs/1708.02051"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:16537",
+  "oneLine": "A nearby K2 V star (3.22 pc) with a long-period giant planet seen by radial velocity and HST astrometry.",
+  "sections": {
+   "what": [
+    {
+     "text": "Epsilon Eridani is a nearby (3.22 pc) K2 V star.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Hatzes et al. 2000, Evidence for a Long-period Planet Orbiting Epsilon Eridani (arXiv:astro-ph/0009423)",
+       "url": "https://arxiv.org/abs/astro-ph/0009423",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives spectral type K2V, a parallax of 310.5773 +/- 0.1355 mas and a proper motion of -974.758 mas/yr in right ascension.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 16537",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+16537%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Hubble astrometry combined with radial velocities gives a planet mass of 1.55 +/- 0.24 Jupiter masses, assuming a stellar mass of 0.83 solar masses.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Benedict et al. 2006, The Extrasolar Planet epsilon Eridani b - Orbit and Mass (arXiv:astro-ph/0610247)",
+       "url": "https://arxiv.org/abs/astro-ph/0610247",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The system also has a dust disc, and the planet orbit inclination (30.1 +/- 3.8 degrees) is consistent with the disc inclination, suggesting coplanarity.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Benedict et al. 2006, The Extrasolar Planet epsilon Eridani b - Orbit and Mass (arXiv:astro-ph/0610247)",
+       "url": "https://arxiv.org/abs/astro-ph/0610247",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Hatzes et al. (2000) reported radial-velocity variations from 1980.8 to 2000 with a period of about 7 years, a projected mass of 0.86 Jupiter masses and eccentricity 0.6, as evidence for a planet.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Hatzes et al. 2000, Evidence for a Long-period Planet Orbiting Epsilon Eridani (arXiv:astro-ph/0009423)",
+       "url": "https://arxiv.org/abs/astro-ph/0009423",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "Hatzes et al. found Ca II activity periods of 3 and 20 years but none at the radial-velocity period, which argued against magnetic activity as the cause.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Hatzes et al. 2000, Evidence for a Long-period Planet Orbiting Epsilon Eridani (arXiv:astro-ph/0009423)",
+       "url": "https://arxiv.org/abs/astro-ph/0009423",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Radial velocities show an acceleration consistent with a further Jupiter-mass object with a period over 50 years; this is a possibility, not a detection.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Benedict et al. 2006, The Extrasolar Planet epsilon Eridani b - Orbit and Mass (arXiv:astro-ph/0610247)",
+       "url": "https://arxiv.org/abs/astro-ph/0610247",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The NASA Exoplanet Archive lists eps Eri b with a different mass (about 318 Earth masses, period 2680 days) than the Benedict et al. value, so the planet mass depends on the source chosen.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, host eps Eri",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+hostname%3D%27eps+Eri%27&format=csv",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Benedict et al. 2006, The Extrasolar Planet epsilon Eridani b - Orbit and Mass (arXiv:astro-ph/0610247)",
+       "url": "https://arxiv.org/abs/astro-ph/0610247",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The star is relatively young (about 800 Myr), which Benedict et al. note makes the planet useful for direct-imaging tests.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Benedict et al. 2006, The Extrasolar Planet epsilon Eridani b - Orbit and Mass (arXiv:astro-ph/0610247)",
+       "url": "https://arxiv.org/abs/astro-ph/0610247",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble Space Telescope",
+    "role": "Astrometry that fixed the orbit inclination and the planet mass",
+    "reference": {
+     "label": "Benedict et al. 2006, The Extrasolar Planet epsilon Eridani b - Orbit and Mass (arXiv:astro-ph/0610247)",
+     "url": "https://arxiv.org/abs/astro-ph/0610247"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hip:10826",
+  "oneLine": "The prototype of the Mira-type long-period variables, with a hot companion detected at radio wavelengths.",
+  "sections": {
+   "what": [
+    {
+     "text": "Fabas et al. call omicron Ceti the prototype of the Mira stars, whose intense hydrogen emission lines have been explained by a radiative shock wave periodically propagating through the atmosphere.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Fabas et al. 2011, Shock-Induced Polarized Hydrogen Emission Lines in the Mira Star omicron Ceti (arXiv:1109.6500)",
+       "url": "https://arxiv.org/abs/1109.6500",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD classifies it as a Mira-type variable with spectral type M5/6IIIe and a parallax of 10.91 +/- 1.22 mas.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 10826",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+10826%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "JVLA and ALMA observations resolved its stellar disc at millimetre wavelengths, finding it slightly elongated with a flattening of 10-20%.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Matthews et al. 2015, New Measurements of the Radio Photosphere of Mira (arXiv:1506.03075)",
+       "url": "https://arxiv.org/abs/1506.03075",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "The hot companion Mira B was detected at all three radio wavelengths, with a radio-emitting radius of about 2.0e13 cm.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Matthews et al. 2015, New Measurements of the Radio Photosphere of Mira (arXiv:1506.03075)",
+       "url": "https://arxiv.org/abs/1506.03075",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The parallax uncertainty is 1.22 mas on 10.91 mas, so the distance is uncertain by roughly one tenth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for HIP 10826",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27HIP+10826%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The nature of the companion Mira B is not settled: a 2026 flickering study estimates a low-mass white dwarf of 0.24 +/- 0.04 solar masses, but only under an assumed accretion model.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Zamanov et al. 2026, Is Mira B a low mass white dwarf? (arXiv:2602.21725)",
+       "url": "https://arxiv.org/abs/2602.21725",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "JVLA and ALMA",
+    "role": "Millimetre continuum imaging of the star and of Mira B",
+    "reference": {
+     "label": "Matthews et al. 2015, New Measurements of the Radio Photosphere of Mira (arXiv:1506.03075)",
+     "url": "https://arxiv.org/abs/1506.03075"
+    }
+   }
+  ]
+ },
+ {
+  "id": "exo:Proxima Cen b",
+  "oneLine": "A planet with minimum mass about 1.1-1.3 Earth masses orbiting Proxima Centauri every 11.2 days.",
+  "sections": {
+   "what": [
+    {
+     "text": "Anglada-Escude et al. report a planet orbiting Proxima Centauri with a minimum mass of 1.3 Earth masses, an orbital period of about 11.2 days and a semi-major axis of about 0.05 AU.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Anglada-Escude et al. 2016, A terrestrial planet candidate in a temperate orbit around Proxima Centauri (arXiv:1609.03449)",
+       "url": "https://arxiv.org/abs/1609.03449",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The NASA Exoplanet Archive composite entry lists a minimum mass (Msini) of 1.055 Earth masses, a period of 11.18 days and a semi-major axis of 0.0485 AU; it was found by radial velocity at the European Southern Observatory in 2016.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row Proxima Cen b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27Proxima+Cen+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "It orbits the Sun's closest known stellar neighbour, at a distance of 1.295 parsecs.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Anglada-Escude et al. 2016, A terrestrial planet candidate in a temperate orbit around Proxima Centauri (arXiv:1609.03449)",
+       "url": "https://arxiv.org/abs/1609.03449",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The authors state its equilibrium temperature is in the range where water could be liquid on its surface.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Anglada-Escude et al. 2016, A terrestrial planet candidate in a temperate orbit around Proxima Centauri (arXiv:1609.03449)",
+       "url": "https://arxiv.org/abs/1609.03449",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "The planet was announced in 2016 from radial velocity observations of Proxima Centauri.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Anglada-Escude et al. 2016, A terrestrial planet candidate in a temperate orbit around Proxima Centauri (arXiv:1609.03449)",
+       "url": "https://arxiv.org/abs/1609.03449",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row Proxima Cen b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27Proxima+Cen+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Radial velocity gives only a minimum mass (M sin i), so the true mass is unknown; the archive flags the value as Msini.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row Proxima Cen b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27Proxima+Cen+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Anglada-Escude et al. 2016, A terrestrial planet candidate in a temperate orbit around Proxima Centauri (arXiv:1609.03449)",
+       "url": "https://arxiv.org/abs/1609.03449",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Dittmann et al. state the planet probably does not transit and its true mass is unknown.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Dittmann et al. 2017, A temperate rocky super-Earth transiting a nearby cool star (arXiv:1704.05556)",
+       "url": "https://arxiv.org/abs/1704.05556",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Whether the surface is habitable is not established: an equilibrium temperature says nothing about an atmosphere, and the host is described as a moderately active star.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Anglada-Escude et al. 2016, A terrestrial planet candidate in a temperate orbit around Proxima Centauri (arXiv:1609.03449)",
+       "url": "https://arxiv.org/abs/1609.03449",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The archive lists an equilibrium temperature of 218 K; the archive defines this as the temperature of a black body heated only by its host star, so it is a model value, not a measurement.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row Proxima Cen b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27Proxima+Cen+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters column definitions",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "ESO radial-velocity programme (published 2016)",
+    "role": "Detection of the 11.2-day signal",
+    "reference": {
+     "label": "Anglada-Escude et al. 2016, A terrestrial planet candidate in a temperate orbit around Proxima Centauri (arXiv:1609.03449)",
+     "url": "https://arxiv.org/abs/1609.03449"
+    }
+   }
+  ]
+ },
+ {
+  "id": "host:TRAPPIST-1",
+  "oneLine": "An ultracool dwarf 12 pc away with seven Earth-sized planets, six of them in a near-resonant chain.",
+  "sections": {
+   "what": [
+    {
+     "text": "Gillon et al. report at least seven planets with sizes and masses similar to the Earth around TRAPPIST-1, a star with 8% of the mass of the Sun, 12 parsecs away.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Gillon et al. 2017, Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1 (arXiv:1703.01424)",
+       "url": "https://arxiv.org/abs/1703.01424",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD gives spectral type M7.5e and a parallax of 80.2123 +/- 0.0716 mas.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for TRAPPIST-1",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27TRAPPIST-1%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The NASA Exoplanet Archive composite table lists seven planets, b to h, with periods from 1.51 to 18.77 days.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, host TRAPPIST-1",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+hostname%3D%27TRAPPIST-1%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The transiting configuration of the planets and the Jupiter-like size of the star make in-depth studies of their atmospheres possible.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Gillon et al. 2017, Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1 (arXiv:1703.01424)",
+       "url": "https://arxiv.org/abs/1703.01424",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "JWST 15 micrometre observations disfavour a thick carbon dioxide atmosphere on planet c, and planet b is found unlikely to possess any substantial atmosphere.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Zieba et al. 2023, No thick carbon dioxide atmosphere on the rocky exoplanet TRAPPIST-1 c (arXiv:2306.10150)",
+       "url": "https://arxiv.org/abs/2306.10150",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Gillon et al. 2025, First JWST thermal phase curves of temperate terrestrial exoplanets (arXiv:2509.02128)",
+       "url": "https://arxiv.org/abs/2509.02128",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "The TRAPPIST-1 system was reported in 2017 from ground-based and Spitzer photometric monitoring, adding to three planets reported earlier.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Gillon et al. 2017, Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1 (arXiv:1703.01424)",
+       "url": "https://arxiv.org/abs/1703.01424",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The archive lists TRAPPIST-1 b, c and d with discovery year 2016 and e to h with 2017.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, host TRAPPIST-1",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+hostname%3D%27TRAPPIST-1%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The six inner planets have periods of 1.51, 2.42, 4.04, 6.06, 9.21 and 12.35 days, near ratios of small integers; the authors suggest the planets formed farther out and migrated inward.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Gillon et al. 2017, Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1 (arXiv:1703.01424)",
+       "url": "https://arxiv.org/abs/1703.01424",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Gillon et al. state the seven planets have equilibrium temperatures low enough to make liquid water on their surfaces possible; this is not evidence that any has water.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Gillon et al. 2017, Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1 (arXiv:1703.01424)",
+       "url": "https://arxiv.org/abs/1703.01424",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Planet c may retain a tenuous O2-dominated atmosphere or be airless; the JWST phase curves cannot tell these apart.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Gillon et al. 2025, First JWST thermal phase curves of temperate terrestrial exoplanets (arXiv:2509.02128)",
+       "url": "https://arxiv.org/abs/2509.02128",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Zieba et al. infer from the absence of a thick CO2 atmosphere on c that it formed volatile-poor, with less than 9.5 (+7.5, -2.3) Earth oceans of water.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Zieba et al. 2023, No thick carbon dioxide atmosphere on the rocky exoplanet TRAPPIST-1 c (arXiv:2306.10150)",
+       "url": "https://arxiv.org/abs/2306.10150",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Spitzer Space Telescope",
+    "role": "Photometric monitoring that revealed at least seven transiting planets",
+    "reference": {
+     "label": "Gillon et al. 2017, Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1 (arXiv:1703.01424)",
+     "url": "https://arxiv.org/abs/1703.01424"
+    }
+   },
+   {
+    "mission": "JWST (MIRI)",
+    "role": "Thermal emission and phase curves of planets b and c",
+    "reference": {
+     "label": "Gillon et al. 2025, First JWST thermal phase curves of temperate terrestrial exoplanets (arXiv:2509.02128)",
+     "url": "https://arxiv.org/abs/2509.02128"
+    }
+   }
+  ]
+ },
+ {
+  "id": "exo:TRAPPIST-1 e",
+  "oneLine": "An Earth-sized transiting planet of TRAPPIST-1; JWST data so far neither confirm nor rule out an atmosphere.",
+  "sections": {
+   "what": [
+    {
+     "text": "The NASA Exoplanet Archive lists TRAPPIST-1 e with a radius of 0.92 Earth radii, a mass of 0.692 Earth masses, a period of 6.101 days and a semi-major axis of 0.02925 AU.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row TRAPPIST-1 e",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27TRAPPIST-1+e%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It transits TRAPPIST-1, an M8 dwarf at 12.4 pc, and was discovered in 2017 (Gillon et al.).",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row TRAPPIST-1 e",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27TRAPPIST-1+e%27&format=csv",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Gillon et al. 2017, Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1 (arXiv:1703.01424)",
+       "url": "https://arxiv.org/abs/1703.01424",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Glidden et al. say planet e stands out within the system as highly likely to sustain surface liquid water if it possesses an atmosphere.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Glidden et al. 2025, JWST-TST DREAMS: Secondary Atmosphere Constraints for TRAPPIST-1 e (arXiv:2509.05407)",
+       "url": "https://arxiv.org/abs/2509.05407",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "TRAPPIST-1 e was among the seven planets reported in 2017 by Gillon et al. from transits of its host.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Gillon et al. 2017, Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1 (arXiv:1703.01424)",
+       "url": "https://arxiv.org/abs/1703.01424",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row TRAPPIST-1 e",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27TRAPPIST-1+e%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The first JWST NIRSpec PRISM transmission spectra show significant stellar contamination that varied between the four visits.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Glidden et al. 2025, JWST-TST DREAMS: Secondary Atmosphere Constraints for TRAPPIST-1 e (arXiv:2509.05407)",
+       "url": "https://arxiv.org/abs/2509.05407",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The authors find no strong evidence for or against an atmosphere; CO2-rich atmospheres are weakly disfavoured at 2 sigma, while N2-rich atmospheres with trace CO2 and CH4 are permitted.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Glidden et al. 2025, JWST-TST DREAMS: Secondary Atmosphere Constraints for TRAPPIST-1 e (arXiv:2509.05407)",
+       "url": "https://arxiv.org/abs/2509.05407",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The archive lists an equilibrium temperature of 249.7 K; the archive defines this as the temperature of a black body heated only by its host star, so it is a model value, not a measured surface temperature.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row TRAPPIST-1 e",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27TRAPPIST-1+e%27&format=csv",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters column definitions",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "JWST (NIRSpec PRISM)",
+    "role": "Transmission spectra of planet e; stellar contamination limits the result",
+    "reference": {
+     "label": "Glidden et al. 2025, JWST-TST DREAMS: Secondary Atmosphere Constraints for TRAPPIST-1 e (arXiv:2509.05407)",
+     "url": "https://arxiv.org/abs/2509.05407"
+    }
+   },
+   {
+    "mission": "Spitzer Space Telescope",
+    "role": "Discovery photometry of the transits",
+    "reference": {
+     "label": "Gillon et al. 2017, Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1 (arXiv:1703.01424)",
+     "url": "https://arxiv.org/abs/1703.01424"
+    }
+   }
+  ]
+ },
+ {
+  "id": "exo:51 Peg b",
+  "oneLine": "The first planet found orbiting a solar-type star beyond the Solar System, announced in 1995.",
+  "sections": {
+   "what": [
+    {
+     "text": "The NASA Exoplanet Archive lists 51 Peg b as found by radial velocity at Haute-Provence Observatory in 1995, with a period of 4.231 days and a semi-major axis of 0.052 AU.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row 51 Peg b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%2751+Peg+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The Royal Swedish Academy of Sciences describes it as a gaseous ball comparable with Jupiter.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "The Nobel Prize in Physics 2019, press release (Royal Swedish Academy of Sciences)",
+       "url": "https://www.nobelprize.org/prizes/physics/2019/press-release/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The Royal Swedish Academy of Sciences calls it the first discovery of a planet orbiting a solar-type star outside the Solar System; Mayor and Queloz shared the 2019 Nobel Prize in Physics for it.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "The Nobel Prize in Physics 2019, press release (Royal Swedish Academy of Sciences)",
+       "url": "https://www.nobelprize.org/prizes/physics/2019/press-release/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The Academy says the discovery started a revolution in astronomy, with over 4,000 exoplanets found since.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "The Nobel Prize in Physics 2019, press release (Royal Swedish Academy of Sciences)",
+       "url": "https://www.nobelprize.org/prizes/physics/2019/press-release/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Michel Mayor and Didier Queloz announced the discovery in October 1995 at Haute-Provence Observatory in southern France, using custom-made instruments.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "The Nobel Prize in Physics 2019, press release (Royal Swedish Academy of Sciences)",
+       "url": "https://www.nobelprize.org/prizes/physics/2019/press-release/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The archive lists a mass of 193.9 Earth masses and an equilibrium temperature of 1329 K; the temperature is defined by the archive as that of a black body heated only by the star, a model value.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row 51 Peg b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%2751+Peg+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters column definitions",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The discovery paper itself (Mayor & Queloz, Nature 1995) was not retrieved for this note; the account rests on the Nobel summary and the archive entry.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "The Nobel Prize in Physics 2019, press release (Royal Swedish Academy of Sciences)",
+       "url": "https://www.nobelprize.org/prizes/physics/2019/press-release/",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Haute-Provence Observatory",
+    "role": "Radial-velocity detection with custom-made instruments",
+    "reference": {
+     "label": "The Nobel Prize in Physics 2019, press release (Royal Swedish Academy of Sciences)",
+     "url": "https://www.nobelprize.org/prizes/physics/2019/press-release/"
+    }
+   }
+  ]
+ },
+ {
+  "id": "exo:Kepler-452 b",
+  "oneLine": "A 1.6 Earth-radius planet on a 384.8-day orbit around a G2 star, validated from Kepler transits.",
+  "sections": {
+   "what": [
+    {
+     "text": "Jenkins et al. report Kepler-452b as a transiting planet of 1.63 (+0.23, -0.20) Earth radii on a 384.843-day orbit around a G2 star.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Jenkins et al. 2015, Discovery and Validation of Kepler-452b (arXiv:1507.06723)",
+       "url": "https://arxiv.org/abs/1507.06723",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The star has an effective temperature of 5757 +/- 85 K, a radius of 1.11 solar radii and an estimated age of 6 Gyr.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Jenkins et al. 2015, Discovery and Validation of Kepler-452b (arXiv:1507.06723)",
+       "url": "https://arxiv.org/abs/1507.06723",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "At the time of the 2015 paper it had the longest orbital period of any small (below 2 Earth radii) transiting planet.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Jenkins et al. 2015, Discovery and Validation of Kepler-452b (arXiv:1507.06723)",
+       "url": "https://arxiv.org/abs/1507.06723",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "It receives about 10% more flux than Earth, lies within the optimistic habitable zone and slightly outside the conservative one.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Jenkins et al. 2015, Discovery and Validation of Kepler-452b (arXiv:1507.06723)",
+       "url": "https://arxiv.org/abs/1507.06723",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "It was found in four years of Kepler Mission data and validated; the archive lists the discovery year as 2015.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Jenkins et al. 2015, Discovery and Validation of Kepler-452b (arXiv:1507.06723)",
+       "url": "https://arxiv.org/abs/1507.06723",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row Kepler-452 b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27Kepler-452+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The likelihood that the planet is rocky is estimated at only 49% to 62%.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Jenkins et al. 2015, Discovery and Validation of Kepler-452b (arXiv:1507.06723)",
+       "url": "https://arxiv.org/abs/1507.06723",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Its mass has not been measured: the archive value of 3.29 Earth masses is derived from a mass-radius relationship.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row Kepler-452 b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27Kepler-452+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The planet was validated statistically, not confirmed by a mass measurement; the habitable-zone placement concerns stellar flux, not whether the planet has water or an atmosphere.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Jenkins et al. 2015, Discovery and Validation of Kepler-452b (arXiv:1507.06723)",
+       "url": "https://arxiv.org/abs/1507.06723",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Kepler Space Telescope",
+    "role": "Transit detection from four years of data",
+    "reference": {
+     "label": "Jenkins et al. 2015, Discovery and Validation of Kepler-452b (arXiv:1507.06723)",
+     "url": "https://arxiv.org/abs/1507.06723"
+    }
+   }
+  ]
+ },
+ {
+  "id": "exo:55 Cnc e",
+  "oneLine": "A hot transiting super-Earth with a 0.74-day orbit and a strongly hotter dayside, observed in the infrared.",
+  "sections": {
+   "what": [
+    {
+     "text": "The NASA Exoplanet Archive lists 55 Cnc e with a period of 0.7365 days, a radius of 1.875 Earth radii and a mass of 7.99 Earth masses.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row 55 Cnc e",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%2755+Cnc+e%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Demory et al. describe it as a nearby transiting super-Earth that revolves around its star in a tidally locked configuration.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Demory et al. 2016, A map of the large day-night temperature gradient of a super-Earth exoplanet (arXiv:1604.05725)",
+       "url": "https://arxiv.org/abs/1604.05725",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Its infrared thermal brightness map shows a hot spot 41 +/- 12 degrees east of the substellar point.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Demory et al. 2016, A map of the large day-night temperature gradient of a super-Earth exoplanet (arXiv:1604.05725)",
+       "url": "https://arxiv.org/abs/1604.05725",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The nightside brightness temperature is 1380 +/- 400 K and the warmest hemisphere is about 1300 K hotter (2700 +/- 270 K) at 4.5 micrometres.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Demory et al. 2016, A map of the large day-night temperature gradient of a super-Earth exoplanet (arXiv:1604.05725)",
+       "url": "https://arxiv.org/abs/1604.05725",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "The authors note that numerous efforts to observe the spectra of super-Earths had so far revealed only featureless spectra.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Demory et al. 2016, A map of the large day-night temperature gradient of a super-Earth exoplanet (arXiv:1604.05725)",
+       "url": "https://arxiv.org/abs/1604.05725",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The data are consistent with either an optically thick atmosphere with heat recirculation confined to the dayside, or a planet with no atmosphere and low-viscosity magma flows at the surface; the authors do not decide between them.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Demory et al. 2016, A map of the large day-night temperature gradient of a super-Earth exoplanet (arXiv:1604.05725)",
+       "url": "https://arxiv.org/abs/1604.05725",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The archive lists discovery by radial velocity at McDonald Observatory in 2004, while the thermal map above comes from a 2016 infrared study.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row 55 Cnc e",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%2755+Cnc+e%27&format=csv",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Demory et al. 2016, A map of the large day-night temperature gradient of a super-Earth exoplanet (arXiv:1604.05725)",
+       "url": "https://arxiv.org/abs/1604.05725",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Space-based infrared monitoring (published 2016)",
+    "role": "Phase-curve thermal map of the planet",
+    "reference": {
+     "label": "Demory et al. 2016, A map of the large day-night temperature gradient of a super-Earth exoplanet (arXiv:1604.05725)",
+     "url": "https://arxiv.org/abs/1604.05725"
+    }
+   }
+  ]
+ },
+ {
+  "id": "exo:HD 209458 b",
+  "oneLine": "A gas giant detected transiting a Sun-like star; Hubble saw Lyman-alpha absorption during its transits.",
+  "sections": {
+   "what": [
+    {
+     "text": "Charbonneau et al. detected two transit events of HD 209458 consistent with the earlier radial-velocity planet, and interpret the planet as a gas giant of 1.27 +/- 0.02 Jupiter radii with an orbital inclination of 87.1 +/- 0.2 degrees.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Charbonneau et al. 2000, Detection of Planetary Transits Across a Sun-like Star (arXiv:astro-ph/9911436)",
+       "url": "https://arxiv.org/abs/astro-ph/9911436",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The NASA Exoplanet Archive lists a period of 3.525 days, a semi-major axis of 0.0471 AU and a system distance of 48.3 pc.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row HD 209458 b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27HD+209458+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Charbonneau et al. present values for the planetary surface gravity, escape velocity and average density.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Charbonneau et al. 2000, Detection of Planetary Transits Across a Sun-like Star (arXiv:astro-ph/9911436)",
+       "url": "https://arxiv.org/abs/astro-ph/9911436",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "The star was already known from radial velocities to have a planetary-mass companion in a close orbit before the 2000 transit detection.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Charbonneau et al. 2000, Detection of Planetary Transits Across a Sun-like Star (arXiv:astro-ph/9911436)",
+       "url": "https://arxiv.org/abs/astro-ph/9911436",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The planetary radius depends on the assumed stellar parameters of 1.1 solar radii and 1.1 solar masses.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Charbonneau et al. 2000, Detection of Planetary Transits Across a Sun-like Star (arXiv:astro-ph/9911436)",
+       "url": "https://arxiv.org/abs/astro-ph/9911436",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Hubble STIS spectra show 15 +/- 4% absorption of the stellar Lyman-alpha line during transit, interpreted by the authors as hydrogen evaporating from an extended upper atmosphere.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Desert et al. 2004, The data analysis of HD209458 Ly-alpha transit occultation (arXiv:astro-ph/0312383)",
+       "url": "https://arxiv.org/abs/astro-ph/0312383",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The archive attributes the discovery to radial velocity (Keck, 1999) while the transit detection followed in 2000.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row HD 209458 b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27HD+209458+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Charbonneau et al. 2000, Detection of Planetary Transits Across a Sun-like Star (arXiv:astro-ph/9911436)",
+       "url": "https://arxiv.org/abs/astro-ph/9911436",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "Hubble Space Telescope (STIS)",
+    "role": "Lyman-alpha absorption during transit",
+    "reference": {
+     "label": "Desert et al. 2004, The data analysis of HD209458 Ly-alpha transit occultation (arXiv:astro-ph/0312383)",
+     "url": "https://arxiv.org/abs/astro-ph/0312383"
+    }
+   }
+  ]
+ },
+ {
+  "id": "exo:LHS 1140 b",
+  "oneLine": "A rocky-density super-Earth transiting a nearby M dwarf, in the stellar liquid-water habitable zone by flux.",
+  "sections": {
+   "what": [
+    {
+     "text": "Dittmann et al. report LHS 1140b as a planet of 1.4 Earth radii transiting a small, cool star 12 parsecs away, with a measured mass of 6.6 Earth masses, consistent with a rocky bulk composition.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Dittmann et al. 2017, A temperate rocky super-Earth transiting a nearby cool star (arXiv:1704.05556)",
+       "url": "https://arxiv.org/abs/1704.05556",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The NASA Exoplanet Archive composite entry lists 24.74 days, a semi-major axis of 0.0946 AU and discovery by the MEarth Project in 2017.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row LHS 1140 b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27LHS+1140+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "It receives 0.46 times the insolation of Earth, placing it within the liquid-water habitable zone of its star.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Dittmann et al. 2017, A temperate rocky super-Earth transiting a nearby cool star (arXiv:1704.05556)",
+       "url": "https://arxiv.org/abs/1704.05556",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Its large surface gravity and cool insolation mean it may have retained its atmosphere, according to the authors.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Dittmann et al. 2017, A temperate rocky super-Earth transiting a nearby cool star (arXiv:1704.05556)",
+       "url": "https://arxiv.org/abs/1704.05556",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "Dittmann et al. reported the planet in 2017; the archive lists transit as the discovery method and the MEarth Project as the discovery facility.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Dittmann et al. 2017, A temperate rocky super-Earth transiting a nearby cool star (arXiv:1704.05556)",
+       "url": "https://arxiv.org/abs/1704.05556",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row LHS 1140 b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27LHS+1140+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The archive default parameters (1.73 Earth radii, 5.6 Earth masses, 15.0 pc) differ from the discovery values (1.4 Earth radii, 6.6 Earth masses, 12 pc), so the properties depend on which study is used.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row LHS 1140 b",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27LHS+1140+b%27&format=csv",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Dittmann et al. 2017, A temperate rocky super-Earth transiting a nearby cool star (arXiv:1704.05556)",
+       "url": "https://arxiv.org/abs/1704.05556",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The orbital eccentricity is only bounded: the 90% confidence upper limit is 0.29.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Dittmann et al. 2017, A temperate rocky super-Earth transiting a nearby cool star (arXiv:1704.05556)",
+       "url": "https://arxiv.org/abs/1704.05556",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Habitable-zone placement is by flux alone; whether it has an atmosphere or liquid water is unknown.",
+     "status": "hypothesis",
+     "references": [
+      {
+       "label": "Dittmann et al. 2017, A temperate rocky super-Earth transiting a nearby cool star (arXiv:1704.05556)",
+       "url": "https://arxiv.org/abs/1704.05556",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "MEarth Project",
+    "role": "Transit discovery",
+    "reference": {
+     "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row LHS 1140 b",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27LHS+1140+b%27&format=csv"
+    }
+   }
+  ]
+ },
+ {
+  "id": "exo:TOI-700 d",
+  "oneLine": "An Earth-sized (about 1.2 Earth radii) planet in the habitable zone of an M2 dwarf, validated from TESS data.",
+  "sections": {
+   "what": [
+    {
+     "text": "Gilbert et al. validated a three-planet system around the M2 dwarf TOI-700 (31.1 pc); the outermost planet d has a radius of 1.19 +/- 0.11 Earth radii.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Gilbert et al. 2020, The First Habitable Zone Earth-sized Planet from TESS. I: Validation of the TOI-700 System (arXiv:2001.00952)",
+       "url": "https://arxiv.org/abs/2001.00952",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The NASA Exoplanet Archive composite entry lists a period of 37.42 days and a semi-major axis of 0.164 AU, and gives 4 planets for the system.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row TOI-700 d",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27TOI-700+d%27&format=csv",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "Planet d lies in the conservative habitable zone of its star, receiving about 86% of the insolation Earth receives.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Gilbert et al. 2020, The First Habitable Zone Earth-sized Planet from TESS. I: Validation of the TOI-700 System (arXiv:2001.00952)",
+       "url": "https://arxiv.org/abs/2001.00952",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "TOI-700 shows low levels of stellar activity, a valuable opportunity to study potentially rocky planets.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Gilbert et al. 2020, The First Habitable Zone Earth-sized Planet from TESS. I: Validation of the TOI-700 System (arXiv:2001.00952)",
+       "url": "https://arxiv.org/abs/2001.00952",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "discovery": [
+    {
+     "text": "The system was observed in 11 TESS sectors in the Southern continuous viewing zone and published in 2020.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Gilbert et al. 2020, The First Habitable Zone Earth-sized Planet from TESS. I: Validation of the TOI-700 System (arXiv:2001.00952)",
+       "url": "https://arxiv.org/abs/2001.00952",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "The archive radius (1.145 Earth radii) differs from the discovery value, and its mass of 1.58 Earth masses comes from a mass-radius relation, not a measurement.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "NASA Exoplanet Archive, Planetary Systems Composite Parameters table, row TOI-700 d",
+       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cdiscoverymethod%2Cdisc_year%2Cdisc_facility%2Cpl_orbper%2Cpl_rade%2Cpl_bmasse%2Cpl_bmassprov%2Cpl_eqt%2Cpl_orbsmax%2Csy_dist%2Csy_pnum+from+pscomppars+where+pl_name%3D%27TOI-700+d%27&format=csv",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Gilbert et al. 2020, The First Habitable Zone Earth-sized Planet from TESS. I: Validation of the TOI-700 System (arXiv:2001.00952)",
+       "url": "https://arxiv.org/abs/2001.00952",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The planets were validated by ruling out false-positive scenarios, a statistical argument rather than a mass measurement.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Gilbert et al. 2020, The First Habitable Zone Earth-sized Planet from TESS. I: Validation of the TOI-700 System (arXiv:2001.00952)",
+       "url": "https://arxiv.org/abs/2001.00952",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The authors say atmospheric characterization of TOI-700 d with JWST will be challenging.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Gilbert et al. 2020, The First Habitable Zone Earth-sized Planet from TESS. I: Validation of the TOI-700 System (arXiv:2001.00952)",
+       "url": "https://arxiv.org/abs/2001.00952",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "TESS (Transiting Exoplanet Survey Satellite)",
+    "role": "Transit detection",
+    "reference": {
+     "label": "Gilbert et al. 2020, The First Habitable Zone Earth-sized Planet from TESS. I: Validation of the TOI-700 System (arXiv:2001.00952)",
+     "url": "https://arxiv.org/abs/2001.00952"
+    }
+   }
+  ]
+ },
+ {
+  "id": "other:sgr-a-star",
+  "oneLine": "The compact radio source at the Galactic Centre, a massive black hole of about 4.3 million solar masses.",
+  "sections": {
+   "what": [
+    {
+     "text": "Sgr A* is the compact radio source at the Galactic Centre; the star S2 orbits the massive black hole Sgr A* every 16 years.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "GRAVITY Collaboration 2019, A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty (arXiv:1904.05721)",
+       "url": "https://arxiv.org/abs/1904.05721",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "SIMBAD lists Sgr A* at right ascension 266.41682 and declination -29.00782 degrees.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "SIMBAD (CDS), SIMBAD basic data for Sgr A*",
+       "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=text&query=SELECT+b.main_id%2C+b.otype%2C+b.sp_type%2C+b.plx_value%2C+b.plx_err%2C+b.pmra%2C+b.pmdec%2C+b.ra%2C+b.dec+FROM+ident+AS+i+JOIN+basic+AS+b+ON+b.oid%3Di.oidref+WHERE+i.id+%3D+%27Sgr+A%2A%27",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Genzel et al. conclude from stellar orbits and the size and motion of the radio source that it must be a massive black hole, beyond any reasonable doubt.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "Genzel, Eisenhauer & Gillessen 2010, The Galactic Center Massive Black Hole and Nuclear Star Cluster (arXiv:1006.0064)",
+       "url": "https://arxiv.org/abs/1006.0064",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "why": [
+    {
+     "text": "The orbit of S2 gives a geometric distance to the Galactic Centre of R0 = 8178 +/- 13 (stat) +/- 22 (sys) pc.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "GRAVITY Collaboration 2019, A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty (arXiv:1904.05721)",
+       "url": "https://arxiv.org/abs/1904.05721",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "GRAVITY data fit general relativity orbits around a single central point mass of 4.30e6 solar masses with a precision of about 0.25%, and detect Schwarzschild precession in the S2 orbit at 7 sigma.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "GRAVITY Collaboration 2022, The mass distribution in the Galactic Centre from interferometric astrometry of multiple stellar orbits (arXiv:2112.07478)",
+       "url": "https://arxiv.org/abs/2112.07478",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "interesting": [
+    {
+     "text": "Genzel et al. report an S-star cluster of mainly young early-type stars near the black hole, three with pericentres of less than one light day, called a paradox of youth.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "Genzel, Eisenhauer & Gillessen 2010, The Galactic Center Massive Black Hole and Nuclear Star Cluster (arXiv:1006.0064)",
+       "url": "https://arxiv.org/abs/1006.0064",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "GRAVITY at the VLTI measures positions of S2 relative to Sgr A* with an accuracy as good as 20 micro-arcseconds.",
+     "status": "observed",
+     "references": [
+      {
+       "label": "GRAVITY Collaboration 2019, A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty (arXiv:1904.05721)",
+       "url": "https://arxiv.org/abs/1904.05721",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "uncertain": [
+    {
+     "text": "Any extended mass component inside the apocentre of S2 must be 3000 solar masses (1 sigma) or less, 0.1% of the central mass.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "GRAVITY Collaboration 2022, The mass distribution in the Galactic Centre from interferometric astrometry of multiple stellar orbits (arXiv:2112.07478)",
+       "url": "https://arxiv.org/abs/2112.07478",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "Earlier orbit fits gave R0 of 8.0 +/- 0.6 kpc and a mass of 4.1 +/- 0.6e6 solar masses (Ghez et al. 2008) and 4.4e6 solar masses (Genzel et al. 2010), so quoted values depend on the epoch and method.",
+     "status": "historical",
+     "references": [
+      {
+       "label": "Ghez et al. 2008, Measuring Distance and Properties of the Milky Way's Central Supermassive Black Hole with Stellar Orbits (arXiv:0808.2870)",
+       "url": "https://arxiv.org/abs/0808.2870",
+       "retrieved": "2026-11-13"
+      },
+      {
+       "label": "Genzel, Eisenhauer & Gillessen 2010, The Galactic Center Massive Black Hole and Nuclear Star Cluster (arXiv:1006.0064)",
+       "url": "https://arxiv.org/abs/1006.0064",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "text": "The distance is a statistical and systematic combination from one star orbit; it applies to the position of the black hole, not to the extent of the Galaxy.",
+     "status": "inferred",
+     "references": [
+      {
+       "label": "GRAVITY Collaboration 2019, A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty (arXiv:1904.05721)",
+       "url": "https://arxiv.org/abs/1904.05721",
+       "retrieved": "2026-11-13"
+      }
+     ]
+    }
+   ]
+  },
+  "studiedBy": [
+   {
+    "mission": "VLTI GRAVITY",
+    "role": "Interferometric astrometry of stars orbiting Sgr A*",
+    "reference": {
+     "label": "GRAVITY Collaboration 2019, A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty (arXiv:1904.05721)",
+     "url": "https://arxiv.org/abs/1904.05721"
+    }
+   },
+   {
+    "mission": "Keck telescopes",
+    "role": "Earlier astrometry and radial velocities of S0-2",
+    "reference": {
+     "label": "Ghez et al. 2008, Measuring Distance and Properties of the Milky Way's Central Supermassive Black Hole with Stellar Orbits (arXiv:0808.2870)",
+     "url": "https://arxiv.org/abs/0808.2870"
+    }
+   }
+  ]
+ }
+]

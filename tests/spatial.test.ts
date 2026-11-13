@@ -30,8 +30,8 @@ describe('FrameTree', () => {
     const inUniverse = t.convert(moon, 'universe');
     const back = t.convert({ frame: 'universe', offset: inUniverse }, 'earth-system');
     const err = length([back[0] - 3.844e8, back[1], back[2]]);
-    expect(err).toBeGreaterThan(0);
-    expect(err).toBeLessThan(1e6);
+    expect(err).toBeGreaterThan(1e3); // kilometres, not millimetres
+    expect(err).toBeLessThan(1e5);
   });
 
   it('keeps sub-metre precision for intra-system offsets far from the origin', () => {

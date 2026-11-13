@@ -1,0 +1,1546 @@
+{
+ "url": "http://127.0.0.1:4173/",
+ "startedAt": "2026-11-13T13:39:22.551Z",
+ "siriusRows": [
+  {
+   "text": "StarSirius2.64 pcStar · A0m...",
+   "cat": "Star",
+   "name": "Sirius",
+   "dist": "2.64 pc",
+   "role": "option"
+  },
+  {
+   "text": "StarSirius C2.67 pcmatched as NAME Sirius B · White Dwarf · DA1.9",
+   "cat": "Star",
+   "name": "Sirius C",
+   "dist": "2.67 pc",
+   "role": "option"
+  }
+ ],
+ "flightToSirius": {
+  "samples": 18,
+  "moving": 13,
+  "startFocusDistancePc": 2.633947337174401,
+  "endFocusDistancePc": 0,
+  "viewDistancePc": 4.000000000000001
+ },
+ "siriusInspector": {
+  "name": "Sirius",
+  "cls": "Star · A0m...",
+  "distance": "Distance from the Sun2.64 pcDER±0.01 pc",
+  "mag": "Apparent magnitude-1.44 magOBS",
+  "absMag": "Absolute magnitude1.45 magDER±0.01 mag",
+  "parallax": "Parallax quality (S/N)240DERd divided by its uncertainty, equal to parallax over its error.",
+  "kinds": [
+   "OBS",
+   "OBS",
+   "DER",
+   "DER",
+   "OBS",
+   "DER",
+   "DER",
+   "OBS"
+  ],
+  "relBlock": true,
+  "relText": "RelationshipsNo relationships are recorded for this object in the datasets loaded.",
+  "noteBlock": true,
+  "oneLine": "A visual binary: the brightest star in the sky, orbited by a white dwarf every 50.13 years.",
+  "policy": "Notes paraphrase the cited pages; they are not measurements.",
+  "claims": [
+   {
+    "status": "Observed",
+    "refs": [
+     "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625) · retrieved 2026-11-13"
+    ]
+   },
+   {
+    "status": "Observed",
+    "refs": [
+     "SIMBAD (CDS), SIMBAD basic data for HIP 32349 · retrieved 2026-11-13"
+    ]
+   },
+   {
+    "status": "Observed",
+    "refs": [
+     "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625) · retrieved 2026-11-13"
+    ]
+   },
+   {
+    "status": "Inferred",
+    "refs": [
+     "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625) · retrieved 2026-11-13"
+    ]
+   },
+   {
+    "status": "Historical",
+    "refs": [
+     "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625) · retrieved 2026-11-13"
+    ]
+   },
+   {
+    "status": "Observed",
+    "refs": [
+     "Joyce et al. 2018, The gravitational redshift of Sirius B (arXiv:1809.01240) · retrieved 2026-11-13"
+    ]
+   },
+   {
+    "status": "Observed",
+    "refs": [
+     "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625) · retrieved 2026-11-13"
+    ]
+   },
+   {
+    "status": "Inferred",
+    "refs": [
+     "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625) · retrieved 2026-11-13"
+    ]
+   },
+   {
+    "status": "Hypothesis / open question",
+    "refs": [
+     "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625) · retrieved 2026-11-13"
+    ]
+   },
+   {
+    "status": "Inferred",
+    "refs": [
+     "Bond et al. 2017, The Sirius System and its Astrophysical Puzzles (arXiv:1703.10625) · retrieved 2026-11-13"
+    ]
+   }
+  ],
+  "sections": [
+   "What it is",
+   "Why it matters",
+   "How it was found",
+   "What is interesting",
+   "What is uncertain",
+   "Studied by"
+  ],
+  "actions": [
+   "☆ Bookmark",
+   "Find nearby",
+   "Go to parent",
+   "Back: previous view"
+  ],
+  "links": 10
+ },
+ "nearbySirius": {
+  "around": ": Sirius",
+  "first": [
+   {
+    "id": "gaia:2947050466531873024",
+    "name": "Sirius C",
+    "dist": "6,857 AU"
+   },
+   {
+    "id": "hip:37279",
+    "name": "Procyon",
+    "dist": "1.61 pc"
+   },
+   {
+    "id": "gaia:3139847906307949696",
+    "name": "Luyten's star",
+    "dist": "1.76 pc"
+   },
+   {
+    "id": "exo:Kapteyn c",
+    "name": "Kapteyn c",
+    "dist": "2.31 pc"
+   },
+   {
+    "id": "gaia:4810594479418041856",
+    "name": "Kapteyn's star",
+    "dist": "2.31 pc"
+   },
+   {
+    "id": "exo:eps Eri b",
+    "name": "eps Eri b",
+    "dist": "2.41 pc"
+   }
+  ]
+ },
+ "procyonInNearby": true,
+ "andromedaInspector": {
+  "badge": "DEPROJECTED IMAGE",
+  "name": "Andromeda Galaxy (M31)",
+  "note": true,
+  "noteText": "ExplanationAndromeda: a galaxy about 761 kpc (2.5 million light-years) away; Hubble's PHAT survey resolves its disk into",
+  "rel": "RelationshipsSpatial association (approximate; our selection)Listed together by this atlas because they are near each other on the sky or in space. Not a statement that they are bound.Local GroupGalax",
+  "claims": 5
+ },
+ "back": {
+  "dFocus": 2.407586298179502e-11,
+  "rel": 0,
+  "dAng": 1.1102230246251565e-16,
+  "crumb": "Universe › Nearby universe › Local Group › Milky Way › Stellar neighbourhood (Gaia sample)",
+  "expected": "Universe › Nearby universe › Local Group › Milky Way › Stellar neighbourhood (Gaia sample)"
+ },
+ "noParallaxRecord": {
+  "id": "gaia:21943816844529920",
+  "name": "HD 16802"
+ },
+ "bigResult": {
+  "rows": 40,
+  "foot": "showing 40 of 6,006+; refine the query",
+  "hidden": false,
+  "chips": "All 6,006 | Stars 5,912 | Planets | Moons | Exoplanets 24 | Galaxies 16 | Nebulae | Clusters | Groups | Other 54"
+ },
+ "filterCombo": {
+  "api": {
+   "count": 2092,
+   "scope": 31781,
+   "excl": {
+    "teffK": 17877,
+    "distanceBand": 232
+   },
+   "ids": [
+    "gaia:6452209110182016",
+    "gaia:8479094371605632",
+    "gaia:13000080026782464",
+    "gaia:16302463200535040",
+    "gaia:18565464288396416"
+   ]
+  },
+  "ui": {
+   "count": "2,092 records match",
+   "excl": [
+    "17,877 records without a temperature are not included.",
+    "232 records without a distance are not included."
+   ],
+   "rows": 40,
+   "scope": "among 31,781 records that pass the category and dataset choices",
+   "hash": "#d=filter&f.cat=star&f.band=nearby-stars&f.r.teffK=3000..6000"
+  }
+ },
+ "featured": {
+  "n": 11,
+  "titles": [
+   "Nearest stars",
+   "Brightest stars as seen from the Sun",
+   "Fastest proper motion",
+   "Nearest stars with confirmed planets",
+   "Most confirmed planets in one system",
+   "Hottest exoplanets",
+   "Shortest orbital periods",
+   "Largest exoplanets",
+   "Nearest galaxies",
+   "Largest nebulae by physical size",
+   "QA picks"
+  ],
+  "meta": [
+   "Criterion",
+   "Scope",
+   "Caveat",
+   "Completeness",
+   "Excluded",
+   "Excluded",
+   "Excluded"
+  ],
+  "item": "1. Toliman1.25 pc ±0.04 pcDER Closest star in this dataset: 1.25 pc (derived, ±0.04 pc; distance/uncertainty 31).Note A K1 V star in a close binary with Alpha C",
+  "notes": 23,
+  "noteTag": "Note",
+  "srcExpander": "(sources)",
+  "proxima": "Note A K1 V star in a close binary with Alpha Centauri A; mass about 0.97 solar masses. (sources)SIMBAD (CDS), SIMBAD basic data for HIP 71681 · retrieved 2026-"
+ },
+ "tabAfterHomeEnd": "Nearby",
+ "tabStops": [
+  {
+   "tag": "button",
+   "id": "sb-clear",
+   "text": "×",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 143,
+   "x": 222
+  },
+  {
+   "tag": "button",
+   "id": "discover-btn",
+   "text": "Discover D",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 138,
+   "x": 260
+  },
+  {
+   "tag": "button",
+   "id": "",
+   "text": "All 1",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 177,
+   "x": 25
+  },
+  {
+   "tag": "button",
+   "id": "btn-in",
+   "text": "Zoom in",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 555,
+   "x": 16
+  },
+  {
+   "tag": "button",
+   "id": "btn-out",
+   "text": "Zoom out",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 555,
+   "x": 90
+  },
+  {
+   "tag": "button",
+   "id": "btn-reset",
+   "text": "Reset orientation",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 555,
+   "x": 173
+  },
+  {
+   "tag": "button",
+   "id": "btn-home",
+   "text": "Home view",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 555,
+   "x": 301
+  },
+  {
+   "tag": "input",
+   "id": "mag-limit",
+   "text": "",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 589,
+   "x": 133
+  },
+  {
+   "tag": "input",
+   "id": "hide-suspect",
+   "text": "",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 618,
+   "x": 20
+  },
+  {
+   "tag": "summary",
+   "id": "",
+   "text": "How to read the density of t",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 634,
+   "x": 16
+  },
+  {
+   "tag": "button",
+   "id": "",
+   "text": "Hide",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 23,
+   "x": 855
+  },
+  {
+   "tag": "button",
+   "id": "",
+   "text": "Solar neighbourhood",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 68,
+   "x": 647
+  },
+  {
+   "tag": "button",
+   "id": "",
+   "text": "Milky Way",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 68,
+   "x": 792
+  },
+  {
+   "tag": "button",
+   "id": "",
+   "text": "Local Group",
+   "outline": true,
+   "shadow": false,
+   "visible": true,
+   "y": 95,
+   "x": 647
+  }
+ ],
+ "typing": {
+  "idle": {
+   "count": 0,
+   "longest": 0,
+   "total": 0,
+   "seconds": 6.007399999976158
+  },
+  "typing": {
+   "count": 0,
+   "longest": 0,
+   "total": 0,
+   "seconds": 2.6822000000476836
+  }
+ },
+ "responsive": {
+  "1280x800": {
+   "size": "1280x800",
+   "inspectorOnly": {
+    "#hud-tl": {
+     "left": 16,
+     "top": 16,
+     "right": 356,
+     "bottom": 168,
+     "w": 340,
+     "h": 152
+    },
+    "#inspector": {
+     "left": 920,
+     "top": 0,
+     "right": 1280,
+     "bottom": 800,
+     "w": 360,
+     "h": 800
+    },
+    "#deep-panel": {
+     "left": 636,
+     "top": 14,
+     "right": 904,
+     "bottom": 313.015625,
+     "w": 268,
+     "h": 299.015625
+    },
+    "#nav-ctx": {
+     "left": 372,
+     "top": 14,
+     "right": 620,
+     "bottom": 87.5,
+     "w": 248,
+     "h": 73.5
+    }
+   },
+   "drawer": {
+    "#hud-tl": {
+     "left": 16,
+     "top": 16,
+     "right": 356,
+     "bottom": 168,
+     "w": 340,
+     "h": 152
+    },
+    "#discover": {
+     "left": 0,
+     "top": 176,
+     "right": 340,
+     "bottom": 800,
+     "w": 340,
+     "h": 624
+    },
+    "#inspector": {
+     "left": 920,
+     "top": 0,
+     "right": 1280,
+     "bottom": 800,
+     "w": 360,
+     "h": 800
+    },
+    "#deep-panel": {
+     "left": 636,
+     "top": 14,
+     "right": 904,
+     "bottom": 313.015625,
+     "w": 268,
+     "h": 299.015625
+    },
+    "#nav-ctx": {
+     "left": 372,
+     "top": 14,
+     "right": 620,
+     "bottom": 87.5,
+     "w": 248,
+     "h": 73.5
+    }
+   },
+   "freeSceneFraction": 0.4305,
+   "solar": {
+    "#hud-tl": {
+     "left": 16,
+     "top": 16,
+     "right": 356,
+     "bottom": 168,
+     "w": 340,
+     "h": 152
+    },
+    "#inspector": {
+     "left": 920,
+     "top": 0,
+     "right": 1280,
+     "bottom": 800,
+     "w": 360,
+     "h": 800
+    },
+    "#deep-panel": {
+     "left": 636,
+     "top": 14,
+     "right": 904,
+     "bottom": 264.5,
+     "w": 268,
+     "h": 250.5
+    },
+    "#solar-bar": {
+     "left": 372,
+     "top": 14,
+     "right": 620,
+     "bottom": 120.5,
+     "w": 248,
+     "h": 106.5
+    },
+    "#crumbs": {
+     "left": 372,
+     "top": 126.5,
+     "right": 620,
+     "bottom": 192.5,
+     "w": 248,
+     "h": 66
+    },
+    "#nav-ctx": {
+     "left": 372,
+     "top": 198.5,
+     "right": 620,
+     "bottom": 272,
+     "w": 248,
+     "h": 73.5
+    },
+    "#time-bar": {
+     "left": 484,
+     "top": 574.5,
+     "right": 904,
+     "bottom": 760,
+     "w": 420,
+     "h": 185.5
+    }
+   }
+  },
+  "1024x700": {
+   "size": "1024x700",
+   "inspectorOnly": {
+    "#hud-tl": {
+     "left": 16,
+     "top": 16,
+     "right": 356,
+     "bottom": 168,
+     "w": 340,
+     "h": 152
+    },
+    "#inspector": {
+     "left": 664,
+     "top": 0,
+     "right": 1024,
+     "bottom": 700,
+     "w": 360,
+     "h": 700
+    },
+    "#deep-panel": {
+     "left": 537.703125,
+     "top": 14,
+     "right": 648,
+     "bottom": 49,
+     "w": 110.296875,
+     "h": 35
+    },
+    "#nav-ctx": {
+     "left": 16,
+     "top": 176,
+     "right": 389.96875,
+     "bottom": 221,
+     "w": 373.96875,
+     "h": 45
+    }
+   },
+   "drawer": {
+    "#hud-tl": {
+     "left": 16,
+     "top": 16,
+     "right": 356,
+     "bottom": 168,
+     "w": 340,
+     "h": 152
+    },
+    "#discover": {
+     "left": 0,
+     "top": 176,
+     "right": 340,
+     "bottom": 700,
+     "w": 340,
+     "h": 524
+    },
+    "#deep-panel": {
+     "left": 897.703125,
+     "top": 14,
+     "right": 1008,
+     "bottom": 49,
+     "w": 110.296875,
+     "h": 35
+    }
+   },
+   "freeSceneFraction": 0.7439834770114943,
+   "solar": {
+    "#hud-tl": {
+     "left": 16,
+     "top": 16,
+     "right": 356,
+     "bottom": 168,
+     "w": 340,
+     "h": 152
+    },
+    "#inspector": {
+     "left": 664,
+     "top": 0,
+     "right": 1024,
+     "bottom": 700,
+     "w": 360,
+     "h": 700
+    },
+    "#deep-panel": {
+     "left": 537.703125,
+     "top": 14,
+     "right": 648,
+     "bottom": 49,
+     "w": 110.296875,
+     "h": 35
+    },
+    "#solar-bar": {
+     "left": 16,
+     "top": 176,
+     "right": 648,
+     "bottom": 256,
+     "w": 632,
+     "h": 80
+    },
+    "#crumbs": {
+     "left": 16,
+     "top": 262,
+     "right": 648,
+     "bottom": 295,
+     "w": 632,
+     "h": 33
+    },
+    "#nav-ctx": {
+     "left": 16,
+     "top": 301,
+     "right": 341.359375,
+     "bottom": 346,
+     "w": 325.359375,
+     "h": 45
+    },
+    "#time-bar": {
+     "left": 81.59375,
+     "top": 540,
+     "right": 648,
+     "bottom": 660,
+     "w": 566.40625,
+     "h": 120
+    }
+   }
+  },
+  "768x1024": {
+   "size": "768x1024",
+   "inspectorOnly": {
+    "#hud-tl": {
+     "left": 16,
+     "top": 16,
+     "right": 356,
+     "bottom": 168,
+     "w": 340,
+     "h": 152
+    },
+    "#inspector": {
+     "left": 408,
+     "top": 0,
+     "right": 768,
+     "bottom": 1024,
+     "w": 360,
+     "h": 1024
+    },
+    "#nav-ctx": {
+     "left": 16,
+     "top": 176,
+     "right": 389.96875,
+     "bottom": 221,
+     "w": 373.96875,
+     "h": 45
+    }
+   },
+   "drawer": {
+    "#hud-tl": {
+     "left": 16,
+     "top": 16,
+     "right": 356,
+     "bottom": 168,
+     "w": 340,
+     "h": 152
+    },
+    "#discover": {
+     "left": 0,
+     "top": 176,
+     "right": 340,
+     "bottom": 1024,
+     "w": 340,
+     "h": 848
+    }
+   },
+   "freeSceneFraction": 0.6290690104166666,
+   "solar": {
+    "#hud-tl": {
+     "left": 16,
+     "top": 16,
+     "right": 356,
+     "bottom": 168,
+     "w": 340,
+     "h": 152
+    },
+    "#inspector": {
+     "left": 408,
+     "top": 0,
+     "right": 768,
+     "bottom": 1024,
+     "w": 360,
+     "h": 1024
+    },
+    "#solar-bar": {
+     "left": 16,
+     "top": 176,
+     "right": 392,
+     "bottom": 256,
+     "w": 376,
+     "h": 80
+    },
+    "#crumbs": {
+     "left": 16,
+     "top": 262,
+     "right": 392,
+     "bottom": 311.5,
+     "w": 376,
+     "h": 49.5
+    },
+    "#nav-ctx": {
+     "left": 16,
+     "top": 317.5,
+     "right": 341.359375,
+     "bottom": 362.5,
+     "w": 325.359375,
+     "h": 45
+    },
+    "#time-bar": {
+     "left": 16,
+     "top": 798.5,
+     "right": 392,
+     "bottom": 984,
+     "w": 376,
+     "h": 185.5
+    }
+   }
+  },
+  "390x844": {
+   "size": "390x844",
+   "inspectorOnly": {
+    "#hud-tl": {
+     "left": 12,
+     "top": 10,
+     "right": 378,
+     "bottom": 102,
+     "w": 366,
+     "h": 92
+    },
+    "#inspector": {
+     "left": 0,
+     "top": 337.609375,
+     "right": 390,
+     "bottom": 844,
+     "w": 390,
+     "h": 506.390625
+    }
+   },
+   "drawer": {
+    "#hud-tl": {
+     "left": 12,
+     "top": 10,
+     "right": 378,
+     "bottom": 102,
+     "w": 366,
+     "h": 92
+    },
+    "#discover": {
+     "left": 0,
+     "top": 337.609375,
+     "right": 390,
+     "bottom": 844,
+     "w": 390,
+     "h": 506.390625
+    }
+   },
+   "freeSceneFraction": 0.4,
+   "solar": {
+    "#hud-tl": {
+     "left": 12,
+     "top": 10,
+     "right": 378,
+     "bottom": 102,
+     "w": 366,
+     "h": 92
+    },
+    "#inspector": {
+     "left": 0,
+     "top": 337.609375,
+     "right": 390,
+     "bottom": 844,
+     "w": 390,
+     "h": 506.390625
+    }
+   }
+  }
+ },
+ "checks": [
+  {
+   "name": "(1) the Atlas opens: search is an ARIA combobox, closed; the drawer is closed; the engine finished indexing",
+   "ok": true,
+   "detail": "{\"role\":\"combobox\",\"expanded\":\"false\",\"controls\":\"results\",\"popHidden\":true,\"drawerHidden\":true,\"status\":true}"
+  },
+  {
+   "name": "(2) '/' focuses the search box",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "(2) results appear with Sirius first, category as text, name and a compact distance",
+   "ok": true,
+   "detail": "{\"text\":\"StarSirius2.64 pcStar · A0m...\",\"cat\":\"Star\",\"name\":\"Sirius\",\"dist\":\"2.64 pc\",\"role\":\"option\"}"
+  },
+  {
+   "name": "(2) category filter chips with counts are shown (All, Stars, Planets, Moons, Exoplanets, Galaxies, Nebulae, Clusters, Groups, Other)",
+   "ok": true,
+   "detail": "All 2 | Stars 2 | Planets | Moons | Exoplanets | Galaxies | Nebulae | Clusters | Groups | Other"
+  },
+  {
+   "name": "(2) the input exposes listbox state (aria-expanded true, role=option rows)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "(3) ArrowDown makes the first row active (aria-activedescendant, aria-selected)",
+   "ok": true,
+   "detail": "{\"id\":\"sb-opt-0\",\"selected\":\"true\",\"name\":\"Sirius\"}"
+  },
+  {
+   "name": "(3) Enter flew the camera: focus distance to the star never increases during the flight",
+   "ok": true,
+   "detail": "13 samples while flying, start 2.63 pc -> 0.0000 pc, worst increase 0"
+  },
+  {
+   "name": "(3) the flight ends at the star (focus within 0.05 pc, view a few pc away)",
+   "ok": true,
+   "detail": "focus 0.0000 pc from Sirius, camera 4.00 pc from focus"
+  },
+  {
+   "name": "(3) the visit is in the atlas history and the nav line says where the camera is",
+   "ok": true,
+   "detail": "At Sirius."
+  },
+  {
+   "name": "(4) inspector shows name and classification",
+   "ok": true,
+   "detail": "Sirius / Star · A0m..."
+  },
+  {
+   "name": "(4) distance with uncertainty, and observed/derived badges",
+   "ok": true,
+   "detail": "Distance from the Sun2.64 pcDER±0.01 pc kinds OBS,DER"
+  },
+  {
+   "name": "(4) magnitudes (apparent observed, absolute derived) are shown",
+   "ok": true,
+   "detail": "Apparent magnitude-1.44 magOBS | Absolute magnitude1.45 magDER±0.01 mag"
+  },
+  {
+   "name": "(4) parallax quality (derived S/N) is shown",
+   "ok": true,
+   "detail": "Parallax quality (S/N)240DERd divided by its uncertainty, equal to parallax over its error."
+  },
+  {
+   "name": "(4) relationships block is present (rows grouped by basis, or the explicit \"no relationships\" statement)",
+   "ok": true,
+   "detail": "RelationshipsNo relationships are recorded for this object in the datasets loaded."
+  },
+  {
+   "name": "(4) explanation block: one-liner first, the \"paraphrase\" policy line, expandable sections",
+   "ok": true,
+   "detail": "A visual binary: the brightest star in the sky, orbited by a white dwarf every 50.13 years. | What it is, Why it matters, How it was found, What is interesting, What is uncertain, Studied by"
+  },
+  {
+   "name": "(4) every claim shows a status label and a reference with a retrieved date",
+   "ok": true,
+   "detail": "10 claims, 10 reference links"
+  },
+  {
+   "name": "(4) actions: Bookmark, Find nearby, Go to parent, Back",
+   "ok": true,
+   "detail": "☆ Bookmark | Find nearby | Go to parent | Back: previous view"
+  },
+  {
+   "name": "(5) Nearby tab lists real neighbours with distances: positive, sorted nearest first",
+   "ok": true,
+   "detail": "40 rows: Sirius C 6,857 AU; Procyon 1.61 pc; Luyten's star 1.76 pc; Kapteyn c 2.31 pc"
+  },
+  {
+   "name": "(5) the origin (Sirius) is excluded from its own neighbours",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "(5) the rows are the atlas.nearby() result for the same radius (same ids, same order)",
+   "ok": true,
+   "detail": "UI gaia:2947050466531873024,hip:37279,gaia:3139847906307949696 API gaia:2947050466531873024,hip:37279,gaia:3139847906307949696"
+  },
+  {
+   "name": "(5) Procyon is listed if and only if the datasets place it within the radius (1.61 pc from Sirius here)",
+   "ok": true,
+   "detail": "API says true"
+  },
+  {
+   "name": "(5) Esc closes the drawer (top-most panel) and the inspector stays",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "(8) searching \"Andromeda\": the galaxy M31 is first",
+   "ok": true,
+   "detail": "{\"name\":\"Andromeda Galaxy (M31)\",\"cat\":\"Galaxy\",\"id\":\"deep:m31\"}"
+  },
+  {
+   "name": "(8) the camera flew to M31 (focus on the galaxy)",
+   "ok": true,
+   "detail": "focus 0 pc from M31, camera 86623 pc away"
+  },
+  {
+   "name": "(8) the inspector shows the deprojected-image badge and an explanation note",
+   "ok": true,
+   "detail": "DEPROJECTED IMAGE | ExplanationAndromeda: a galaxy about 761 kpc (2.5 million light-years) away; Hubble's PHAT survey resolves its disk into"
+  },
+  {
+   "name": "(8) relationships for M31 are grouped by basis (the data record the Local Group membership)",
+   "ok": true,
+   "detail": "RelationshipsSpatial association (approximate; our selection)Listed together by this atlas because they are near each other on the sky or in space. Not a statem"
+  },
+  {
+   "name": "(7) Back returns to Sirius (selection) and the camera view the user left (focus, distance, yaw, pitch within tolerance)",
+   "ok": true,
+   "detail": "focus 0.0000 pc, distance 0.00 %, angle 0.0000 rad"
+  },
+  {
+   "name": "(7) the breadcrumb matches the one recorded at Sirius",
+   "ok": true,
+   "detail": "\"Universe › Nearby universe › Local Group › Milky Way › Stellar neighbourhood (Gaia sample)\" vs \"Universe › Nearby universe › Local Group › Milky Way › Stellar neighbourhood (Gaia sample)\""
+  },
+  {
+   "name": "(7) the inspector shows Sirius again",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "(7) Forward is now labelled with the object it leads to",
+   "ok": true,
+   "detail": "Forward: Andromeda Galaxy (M31)"
+  },
+  {
+   "name": "(7) a second Back returns to the opening view (camera snapshot equal within tolerance, nothing selected)",
+   "ok": true,
+   "detail": "focus 0.0000 pc, distance 0.00 %"
+  },
+  {
+   "name": "(7) the opening breadcrumb is restored",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "(6) the inspector star bookmarks the object (button pressed, saved in the atlas)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "(6) a collection was created and the object added through the small menu",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "(6) the collection menu shows the object as a member (checkbox checked)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "(6) after a page reload the bookmark and the collection are still there (localStorage persistence)",
+   "ok": true,
+   "detail": "{\"bm\":true,\"cols\":[{\"name\":\"QA picks\",\"items\":[\"hip:32349\"]}],\"mode\":\"persistent\"}"
+  },
+  {
+   "name": "(6) the Saved tab lists the bookmark and the collection and says \"stored in this browser only\" (no memory-only warning)",
+   "ok": true,
+   "detail": "Stored in this browser only. Nothing is sent to a server. Export a file to keep a copy or move it to another browser.Bookmarks (1)StarSirius13 Nov 2026In: QA picks×Collections (1)CreateQA picks 1Renam"
+  },
+  {
+   "name": "(6) export then import (merge) restores a removed bookmark",
+   "ok": true,
+   "detail": "{\"ok\":true,\"mode\":\"merge\",\"bookmarksAdded\":1,\"collectionsAdded\":0,\"itemsAdded\":1,\"historyAdded\":0,\"dropped\":0}"
+  },
+  {
+   "name": "(6) a saved id the atlas cannot resolve is listed as unresolved, not dropped",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "empty result: \"Nothing matches “zzzzqq” in the datasets loaded\", with the searched datasets and counts, no rows and no invented suggestion",
+   "ok": true,
+   "detail": "Nothing matches “zzzzqq” in the datasets loaded. | Gaia DR3 subset35,325; Solar System29; Deep-space objects27"
+  },
+  {
+   "name": "invalid identifier \"HIP 99999999\": the specific message",
+   "ok": true,
+   "detail": "No record with that identifier in this atlas; the atlas holds a subset of the catalogue. Hipparcos numbers run from 1 to 120404; HIP 99999999 is outside that range."
+  },
+  {
+   "name": "\"Gaia DR3 12\" is a prefix of real Gaia ids: the real matches are listed, not an \"invalid\" message",
+   "ok": true,
+   "detail": "{\"rows\":40,\"msg\":\"\"}"
+  },
+  {
+   "name": "invalid identifier (a complete Gaia DR3 id that is not in the atlas): the specific message",
+   "ok": true,
+   "detail": "No record with that identifier in this atlas; the atlas holds a subset of the catalogue."
+  },
+  {
+   "name": "fuzzy match: the row says matched “sirus” as Sirius",
+   "ok": true,
+   "detail": "Sirius | matched “sirus” as Sirius · Star · A0m..."
+  },
+  {
+   "name": "a designation match names the designation that matched, not just the name",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "a record without parallax: the row says \"distance unknown\" and \"not drawn / inspect only\"",
+   "ok": true,
+   "detail": "HD 16802: distance unknown | not drawn / inspect only"
+  },
+  {
+   "name": "Shift+Enter inspects without flying (camera unchanged)",
+   "ok": true,
+   "detail": "focus moved 0"
+  },
+  {
+   "name": "the record without parallax shows Unavailable + a reason (not blank, not 0) in the inspector",
+   "ok": true,
+   "detail": "DistanceUnavailableNo parallax in the catalogue for this source. | ParallaxUnavailableNo parallax in the Gaia catalogue for this source."
+  },
+  {
+   "name": "the navigation line says \"Cannot be placed in 3D\" (a notice instead of a flight)",
+   "ok": true,
+   "detail": "Cannot be placed in 3D: distance unknown (the dataset gives a direction on the sky only). The camera stays where it is."
+  },
+  {
+   "name": "the inspector says it is not shown in 3D",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Enter on a record that cannot be placed does not start a flight and says why",
+   "ok": true,
+   "detail": "{\"flying\":false,\"line\":\"Cannot be placed in 3D: distance unknown (the dataset gives a direction on the sky only). The camera stays where it is.\"}"
+  },
+  {
+   "name": "a large result set is windowed: at most 40 rows and \"showing 40 of N; refine the query\"",
+   "ok": true,
+   "detail": "40 rows | showing 40 of 6,006+; refine the query"
+  },
+  {
+   "name": "the Galaxies chip filters the query (every row a galaxy) and the input keeps focus",
+   "ok": true,
+   "detail": "16 rows, pressed Galaxies 16"
+  },
+  {
+   "name": "Esc clears the query and closes the list",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "a second Esc leaves the search box",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "numeric ranges are offered only for measurements that have data (temperature yes, an empty key no)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "filter stars + nearby-stars band + temperature range: the count equals atlas.filter() for the same spec",
+   "ok": true,
+   "detail": "2,092 records match vs API 2092"
+  },
+  {
+   "name": "the excluded-for-missing sentences state the API counts plainly (\"N records without a temperature are not included\")",
+   "ok": true,
+   "detail": "17,877 records without a temperature are not included. | 232 records without a distance are not included. vs {\"teffK\":17877,\"distanceBand\":232}"
+  },
+  {
+   "name": "the list shows at most 40 rows and every row is a clickable object",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the filter state is in the URL hash (shareable)",
+   "ok": true,
+   "detail": "#d=filter&f.cat=star&f.band=nearby-stars&f.r.teffK=3000..6000"
+  },
+  {
+   "name": "\"Show in the sky\" marks the matching objects through atlas.highlight (at most 256)",
+   "ok": true,
+   "detail": "256 ids"
+  },
+  {
+   "name": "switching \"Show in the sky\" off clears the markers",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "opening the URL hash restores the drawer, the Filter tab, every control and the same count",
+   "ok": true,
+   "detail": "{\"open\":true,\"tab\":\"Filter\",\"star\":true,\"band\":true,\"min\":\"3000\",\"max\":\"6000\",\"count\":\"2,092 records match\"}"
+  },
+  {
+   "name": "an invalid number in a range box is reported, not silently ignored",
+   "ok": true,
+   "detail": "Enter a number (for example 3000 or 1e4), or leave the box empty."
+  },
+  {
+   "name": "Featured: every list shows its criterion, scope, caveat and completeness statement",
+   "ok": true,
+   "detail": "11 lists: Nearest stars, Brightest stars as seen from the Sun, Fastest proper motion, Nearest stars with confirmed planets, Most confirmed planets in one system, Hottest exoplanets, Shortest orbital periods, Largest exoplanets, Nearest galaxies, Largest nebulae by physical size, QA picks"
+  },
+  {
+   "name": "Featured: items carry value, uncertainty and the data-composed reason",
+   "ok": true,
+   "detail": "1. Toliman1.25 pc ±0.04 pcDER Closest star in this dataset: 1.25 pc (derived, ±0.04 pc; distance/uncertainty 31).Note A K1 V star in a close binary with Alpha C"
+  },
+  {
+   "name": "Featured: a curated note appears as \"Note\" with a (sources) expander where the data have one",
+   "ok": true,
+   "detail": "23 notes; Note A K1 V star in a close binary with Alpha Centauri A; mass about 0.97 solar masses. (sources)SIMBAD (CDS), SIMBAD basic data for HIP 71681 · retrieved 2026-"
+  },
+  {
+   "name": "keyboard only: ArrowDown/ArrowUp move through the rows",
+   "ok": true,
+   "detail": "Procyon"
+  },
+  {
+   "name": "keyboard only: Enter selected and flew (no mouse)",
+   "ok": true,
+   "detail": "hip:37279"
+  },
+  {
+   "name": "keyboard only: D opens the drawer and focus moves into it (selected tab)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "keyboard only: ArrowRight cycles the tabs (Featured, Filter, Nearby)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "keyboard only: Tab leaves the tab list into the panel controls (Around radio)",
+   "ok": true,
+   "detail": "nb-sel"
+  },
+  {
+   "name": "keyboard only: Home / End select the first / last tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "keyboard only: End selects Saved",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "keyboard only: Esc closes the drawer and focus is not lost on a hidden element",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "keyboard only: Alt+ArrowLeft is Back (history)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "tab order: 14 consecutive Tab stops all land on visible controls",
+   "ok": true,
+   "detail": "button#sb-clear > button#discover-btn > button#All 1 > button#btn-in > button#btn-out > button#btn-reset > button#btn-home > input#mag-limit > input#hide-suspect > summary#How to read the density of t > button#Hide > button#Solar neighbourhood > button#Milky Way > button#Local Group"
+  },
+  {
+   "name": "tab order: every focused control has a visible focus indicator (outline or shadow)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "tab order: after the search box comes the Discover button",
+   "ok": true,
+   "detail": "sb-clear > discover-btn > All 1"
+  },
+  {
+   "name": "the long-task observer works here (a 140 ms busy timer task is reported)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "typing fast into the search box adds no long task beyond the idle (software-GL render) baseline + 150 ms",
+   "ok": true,
+   "detail": "typing longest 0 ms (0 in 2.7 s), idle longest 0 ms (0 in 6 s)"
+  },
+  {
+   "name": "the visible results belong to the last query typed (no stale response won)",
+   "ok": true,
+   "detail": "{\"q\":\"a1b2c3hip 32\",\"rows\":[]}"
+  },
+  {
+   "name": "rapid successive queries: the list ends on the last one (Sirius), whatever order the answers arrived in",
+   "ok": true,
+   "detail": "{\"q\":\"sirius\",\"first\":\"Sirius\"}"
+  },
+  {
+   "name": "1280x800: no horizontal scroll (initial)",
+   "ok": true,
+   "detail": "{\"sw\":1280,\"iw\":1280,\"bw\":1280}"
+  },
+  {
+   "name": "1280x800: the search box stays reachable and its list fits the screen",
+   "ok": true,
+   "detail": "{\"l\":16,\"r\":436,\"t\":170,\"b\":330,\"ib\":168,\"iw\":1280,\"ih\":800,\"it\":138}"
+  },
+  {
+   "name": "1280x800: inspector open, panels do not overlap each other",
+   "ok": true,
+   "detail": "#hud-tl,#inspector,#deep-panel,#nav-ctx"
+  },
+  {
+   "name": "1280x800: the inspector is on screen and leaves part of the scene free",
+   "ok": true,
+   "detail": "inspector 360x800"
+  },
+  {
+   "name": "1280x800: no horizontal scroll (inspector open)",
+   "ok": true,
+   "detail": "{\"sw\":1280,\"iw\":1280,\"bw\":1280}"
+  },
+  {
+   "name": "1280x800: drawer open beside the inspector: panels do not overlap",
+   "ok": true,
+   "detail": "#hud-tl,#discover,#inspector,#deep-panel,#nav-ctx"
+  },
+  {
+   "name": "1280x800: drawer and inspector are both visible and the scene keeps the middle",
+   "ok": true,
+   "detail": "gap 580 px"
+  },
+  {
+   "name": "1280x800: the drawer is a left sheet (at most 350 px wide)",
+   "ok": true,
+   "detail": "340x624 at 0,176"
+  },
+  {
+   "name": "1280x800: no horizontal scroll (drawer open)",
+   "ok": true,
+   "detail": "{\"sw\":1280,\"iw\":1280,\"bw\":1280}"
+  },
+  {
+   "name": "1280x800: with the drawer open at least 35% of the screen is still the scene",
+   "ok": true,
+   "detail": "43 % free"
+  },
+  {
+   "name": "1280x800: Solar System view with the inspector open: solar bar, deep panel, inspector and nav do not overlap",
+   "ok": true,
+   "detail": "#hud-tl,#inspector,#deep-panel,#solar-bar,#crumbs,#nav-ctx,#time-bar"
+  },
+  {
+   "name": "1280x800: no horizontal scroll (solar)",
+   "ok": true,
+   "detail": "{\"sw\":1280,\"iw\":1280,\"bw\":1280}"
+  },
+  {
+   "name": "1024x700: no horizontal scroll (initial)",
+   "ok": true,
+   "detail": "{\"sw\":1024,\"iw\":1024,\"bw\":1024}"
+  },
+  {
+   "name": "1024x700: the search box stays reachable and its list fits the screen",
+   "ok": true,
+   "detail": "{\"l\":16,\"r\":436,\"t\":170,\"b\":330,\"ib\":168,\"iw\":1024,\"ih\":700,\"it\":138}"
+  },
+  {
+   "name": "1024x700: inspector open, panels do not overlap each other",
+   "ok": true,
+   "detail": "#hud-tl,#inspector,#deep-panel,#nav-ctx"
+  },
+  {
+   "name": "1024x700: the inspector is on screen and leaves part of the scene free",
+   "ok": true,
+   "detail": "inspector 360x700"
+  },
+  {
+   "name": "1024x700: no horizontal scroll (inspector open)",
+   "ok": true,
+   "detail": "{\"sw\":1024,\"iw\":1024,\"bw\":1024}"
+  },
+  {
+   "name": "1024x700: drawer open (one panel at a time): panels do not overlap",
+   "ok": true,
+   "detail": "#hud-tl,#discover,#deep-panel"
+  },
+  {
+   "name": "1024x700: opening the drawer takes the inspector off the screen (one panel at a time)",
+   "ok": true,
+   "detail": "#hud-tl,#discover,#deep-panel"
+  },
+  {
+   "name": "1024x700: the drawer is a left sheet (at most 350 px wide)",
+   "ok": true,
+   "detail": "340x524 at 0,176"
+  },
+  {
+   "name": "1024x700: no horizontal scroll (drawer open)",
+   "ok": true,
+   "detail": "{\"sw\":1024,\"iw\":1024,\"bw\":1024}"
+  },
+  {
+   "name": "1024x700: with the drawer open at least 35% of the screen is still the scene",
+   "ok": true,
+   "detail": "74 % free"
+  },
+  {
+   "name": "1024x700: Solar System view with the inspector open: solar bar, deep panel, inspector and nav do not overlap",
+   "ok": true,
+   "detail": "#hud-tl,#inspector,#deep-panel,#solar-bar,#crumbs,#nav-ctx,#time-bar"
+  },
+  {
+   "name": "1024x700: no horizontal scroll (solar)",
+   "ok": true,
+   "detail": "{\"sw\":1024,\"iw\":1024,\"bw\":1024}"
+  },
+  {
+   "name": "768x1024: no horizontal scroll (initial)",
+   "ok": true,
+   "detail": "{\"sw\":768,\"iw\":768,\"bw\":768}"
+  },
+  {
+   "name": "768x1024: the search box stays reachable and its list fits the screen",
+   "ok": true,
+   "detail": "{\"l\":16,\"r\":436,\"t\":170,\"b\":330,\"ib\":168,\"iw\":768,\"ih\":1024,\"it\":138}"
+  },
+  {
+   "name": "768x1024: inspector open, panels do not overlap each other",
+   "ok": true,
+   "detail": "#hud-tl,#inspector,#nav-ctx"
+  },
+  {
+   "name": "768x1024: the inspector is on screen and leaves part of the scene free",
+   "ok": true,
+   "detail": "inspector 360x1024"
+  },
+  {
+   "name": "768x1024: no horizontal scroll (inspector open)",
+   "ok": true,
+   "detail": "{\"sw\":768,\"iw\":768,\"bw\":768}"
+  },
+  {
+   "name": "768x1024: drawer open (one panel at a time): panels do not overlap",
+   "ok": true,
+   "detail": "#hud-tl,#discover"
+  },
+  {
+   "name": "768x1024: opening the drawer takes the inspector off the screen (one panel at a time)",
+   "ok": true,
+   "detail": "#hud-tl,#discover"
+  },
+  {
+   "name": "768x1024: the drawer is a left sheet (at most 350 px wide)",
+   "ok": true,
+   "detail": "340x848 at 0,176"
+  },
+  {
+   "name": "768x1024: no horizontal scroll (drawer open)",
+   "ok": true,
+   "detail": "{\"sw\":768,\"iw\":768,\"bw\":768}"
+  },
+  {
+   "name": "768x1024: with the drawer open at least 35% of the screen is still the scene",
+   "ok": true,
+   "detail": "63 % free"
+  },
+  {
+   "name": "768x1024: Solar System view with the inspector open: solar bar, deep panel, inspector and nav do not overlap",
+   "ok": true,
+   "detail": "#hud-tl,#inspector,#solar-bar,#crumbs,#nav-ctx,#time-bar"
+  },
+  {
+   "name": "768x1024: no horizontal scroll (solar)",
+   "ok": true,
+   "detail": "{\"sw\":768,\"iw\":768,\"bw\":768}"
+  },
+  {
+   "name": "390x844: no horizontal scroll (initial)",
+   "ok": true,
+   "detail": "{\"sw\":390,\"iw\":390,\"bw\":390}"
+  },
+  {
+   "name": "390x844: the search box stays reachable and its list fits the screen",
+   "ok": true,
+   "detail": "{\"l\":12,\"r\":378,\"t\":104,\"b\":300.5,\"ib\":102,\"iw\":390,\"ih\":844,\"it\":62}"
+  },
+  {
+   "name": "390x844: inspector open, panels do not overlap each other",
+   "ok": true,
+   "detail": "#hud-tl,#inspector"
+  },
+  {
+   "name": "390x844: the inspector is on screen and leaves part of the scene free",
+   "ok": true,
+   "detail": "inspector 390x506"
+  },
+  {
+   "name": "390x844: no horizontal scroll (inspector open)",
+   "ok": true,
+   "detail": "{\"sw\":390,\"iw\":390,\"bw\":390}"
+  },
+  {
+   "name": "390x844: drawer open (one panel at a time): panels do not overlap",
+   "ok": true,
+   "detail": "#hud-tl,#discover"
+  },
+  {
+   "name": "390x844: opening the drawer takes the inspector off the screen (one panel at a time)",
+   "ok": true,
+   "detail": "#hud-tl,#discover"
+  },
+  {
+   "name": "390x844: the drawer is a bottom sheet (full width, at most 66% of the height)",
+   "ok": true,
+   "detail": "390x506 at 0,338"
+  },
+  {
+   "name": "390x844: touch targets in the drawer are at least 40 px high",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "390x844: the search box and the Discover button are at least 40 px high",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "390x844: the search box stays reachable while the drawer sheet is open",
+   "ok": true,
+   "detail": "{\"top\":62,\"bottom\":102,\"vis\":true}"
+  },
+  {
+   "name": "390x844: no horizontal scroll (drawer open)",
+   "ok": true,
+   "detail": "{\"sw\":390,\"iw\":390,\"bw\":390}"
+  },
+  {
+   "name": "390x844: with the drawer open at least 35% of the screen is still the scene",
+   "ok": true,
+   "detail": "40 % free"
+  },
+  {
+   "name": "390x844: Solar System view with the inspector open: solar bar, deep panel, inspector and nav do not overlap",
+   "ok": true,
+   "detail": "#hud-tl,#inspector"
+  },
+  {
+   "name": "390x844: no horizontal scroll (solar)",
+   "ok": true,
+   "detail": "{\"sw\":390,\"iw\":390,\"bw\":390}"
+  },
+  {
+   "name": "localStorage blocked: the Saved tab shows the \"persistence: memory only\" warning and the \"stored in this browser only\" note, and bookmarks still work in memory",
+   "ok": true,
+   "detail": "Persistence: memory only. This browser blocks local storage, so your saved objec"
+  },
+  {
+   "name": "no console errors or warnings, no page errors, no HTTP errors in the whole run",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "warnings": [],
+ "screenshots": [
+  "ui-01-atlas-opened.png",
+  "ui-02-search-sirius.png",
+  "ui-03-inspector-sirius.png",
+  "ui-04-inspector-sirius-explanation.png",
+  "ui-05-nearby-sirius.png",
+  "ui-06-andromeda.png",
+  "ui-07-back-to-sirius.png",
+  "ui-08-saved-after-reload.png",
+  "ui-09-saved-unresolved.png",
+  "ui-10-search-empty.png",
+  "ui-11-search-invalid-id.png",
+  "ui-12-no-parallax-record.png",
+  "ui-13-search-large-set.png",
+  "ui-14-filter-combination.png",
+  "ui-15-featured.png",
+  "ui-16-keyboard-focus-visible.png",
+  "ui-17-1280x800-search-open.png",
+  "ui-18-1280x800-inspector.png",
+  "ui-19-1280x800-drawer.png",
+  "ui-20-1280x800-solar.png",
+  "ui-21-1024x700-search-open.png",
+  "ui-22-1024x700-inspector.png",
+  "ui-23-1024x700-drawer.png",
+  "ui-24-1024x700-solar.png",
+  "ui-25-768x1024-search-open.png",
+  "ui-26-768x1024-inspector.png",
+  "ui-27-768x1024-drawer.png",
+  "ui-28-768x1024-solar.png",
+  "ui-29-390x844-search-open.png",
+  "ui-30-390x844-inspector.png",
+  "ui-31-390x844-drawer.png",
+  "ui-32-390x844-solar.png",
+  "ui-33-storage-blocked.png"
+ ],
+ "problems": [],
+ "summary": {
+  "passed": 136,
+  "failed": 0,
+  "total": 136,
+  "finishedAt": "2026-11-13T13:45:43.258Z",
+  "note": "Software GL only (SwiftShader): no GPU performance claim."
+ }
+}

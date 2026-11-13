@@ -11,3 +11,15 @@ export const distance = (a: Vec3, b: Vec3): number => length(sub(a, b));
 
 /** The only sanctioned float64 -> float32 narrowing point. Input must be camera-relative. */
 export const toFloat32 = (a: Vec3): Float32Array => Float32Array.of(a[0], a[1], a[2]);
+
+export const dot = (a: Vec3, b: Vec3): number => a[0] * b[0] + a[1] * b[1] + a[2] * b[2];
+export const cross = (a: Vec3, b: Vec3): Vec3 => [
+  a[1] * b[2] - a[2] * b[1],
+  a[2] * b[0] - a[0] * b[2],
+  a[0] * b[1] - a[1] * b[0],
+];
+export const normalise = (a: Vec3): Vec3 => {
+  const l = length(a);
+  if (!(l > 0)) throw new Error('Cannot normalise a zero vector');
+  return scale(a, 1 / l);
+};

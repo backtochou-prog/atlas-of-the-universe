@@ -42,6 +42,16 @@ export class FrameTree {
     return this;
   }
 
+  /**
+   * Move a frame's origin within its parent. For frames that are attached to moving bodies (a planet's system frame
+   * follows the planet along its orbit). Only the origin changes; the hierarchy is untouched.
+   */
+  setOrigin(id: FrameId, origin: Vec3): void {
+    const def = this.get(id);
+    if (def.parent === null) throw new Error('The root frame cannot be moved');
+    this.frames.set(id, { ...def, origin });
+  }
+
   get root(): FrameDef | undefined {
     for (const f of this.frames.values()) if (f.parent === null) return f;
     return undefined;

@@ -1,0 +1,58 @@
+[
+ {
+  "from": "hip:70890",
+  "to": "hip:71683",
+  "kind": "orbits",
+  "basis": "physical-gravitational",
+  "statement": "Proxima Centauri is gravitationally bound to the Alpha Centauri AB pair (this record is component A) with a high degree of confidence; Kervella et al. 2017 find an orbital period of about 550,000 years and an eccentricity of 0.50 (+0.08, -0.09).",
+  "source": {
+   "label": "Kervella, Thevenin & Lovis 2017, Proxima's orbit around Alpha Centauri (arXiv:1611.03495) [retrieved 2026-11-13]",
+   "url": "https://arxiv.org/abs/1611.03495"
+  }
+ },
+ {
+  "from": "hip:70890",
+  "to": "hip:71681",
+  "kind": "orbits",
+  "basis": "physical-gravitational",
+  "statement": "Proxima Centauri is gravitationally bound to the Alpha Centauri AB pair (this record is component B) with a high degree of confidence; Kervella et al. 2017 find an orbital period of about 550,000 years and an eccentricity of 0.50 (+0.08, -0.09).",
+  "source": {
+   "label": "Kervella, Thevenin & Lovis 2017, Proxima's orbit around Alpha Centauri (arXiv:1611.03495) [retrieved 2026-11-13]",
+   "url": "https://arxiv.org/abs/1611.03495"
+  }
+ },
+ {
+  "from": "hip:71683",
+  "to": "hip:71681",
+  "kind": "component-of",
+  "basis": "physical-gravitational",
+  "statement": "Alpha Centauri A and B are the two components of one binary, for which Pourbaix & Boffin 2016 derive a full three-dimensional orbit and masses of 1.13 and 0.97 solar masses.",
+  "source": {
+   "label": "Pourbaix & Boffin 2016, Parallax and masses of alpha Centauri revisited (arXiv:1601.01636) [retrieved 2026-11-13]",
+   "url": "https://arxiv.org/abs/1601.01636"
+  }
+ },
+ {
+  "from": "solar:sun",
+  "to": "deep:milky-way",
+  "kind": "part-of",
+  "basis": "structural",
+  "statement": "The Sun lies inside the Milky Way, about 8178 pc from the Galactic Centre in the atlas model (GRAVITY Collaboration 2019 for the distance; Bland-Hawthorn & Gerhard 2016 for the Galaxy structure).",
+  "source": {
+   "label": "GRAVITY Collaboration 2019, A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty (arXiv:1904.05721) [retrieved 2026-11-13]; structure: Bland-Hawthorn & Gerhard 2016, The Galaxy in Context (arXiv:1602.07702), used by the atlas Milky Way model [retrieved 2026-11-13]",
+   "url": "https://arxiv.org/abs/1904.05721",
+   "derivedFrom": "deep-space.milky-way model (docs/DEEP_SPACE_DATA_OBJECTS.md, sources gravity2019 and bhg16, retrieved 2026-11-12 by the atlas build); GRAVITY abstract re-read 2026-11-13"
+  }
+ },
+ {
+  "from": "other:sgr-a-star",
+  "to": "deep:milky-way",
+  "kind": "part-of",
+  "basis": "structural",
+  "statement": "Sgr A*, a massive black hole, sits at the Galactic Centre of the Milky Way; the star S2 orbits it (GRAVITY Collaboration 2019) and the radio source is argued to be a massive black hole of about 4.4 million solar masses (Genzel et al. 2010).",
+  "source": {
+   "label": "GRAVITY Collaboration 2019, A geometric distance measurement to the Galactic Center black hole with 0.3% uncertainty (arXiv:1904.05721) [retrieved 2026-11-13]; Genzel, Eisenhauer & Gillessen 2010, The Galactic Center Massive Black Hole and Nuclear Star Cluster (arXiv:1006.0064) [retrieved 2026-11-13]",
+   "url": "https://arxiv.org/abs/1904.05721"
+  }
+ }
+]

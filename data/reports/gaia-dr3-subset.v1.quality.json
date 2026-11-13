@@ -1,0 +1,123 @@
+{
+  "datasetId": "gaia-dr3-subset",
+  "generatedAt": "2026-11-12T12:31:58.852Z",
+  "counts": {
+    "queryRows": 35325,
+    "imported": 35325,
+    "rejected": 0,
+    "rejectedByReason": {}
+  },
+  "distance": {
+    "reliable": 34373,
+    "marginal": 552,
+    "unreliable": 61,
+    "invalid": 0,
+    "missing": 339,
+    "placedIn3d": 34925,
+    "notPlacedIn3d": 400,
+    "drawable": 34890
+  },
+  "missingValues": {
+    "parallax": 339,
+    "properMotion": 339,
+    "bpRp": 1372,
+    "teffGspphot": 21461
+  },
+  "flags": {
+    "no-parallax": 339,
+    "parallax-invalid": 0,
+    "parallax-unreliable": 61,
+    "parallax-marginal": 552,
+    "no-proper-motion": 339,
+    "no-g-magnitude": 35,
+    "no-bp-rp": 1372,
+    "high-ruwe": 10008,
+    "two-parameter-solution": 339,
+    "duplicated-source": 1896,
+    "unreasonable-parallax": 0,
+    "unreasonable-proper-motion": 0,
+    "hip-large-separation": 28
+  },
+  "highRuweThreshold": 1.4,
+  "crossIdentification": {
+    "hipparcosMatched": 12278,
+    "hipparcosConflictGroups": 0,
+    "hipparcosConflictSources": 0,
+    "positionalDuplicateCandidates": 10,
+    "simbad": {
+      "requested": 35325,
+      "matched": 31663,
+      "unmatched": 3662,
+      "conflicts": 0,
+      "sharedObjects": 1
+    },
+    "simbadConflicts": [],
+    "simbadSharedObjects": [
+      {
+        "oid": 8978618,
+        "mainId": "2MASS J13171150+1849232",
+        "sourceIds": [
+          "3938910830669894016",
+          "3938910834965369984"
+        ]
+      }
+    ]
+  },
+  "rejected": [],
+  "hipConflicts": [],
+  "positionalDuplicates": [
+    {
+      "a": "1312665361414730624",
+      "b": "1312665361415345920",
+      "separationArcsec": 0.26293969209298235
+    },
+    {
+      "a": "1314876857254249216",
+      "b": "1314876857255632896",
+      "separationArcsec": 0.4283563371743583
+    },
+    {
+      "a": "1522552819667933952",
+      "b": "1522552819668322688",
+      "separationArcsec": 0.47669220181850785
+    },
+    {
+      "a": "2045232777472519808",
+      "b": "2045232781772137984",
+      "separationArcsec": 0.4633207342066327
+    },
+    {
+      "a": "2325494443098646656",
+      "b": "2325494481753255296",
+      "separationArcsec": 0.49004260270266026
+    },
+    {
+      "a": "2347260998051944448",
+      "b": "2347272641708189440",
+      "separationArcsec": 0.3402473441499552
+    },
+    {
+      "a": "2417069815933263360",
+      "b": "2417069815934357376",
+      "separationArcsec": 0.44146626617161644
+    },
+    {
+      "a": "2983928735054717696",
+      "b": "2983928739350551040",
+      "separationArcsec": 0.4439525672409872
+    },
+    {
+      "a": "2993171367236486144",
+      "b": "2993171371535967104",
+      "separationArcsec": 0.4936109692808315
+    },
+    {
+      "a": "3098028531297723776",
+      "b": "3098028531299308672",
+      "separationArcsec": 0.4186663357218281
+    }
+  ],
+  "notes": [
+    "Stars with an inferred distance beyond 10000 pc are not placed in 3D (outside the visualisation frame)."
+  ]
+}

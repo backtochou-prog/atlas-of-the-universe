@@ -1,0 +1,489 @@
+{
+  "when": "2026-11-13T13:42:36.189Z",
+  "checks": [
+    {
+      "name": "indexing completed in the Worker with every dataset ready",
+      "ok": true,
+      "detail": "records 90950"
+    },
+    {
+      "name": "the page thread was not blocked by indexing: longest long task during indexing is no longer than the idle baseline + 100 ms",
+      "ok": true,
+      "detail": "indexing longest 0 ms (0 long tasks in 12.6 s), idle baseline longest 0 ms (0 in 12 s)"
+    },
+    {
+      "name": "status: complete, nothing failed, 12 datasets reported",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search 'Sirius' -> hip:32349 named Sirius",
+      "ok": true,
+      "detail": "{\"id\":\"hip:32349\",\"name\":\"Sirius\",\"ids\":[\"hip:32349\",\"gaia:2947050466531873024\"],\"kind\":\"exact\"}"
+    },
+    {
+      "name": "search 'TRAPPIST-1' finds its object first",
+      "ok": true,
+      "detail": "gaia:2635476908753563008 (TRAPPIST-1, exact)"
+    },
+    {
+      "name": "search 'Kepler-452b' finds its object first",
+      "ok": true,
+      "detail": "exo:Kepler-452 b (Kepler-452 b, exact)"
+    },
+    {
+      "name": "search 'Sagittarius A*' finds its object first",
+      "ok": true,
+      "detail": "other:sgr-a-star (Sagittarius A*, exact)"
+    },
+    {
+      "name": "search 'Europa' finds its object first",
+      "ok": true,
+      "detail": "solar:europa (Europa, exact)"
+    },
+    {
+      "name": "search 'Proxima' finds its object first",
+      "ok": true,
+      "detail": "gaia:5853498713190525696 (Proxima Cen, exact)"
+    },
+    {
+      "name": "search 'Betelgeuse' finds its object first",
+      "ok": true,
+      "detail": "hip:27989 (Betelgeuse, exact)"
+    },
+    {
+      "name": "search 'M31' -> deep:m31",
+      "ok": true,
+      "detail": "{\"id\":\"deep:m31\",\"name\":\"Andromeda Galaxy (M31)\",\"ids\":[\"deep:m31\",\"gaia:5754141722822178432\",\"gaia:4614607631277672448\",\"gaia:4089362336781210880\",\"host:MOA-2008-BLG-310L\"],\"kind\":\"exact\"}"
+    },
+    {
+      "name": "search 'Andromeda' lists deep:m31 among its hits",
+      "ok": true,
+      "detail": "first deep:m31 ids deep:m31,point:local-group-mcconnachie:48,point:local-group-mcconnachie:54,point:local-group-mcconnachie:32,point:local-group-mcconnachie:58"
+    },
+    {
+      "name": "invalid and empty queries return empty/normal results without throwing",
+      "ok": true,
+      "detail": "[true,true,true,true,true,true,true,true,true,true,true]"
+    },
+    {
+      "name": "suggest(empty) offers the featured objects (those with explanations)",
+      "ok": true,
+      "detail": "{\"kind\":\"empty\",\"featured\":8,\"history\":0}"
+    },
+    {
+      "name": "alias-aware note: the note keyed hip:70890 is found from the merged (Gaia) Proxima record",
+      "ok": true,
+      "detail": "{\"id\":\"gaia:5853498713190525696\",\"note\":\"hip:70890\"}"
+    },
+    {
+      "name": "clicking a star on the canvas selects it through the atlas (selection, inspector open, history entry)",
+      "ok": true,
+      "detail": "{\"sel\":\"gaia:6195030801635544704\",\"inspector\":true,\"hist\":1,\"nav\":{\"selection\":\"gaia:6195030801635544704\",\"canBack\":true,\"canForward\":false,\"length\":2,\"cursor\":1}}"
+    },
+    {
+      "name": "clear() deselects through the atlas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "select(hip:32349, focus) succeeds",
+      "ok": true,
+      "detail": "{\"ok\":true,\"noop\":false,\"error\":null}"
+    },
+    {
+      "name": "flight to Sirius: distance and distance-to-target decrease monotonically",
+      "ok": true,
+      "detail": "21 samples, distance 59.91 -> 4.000 pc"
+    },
+    {
+      "name": "flight ends at the host view distance (4 pc) centred on Sirius",
+      "ok": true,
+      "detail": "distance 4.000000000000001"
+    },
+    {
+      "name": "viewer.frame and its breadcrumb are sane after the flight",
+      "ok": true,
+      "detail": "{\"id\":\"stellar-neighbourhood\",\"path\":[\"Universe\",\"Nearby universe\",\"Local Group\",\"Milky Way\",\"Stellar neighbourhood (Gaia sample)\"]}"
+    },
+    {
+      "name": "selection is hip:32349 and the inspector shows Sirius",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nearby(k=5) from Sirius returns 5 real neighbours with increasing distances",
+      "ok": true,
+      "detail": "Sirius C 6,857 AU; Procyon 1.61 pc; Luyten's star 1.76 pc; Kapteyn c 2.31 pc; Kapteyn's star 2.31 pc"
+    },
+    {
+      "name": "nearby from the camera focus (at Sirius) returns Sirius first",
+      "ok": true,
+      "detail": "Sirius, Sirius C, Procyon"
+    },
+    {
+      "name": "nearby from Jupiter uses the Solar System frame at the simulation time (its moons come first)",
+      "ok": true,
+      "detail": "Io 419,996 km; Europa 664,873 km; Ganymede 1,067,754 km"
+    },
+    {
+      "name": "save: bookmark stored and persisted to localStorage",
+      "ok": true,
+      "detail": "{\"ok\":true,\"is\":true,\"n\":1,\"mode\":\"persistent\",\"ls\":true}"
+    },
+    {
+      "name": "select(deep:m31): flight ends at the deep layer view distance, deep selection set, inspector shows the galaxy",
+      "ok": true,
+      "detail": "{\"dist\":86623.42290159558,\"want\":86623.42290159552,\"selectedDeep\":\"m31\",\"sel\":\"deep:m31\",\"insp\":\"Andromeda Galaxy (M31)\"}"
+    },
+    {
+      "name": "back() returns to the Sirius camera snapshot (focus, distance, angles) and shows Sirius again",
+      "ok": true,
+      "detail": "focus off by 2.41e-11 pc, distance 4.000000000000001, inspector \"Sirius\""
+    },
+    {
+      "name": "forward() goes to Andromeda again",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "history grew by the selections made (Sirius, M31) beyond the click test",
+      "ok": true,
+      "detail": "{\"selection\":\"deep:m31\",\"canBack\":true,\"canForward\":false,\"length\":5,\"cursor\":4}"
+    },
+    {
+      "name": "select(solar:europa) flies to the body at the viewer's own view distance",
+      "ok": true,
+      "detail": "{\"sel\":\"solar:europa\",\"body\":\"europa\",\"d\":4.046566651971809e-10,\"want\":4.046566651971812e-10,\"h2\":\"Europa\"}"
+    },
+    {
+      "name": "select(exo:Kepler-452 b): flies to the HOST star, a selection proxy is set, the generic inspector shows the planet",
+      "ok": true,
+      "detail": "{\"sel\":\"exo:Kepler-452 b\",\"proxy\":\"exo:Kepler-452 b\",\"reason\":\"Planets are not drawn; the marker shows the host star, where the planet system is.\",\"d\":10.471999999999982,\"off\":0,\"h2\":\"Kepler-452 b\",\"rows\":\"ra=296.00375°OBS | dec=44.27759°OBS | distancePc=552 pcDER | orbitalPeriodDays=385 daysOBS | radiusKm=10,396 km (1.63 Earth radii)DER | massKg=1.96×10²⁵ kgMOD | teffK=265 KMOD\"}"
+    },
+    {
+      "name": "select(other:sgr-a-star): flies there with a selection proxy",
+      "ok": true,
+      "detail": "{\"sel\":\"other:sgr-a-star\",\"proxy\":\"other:sgr-a-star\",\"d\":51.20000000000001,\"h2\":\"Sagittarius A*\"}"
+    },
+    {
+      "name": "TRAPPIST-1: selected via search, relationsOf lists its 7 planets as physical relations",
+      "ok": true,
+      "detail": "{\"id\":\"gaia:2635476908753563008\",\"planets\":7}"
+    },
+    {
+      "name": "parent() of a planet is its host star",
+      "ok": true,
+      "detail": "{\"ok\":true,\"sel\":\"gaia:2635476908753563008\"}"
+    },
+    {
+      "name": "a sky-only 2MRS row (cz < 1000 km/s) is selectable, the camera does not fly, the result says \"cannot place in 3D: distance unknown\", and the inspector says why the distance is unavailable",
+      "ok": true,
+      "detail": "{\"id\":\"point:twomrs:1\",\"ok\":true,\"flying\":false,\"before\":4,\"after\":4,\"placement\":{\"kind\":\"inspect-only\",\"id\":\"point:twomrs:1\",\"reason\":\"cannot place in 3D: distance unknown\"},\"inspector\":\"00473313-2517196\",\"rows\":\"distancePc: 2MASS Redshift Survey gives a velocity (cz = 243 km/s) but no distance: below 1000 km/s the velocity is dominated by the galaxy's own motion, so no Hubble-flow distance is derived. | angularSizeArcmin: Not provided by 2MASS Redshift Survey.\"}"
+    },
+    {
+      "name": "the search box shows atlas results (Betelgeuse first)",
+      "ok": true,
+      "detail": "StarBetelgeuse153 pcStar · M2Ib"
+    },
+    {
+      "name": "Enter on the first result selects Betelgeuse through the atlas and flies there",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the deep panel, the router and clear() all go through the atlas (selection and history follow)",
+      "ok": true,
+      "detail": "{\"deep\":\"deep:m33\",\"solar\":\"solar:mars\",\"cleared\":null,\"gaia\":\"gaia:630505494719360\"}"
+    },
+    {
+      "name": "projectPc: the focus projects to the screen centre; a point behind the camera is reported behind",
+      "ok": true,
+      "detail": "{\"x\":639.9999999999999,\"y\":400.0000000000001,\"visible\":true,\"behind\":false,\"w\":1280,\"h\":800}"
+    },
+    {
+      "name": "flyToPointPc refuses NaN / infinite / non-positive input and does not start a flight",
+      "ok": true,
+      "detail": "[false,false,false]"
+    },
+    {
+      "name": "addStarPassLayer: update() runs every frame, fade and magnitude limit are forwarded, its points are listed",
+      "ok": true,
+      "detail": "{\"layer\":{\"updates\":27,\"disposed\":false,\"fade\":1,\"mag\":7.5},\"stats\":[{\"name\":\"hipparcos-bright-stars\",\"points\":457},{\"name\":\"qa-layer\",\"points\":1}]}"
+    },
+    {
+      "name": "addStarPassLayer: the layer adds a draw call to the frame total",
+      "ok": true,
+      "detail": "3 -> 4"
+    },
+    {
+      "name": "pick(): a layer star is returned with its id string (source layer, catalogueIndex -1); away from it the layer does not answer",
+      "ok": true,
+      "detail": "{\"hit\":{\"source\":\"layer\",\"layerId\":\"qa:star-1\",\"layer\":\"qa-layer\",\"cat\":-1},\"far\":\"gaia\"}"
+    },
+    {
+      "name": "removing the layer disposes it and leaves only the real Hipparcos supplement",
+      "ok": true,
+      "detail": "{\"disposed\":true,\"stats\":1}"
+    },
+    {
+      "name": "the Hipparcos supplement is a real star-pass layer (457 stars at J2016 positions), the host and other-object markers have their data, the host layer is OFF by default",
+      "ok": true,
+      "detail": "{\"r\":{\"markers\":true,\"hostsLoaded\":true,\"othersLoaded\":true,\"failed\":[],\"bright\":true},\"stats\":[{\"name\":\"hipparcos-bright-stars\",\"points\":457}],\"counts\":{\"hostsTotal\":4862,\"hostsDrawable\":4834,\"hostsSkyOnly\":28,\"hostsDrawnNow\":0,\"hostsEnabled\":false,\"others\":6,\"othersSkyOnly\":0,\"highlights\":0,\"highlightsNoPosition\":0,\"highlightsDropped\":0,\"selectionShown\":false},\"hostsOn\":false}"
+    },
+    {
+      "name": "viewer.pick near Sirius returns the supplement star (source layer, hip:32349): the true nearest of Gaia and the layer",
+      "ok": true,
+      "detail": "{\"x\":640.0000000000001,\"y\":400.0000000000001,\"vis\":true,\"near\":{\"source\":\"layer\",\"id\":\"hip:32349\"}}"
+    },
+    {
+      "name": "clicking Sirius on the canvas selects hip:32349 through atlas.select; the inspector shows it and the selection ring is drawn",
+      "ok": true,
+      "detail": "{\"sel\":\"hip:32349\",\"h2\":\"Sirius\",\"open\":true,\"ring\":\"block\"}"
+    },
+    {
+      "name": "Betelgeuse: placed in 3D with a derived distance, a parallax-error uncertainty and the note \"low reliability: parallax S/N < 10\"",
+      "ok": true,
+      "detail": "{\"xyz\":[3.189467633181432,151.36416176077628,19.68204325995631],\"kind\":\"icrs\",\"note\":\"low reliability: parallax S/N < 10\",\"unc\":19.346191946856244,\"k\":\"derived\",\"drawn\":true}"
+    },
+    {
+      "name": "the inspector for Betelgeuse says the distance has low reliability",
+      "ok": true,
+      "detail": "Betelgeuse×Star · M2IbLow reliability Distance from the Sun: low reliability: parallax S/N < 10 Absolute magnitude: low reliability: parallax S/N < 10HIP 27989Betelgeuse58 Orialf OriBD+07 1055HD 39801HR 2061SAO 113271V* alf OriFly to this object☆ BookmarkFind nearbyGo to parentBack: previous viewCol"
+    },
+    {
+      "name": "Alnilam (S/N 3.7): search finds it, it is not drawn, select says \"cannot place in 3D\", the camera does not fly, it is not in nearby(); Betelgeuse is",
+      "ok": true,
+      "detail": "{\"found\":\"hip:26311\",\"drawn\":false,\"placement\":{\"kind\":\"inspect-only\",\"id\":\"hip:26311\",\"reason\":\"cannot place in 3D: distance unknown\"},\"flying\":false,\"moved\":false,\"inNearby\":false,\"betelNearby\":true}"
+    },
+    {
+      "name": "host layer toggle: OFF draws nothing, ON adds exactly one draw call and thousands of halos, OFF again removes them",
+      "ok": true,
+      "detail": "{\"off\":{\"calls\":6,\"drawn\":0},\"on\":{\"calls\":7,\"drawn\":2201,\"vis\":true},\"back\":{\"calls\":6,\"drawn\":0}}"
+    },
+    {
+      "name": "with the host layer on, the deep UI label slots take no discovery markers (hosts / other objects / selection proxy)",
+      "ok": true,
+      "detail": "{\"n\":300,\"labels\":[]}"
+    },
+    {
+      "name": "clicking a host halo (lowest pick tier) selects that host star through the atlas; the id comes from viewer.pickDeep",
+      "ok": false,
+      "detail": "{\"pick\":\"host:Gl 686\",\"want\":\"gaia:4550763526539955712\",\"hs\":{\"sel\":null,\"h2\":\"\"}}"
+    },
+    {
+      "name": "search: Andromeda, NGC 224, Triangulum, LMC, SMC, M32, M81, Virgo A, Centaurus A each return ONE exact result, the curated record, first",
+      "ok": true,
+      "detail": "{\"Andromeda\":{\"first\":\"deep:m31\",\"exact\":[\"deep:m31\"],\"want\":\"deep:m31\"},\"NGC 224\":{\"first\":\"deep:m31\",\"exact\":[\"deep:m31\"],\"want\":\"deep:m31\"},\"Triangulum\":{\"first\":\"deep:m33\",\"exact\":[\"deep:m33\"],\"want\":\"deep:m33\"},\"Large Magellanic Cloud\":{\"first\":\"deep:lmc\",\"exact\":[\"deep:lmc\"],\"want\":\"deep:lmc\"},\"SMC\":{\"first\":\"deep:smc\",\"exact\":[\"deep:smc\"],\"want\":\"deep:smc\"},\"M32\":{\"first\":\"deep:m32\",\"exact\":[\"deep:m32\"],\"want\":\"deep:m32\"},\"M81\":{\"first\":\"deep:m81\",\"exact\":[\"deep:m81\"],\"want\":\"deep:m81\"},\"Virgo A\":{\"first\":\"deep:m87\",\"exact\":[\"deep:m87\"],\"want\":\"deep:m87\"},\"Centaurus A\":{\"first\":\"deep:cen-a\",\"exact\":[\"deep:cen-a\"],\"want\":\"deep:cen-a\"}}"
+    },
+    {
+      "name": "search ranking: Orion Nebula, M42, Sagittarius A*, Sgr A*, Kepler-452b, Europa, Sirius, Betelgeuse, HIP 32349 return the intended record first",
+      "ok": true,
+      "detail": "{\"Orion Nebula\":\"deep:orion-nebula\",\"M42\":\"deep:orion-nebula\",\"Sagittarius A*\":\"other:sgr-a-star\",\"Sgr A*\":\"other:sgr-a-star\",\"Kepler-452b\":\"exo:Kepler-452 b\",\"Europa\":\"solar:europa\",\"Sirius\":\"hip:32349\",\"Betelgeuse\":\"hip:27989\",\"HIP 32349\":\"hip:32349\"}"
+    },
+    {
+      "name": "search ranking: a real Gaia DR3 id, TRAPPIST-1 (the merged host star) and Proxima return their own record first",
+      "ok": true,
+      "detail": "{\"g\":true,\"t\":true,\"p\":true}"
+    },
+    {
+      "name": "nearby from an exoplanet / its host: the host and the six sibling planets come back as `system`, no neighbour is at distance 0",
+      "ok": true,
+      "detail": "{\"ok\":true,\"system\":[\"host:gaia:2635476908753563008\",\"planet:exo:TRAPPIST-1 b\",\"planet:exo:TRAPPIST-1 c\",\"planet:exo:TRAPPIST-1 d\",\"planet:exo:TRAPPIST-1 f\",\"planet:exo:TRAPPIST-1 g\",\"planet:exo:TRAPPIST-1 h\"],\"zero\":0,\"inNb\":0,\"hostOk\":true,\"hostSys\":7,\"hostK\":4,\"hostZero\":0}"
+    },
+    {
+      "name": "Backspace from Europa goes to Jupiter (moon -> planet), through the atlas selection and history",
+      "ok": true,
+      "detail": "{\"sel\":\"solar:jupiter\",\"follow\":\"jupiter\",\"body\":\"jupiter\",\"h2\":\"Jupiter\"}"
+    },
+    {
+      "name": "Backspace from Jupiter goes to the Solar System overview (planet -> overview), nothing selected, recorded in the history",
+      "ok": true,
+      "detail": "{\"sel\":null,\"follow\":null,\"body\":null,\"d\":0.0003393695767766754,\"canBack\":true}"
+    },
+    {
+      "name": "atlas.back() after the overview returns to Jupiter (one history for select / parent / back)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Backspace from M31 selects the Local Group (DeepUi, viewer highlight, inspector and the atlas history agree)",
+      "ok": true,
+      "detail": "{\"ui\":\"local-group\",\"viewer\":\"local-group\",\"atlas\":\"deep:local-group\",\"name\":\"Local Group\"}"
+    },
+    {
+      "name": "Backspace again is a scale flight: nothing selected in DeepUi, the viewer, the atlas and the inspector",
+      "ok": true,
+      "detail": "{\"ui\":null,\"viewer\":null,\"atlas\":null,\"open\":false}"
+    },
+    {
+      "name": "the home key records a step in the same history: selection cleared, back() returns to Sirius",
+      "ok": true,
+      "detail": "{\"sel\":null,\"canBack\":true}"
+    },
+    {
+      "name": "no console errors, warnings or failed requests during the whole run",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "warnings": [],
+  "shots": [
+    "01-sirius-selected.png",
+    "02-andromeda-selected.png",
+    "03-europa-selected.png",
+    "04-kepler-452b-selected.png",
+    "05-betelgeuse-from-search-box.png",
+    "06-star-pass-layer-qa.png",
+    "07-f1-sky-from-sun-sirius-selected.png",
+    "08-f1-betelgeuse-selected.png",
+    "09-f1-exoplanet-hosts-layer-on.png"
+  ],
+  "log": {
+    "mainThread": {
+      "baseline": {
+        "count": 0,
+        "longest": 0,
+        "over100": 0,
+        "totalMs": 0,
+        "seconds": 12.012299999952317
+      },
+      "indexing": {
+        "count": 0,
+        "longest": 0,
+        "over100": 0,
+        "totalMs": 0,
+        "seconds": 12.593600000023843
+      },
+      "toSearchReady": 4.434200000047683,
+      "toQueriesReady": 9.515,
+      "toComplete": 12.593600000023843,
+      "stage0": {
+        "count": 0,
+        "longest": 0,
+        "over100": 0,
+        "totalMs": 0
+      },
+      "stage1": {
+        "count": 0,
+        "longest": 0,
+        "over100": 0,
+        "totalMs": 0
+      },
+      "stage2": {
+        "count": 0,
+        "longest": 0,
+        "over100": 0,
+        "totalMs": 0
+      },
+      "probes": 87,
+      "probeMax": 1102.9000000953674,
+      "probeMaxBeforeReady": 996.8000000715256,
+      "probeMaxAfterReady": 1102.9000000953674,
+      "probeMedian": 20.800000071525574
+    },
+    "engineStats": {
+      "records": 90950,
+      "searchable": 90950,
+      "relations": 6857,
+      "aliases": 9214,
+      "timings": [
+        {
+          "step": "adapter gaia",
+          "ms": 880
+        },
+        {
+          "step": "index-0",
+          "ms": 2713.3000000715256,
+          "maxSliceMs": 62.89999997615814,
+          "slices": 247
+        },
+        {
+          "step": "adapter bright-stars",
+          "ms": 194.39999997615814
+        },
+        {
+          "step": "adapter exoplanets",
+          "ms": 163.10000002384186
+        },
+        {
+          "step": "mergeRecords",
+          "ms": 1055
+        },
+        {
+          "step": "index-1",
+          "ms": 2307.7000000476837,
+          "maxSliceMs": 59.89999997615814,
+          "slices": 248
+        },
+        {
+          "step": "RecordStore.from",
+          "ms": 360.60000002384186
+        },
+        {
+          "step": "buildSpatialIndex",
+          "ms": 82.20000004768372
+        },
+        {
+          "step": "availableFacets",
+          "ms": 36.300000071525574
+        },
+        {
+          "step": "RelationGraph",
+          "ms": 168.5
+        },
+        {
+          "step": "lists",
+          "ms": 325.6999999284744
+        },
+        {
+          "step": "adapter ungc",
+          "ms": 2.1999999284744263
+        },
+        {
+          "step": "adapter mcconnachie",
+          "ms": 0.20000004768371582
+        },
+        {
+          "step": "adapter twomrs",
+          "ms": 103
+        },
+        {
+          "step": "mergePointDuplicates",
+          "ms": 621.8999999761581
+        },
+        {
+          "step": "index-2",
+          "ms": 1201.6999999284744,
+          "maxSliceMs": 50.60000002384186,
+          "slices": 134
+        },
+        {
+          "step": "RecordStore.from",
+          "ms": 406.5
+        },
+        {
+          "step": "buildSpatialIndex",
+          "ms": 79.59999990463257
+        },
+        {
+          "step": "availableFacets",
+          "ms": 74.80000007152557
+        },
+        {
+          "step": "RelationGraph",
+          "ms": 101.5
+        },
+        {
+          "step": "lists",
+          "ms": 189.20000004768372
+        }
+      ],
+      "longestBlockingStepMs": 1055,
+      "longestSliceMs": 62.89999997615814,
+      "twoMrsIndexed": true
+    },
+    "searchReadyAtLoad": false
+  },
+  "problems": []
+}
